@@ -1,0 +1,983 @@
+{
+    "mobinnet.ir.": {
+        "status": "NOERROR",
+        "queries": {
+            "mobinnet.ir./IN/A": {
+                "answer": [
+                    {
+                        "id": "mobinnet.ir./IN/A",
+                        "servers": [
+                            "185.81.99.169"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.81.99.169": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "mobinnet.ir./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.84"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.85"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "188.213.72.84",
+                            "188.213.72.85"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "188.213.72.84": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "188.213.72.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mobinnet.ir./IN/NS": {
+                "answer": [
+                    {
+                        "id": "mobinnet.ir./IN/NS",
+                        "servers": [
+                            "185.81.99.169"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.81.99.169": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "mobinnet.ir./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.84"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.85"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "188.213.72.84",
+                            "188.213.72.85"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "188.213.72.84": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "188.213.72.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mobinnet.ir./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "mobinnet.ir./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "mobinnet.ir./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "mobinnet.ir./13/62520",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "188.213.72.84"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "mobinnet.ir./13/62520",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "188.213.72.85"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.84",
+                                    "188.213.72.85"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "mobinnet.ir./IN/SOA",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "185.81.99.169"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "mobinnet.ir./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "mobinnet.ir./13/62520",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "188.213.72.84"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "mobinnet.ir./13/62520",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "188.213.72.85"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "188.213.72.84",
+                                    "188.213.72.85"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "185.81.99.169",
+                            "188.213.72.84",
+                            "188.213.72.85"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.81.99.169": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "188.213.72.84": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "188.213.72.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mobinnet.ir./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "mobinnet.ir./IN/SOA",
+                        "servers": [
+                            "185.81.99.169"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "185.81.99.169": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "mobinnet.ir./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.84"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.85"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "188.213.72.84",
+                            "188.213.72.85"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "188.213.72.84": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "188.213.72.85": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mobinnet.ir./IN/MX": {
+                "answer": [
+                    {
+                        "id": "mobinnet.ir./IN/MX",
+                        "servers": [
+                            "185.81.99.169"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.81.99.169": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "mobinnet.ir./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.85"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.84"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "188.213.72.84",
+                            "188.213.72.85"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "188.213.72.84": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "188.213.72.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mobinnet.ir./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "mobinnet.ir./IN/TXT",
+                        "servers": [
+                            "185.81.99.169"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.81.99.169": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "mobinnet.ir./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.85"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.84"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "188.213.72.84",
+                            "188.213.72.85"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "188.213.72.84": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "188.213.72.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mobinnet.ir./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "mobinnet.ir./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "mobinnet.ir./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "mobinnet.ir./13/62520",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "188.213.72.84"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "mobinnet.ir./13/62520",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "188.213.72.85"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.84",
+                                    "188.213.72.85"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "mobinnet.ir./IN/SOA",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "185.81.99.169"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "mobinnet.ir./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "mobinnet.ir./13/62520",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "188.213.72.84"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "mobinnet.ir./13/62520",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "188.213.72.85"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "188.213.72.84",
+                                    "188.213.72.85"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "185.81.99.169",
+                            "188.213.72.84",
+                            "188.213.72.85"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.81.99.169": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "188.213.72.84": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "188.213.72.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mobinnet.ir./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "mobinnet.ir./IN/DS",
+                        "soa": [
+                            {
+                                "id": "ir./IN/SOA",
+                                "servers": [
+                                    "78.104.145.5",
+                                    "193.0.9.85",
+                                    "193.171.255.77",
+                                    "193.189.122.83",
+                                    "193.189.123.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "78.104.145.5",
+                            "193.0.9.85",
+                            "193.171.255.77",
+                            "193.189.122.83",
+                            "193.189.123.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "78.104.145.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "193.0.9.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.171.255.77": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "193.189.122.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.189.123.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mobinnet.ir./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "mobinnet.ir./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.84"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "id": "mobinnet.ir./13/62520",
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.85"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "188.213.72.84",
+                            "188.213.72.85"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "188.213.72.84": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "188.213.72.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "mobinnet.ir./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "mobinnet.ir./IN/SOA",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "185.81.99.169"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K",
+                                            "UDP_-_EDNS0_512_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "185.81.99.169"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.81.99.169": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "y2dt0zlw89.mobinnet.ir./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "y2dt0zlw89.mobinnet.ir./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "www.mobinnet.ir./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "mobinnet.ir./13/62520",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "188.213.72.84"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "mobinnet.ir./13/62520",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "188.213.72.85"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "mobinnet.ir./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "mobinnet.ir./13/62520",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "188.213.72.84"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "mobinnet.ir./13/62520",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "188.213.72.85"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "188.213.72.84",
+                                    "188.213.72.85"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "mobinnet.ir./IN/SOA",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "185.81.99.169"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "mobinnet.ir./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "mobinnet.ir./13/62520",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "188.213.72.84"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "mobinnet.ir./13/62520",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "188.213.72.85"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "188.213.72.84",
+                                    "188.213.72.85"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "185.81.99.169",
+                            "188.213.72.84",
+                            "188.213.72.85"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.81.99.169": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "188.213.72.84": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "188.213.72.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NXDOMAIN response.",
+                                "code": "MISSING_NSEC_FOR_NXDOMAIN",
+                                "servers": [
+                                    "185.81.99.169"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "13/62520",
+                "servers": [
+                    "188.213.72.84",
+                    "188.213.72.85"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K",
+                    "UDP_-_EDNS0_512_D_K"
+                ],
+                "errors": [
+                    {
+                        "description": "The DNSKEY RR was not found in the DNSKEY RRset returned by one or more servers.",
+                        "code": "DNSKEY_MISSING_FROM_SERVERS",
+                        "servers": [
+                            "185.81.99.169"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "delegation": {
+            "status": "INSECURE"
+        }
+    }
+}

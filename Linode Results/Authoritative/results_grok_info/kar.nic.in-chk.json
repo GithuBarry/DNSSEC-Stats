@@ -1,0 +1,342 @@
+{
+    "nic.in.": {
+        "status": "NOERROR",
+        "queries": {
+            "nic.in./IN/DS": {
+                "answer": [
+                    {
+                        "id": "nic.in./IN/DS",
+                        "servers": [
+                            "37.209.192.12",
+                            "37.209.194.12",
+                            "37.209.196.12",
+                            "37.209.198.12",
+                            "156.154.100.20",
+                            "156.154.101.20"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "37.209.192.12": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.194.12": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.196.12": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.198.12": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.100.20": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.101.20": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nic.in./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "nic.in./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "nic.in./5/14983",
+                                "status": "VALID",
+                                "servers": [
+                                    "164.100.2.3",
+                                    "164.100.9.3",
+                                    "164.100.14.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "nic.in./5/16320",
+                                "status": "VALID",
+                                "servers": [
+                                    "164.100.2.3",
+                                    "164.100.9.3",
+                                    "164.100.14.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "164.100.2.3",
+                            "164.100.9.3",
+                            "164.100.14.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "164.100.2.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "164.100.9.3": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "164.100.14.3": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "5/16320",
+                "servers": [
+                    "164.100.2.3",
+                    "164.100.9.3",
+                    "164.100.14.3"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "5/14983",
+                "servers": [
+                    "164.100.2.3",
+                    "164.100.9.3",
+                    "164.100.14.3"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "5/14983/1",
+                    "status": "VALID",
+                    "servers": [
+                        "37.209.192.12",
+                        "37.209.194.12",
+                        "37.209.196.12",
+                        "37.209.198.12",
+                        "156.154.100.20",
+                        "156.154.101.20"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "5/14983/2",
+                    "status": "VALID",
+                    "servers": [
+                        "37.209.192.12",
+                        "37.209.194.12",
+                        "37.209.196.12",
+                        "37.209.198.12",
+                        "156.154.100.20",
+                        "156.154.101.20"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    },
+    "kar.nic.in.": {
+        "status": "NOERROR",
+        "queries": {
+            "kar.nic.in./IN/A": {
+                "nodata": [
+                    {
+                        "id": "kar.nic.in./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "kar.nic.in./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "nic.in./5/16320",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "164.100.2.3",
+                                                    "164.100.9.3",
+                                                    "164.100.14.3"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "164.100.2.3",
+                                    "164.100.9.3",
+                                    "164.100.14.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "nic.in./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "nic.in./5/16320",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "164.100.2.3",
+                                            "164.100.9.3",
+                                            "164.100.14.3"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "164.100.2.3",
+                                    "164.100.9.3",
+                                    "164.100.14.3"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "164.100.2.3",
+                            "164.100.9.3",
+                            "164.100.14.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "164.100.2.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "164.100.9.3": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "164.100.14.3": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "kar.nic.in./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "kar.nic.in./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "kar.nic.in./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "nic.in./5/16320",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "164.100.2.3",
+                                                    "164.100.9.3",
+                                                    "164.100.14.3"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "164.100.2.3",
+                                    "164.100.9.3",
+                                    "164.100.14.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "nic.in./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "nic.in./5/16320",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "164.100.2.3",
+                                            "164.100.9.3",
+                                            "164.100.14.3"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "164.100.2.3",
+                                    "164.100.9.3",
+                                    "164.100.14.3"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "164.100.2.3",
+                            "164.100.9.3",
+                            "164.100.14.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "164.100.2.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "164.100.9.3": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "164.100.14.3": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

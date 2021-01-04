@@ -1,0 +1,453 @@
+{
+    "bankia.es.": {
+        "status": "NOERROR",
+        "queries": {
+            "bankia.es./IN/A": {
+                "answer": [
+                    {
+                        "id": "bankia.es./IN/A",
+                        "servers": [
+                            "213.164.164.1",
+                            "213.164.164.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.164.164.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.164.164.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "213.164.164.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bankia.es./IN/NS": {
+                "answer": [
+                    {
+                        "id": "bankia.es./IN/NS",
+                        "servers": [
+                            "213.164.164.1",
+                            "213.164.164.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.164.164.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.164.164.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bankia.es./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "bankia.es./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "bankia.es./IN/SOA",
+                                "servers": [
+                                    "213.164.164.1",
+                                    "213.164.164.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "213.164.164.1",
+                            "213.164.164.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.164.164.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.164.164.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bankia.es./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "bankia.es./IN/SOA",
+                        "servers": [
+                            "213.164.164.1",
+                            "213.164.164.2"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "213.164.164.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.164.164.2": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "213.164.164.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bankia.es./IN/MX": {
+                "answer": [
+                    {
+                        "id": "bankia.es./IN/MX",
+                        "servers": [
+                            "213.164.164.1",
+                            "213.164.164.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.164.164.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.164.164.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "213.164.164.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bankia.es./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "bankia.es./IN/TXT",
+                        "servers": [
+                            "213.164.164.1",
+                            "213.164.164.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.164.164.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.164.164.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "213.164.164.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bankia.es./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "bankia.es./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "bankia.es./IN/SOA",
+                                "servers": [
+                                    "213.164.164.1",
+                                    "213.164.164.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "213.164.164.1",
+                            "213.164.164.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.164.164.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.164.164.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "213.164.164.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bankia.es./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "bankia.es./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "4JI57VL8GVPOTMUJ8MPESPM4ST9CDEUE.es./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "2NCBTK52DN1FL2AAAGROH1S5IUFDNHPK.es./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "84.88.0.3",
+                                    "130.206.1.7",
+                                    "194.0.9.1",
+                                    "194.0.33.53",
+                                    "194.69.254.1",
+                                    "200.7.5.14",
+                                    "204.61.217.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "es./IN/SOA",
+                                "servers": [
+                                    "84.88.0.3",
+                                    "130.206.1.7",
+                                    "194.0.9.1",
+                                    "194.0.33.53",
+                                    "194.69.254.1",
+                                    "200.7.5.14",
+                                    "204.61.217.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "84.88.0.3",
+                            "130.206.1.7",
+                            "194.0.9.1",
+                            "194.0.33.53",
+                            "194.69.254.1",
+                            "200.7.5.14",
+                            "204.61.217.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "84.88.0.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "130.206.1.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.9.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.0.33.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.69.254.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.7.5.14": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.61.217.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bankia.es./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "bankia.es./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "bankia.es./IN/SOA",
+                                "servers": [
+                                    "213.164.164.1",
+                                    "213.164.164.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "213.164.164.1",
+                            "213.164.164.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.164.164.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.164.164.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "13oyzaf0wc.bankia.es./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "13oyzaf0wc.bankia.es./IN/A",
+                        "soa": [
+                            {
+                                "id": "bankia.es./IN/SOA",
+                                "servers": [
+                                    "213.164.164.1",
+                                    "213.164.164.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "213.164.164.1",
+                            "213.164.164.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.164.164.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.164.164.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "213.164.164.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "4JI57VL8GVPOTMUJ8MPESPM4ST9CDEUE.es./IN/NSEC3"
+                        },
+                        {
+                            "id": "2NCBTK52DN1FL2AAAGROH1S5IUFDNHPK.es./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "84.88.0.3",
+                        "130.206.1.7",
+                        "194.0.9.1",
+                        "194.0.33.53",
+                        "194.69.254.1",
+                        "200.7.5.14",
+                        "204.61.217.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

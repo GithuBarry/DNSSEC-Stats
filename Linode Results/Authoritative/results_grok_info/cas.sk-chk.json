@@ -1,0 +1,671 @@
+{
+    "cas.sk.": {
+        "status": "NOERROR",
+        "queries": {
+            "cas.sk./IN/A": {
+                "answer": [
+                    {
+                        "id": "cas.sk./IN/A",
+                        "servers": [
+                            "46.4.61.95",
+                            "213.81.185.6",
+                            "213.81.185.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.4.61.95": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cas.sk./IN/A",
+                        "servers": [
+                            "91.210.181.82"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "91.210.181.82": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cas.sk./IN/NS": {
+                "answer": [
+                    {
+                        "id": "cas.sk./IN/NS",
+                        "servers": [
+                            "46.4.61.95",
+                            "213.81.185.6",
+                            "213.81.185.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.4.61.95": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cas.sk./IN/NS",
+                        "servers": [
+                            "91.210.181.82"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "91.210.181.82": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cas.sk./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "cas.sk./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "cas.sk./IN/SOA",
+                                "servers": [
+                                    "46.4.61.95",
+                                    "213.81.185.6",
+                                    "213.81.185.9"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "46.4.61.95",
+                            "91.210.181.82",
+                            "213.81.185.6",
+                            "213.81.185.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.4.61.95": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "91.210.181.82": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.81.185.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cas.sk./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "cas.sk./IN/SOA",
+                        "servers": [
+                            "46.4.61.95",
+                            "213.81.185.6",
+                            "213.81.185.9"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "46.4.61.95": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.6": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.9": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cas.sk./IN/SOA",
+                        "servers": [
+                            "91.210.181.82"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "91.210.181.82": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cas.sk./IN/MX": {
+                "answer": [
+                    {
+                        "id": "cas.sk./IN/MX",
+                        "servers": [
+                            "46.4.61.95",
+                            "213.81.185.6",
+                            "213.81.185.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.4.61.95": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cas.sk./IN/MX",
+                        "servers": [
+                            "91.210.181.82"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "91.210.181.82": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                        "code": "NOT_AUTHORITATVE",
+                        "servers": [
+                            "91.210.181.82"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "cas.sk./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "cas.sk./IN/TXT",
+                        "servers": [
+                            "46.4.61.95",
+                            "213.81.185.6",
+                            "213.81.185.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.4.61.95": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cas.sk./IN/TXT",
+                        "servers": [
+                            "91.210.181.82"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "91.210.181.82": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cas.sk./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "cas.sk./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "cas.sk./IN/SOA",
+                                "servers": [
+                                    "46.4.61.95",
+                                    "213.81.185.6",
+                                    "213.81.185.9"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "46.4.61.95",
+                            "91.210.181.82",
+                            "213.81.185.6",
+                            "213.81.185.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.4.61.95": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "91.210.181.82": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.81.185.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cas.sk./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "cas.sk./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "97IOMM39JDQNUEDFJPMUSAJ6GA11997N.sk./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "TF3M3JELACF6NGFT4H56T8KUPBQP7UVT.sk./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "84.245.96.1",
+                                    "185.24.64.16",
+                                    "194.0.45.1",
+                                    "194.169.218.16",
+                                    "195.12.159.1",
+                                    "212.18.248.16",
+                                    "212.18.249.16"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "sk./IN/SOA",
+                                "servers": [
+                                    "84.245.96.1",
+                                    "194.0.45.1",
+                                    "195.12.159.1"
+                                ]
+                            },
+                            {
+                                "id": "sk./IN/SOA",
+                                "servers": [
+                                    "185.24.64.16",
+                                    "212.18.249.16"
+                                ]
+                            },
+                            {
+                                "id": "sk./IN/SOA",
+                                "servers": [
+                                    "194.169.218.16",
+                                    "212.18.248.16"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "84.245.96.1",
+                            "185.24.64.16",
+                            "194.0.45.1",
+                            "194.169.218.16",
+                            "195.12.159.1",
+                            "212.18.248.16",
+                            "212.18.249.16"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "84.245.96.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "185.24.64.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.45.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.169.218.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.12.159.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.18.248.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.18.249.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "cas.sk./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "cas.sk./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "cas.sk./IN/SOA",
+                                "servers": [
+                                    "46.4.61.95",
+                                    "213.81.185.6",
+                                    "213.81.185.9"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "46.4.61.95",
+                            "91.210.181.82",
+                            "213.81.185.6",
+                            "213.81.185.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.4.61.95": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "91.210.181.82": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.81.185.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                        "code": "NOT_AUTHORITATVE",
+                        "servers": [
+                            "91.210.181.82"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "dwih1vze48.cas.sk./IN/A": {
+                "answer": [
+                    {
+                        "id": "dwih1vze48.cas.sk./IN/CNAME",
+                        "servers": [
+                            "46.4.61.95",
+                            "213.81.185.6",
+                            "213.81.185.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.4.61.95": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.81.185.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) did not respond authoritatively for the namespace.",
+                    "code": "SERVER_NOT_AUTHORITATIVE",
+                    "servers": [
+                        "91.210.181.82"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "97IOMM39JDQNUEDFJPMUSAJ6GA11997N.sk./IN/NSEC3"
+                        },
+                        {
+                            "id": "TF3M3JELACF6NGFT4H56T8KUPBQP7UVT.sk./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "84.245.96.1",
+                        "185.24.64.16",
+                        "194.0.45.1",
+                        "194.169.218.16",
+                        "195.12.159.1",
+                        "212.18.248.16",
+                        "212.18.249.16"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The glue address(es) for ns2.zoznam.sk (91.210.181.82) differed from its authoritative address(es) (213.81.185.6).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

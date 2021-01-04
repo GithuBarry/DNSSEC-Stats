@@ -1,0 +1,580 @@
+{
+    "maryland.gov.": {
+        "status": "NOERROR",
+        "queries": {
+            "maryland.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "maryland.gov./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "maryland.gov./5/46827",
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "167.102.42.53",
+                            "167.102.43.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "167.102.42.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "167.102.43.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "maryland.gov./IN/NS": {
+                "answer": [
+                    {
+                        "id": "maryland.gov./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "maryland.gov./5/46827",
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "167.102.42.53",
+                            "167.102.43.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "167.102.42.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "167.102.43.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "maryland.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "maryland.gov./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "maryland.gov./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "maryland.gov./5/46827",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "167.102.42.53",
+                                                    "167.102.43.53"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "maryland.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "maryland.gov./5/46827",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "167.102.42.53",
+                                            "167.102.43.53"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "167.102.42.53",
+                            "167.102.43.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "167.102.42.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "167.102.43.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "maryland.gov./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "maryland.gov./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "maryland.gov./5/46827",
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "167.102.42.53",
+                            "167.102.43.53"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "167.102.42.53": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "167.102.43.53": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "maryland.gov./IN/MX": {
+                "answer": [
+                    {
+                        "id": "maryland.gov./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "maryland.gov./5/46827",
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "167.102.42.53",
+                            "167.102.43.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "167.102.42.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "167.102.43.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "maryland.gov./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "maryland.gov./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "maryland.gov./5/46827",
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "167.102.42.53",
+                            "167.102.43.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "167.102.42.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "167.102.43.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "maryland.gov./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "maryland.gov./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "maryland.gov./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "maryland.gov./5/46827",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "167.102.42.53",
+                                                    "167.102.43.53"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "maryland.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "maryland.gov./5/46827",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "167.102.42.53",
+                                            "167.102.43.53"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "167.102.42.53",
+                            "167.102.43.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "167.102.42.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "167.102.43.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "maryland.gov./IN/DS": {
+                "answer": [
+                    {
+                        "id": "maryland.gov./IN/DS",
+                        "servers": [
+                            "69.36.153.30",
+                            "69.36.157.30",
+                            "81.19.194.30",
+                            "209.112.123.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "69.36.153.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "69.36.157.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "81.19.194.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "209.112.123.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "maryland.gov./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "maryland.gov./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "maryland.gov./5/46827",
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "maryland.gov./5/53683",
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "167.102.42.53",
+                            "167.102.43.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "167.102.42.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "167.102.43.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "lwijb1opqz.maryland.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "lwijb1opqz.maryland.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "www.ltgovernor.maryland.gov./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "maryland.gov./5/46827",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "167.102.42.53",
+                                                    "167.102.43.53"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "maryland.gov./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "maryland.gov./5/46827",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "167.102.42.53",
+                                                    "167.102.43.53"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "maryland.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "maryland.gov./5/46827",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "167.102.42.53",
+                                            "167.102.43.53"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "167.102.42.53",
+                                    "167.102.43.53"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "167.102.42.53",
+                            "167.102.43.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "167.102.42.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "167.102.43.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "5/53683",
+                "servers": [
+                    "167.102.42.53",
+                    "167.102.43.53"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "5/46827",
+                "servers": [
+                    "167.102.42.53",
+                    "167.102.43.53"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "5/53683/1",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "5/53683/2",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

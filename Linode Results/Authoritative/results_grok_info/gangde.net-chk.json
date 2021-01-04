@@ -1,0 +1,554 @@
+{
+    "gangde.net.": {
+        "status": "NOERROR",
+        "queries": {
+            "gangde.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "gangde.net./IN/A",
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.132": {
+                                "request": "NO_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response (206 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server responded with an OPT record, even though none was sent in the request.",
+                                "code": "GRATUITOUS_OPT",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            },
+                            {
+                                "description": "The server sent a COOKIE option when none was sent by the client.",
+                                "code": "GRATUITOUS_COOKIE",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gangde.net./IN/NS": {
+                "answer": [
+                    {
+                        "id": "gangde.net./IN/NS",
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.132": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "180.163.194.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response (151 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gangde.net./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "gangde.net./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "gangde.net./IN/SOA",
+                                "servers": [
+                                    "180.163.194.132",
+                                    "180.163.194.205"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.132": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gangde.net./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "gangde.net./IN/SOA",
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.132": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "gangde.net./IN/MX": {
+                "answer": [
+                    {
+                        "id": "gangde.net./IN/MX",
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.132": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with an OPT record, even though none was sent in the request.",
+                                "code": "GRATUITOUS_OPT",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            },
+                            {
+                                "description": "The server sent a COOKIE option when none was sent by the client.",
+                                "code": "GRATUITOUS_COOKIE",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response (250 bytes) was malformed.",
+                        "code": "FORMERR",
+                        "servers": [
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "gangde.net./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "gangde.net./IN/TXT",
+                        "soa": [
+                            {
+                                "id": "gangde.net./IN/SOA",
+                                "servers": [
+                                    "180.163.194.132",
+                                    "180.163.194.205"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.132": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gangde.net./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "gangde.net./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "gangde.net./IN/SOA",
+                                "servers": [
+                                    "180.163.194.132",
+                                    "180.163.194.205"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.132": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gangde.net./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "gangde.net./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "KCUANF2O1RLQQEQL8UIHB885VKFV2G3Q.net./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "net./IN/SOA",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30"
+                                ]
+                            },
+                            {
+                                "id": "net./IN/SOA",
+                                "servers": [
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.6.30",
+                            "192.12.94.30",
+                            "192.26.92.30",
+                            "192.31.80.30",
+                            "192.33.14.30",
+                            "192.35.51.30",
+                            "192.41.162.30",
+                            "192.42.93.30",
+                            "192.43.172.30",
+                            "192.48.79.30",
+                            "192.52.178.30",
+                            "192.54.112.30",
+                            "192.55.83.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.6.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.12.94.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.26.92.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.31.80.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.14.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.35.51.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.41.162.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.93.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.43.172.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.48.79.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.52.178.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.54.112.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.55.83.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gangde.net./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "gangde.net./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "gangde.net./IN/SOA",
+                                "servers": [
+                                    "180.163.194.132",
+                                    "180.163.194.205"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.132": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "sq8mbjo1zr.gangde.net./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "sq8mbjo1zr.gangde.net./IN/A",
+                        "soa": [
+                            {
+                                "id": "gangde.net./IN/SOA",
+                                "servers": [
+                                    "180.163.194.132",
+                                    "180.163.194.205"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.132": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "180.163.194.132",
+                        "180.163.194.205"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "KCUANF2O1RLQQEQL8UIHB885VKFV2G3Q.net./IN/NSEC3"
+                        },
+                        {
+                            "id": "A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): ns3.ezdnscenter.com, ns5.ezdnscenter.com, ns4.ezdnscenter.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,313 @@
+{
+    "uol.com.br.": {
+        "status": "NOERROR",
+        "queries": {
+            "uol.com.br./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "uol.com.br./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "RA6NT0M3EOHTCHBILBMKDJ0075E8GKPF.com.br./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "R340M227F7GJHRQSDAPGOHBLVPQTJUBP.com.br./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "200.189.41.10",
+                                    "200.192.233.10",
+                                    "200.219.148.10",
+                                    "200.219.154.10",
+                                    "200.219.159.10",
+                                    "200.229.248.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "com.br./IN/SOA",
+                                "servers": [
+                                    "200.189.41.10",
+                                    "200.192.233.10",
+                                    "200.219.148.10",
+                                    "200.219.154.10",
+                                    "200.219.159.10",
+                                    "200.229.248.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "200.189.41.10",
+                            "200.192.233.10",
+                            "200.219.148.10",
+                            "200.219.154.10",
+                            "200.219.159.10",
+                            "200.229.248.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.189.41.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.192.233.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.219.148.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.219.154.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.219.159.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.229.248.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "uol.com.br./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "uol.com.br./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "uol.com.br./IN/SOA",
+                                "servers": [
+                                    "200.147.38.8",
+                                    "200.147.255.105",
+                                    "200.221.11.98"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "200.147.38.8",
+                            "200.147.255.105",
+                            "200.221.11.98"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.147.38.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.147.255.105": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.221.11.98": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "RA6NT0M3EOHTCHBILBMKDJ0075E8GKPF.com.br./IN/NSEC3"
+                        },
+                        {
+                            "id": "R340M227F7GJHRQSDAPGOHBLVPQTJUBP.com.br./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "200.189.41.10",
+                        "200.192.233.10",
+                        "200.219.148.10",
+                        "200.219.154.10",
+                        "200.219.159.10",
+                        "200.229.248.10"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    },
+    "psecure-cache.uol.com.br.": {
+        "status": "NOERROR",
+        "queries": {
+            "psecure-cache.uol.com.br./IN/A": {
+                "answer": [
+                    {
+                        "id": "psecure-cache.uol.com.br./IN/A",
+                        "servers": [
+                            "200.147.38.8"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.147.38.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    },
+                    {
+                        "id": "psecure-cache.uol.com.br./IN/A",
+                        "servers": [
+                            "200.147.255.105"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.147.255.105": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    },
+                    {
+                        "id": "psecure-cache.uol.com.br./IN/A",
+                        "servers": [
+                            "200.221.11.98"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.221.11.98": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "psecure-cache.uol.com.br./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "psecure-cache.uol.com.br./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "uol.com.br./IN/SOA",
+                                "servers": [
+                                    "200.147.38.8",
+                                    "200.147.255.105",
+                                    "200.221.11.98"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "200.147.38.8",
+                            "200.147.255.105",
+                            "200.221.11.98"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.147.38.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.147.255.105": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.221.11.98": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "papodemae.uol.com.br.": {
+        "status": "NOERROR",
+        "queries": {
+            "papodemae.uol.com.br./IN/A": {
+                "answer": [
+                    {
+                        "id": "papodemae.uol.com.br./IN/CNAME",
+                        "servers": [
+                            "200.147.38.8",
+                            "200.147.255.105",
+                            "200.221.11.98"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.147.38.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.147.255.105": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.221.11.98": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "papodemae.uol.com.br./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "papodemae.uol.com.br./IN/CNAME",
+                        "servers": [
+                            "200.147.38.8",
+                            "200.147.255.105",
+                            "200.221.11.98"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.147.38.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.147.255.105": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.221.11.98": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

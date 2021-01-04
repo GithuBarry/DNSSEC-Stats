@@ -1,0 +1,712 @@
+{
+    "patfun.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "patfun.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "patfun.com./IN/A",
+                        "servers": [
+                            "61.240.129.140",
+                            "180.163.194.132",
+                            "180.163.194.205",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "61.240.129.140": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.132": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "183.131.156.86": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "219.138.102.80": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "patfun.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "patfun.com./IN/NS",
+                        "servers": [
+                            "61.240.129.140",
+                            "180.163.194.132",
+                            "180.163.194.205",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "61.240.129.140": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.132": {
+                                "request": "NO_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "183.131.156.86": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "219.138.102.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response (188 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server responded with an OPT record, even though none was sent in the request.",
+                                "code": "GRATUITOUS_OPT",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            },
+                            {
+                                "description": "The server sent a COOKIE option when none was sent by the client.",
+                                "code": "GRATUITOUS_COOKIE",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "patfun.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "patfun.com./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "patfun.com./IN/SOA",
+                                "servers": [
+                                    "61.240.129.140",
+                                    "180.163.194.132",
+                                    "180.163.194.205",
+                                    "183.131.156.86",
+                                    "219.138.102.80"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "61.240.129.140",
+                            "180.163.194.132",
+                            "180.163.194.205",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "61.240.129.140": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.132": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "183.131.156.86": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "219.138.102.80": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "patfun.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "patfun.com./IN/SOA",
+                        "servers": [
+                            "61.240.129.140",
+                            "180.163.194.132",
+                            "180.163.194.205",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "61.240.129.140": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.132": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "183.131.156.86": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "219.138.102.80": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response (237 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server responded with an OPT record, even though none was sent in the request.",
+                                "code": "GRATUITOUS_OPT",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            },
+                            {
+                                "description": "The server sent a COOKIE option when none was sent by the client.",
+                                "code": "GRATUITOUS_COOKIE",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "61.240.129.140",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "patfun.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "patfun.com./IN/MX",
+                        "servers": [
+                            "61.240.129.140",
+                            "180.163.194.132",
+                            "180.163.194.205",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "61.240.129.140": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.132": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "183.131.156.86": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "219.138.102.80": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response (248 bytes) was malformed.",
+                        "code": "FORMERR",
+                        "servers": [
+                            "180.163.194.132"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "patfun.com./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "patfun.com./IN/TXT",
+                        "soa": [
+                            {
+                                "id": "patfun.com./IN/SOA",
+                                "servers": [
+                                    "61.240.129.140",
+                                    "180.163.194.132",
+                                    "180.163.194.205",
+                                    "183.131.156.86",
+                                    "219.138.102.80"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "61.240.129.140",
+                            "180.163.194.132",
+                            "180.163.194.205",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "61.240.129.140": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.132": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "183.131.156.86": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "219.138.102.80": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "patfun.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "patfun.com./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "patfun.com./IN/SOA",
+                                "servers": [
+                                    "61.240.129.140",
+                                    "180.163.194.132",
+                                    "180.163.194.205",
+                                    "183.131.156.86",
+                                    "219.138.102.80"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "61.240.129.140",
+                            "180.163.194.132",
+                            "180.163.194.205",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "61.240.129.140": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.132": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "183.131.156.86": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "219.138.102.80": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "patfun.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "patfun.com./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "21TO63E7C23L8K8K88B5S0CK4S10H663.com./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30"
+                                ]
+                            },
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.33.14.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.6.30",
+                            "192.12.94.30",
+                            "192.26.92.30",
+                            "192.31.80.30",
+                            "192.33.14.30",
+                            "192.35.51.30",
+                            "192.41.162.30",
+                            "192.42.93.30",
+                            "192.43.172.30",
+                            "192.48.79.30",
+                            "192.52.178.30",
+                            "192.54.112.30",
+                            "192.55.83.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.6.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.12.94.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.26.92.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.31.80.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.14.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.35.51.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.41.162.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.93.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.43.172.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.48.79.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.52.178.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.54.112.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.55.83.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "patfun.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "patfun.com./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "patfun.com./IN/SOA",
+                                "servers": [
+                                    "61.240.129.140",
+                                    "180.163.194.132",
+                                    "180.163.194.205",
+                                    "183.131.156.86",
+                                    "219.138.102.80"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "61.240.129.140",
+                            "180.163.194.132",
+                            "180.163.194.205",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "61.240.129.140": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.132": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "183.131.156.86": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "219.138.102.80": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "8uate0njk1.patfun.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "8uate0njk1.patfun.com./IN/A",
+                        "servers": [
+                            "61.240.129.140",
+                            "180.163.194.132",
+                            "180.163.194.205",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "61.240.129.140": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.132": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "180.163.194.205": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "183.131.156.86": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "219.138.102.80": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "61.240.129.140",
+                        "180.163.194.132",
+                        "180.163.194.205",
+                        "183.131.156.86",
+                        "219.138.102.80"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "21TO63E7C23L8K8K88B5S0CK4S10H663.com./IN/NSEC3"
+                        },
+                        {
+                            "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns10.cdncenter.com, ns11.cdncenter.com, ns12.cdncenter.com, ns9.cdncenter.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The glue address(es) for ns7.cdncenter.com (61.240.129.140, 180.163.194.132, 180.163.194.205, 183.131.156.86) differed from its authoritative address(es) (61.240.129.140, 180.163.194.205).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for ns8.cdncenter.com (61.240.129.140, 180.163.194.132, 180.163.194.205, 183.131.156.86) differed from its authoritative address(es) (61.240.129.140, 180.163.194.205).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

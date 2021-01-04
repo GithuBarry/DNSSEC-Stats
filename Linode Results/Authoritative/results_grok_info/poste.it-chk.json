@@ -1,0 +1,447 @@
+{
+    "poste.it.": {
+        "status": "NOERROR",
+        "queries": {
+            "poste.it./IN/A": {
+                "answer": [
+                    {
+                        "id": "poste.it./IN/A",
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240",
+                            "62.241.16.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.241.4.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.8.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.16.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "poste.it./IN/NS": {
+                "answer": [
+                    {
+                        "id": "poste.it./IN/NS",
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240",
+                            "62.241.16.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.241.4.240": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.8.240": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.16.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "poste.it./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "poste.it./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "poste.it./IN/SOA",
+                                "servers": [
+                                    "62.241.4.240",
+                                    "62.241.8.240",
+                                    "62.241.16.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240",
+                            "62.241.16.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.241.4.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.8.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.16.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "poste.it./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "poste.it./IN/SOA",
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240",
+                            "62.241.16.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "62.241.4.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.8.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.16.10": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "poste.it./IN/MX": {
+                "answer": [
+                    {
+                        "id": "poste.it./IN/MX",
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240",
+                            "62.241.16.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.241.4.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.8.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.16.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "poste.it./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "poste.it./IN/TXT",
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240",
+                            "62.241.16.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.241.4.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.8.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.16.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "poste.it./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "poste.it./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "poste.it./IN/SOA",
+                                "servers": [
+                                    "62.241.4.240",
+                                    "62.241.8.240",
+                                    "62.241.16.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240",
+                            "62.241.16.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.241.4.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.8.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.16.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "poste.it./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "poste.it./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "OQ0EBNL6I43N3PE50SF4IOMJSF5VM1Q6.it./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "ISM0PBQ8DFR59UAH2MCLMLNQMPP9NN97.it./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.12.192.5",
+                                    "193.206.141.46",
+                                    "194.0.16.215",
+                                    "194.119.192.34",
+                                    "194.146.106.30",
+                                    "217.29.76.4"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "it./IN/SOA",
+                                "servers": [
+                                    "192.12.192.5",
+                                    "193.206.141.46",
+                                    "194.0.16.215",
+                                    "194.119.192.34",
+                                    "194.146.106.30",
+                                    "217.29.76.4"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.12.192.5",
+                            "193.206.141.46",
+                            "194.0.16.215",
+                            "194.119.192.34",
+                            "194.146.106.30",
+                            "217.29.76.4"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.12.192.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "193.206.141.46": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.0.16.215": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.119.192.34": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.146.106.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "217.29.76.4": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "poste.it./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "poste.it./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "poste.it./IN/SOA",
+                                "servers": [
+                                    "62.241.4.240",
+                                    "62.241.8.240",
+                                    "62.241.16.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240",
+                            "62.241.16.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.241.4.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.8.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.16.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "1vo8q05nag.poste.it./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "1vo8q05nag.poste.it./IN/A",
+                        "soa": [
+                            {
+                                "id": "poste.it./IN/SOA",
+                                "servers": [
+                                    "62.241.4.240",
+                                    "62.241.8.240",
+                                    "62.241.16.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "62.241.4.240",
+                            "62.241.8.240",
+                            "62.241.16.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.241.4.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.8.240": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.241.16.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "62.241.4.240",
+                        "62.241.8.240"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "OQ0EBNL6I43N3PE50SF4IOMJSF5VM1Q6.it./IN/NSEC3"
+                        },
+                        {
+                            "id": "ISM0PBQ8DFR59UAH2MCLMLNQMPP9NN97.it./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.12.192.5",
+                        "193.206.141.46",
+                        "194.0.16.215",
+                        "194.119.192.34",
+                        "194.146.106.30",
+                        "217.29.76.4"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

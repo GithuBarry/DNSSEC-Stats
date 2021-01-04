@@ -1,0 +1,579 @@
+{
+    "state.nj.us.": {
+        "status": "NOERROR",
+        "queries": {
+            "state.nj.us./IN/A": {
+                "answer": [
+                    {
+                        "id": "state.nj.us./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "state.nj.us./5/62265",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "state.nj.us./IN/NS": {
+                "answer": [
+                    {
+                        "id": "state.nj.us./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "state.nj.us./5/62265",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "state.nj.us./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "state.nj.us./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "state.nj.us./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "state.nj.us./5/62265",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.20.70.10",
+                                                    "205.148.26.10"
+                                                ],
+                                                "query_options": [
+                                                    "TCP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "state.nj.us./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "state.nj.us./5/62265",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "199.20.70.10",
+                                            "205.148.26.10"
+                                        ],
+                                        "query_options": [
+                                            "TCP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "state.nj.us./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "state.nj.us./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "state.nj.us./5/62265",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.148.26.10": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "state.nj.us./IN/MX": {
+                "answer": [
+                    {
+                        "id": "state.nj.us./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "state.nj.us./5/62265",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "state.nj.us./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "state.nj.us./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "state.nj.us./5/62265",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "state.nj.us./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "state.nj.us./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "state.nj.us./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "state.nj.us./5/62265",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.20.70.10",
+                                                    "205.148.26.10"
+                                                ],
+                                                "query_options": [
+                                                    "TCP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "state.nj.us./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "state.nj.us./5/62265",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "199.20.70.10",
+                                            "205.148.26.10"
+                                        ],
+                                        "query_options": [
+                                            "TCP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "state.nj.us./IN/DS": {
+                "answer": [
+                    {
+                        "id": "state.nj.us./IN/DS",
+                        "servers": [
+                            "156.154.124.70",
+                            "156.154.125.70",
+                            "156.154.126.70",
+                            "156.154.127.70",
+                            "156.154.128.70",
+                            "209.173.58.70"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.154.124.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.125.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.126.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.127.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.128.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "209.173.58.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "state.nj.us./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "state.nj.us./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "state.nj.us./5/7823",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "state.nj.us./5/62265",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "zatjry96l5.state.nj.us./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "zatjry96l5.state.nj.us./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "xterm.state.nj.us./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "state.nj.us./5/62265",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.20.70.10",
+                                                    "205.148.26.10"
+                                                ],
+                                                "query_options": [
+                                                    "TCP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "state.nj.us./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "state.nj.us./5/62265",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.20.70.10",
+                                                    "205.148.26.10"
+                                                ],
+                                                "query_options": [
+                                                    "TCP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "state.nj.us./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "state.nj.us./5/62265",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "199.20.70.10",
+                                            "205.148.26.10"
+                                        ],
+                                        "query_options": [
+                                            "TCP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "5/62265",
+                "servers": [
+                    "199.20.70.10",
+                    "205.148.26.10"
+                ],
+                "query_options": [
+                    "TCP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "5/7823",
+                "servers": [
+                    "199.20.70.10",
+                    "205.148.26.10"
+                ],
+                "query_options": [
+                    "TCP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "5/7823/1",
+                    "status": "VALID",
+                    "servers": [
+                        "156.154.124.70",
+                        "156.154.125.70",
+                        "156.154.126.70",
+                        "156.154.127.70",
+                        "156.154.128.70",
+                        "209.173.58.70"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

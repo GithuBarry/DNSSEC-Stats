@@ -1,0 +1,707 @@
+{
+    "imss.gob.mx.": {
+        "status": "NOERROR",
+        "queries": {
+            "imss.gob.mx./IN/A": {
+                "answer": [
+                    {
+                        "id": "imss.gob.mx./IN/A",
+                        "servers": [
+                            "192.230.121.204"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "192.230.121.204": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/A",
+                        "servers": [
+                            "192.230.122.142"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.122.142": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/A",
+                        "servers": [
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.123.212": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/NS": {
+                "answer": [
+                    {
+                        "id": "imss.gob.mx./IN/NS",
+                        "servers": [
+                            "192.230.121.204"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.121.204": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/NS",
+                        "servers": [
+                            "192.230.122.142"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.122.142": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/NS",
+                        "servers": [
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.123.212": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "imss.gob.mx./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "imss.gob.mx./IN/SOA",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ]
+                            },
+                            {
+                                "id": "imss.gob.mx./IN/SOA",
+                                "servers": [
+                                    "192.230.123.212"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.230.121.204",
+                            "192.230.122.142",
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "192.230.121.204": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "192.230.122.142": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "192.230.123.212": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "imss.gob.mx./IN/SOA",
+                        "servers": [
+                            "192.230.121.204",
+                            "192.230.122.142",
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K_0x20",
+                            "UDP_-_NOEDNS_",
+                            "UDP_-_NOEDNS__0x20"
+                        ],
+                        "cookie_status": {
+                            "192.230.121.204": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.230.122.142": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.230.123.212": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/SOA",
+                        "servers": [
+                            "192.230.122.142",
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "192.230.122.142": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "192.230.123.212": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.122.142",
+                                    "192.230.123.212"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (NOTIMP).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/MX": {
+                "answer": [
+                    {
+                        "id": "imss.gob.mx./IN/MX",
+                        "servers": [
+                            "192.230.121.204"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.121.204": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/MX",
+                        "servers": [
+                            "192.230.122.142"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.122.142": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/MX",
+                        "servers": [
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.123.212": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "imss.gob.mx./IN/TXT",
+                        "servers": [
+                            "192.230.121.204"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.121.204": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/TXT",
+                        "servers": [
+                            "192.230.122.142"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "192.230.122.142": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/TXT",
+                        "servers": [
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.230.123.212": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "imss.gob.mx./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "imss.gob.mx./IN/SOA",
+                                "servers": [
+                                    "192.230.121.204"
+                                ]
+                            },
+                            {
+                                "id": "imss.gob.mx./IN/SOA",
+                                "servers": [
+                                    "192.230.122.142"
+                                ]
+                            },
+                            {
+                                "id": "imss.gob.mx./IN/SOA",
+                                "servers": [
+                                    "192.230.123.212"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.230.121.204",
+                            "192.230.122.142",
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "192.230.121.204": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.230.122.142": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "192.230.123.212": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "imss.gob.mx./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "Q60DPMSBHH77PCQ1AO8SCGGIGLIDCP38.gob.mx./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "VKT4BFV6I4N59QCCUI7ATFSP8VIN0N46.gob.mx./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "189.201.244.1",
+                                    "192.100.224.1",
+                                    "200.23.1.1",
+                                    "200.94.176.1",
+                                    "201.131.252.1",
+                                    "207.248.68.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "gob.mx./IN/SOA",
+                                "servers": [
+                                    "189.201.244.1",
+                                    "192.100.224.1",
+                                    "200.23.1.1",
+                                    "200.94.176.1",
+                                    "201.131.252.1",
+                                    "207.248.68.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "189.201.244.1",
+                            "192.100.224.1",
+                            "200.23.1.1",
+                            "200.94.176.1",
+                            "201.131.252.1",
+                            "207.248.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "189.201.244.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.100.224.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.23.1.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.94.176.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "201.131.252.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "207.248.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "imss.gob.mx./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "imss.gob.mx./IN/SOA",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ]
+                            },
+                            {
+                                "id": "imss.gob.mx./IN/SOA",
+                                "servers": [
+                                    "192.230.122.142"
+                                ]
+                            },
+                            {
+                                "id": "imss.gob.mx./IN/SOA",
+                                "servers": [
+                                    "192.230.123.212"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.230.121.204",
+                            "192.230.122.142",
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "192.230.121.204": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "192.230.122.142": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.230.123.212": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "192.230.121.204"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jyz3rho5qm.imss.gob.mx./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "jyz3rho5qm.imss.gob.mx./IN/A",
+                        "soa": [
+                            {
+                                "id": "imss.gob.mx./IN/SOA",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142",
+                                    "192.230.123.212"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.230.121.204",
+                            "192.230.122.142",
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "192.230.121.204": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "192.230.122.142": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "192.230.123.212": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "192.230.123.212"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "Q60DPMSBHH77PCQ1AO8SCGGIGLIDCP38.gob.mx./IN/NSEC3"
+                        },
+                        {
+                            "id": "VKT4BFV6I4N59QCCUI7ATFSP8VIN0N46.gob.mx./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "189.201.244.1",
+                        "192.100.224.1",
+                        "200.23.1.1",
+                        "200.94.176.1",
+                        "201.131.252.1",
+                        "207.248.68.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the gob.mx zone), but not in the authoritative NS RRset: ns212.a2.incapsecuredns.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

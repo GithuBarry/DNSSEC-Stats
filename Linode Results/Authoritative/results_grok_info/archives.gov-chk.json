@@ -1,0 +1,640 @@
+{
+    "archives.gov.": {
+        "status": "NOERROR",
+        "queries": {
+            "archives.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "archives.gov./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "archives.gov./7/40055",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archives.gov./IN/NS": {
+                "answer": [
+                    {
+                        "id": "archives.gov./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "archives.gov./7/40055",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archives.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "archives.gov./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "J6LP782B9DU9CB54IVM267H54CUI3IG0.archives.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "archives.gov./7/40055",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "63.150.72.5",
+                                                    "208.44.130.121"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "archives.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "archives.gov./7/40055",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "63.150.72.5",
+                                            "208.44.130.121"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archives.gov./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "archives.gov./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "archives.gov./7/40055",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "208.44.130.121": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archives.gov./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "archives.gov./IN/MX",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "J6LP782B9DU9CB54IVM267H54CUI3IG0.archives.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "archives.gov./7/40055",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "63.150.72.5",
+                                                    "208.44.130.121"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "archives.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "archives.gov./7/40055",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "63.150.72.5",
+                                            "208.44.130.121"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archives.gov./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "archives.gov./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "archives.gov./7/40055",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archives.gov./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "archives.gov./IN/AAAA",
+                        "rrsig": [
+                            {
+                                "id": "archives.gov./7/40055",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archives.gov./IN/DS": {
+                "answer": [
+                    {
+                        "id": "archives.gov./IN/DS",
+                        "servers": [
+                            "69.36.153.30",
+                            "69.36.157.30",
+                            "81.19.194.30",
+                            "209.112.123.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "69.36.153.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "69.36.157.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "81.19.194.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "209.112.123.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archives.gov./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "archives.gov./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "archives.gov./7/40055",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "archives.gov./7/43740",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "6m2lidve3s.archives.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "6m2lidve3s.archives.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "FE35MV4VF865EDHO0DF3R7QTAK714CQU.archives.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "archives.gov./7/40055",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "63.150.72.5",
+                                                    "208.44.130.121"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "857QNIBHBR7P51Q5SQCNG2TKMO0E63A3.archives.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "archives.gov./7/40055",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "63.150.72.5",
+                                                    "208.44.130.121"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "J6LP782B9DU9CB54IVM267H54CUI3IG0.archives.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "archives.gov./7/40055",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "63.150.72.5",
+                                                    "208.44.130.121"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "archives.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "archives.gov./7/40055",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "63.150.72.5",
+                                            "208.44.130.121"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "7/8133",
+                "servers": [
+                    "63.150.72.5",
+                    "208.44.130.121"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "7/794",
+                "servers": [
+                    "63.150.72.5",
+                    "208.44.130.121"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "7/40055",
+                "servers": [
+                    "63.150.72.5",
+                    "208.44.130.121"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "7/43740",
+                "servers": [
+                    "63.150.72.5",
+                    "208.44.130.121"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "7/8133/1",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "7/8133/2",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "7/43740/1",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "7/43740/2",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

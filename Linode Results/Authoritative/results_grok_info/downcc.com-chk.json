@@ -1,0 +1,1401 @@
+{
+    "m.alikunlun.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "m.alikunlun.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "m.alikunlun.com./IN/DS",
+                        "servers": [
+                            "106.11.35.29",
+                            "106.11.35.30",
+                            "140.205.122.133",
+                            "140.205.122.143",
+                            "140.205.122.153",
+                            "198.11.138.248"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "106.11.35.29": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "106.11.35.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "140.205.122.133": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "140.205.122.143": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "140.205.122.153": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.11.138.248": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "106.11.35.29",
+                                    "106.11.35.30",
+                                    "140.205.122.133",
+                                    "140.205.122.143",
+                                    "140.205.122.153",
+                                    "198.11.138.248"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "m.alikunlun.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "m.alikunlun.com./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "m.alikunlun.com./IN/SOA",
+                                "servers": [
+                                    "47.89.91.91",
+                                    "101.200.28.73",
+                                    "120.25.118.73",
+                                    "121.43.18.42",
+                                    "203.107.0.200",
+                                    "203.107.0.201",
+                                    "205.204.111.222"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "47.89.91.91",
+                            "101.200.28.73",
+                            "120.25.118.73",
+                            "121.43.18.42",
+                            "203.107.0.200",
+                            "203.107.0.201",
+                            "205.204.111.222"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "47.89.91.91": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            },
+                            "101.200.28.73": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "120.25.118.73": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "121.43.18.42": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "203.107.0.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "203.107.0.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            },
+                            "205.204.111.222": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "101.200.28.73",
+                                    "120.25.118.73",
+                                    "121.43.18.42",
+                                    "203.107.0.200",
+                                    "203.107.0.201"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The Authoritative Answer (AA) flag was set in the referral response.",
+                        "code": "AUTHORITATIVE_REFERRAL",
+                        "servers": [
+                            "106.11.35.29",
+                            "106.11.35.30",
+                            "140.205.122.133",
+                            "140.205.122.143",
+                            "140.205.122.153",
+                            "198.11.138.248"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "INSECURE"
+        }
+    },
+    "downcc.com.m.alikunlun.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "downcc.com.m.alikunlun.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "downcc.com.m.alikunlun.com./IN/A",
+                        "servers": [
+                            "47.89.91.91"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "47.89.91.91": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            }
+                        }
+                    },
+                    {
+                        "id": "downcc.com.m.alikunlun.com./IN/A",
+                        "servers": [
+                            "101.200.28.73"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "101.200.28.73": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "101.200.28.73"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downcc.com.m.alikunlun.com./IN/A",
+                        "servers": [
+                            "120.25.118.73"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "120.25.118.73": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "120.25.118.73"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downcc.com.m.alikunlun.com./IN/A",
+                        "servers": [
+                            "121.43.18.42"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "121.43.18.42": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "121.43.18.42"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downcc.com.m.alikunlun.com./IN/A",
+                        "servers": [
+                            "203.107.0.200"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "203.107.0.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "203.107.0.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downcc.com.m.alikunlun.com./IN/A",
+                        "servers": [
+                            "203.107.0.201"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "203.107.0.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "203.107.0.201"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downcc.com.m.alikunlun.com./IN/A",
+                        "servers": [
+                            "205.204.111.222"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.204.111.222": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "downcc.com.m.alikunlun.com./IN/A",
+                        "servers": [
+                            "106.11.35.29",
+                            "106.11.35.30",
+                            "140.205.122.133",
+                            "140.205.122.143",
+                            "140.205.122.153",
+                            "198.11.138.248"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "106.11.35.29": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "106.11.35.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "140.205.122.133": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "140.205.122.143": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "140.205.122.153": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.11.138.248": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "106.11.35.29",
+                                    "106.11.35.30",
+                                    "140.205.122.133",
+                                    "140.205.122.143",
+                                    "140.205.122.153",
+                                    "198.11.138.248"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "downcc.com.m.alikunlun.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "downcc.com.m.alikunlun.com./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "m.alikunlun.com./IN/SOA",
+                                "servers": [
+                                    "47.89.91.91",
+                                    "101.200.28.73",
+                                    "120.25.118.73",
+                                    "121.43.18.42",
+                                    "203.107.0.200",
+                                    "203.107.0.201",
+                                    "205.204.111.222"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "47.89.91.91",
+                            "101.200.28.73",
+                            "106.11.35.29",
+                            "106.11.35.30",
+                            "120.25.118.73",
+                            "121.43.18.42",
+                            "140.205.122.133",
+                            "140.205.122.143",
+                            "140.205.122.153",
+                            "198.11.138.248",
+                            "203.107.0.200",
+                            "203.107.0.201",
+                            "205.204.111.222"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "47.89.91.91": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            },
+                            "101.200.28.73": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            },
+                            "106.11.35.29": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "106.11.35.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "120.25.118.73": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "121.43.18.42": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "140.205.122.133": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "140.205.122.143": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "140.205.122.153": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.11.138.248": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.107.0.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            },
+                            "203.107.0.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "205.204.111.222": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "120.25.118.73",
+                                    "121.43.18.42",
+                                    "203.107.0.201"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "106.11.35.29",
+                                    "106.11.35.30",
+                                    "140.205.122.133",
+                                    "140.205.122.143",
+                                    "140.205.122.153",
+                                    "198.11.138.248"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "downcc.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "downcc.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "downcc.com./IN/CNAME",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downcc.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "downcc.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "downcc.com./IN/NS",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "downcc.com./IN/NS",
+                        "servers": [
+                            "183.192.164.117"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "downcc.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "downcc.com./IN/CNAME",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downcc.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "downcc.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "downcc.com./IN/SOA",
+                        "servers": [
+                            "58.247.212.36",
+                            "61.151.180.44",
+                            "101.226.220.16",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117",
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downcc.com./IN/SOA",
+                        "servers": [
+                            "58.247.212.48",
+                            "129.211.176.187"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.48": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "downcc.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "downcc.com./IN/MX",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "downcc.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "downcc.com./IN/CNAME",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downcc.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "downcc.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "downcc.com./IN/CNAME",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downcc.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "downcc.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "downcc.com./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "8F5FVB1GEACJBI25D5LTUT9TESUVA0O8.com./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ]
+                            },
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.12.94.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.6.30",
+                            "192.12.94.30",
+                            "192.26.92.30",
+                            "192.31.80.30",
+                            "192.33.14.30",
+                            "192.35.51.30",
+                            "192.41.162.30",
+                            "192.42.93.30",
+                            "192.43.172.30",
+                            "192.48.79.30",
+                            "192.52.178.30",
+                            "192.54.112.30",
+                            "192.55.83.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.6.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.12.94.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.26.92.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.31.80.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.14.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.35.51.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.41.162.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.93.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.43.172.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.48.79.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.52.178.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.54.112.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.55.83.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "downcc.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "downcc.com./IN/CNAME",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "101.226.220.16",
+                            "129.211.176.187"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downcc.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "downcc.com./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "downcc.com./IN/SOA",
+                                "servers": [
+                                    "61.151.180.44",
+                                    "129.211.176.224",
+                                    "162.14.24.230",
+                                    "162.14.25.230",
+                                    "183.192.164.117",
+                                    "183.192.201.90"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "61.151.180.44",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ptv7ubkzwm.downcc.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "ptv7ubkzwm.downcc.com./IN/A",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "8F5FVB1GEACJBI25D5LTUT9TESUVA0O8.com./IN/NSEC3"
+                        },
+                        {
+                            "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

@@ -1,0 +1,890 @@
+{
+    "bsnl.co.in.": {
+        "status": "NOERROR",
+        "queries": {
+            "bsnl.co.in./IN/A": {
+                "answer": [
+                    {
+                        "id": "bsnl.co.in./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:57+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "218.248.240.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "218.248.240.209": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bsnl.co.in./IN/NS": {
+                "answer": [
+                    {
+                        "id": "bsnl.co.in./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "218.248.240.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "218.248.240.209": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bsnl.co.in./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "bsnl.co.in./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "NC13L0I1R33ICAOCA6H89H5L5VKA6F11.bsnl.co.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.co.in./7/51428",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "218.248.240.178"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "NPTFAER2JMCUBHDEAVFVQVRD5R9T6J3I.bsnl.co.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.co.in./7/51428",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "218.248.240.209"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ],
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:57+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "bsnl.co.in./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "bsnl.co.in./7/51428",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "218.248.240.178"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "bsnl.co.in./7/51428",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "218.248.240.209"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ],
+                                        "warnings": [
+                                            {
+                                                "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:18+00:00) is within possible clock skew range (41 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                                "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "218.248.240.178",
+                                    "218.248.240.209"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "218.248.240.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "218.248.240.209": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bsnl.co.in./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "bsnl.co.in./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178",
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:57+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "218.248.240.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "218.248.240.209": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "bsnl.co.in./IN/MX": {
+                "answer": [
+                    {
+                        "id": "bsnl.co.in./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178",
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:57+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "218.248.240.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "218.248.240.209": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bsnl.co.in./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "bsnl.co.in./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "218.248.240.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "218.248.240.209": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bsnl.co.in./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "bsnl.co.in./IN/AAAA",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:57+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "218.248.240.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "218.248.240.209": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bsnl.co.in./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "bsnl.co.in./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "K4OVG6R3PR5K3ASUAP504ICUD7C12KES.co.in./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "4K187GVB84I3J2T52TCFJDDPB89FH0KE.co.in./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "37.209.192.12",
+                                    "37.209.194.12",
+                                    "37.209.196.12",
+                                    "37.209.198.12",
+                                    "156.154.100.20",
+                                    "156.154.101.20"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "co.in./IN/SOA",
+                                "servers": [
+                                    "37.209.192.12",
+                                    "37.209.194.12",
+                                    "37.209.196.12",
+                                    "37.209.198.12",
+                                    "156.154.100.20",
+                                    "156.154.101.20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "37.209.192.12",
+                            "37.209.194.12",
+                            "37.209.196.12",
+                            "37.209.198.12",
+                            "156.154.100.20",
+                            "156.154.101.20"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "37.209.192.12": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.194.12": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.196.12": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.198.12": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.100.20": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.101.20": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bsnl.co.in./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "bsnl.co.in./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.co.in./7/48030",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/48030",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:07+00:00) is within possible clock skew range (52 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "bsnl.co.in./7/51428",
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:07+00:00) is within possible clock skew range (52 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "218.248.240.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "218.248.240.209": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "t1r8jc7352.bsnl.co.in./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "t1r8jc7352.bsnl.co.in./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "445D5RUCUSDQKDKI4S5FEU97KLLARA1U.bsnl.co.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.co.in./7/51428",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "218.248.240.178"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ],
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:57+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "RRCDJQGKJFNKBRLSS0HKU91HE2BL85OB.bsnl.co.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.co.in./7/51428",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "218.248.240.178"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "DPJP3880458E8QMLI0ECK6STI4HHD46V.bsnl.co.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.co.in./7/51428",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "218.248.240.178"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.178"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "VPVIQTRKI8VMF4TTR4OK6S1HCG4FGOQH.bsnl.co.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.co.in./7/51428",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "218.248.240.209"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "UBT9FU42V7E4EOS909RENGHTT391CCCD.bsnl.co.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.co.in./7/51428",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "218.248.240.209"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ],
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:33:30+00:00) is within possible clock skew range (1 minute) of the current time (2020-12-30 10:34:59+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "I6MM2DFED7EQJMT0STQENV489I6O5KUH.bsnl.co.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.co.in./7/51428",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "218.248.240.209"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ],
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:34:57+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:34:59+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "218.248.240.209"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "bsnl.co.in./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "bsnl.co.in./7/51428",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "218.248.240.209"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "bsnl.co.in./7/51428",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "218.248.240.178"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "218.248.240.178",
+                                    "218.248.240.209"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "218.248.240.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "218.248.240.209": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "7/48030",
+                "servers": [
+                    "218.248.240.178",
+                    "218.248.240.209"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "7/51428",
+                "servers": [
+                    "218.248.240.178",
+                    "218.248.240.209"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "218.248.240.178",
+                        "218.248.240.209"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "K4OVG6R3PR5K3ASUAP504ICUD7C12KES.co.in./IN/NSEC3"
+                        },
+                        {
+                            "id": "4K187GVB84I3J2T52TCFJDDPB89FH0KE.co.in./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "37.209.192.12",
+                        "37.209.194.12",
+                        "37.209.196.12",
+                        "37.209.198.12",
+                        "156.154.100.20",
+                        "156.154.101.20"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

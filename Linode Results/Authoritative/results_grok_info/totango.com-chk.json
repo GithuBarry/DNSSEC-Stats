@@ -1,0 +1,764 @@
+{
+    "public.totango.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "public.totango.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "public.totango.com./IN/DS",
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "97.74.100.1",
+                                    "173.201.68.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "97.74.100.1",
+                                    "173.201.68.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "public.totango.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "public.totango.com./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "public.totango.com./IN/SOA",
+                                "servers": [
+                                    "205.251.193.177",
+                                    "205.251.195.30",
+                                    "205.251.196.214",
+                                    "205.251.199.124"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "205.251.193.177",
+                            "205.251.195.30",
+                            "205.251.196.214",
+                            "205.251.199.124"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.177": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.214": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.124": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "INSECURE"
+        }
+    },
+    "prod.public.totango.com.": {
+        "status": "NXDOMAIN",
+        "queries": {
+            "prod.public.totango.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "prod.public.totango.com./IN/A",
+                        "soa": [
+                            {
+                                "id": "public.totango.com./IN/SOA",
+                                "servers": [
+                                    "205.251.193.177",
+                                    "205.251.195.30",
+                                    "205.251.196.214",
+                                    "205.251.199.124"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "205.251.193.177",
+                            "205.251.195.30",
+                            "205.251.196.214",
+                            "205.251.199.124"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.177": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.214": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.124": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "service.prod.public.totango.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "service.prod.public.totango.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "service.prod.public.totango.com./IN/A",
+                        "servers": [
+                            "205.251.193.177",
+                            "205.251.195.30",
+                            "205.251.196.214",
+                            "205.251.199.124"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.177": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.214": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.124": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "A query for service.prod.public.totango.com results in a NOERROR response, while a query for its ancestor, prod.public.totango.com, returns a name error (NXDOMAIN), which indicates that subdomains of prod.public.totango.com, including service.prod.public.totango.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.193.177",
+                                    "205.251.195.30",
+                                    "205.251.196.214",
+                                    "205.251.199.124"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "service.prod.public.totango.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "service.prod.public.totango.com./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "public.totango.com./IN/SOA",
+                                "servers": [
+                                    "205.251.193.177",
+                                    "205.251.195.30",
+                                    "205.251.196.214",
+                                    "205.251.199.124"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "205.251.193.177",
+                            "205.251.195.30",
+                            "205.251.196.214",
+                            "205.251.199.124"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.177": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.214": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.124": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "A query for service.prod.public.totango.com results in a NOERROR response, while a query for its ancestor, prod.public.totango.com, returns a name error (NXDOMAIN), which indicates that subdomains of prod.public.totango.com, including service.prod.public.totango.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.193.177",
+                                    "205.251.195.30",
+                                    "205.251.196.214",
+                                    "205.251.199.124"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "app.public.totango.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "app.public.totango.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "app.public.totango.com./IN/CNAME",
+                        "servers": [
+                            "205.251.193.177",
+                            "205.251.195.30",
+                            "205.251.196.214",
+                            "205.251.199.124"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.177": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.214": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.124": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "app.public.totango.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "app.public.totango.com./IN/CNAME",
+                        "servers": [
+                            "205.251.193.177",
+                            "205.251.195.30",
+                            "205.251.196.214",
+                            "205.251.199.124"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.177": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.214": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.124": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "totango.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "totango.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "totango.com./IN/A",
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "totango.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "totango.com./IN/NS",
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "totango.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "totango.com./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "totango.com./IN/SOA",
+                                "servers": [
+                                    "97.74.100.1",
+                                    "173.201.68.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "totango.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "totango.com./IN/SOA",
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "totango.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "totango.com./IN/MX",
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "totango.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "totango.com./IN/TXT",
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "totango.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "totango.com./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "totango.com./IN/SOA",
+                                "servers": [
+                                    "97.74.100.1",
+                                    "173.201.68.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "totango.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "totango.com./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "0JS5V9P3MG1HIMT6LACUV02JP8DOM5RS.com./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.41.162.30",
+                                    "192.43.172.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ]
+                            },
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.12.94.30",
+                                    "192.35.51.30",
+                                    "192.42.93.30",
+                                    "192.48.79.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.6.30",
+                            "192.12.94.30",
+                            "192.26.92.30",
+                            "192.31.80.30",
+                            "192.33.14.30",
+                            "192.35.51.30",
+                            "192.41.162.30",
+                            "192.42.93.30",
+                            "192.43.172.30",
+                            "192.48.79.30",
+                            "192.52.178.30",
+                            "192.54.112.30",
+                            "192.55.83.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.6.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.12.94.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.26.92.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.31.80.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.14.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.35.51.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.41.162.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.93.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.43.172.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.48.79.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.52.178.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.54.112.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.55.83.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "totango.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "totango.com./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "totango.com./IN/SOA",
+                                "servers": [
+                                    "97.74.100.1",
+                                    "173.201.68.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "d2m4hln0rv.totango.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "d2m4hln0rv.totango.com./IN/CNAME",
+                        "servers": [
+                            "97.74.100.1",
+                            "173.201.68.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "97.74.100.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "173.201.68.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "0JS5V9P3MG1HIMT6LACUV02JP8DOM5RS.com./IN/NSEC3"
+                        },
+                        {
+                            "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

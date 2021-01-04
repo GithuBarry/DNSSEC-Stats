@@ -1,0 +1,783 @@
+{
+    "ir.": {
+        "status": "NOERROR",
+        "queries": {
+            "ir./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "ir./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "ir./IN/NSEC"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.5.241",
+                                    "192.33.4.12",
+                                    "192.36.148.17",
+                                    "192.58.128.30",
+                                    "192.112.36.4",
+                                    "192.203.230.10",
+                                    "193.0.14.129",
+                                    "198.41.0.4",
+                                    "198.97.190.53",
+                                    "199.7.83.42",
+                                    "199.7.91.13",
+                                    "199.9.14.201",
+                                    "202.12.27.33"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "./IN/SOA",
+                                "servers": [
+                                    "192.5.5.241",
+                                    "192.33.4.12",
+                                    "192.36.148.17",
+                                    "192.58.128.30",
+                                    "192.112.36.4",
+                                    "192.203.230.10",
+                                    "193.0.14.129",
+                                    "198.41.0.4",
+                                    "198.97.190.53",
+                                    "199.7.83.42",
+                                    "199.7.91.13",
+                                    "199.9.14.201",
+                                    "202.12.27.33"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.5.241",
+                            "192.33.4.12",
+                            "192.36.148.17",
+                            "192.58.128.30",
+                            "192.112.36.4",
+                            "192.203.230.10",
+                            "193.0.14.129",
+                            "198.41.0.4",
+                            "198.97.190.53",
+                            "199.7.83.42",
+                            "199.7.91.13",
+                            "199.9.14.201",
+                            "202.12.27.33"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.5.241": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.33.4.12": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.36.148.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.58.128.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.112.36.4": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.203.230.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.0.14.129": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.41.0.4": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.97.190.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.7.83.42": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.7.91.13": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.9.14.201": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.12.27.33": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ir./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "ir./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "ir./IN/SOA",
+                                "servers": [
+                                    "78.104.145.5",
+                                    "193.0.9.85",
+                                    "193.171.255.77",
+                                    "193.189.122.83",
+                                    "193.189.123.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "78.104.145.5",
+                            "193.0.9.85",
+                            "193.171.255.77",
+                            "193.189.122.83",
+                            "193.189.123.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "78.104.145.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "193.0.9.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.171.255.77": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "193.189.122.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.189.123.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC",
+                    "nsec": [
+                        {
+                            "id": "ir./IN/NSEC"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.5.241",
+                        "192.33.4.12",
+                        "192.36.148.17",
+                        "192.58.128.30",
+                        "192.112.36.4",
+                        "192.203.230.10",
+                        "193.0.14.129",
+                        "198.41.0.4",
+                        "198.97.190.53",
+                        "199.7.83.42",
+                        "199.7.91.13",
+                        "199.9.14.201",
+                        "202.12.27.33"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the . zone): dns-ir.univie.ac.at",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    },
+    "gemovies.ir.": {
+        "status": "NOERROR",
+        "queries": {
+            "gemovies.ir./IN/A": {
+                "answer": [
+                    {
+                        "id": "gemovies.ir./IN/A",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.102.129.161": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/NS": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/NS",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.102.129.161": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/CNAME",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.102.129.161": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/SOA": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/SOA",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "46.102.129.161": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/MX",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.102.129.161": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/TXT",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.102.129.161": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/AAAA",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.102.129.161": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/DS",
+                        "soa": [
+                            {
+                                "id": "ir./IN/SOA",
+                                "servers": [
+                                    "78.104.145.5",
+                                    "193.0.9.85",
+                                    "193.171.255.77",
+                                    "193.189.122.83",
+                                    "193.189.123.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "78.104.145.5",
+                            "193.0.9.85",
+                            "193.171.255.77",
+                            "193.189.122.83",
+                            "193.189.123.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "78.104.145.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "193.0.9.85": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.171.255.77": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "193.189.122.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.189.123.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gemovies.ir./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/DNSKEY",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.102.129.161": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dmv4tf5ae6.gemovies.ir./IN/A": {
+                "answer": [
+                    {
+                        "id": "dmv4tf5ae6.gemovies.ir./IN/A",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.102.129.161": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "46.102.129.161"
+                    ]
+                },
+                {
+                    "description": "The server(s) did not respond authoritatively for the namespace.",
+                    "code": "SERVER_NOT_AUTHORITATIVE",
+                    "servers": [
+                        "46.102.129.161"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "status": "LAME"
+        }
+    }
+}

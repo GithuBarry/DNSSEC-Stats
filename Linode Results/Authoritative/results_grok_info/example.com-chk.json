@@ -1,0 +1,685 @@
+{
+    "example.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "example.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "example.com./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "example.com./8/62811",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.43.133.53",
+                            "199.43.135.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.43.133.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.43.135.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "example.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "example.com./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "example.com./8/62811",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.43.133.53",
+                            "199.43.135.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.43.133.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.43.135.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "example.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "example.com./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "example.com./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "example.com./8/62811",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.43.133.53",
+                                                    "199.43.135.53"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "example.com./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "example.com./8/62811",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "199.43.133.53",
+                                            "199.43.135.53"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.43.133.53",
+                            "199.43.135.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.43.133.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.43.135.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "example.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "example.com./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "example.com./8/62811",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.43.133.53",
+                            "199.43.135.53"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "199.43.133.53": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.43.135.53": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "example.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "example.com./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "example.com./8/62811",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.43.133.53",
+                            "199.43.135.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.43.133.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.43.135.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "example.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "example.com./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "example.com./8/62811",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.43.133.53",
+                            "199.43.135.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.43.133.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.43.135.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "example.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "example.com./IN/AAAA",
+                        "rrsig": [
+                            {
+                                "id": "example.com./8/62811",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.43.133.53",
+                            "199.43.135.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.43.133.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.43.135.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "example.com./IN/DS": {
+                "answer": [
+                    {
+                        "id": "example.com./IN/DS",
+                        "servers": [
+                            "192.5.6.30",
+                            "192.12.94.30",
+                            "192.26.92.30",
+                            "192.31.80.30",
+                            "192.33.14.30",
+                            "192.35.51.30",
+                            "192.41.162.30",
+                            "192.42.93.30",
+                            "192.43.172.30",
+                            "192.48.79.30",
+                            "192.52.178.30",
+                            "192.54.112.30",
+                            "192.55.83.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.6.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.12.94.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.26.92.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.31.80.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.14.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.35.51.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.41.162.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.93.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.43.172.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.48.79.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.52.178.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.54.112.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.55.83.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "example.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "example.com./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "example.com./8/31406",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "example.com./8/45620",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.43.133.53",
+                            "199.43.135.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.43.133.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.43.135.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "em5x1rt6aj.example.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "em5x1rt6aj.example.com./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "example.com./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "example.com./8/62811",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.43.133.53",
+                                                    "199.43.135.53"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "example.com./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "example.com./8/62811",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "199.43.133.53",
+                                            "199.43.135.53"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "199.43.133.53",
+                                    "199.43.135.53"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.43.133.53",
+                            "199.43.135.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.43.133.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.43.135.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "8/45620",
+                "servers": [
+                    "199.43.133.53",
+                    "199.43.135.53"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "8/62811",
+                "servers": [
+                    "199.43.133.53",
+                    "199.43.135.53"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "8/31406",
+                "servers": [
+                    "199.43.133.53",
+                    "199.43.135.53"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "8/31406/1",
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "8/31406/2",
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "8/31589/1",
+                    "status": "INDETERMINATE_NO_DNSKEY",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "8/31589/2",
+                    "status": "INDETERMINATE_NO_DNSKEY",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "8/43547/1",
+                    "status": "INDETERMINATE_NO_DNSKEY",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "8/43547/2",
+                    "status": "INDETERMINATE_NO_DNSKEY",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

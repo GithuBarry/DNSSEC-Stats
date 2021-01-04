@@ -1,0 +1,556 @@
+{
+    "uimaker.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "uimaker.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "uimaker.com./IN/A",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "119.188.132.246": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "180.163.113.254": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "uimaker.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "uimaker.com./IN/NS",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "119.188.132.246": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "180.163.113.254": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "uimaker.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "uimaker.com./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "uimaker.com./IN/SOA",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "119.188.132.246": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "180.163.113.254": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "uimaker.com./IN/SOA": {
+                "nodata": [
+                    {
+                        "id": "uimaker.com./IN/SOA",
+                        "soa": [
+                            {
+                                "id": "yunjiasu.com./IN/SOA",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "119.188.132.246": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            },
+                            "180.163.113.254": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_COOKIE_ONLY"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The case of the query name (UImAKeR.com) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (yunjiasu.com) not matching the zone name (uimaker.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "uimaker.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "uimaker.com./IN/MX",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "119.188.132.246": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "180.163.113.254": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "uimaker.com./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "uimaker.com./IN/TXT",
+                        "soa": [
+                            {
+                                "id": "uimaker.com./IN/SOA",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "119.188.132.246": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "180.163.113.254": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "uimaker.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "uimaker.com./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "uimaker.com./IN/SOA",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "119.188.132.246": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "180.163.113.254": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "uimaker.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "uimaker.com./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "0AA3D891P86PUGD5THKAR31FPF2C6R9D.com./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30"
+                                ]
+                            },
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.6.30",
+                            "192.12.94.30",
+                            "192.26.92.30",
+                            "192.31.80.30",
+                            "192.33.14.30",
+                            "192.35.51.30",
+                            "192.41.162.30",
+                            "192.42.93.30",
+                            "192.43.172.30",
+                            "192.48.79.30",
+                            "192.52.178.30",
+                            "192.54.112.30",
+                            "192.55.83.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.6.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.12.94.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.26.92.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.31.80.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.14.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.35.51.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.41.162.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.93.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.43.172.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.48.79.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.52.178.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.54.112.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.55.83.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "uimaker.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jimvnkw72u.uimaker.com./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "119.188.132.246",
+                        "180.163.113.254"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "0AA3D891P86PUGD5THKAR31FPF2C6R9D.com./IN/NSEC3"
+                        },
+                        {
+                            "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for n1017.ns.yunjiasu.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for n3308.ns.yunjiasu.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

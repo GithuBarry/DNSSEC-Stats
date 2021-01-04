@@ -1,0 +1,524 @@
+{
+    "medcom.id.": {
+        "status": "NOERROR",
+        "queries": {
+            "medcom.id./IN/A": {
+                "answer": [
+                    {
+                        "id": "medcom.id./IN/A",
+                        "servers": [
+                            "103.225.66.210"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.225.66.210": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "medcom.id./IN/A",
+                        "servers": [
+                            "103.61.116.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.61.116.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "103.61.116.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "medcom.id./IN/NS": {
+                "answer": [
+                    {
+                        "id": "medcom.id./IN/NS",
+                        "servers": [
+                            "103.225.66.210"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.225.66.210": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "medcom.id./IN/NS",
+                        "servers": [
+                            "103.61.116.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.61.116.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "103.61.116.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "medcom.id./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "medcom.id./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "medcom.id./IN/SOA",
+                                "servers": [
+                                    "103.225.66.210"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "103.61.116.10",
+                            "103.225.66.210"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.61.116.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "103.225.66.210": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "103.61.116.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "medcom.id./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "medcom.id./IN/SOA",
+                        "servers": [
+                            "103.225.66.210"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "103.225.66.210": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "medcom.id./IN/SOA",
+                        "servers": [
+                            "103.61.116.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "103.61.116.10": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "103.61.116.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "medcom.id./IN/MX": {
+                "answer": [
+                    {
+                        "id": "medcom.id./IN/MX",
+                        "servers": [
+                            "103.225.66.210"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.225.66.210": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "medcom.id./IN/MX",
+                        "servers": [
+                            "103.61.116.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.61.116.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "103.61.116.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "medcom.id./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "medcom.id./IN/TXT",
+                        "servers": [
+                            "103.225.66.210"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.225.66.210": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "medcom.id./IN/TXT",
+                        "servers": [
+                            "103.61.116.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.61.116.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "103.61.116.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "medcom.id./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "medcom.id./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "medcom.id./IN/SOA",
+                                "servers": [
+                                    "103.225.66.210"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "103.61.116.10",
+                            "103.225.66.210"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.61.116.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "103.225.66.210": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "103.61.116.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "medcom.id./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "medcom.id./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "medcom.id./IN/NSEC"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "45.126.57.57",
+                                    "103.19.177.177",
+                                    "103.19.178.178",
+                                    "103.19.179.179",
+                                    "202.12.31.53"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "id./IN/SOA",
+                                "servers": [
+                                    "45.126.57.57",
+                                    "103.19.177.177",
+                                    "103.19.178.178",
+                                    "103.19.179.179",
+                                    "202.12.31.53"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "45.126.57.57",
+                            "103.19.177.177",
+                            "103.19.178.178",
+                            "103.19.179.179",
+                            "202.12.31.53"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "45.126.57.57": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "103.19.177.177": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "103.19.178.178": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "103.19.179.179": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.12.31.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "medcom.id./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "medcom.id./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "medcom.id./IN/SOA",
+                                "servers": [
+                                    "103.225.66.210"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "103.61.116.10",
+                            "103.225.66.210"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.61.116.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "103.225.66.210": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "103.61.116.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "l2acbgf1k0.medcom.id./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "l2acbgf1k0.medcom.id./IN/A",
+                        "soa": [
+                            {
+                                "id": "medcom.id./IN/SOA",
+                                "servers": [
+                                    "103.225.66.210"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "103.225.66.210"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "103.225.66.210": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) did not respond authoritatively for the namespace.",
+                    "code": "SERVER_NOT_AUTHORITATIVE",
+                    "servers": [
+                        "103.61.116.10"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC",
+                    "nsec": [
+                        {
+                            "id": "medcom.id./IN/NSEC"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "45.126.57.57",
+                        "103.19.177.177",
+                        "103.19.178.178",
+                        "103.19.179.179",
+                        "202.12.31.53"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

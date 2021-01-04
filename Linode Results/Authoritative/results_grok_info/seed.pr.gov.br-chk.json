@@ -1,0 +1,234 @@
+{
+    "pr.gov.br.": {
+        "status": "NOERROR",
+        "queries": {
+            "pr.gov.br./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "pr.gov.br./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "pr.gov.br./IN/NSEC"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "200.189.41.10",
+                                    "200.192.233.10",
+                                    "200.219.148.10",
+                                    "200.219.154.10",
+                                    "200.219.159.10",
+                                    "200.229.248.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "gov.br./IN/SOA",
+                                "servers": [
+                                    "200.189.41.10",
+                                    "200.192.233.10",
+                                    "200.219.148.10",
+                                    "200.219.154.10",
+                                    "200.219.159.10",
+                                    "200.229.248.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "200.189.41.10",
+                            "200.192.233.10",
+                            "200.219.148.10",
+                            "200.219.154.10",
+                            "200.219.159.10",
+                            "200.229.248.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.189.41.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.192.233.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.219.148.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.219.154.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.219.159.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.229.248.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "pr.gov.br./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "pr.gov.br./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "pr.gov.br./IN/SOA",
+                                "servers": [
+                                    "200.189.112.32",
+                                    "200.189.112.50",
+                                    "200.189.112.52"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "200.189.112.32",
+                            "200.189.112.50",
+                            "200.189.112.52"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.189.112.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.189.112.50": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.189.112.52": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC",
+                    "nsec": [
+                        {
+                            "id": "pr.gov.br./IN/NSEC"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "200.189.41.10",
+                        "200.192.233.10",
+                        "200.219.148.10",
+                        "200.219.154.10",
+                        "200.219.159.10",
+                        "200.229.248.10"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "AAAA glue records exist for ns3.pr.gov.br, but there are no corresponding authoritative AAAA records.",
+                    "code": "EXTRA_GLUE_IPV6"
+                },
+                {
+                    "description": "AAAA glue records exist for nsp.pr.gov.br, but there are no corresponding authoritative AAAA records.",
+                    "code": "EXTRA_GLUE_IPV6"
+                }
+            ]
+        }
+    },
+    "seed.pr.gov.br.": {
+        "status": "NOERROR",
+        "queries": {
+            "seed.pr.gov.br./IN/A": {
+                "answer": [
+                    {
+                        "id": "seed.pr.gov.br./IN/A",
+                        "servers": [
+                            "200.189.112.32",
+                            "200.189.112.50",
+                            "200.189.112.52"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.189.112.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.189.112.50": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.189.112.52": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "seed.pr.gov.br./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "seed.pr.gov.br./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "pr.gov.br./IN/SOA",
+                                "servers": [
+                                    "200.189.112.32",
+                                    "200.189.112.50",
+                                    "200.189.112.52"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "200.189.112.32",
+                            "200.189.112.50",
+                            "200.189.112.52"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.189.112.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.189.112.50": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.189.112.52": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

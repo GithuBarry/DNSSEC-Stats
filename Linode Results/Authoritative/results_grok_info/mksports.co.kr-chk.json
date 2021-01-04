@@ -1,0 +1,598 @@
+{
+    "mksports.co.kr.": {
+        "status": "NOERROR",
+        "queries": {
+            "mksports.co.kr./IN/A": {
+                "answer": [
+                    {
+                        "id": "mksports.co.kr./IN/A",
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "203.238.57.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "203.238.57.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "mksports.co.kr./IN/NS": {
+                "answer": [
+                    {
+                        "id": "mksports.co.kr./IN/NS",
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "203.238.57.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "203.238.57.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "mksports.co.kr./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "mksports.co.kr./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "mksports.co.kr./IN/SOA",
+                                "servers": [
+                                    "203.238.57.3"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "203.238.57.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "203.238.57.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "mksports.co.kr./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "mksports.co.kr./IN/SOA",
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_NOEDNS_",
+                            "UDP_-_NOEDNS__0x20"
+                        ],
+                        "cookie_status": {
+                            "203.238.57.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "203.238.57.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ]
+                    },
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "mksports.co.kr./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "mksports.co.kr./IN/MX",
+                        "soa": [
+                            {
+                                "id": "mksports.co.kr./IN/SOA",
+                                "servers": [
+                                    "203.238.57.3"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "203.238.57.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "203.238.57.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    },
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "mksports.co.kr./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "mksports.co.kr./IN/TXT",
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "203.238.57.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "203.238.57.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "mksports.co.kr./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "mksports.co.kr./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "mksports.co.kr./IN/SOA",
+                                "servers": [
+                                    "203.238.57.3"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "203.238.57.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "203.238.57.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "mksports.co.kr./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "mksports.co.kr./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "388V1F659VR2NS17T1DUKHKCCCM3E651.co.kr./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "U3DDJFBKOIPB9S5A1IFP8MCCN46S4K58.co.kr./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "202.30.124.100",
+                                    "202.31.190.1",
+                                    "203.83.159.1",
+                                    "210.101.60.1",
+                                    "210.101.61.1",
+                                    "210.101.62.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "co.kr./IN/SOA",
+                                "servers": [
+                                    "202.30.124.100",
+                                    "202.31.190.1",
+                                    "203.83.159.1",
+                                    "210.101.60.1",
+                                    "210.101.61.1",
+                                    "210.101.62.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "202.30.124.100",
+                            "202.31.190.1",
+                            "203.83.159.1",
+                            "210.101.60.1",
+                            "210.101.61.1",
+                            "210.101.62.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "202.30.124.100": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "202.31.190.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.83.159.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "210.101.60.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "210.101.61.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "210.101.62.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mksports.co.kr./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "mksports.co.kr./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "mksports.co.kr./IN/SOA",
+                                "servers": [
+                                    "203.238.57.3"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "203.238.57.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "203.238.57.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    },
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "xbmpodiz1l.mksports.co.kr./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "xbmpodiz1l.mksports.co.kr./IN/A",
+                        "soa": [
+                            {
+                                "id": "mksports.co.kr./IN/SOA",
+                                "servers": [
+                                    "203.238.57.3"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "203.238.57.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "203.238.57.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "203.238.57.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "203.238.58.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) responded over UDP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_UDP",
+                    "servers": [
+                        "203.238.58.3"
+                    ]
+                },
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "203.238.58.3"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "388V1F659VR2NS17T1DUKHKCCCM3E651.co.kr./IN/NSEC3"
+                        },
+                        {
+                            "id": "U3DDJFBKOIPB9S5A1IFP8MCCN46S4K58.co.kr./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "202.30.124.100",
+                        "202.31.190.1",
+                        "203.83.159.1",
+                        "210.101.60.1",
+                        "210.101.61.1",
+                        "210.101.62.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

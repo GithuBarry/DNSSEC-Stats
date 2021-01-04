@@ -1,0 +1,572 @@
+{
+    "archive.org.": {
+        "status": "NOERROR",
+        "queries": {
+            "archive.org./IN/A": {
+                "answer": [
+                    {
+                        "id": "archive.org./IN/A",
+                        "servers": [
+                            "23.128.97.53",
+                            "162.159.32.37",
+                            "162.159.33.83",
+                            "207.241.239.245",
+                            "208.70.31.236"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "23.128.97.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "162.159.32.37": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.33.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "207.241.239.245": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.70.31.236": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "207.241.239.244"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "archive.org./IN/NS": {
+                "answer": [
+                    {
+                        "id": "archive.org./IN/NS",
+                        "servers": [
+                            "23.128.97.53",
+                            "162.159.32.37",
+                            "162.159.33.83",
+                            "207.241.239.245",
+                            "208.70.31.236"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "23.128.97.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "162.159.32.37": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.33.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "207.241.239.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.70.31.236": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "207.241.239.244"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "archive.org./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "archive.org./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "archive.org./IN/SOA",
+                                "servers": [
+                                    "23.128.97.53",
+                                    "162.159.32.37",
+                                    "162.159.33.83",
+                                    "207.241.239.245",
+                                    "208.70.31.236"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "23.128.97.53",
+                            "162.159.32.37",
+                            "162.159.33.83",
+                            "207.241.239.245",
+                            "208.70.31.236"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "23.128.97.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "162.159.32.37": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.33.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "207.241.239.245": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.70.31.236": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archive.org./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "archive.org./IN/SOA",
+                        "servers": [
+                            "23.128.97.53",
+                            "207.241.239.245",
+                            "208.70.31.236"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "23.128.97.53": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "207.241.239.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "208.70.31.236": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "archive.org./IN/SOA",
+                        "servers": [
+                            "162.159.32.37",
+                            "162.159.33.83"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "162.159.32.37": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.33.83": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archive.org./IN/MX": {
+                "answer": [
+                    {
+                        "id": "archive.org./IN/MX",
+                        "servers": [
+                            "23.128.97.53",
+                            "162.159.32.37",
+                            "162.159.33.83",
+                            "207.241.239.245",
+                            "208.70.31.236"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "23.128.97.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "162.159.32.37": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.33.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "207.241.239.245": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.70.31.236": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archive.org./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "archive.org./IN/TXT",
+                        "servers": [
+                            "23.128.97.53",
+                            "162.159.32.37",
+                            "162.159.33.83",
+                            "207.241.239.245",
+                            "208.70.31.236"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "23.128.97.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "162.159.32.37": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.33.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "207.241.239.245": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.70.31.236": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archive.org./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "archive.org./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "archive.org./IN/SOA",
+                                "servers": [
+                                    "23.128.97.53",
+                                    "162.159.32.37",
+                                    "162.159.33.83",
+                                    "207.241.239.245",
+                                    "208.70.31.236"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "23.128.97.53",
+                            "162.159.32.37",
+                            "162.159.33.83",
+                            "207.241.239.245",
+                            "208.70.31.236"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "23.128.97.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "162.159.32.37": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.33.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "207.241.239.245": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.70.31.236": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archive.org./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "archive.org./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "MU3DUIIIHSOHN5FH7K4MLGACD4VD9FI9.org./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "D6N22MFFURRKKHUP4JSCMNTSE266M0LQ.org./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.19.53.1",
+                                    "199.19.54.1",
+                                    "199.19.56.1",
+                                    "199.19.57.1",
+                                    "199.249.112.1",
+                                    "199.249.120.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "org./IN/SOA",
+                                "servers": [
+                                    "199.19.53.1",
+                                    "199.19.56.1",
+                                    "199.19.57.1",
+                                    "199.249.112.1",
+                                    "199.249.120.1"
+                                ]
+                            },
+                            {
+                                "id": "org./IN/SOA",
+                                "servers": [
+                                    "199.19.54.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.19.53.1",
+                            "199.19.54.1",
+                            "199.19.56.1",
+                            "199.19.57.1",
+                            "199.249.112.1",
+                            "199.249.120.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.19.53.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.19.54.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.19.56.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.19.57.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.249.112.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.249.120.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "archive.org./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "archive.org./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "archive.org./IN/SOA",
+                                "servers": [
+                                    "23.128.97.53",
+                                    "162.159.32.37",
+                                    "162.159.33.83",
+                                    "207.241.239.245",
+                                    "208.70.31.236"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "23.128.97.53",
+                            "162.159.32.37",
+                            "162.159.33.83",
+                            "207.241.239.245",
+                            "208.70.31.236"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "23.128.97.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "162.159.32.37": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.33.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "207.241.239.245": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.70.31.236": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ztlmbuew1a.archive.org./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "ztlmbuew1a.archive.org./IN/A",
+                        "soa": [
+                            {
+                                "id": "archive.org./IN/SOA",
+                                "servers": [
+                                    "23.128.97.53",
+                                    "162.159.32.37",
+                                    "162.159.33.83",
+                                    "207.241.239.245",
+                                    "208.70.31.236"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "23.128.97.53",
+                            "162.159.32.37",
+                            "162.159.33.83",
+                            "207.241.239.245",
+                            "208.70.31.236"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "23.128.97.53": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "162.159.32.37": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.159.33.83": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "207.241.239.245": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.70.31.236": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "207.241.239.244"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "MU3DUIIIHSOHN5FH7K4MLGACD4VD9FI9.org./IN/NSEC3"
+                        },
+                        {
+                            "id": "D6N22MFFURRKKHUP4JSCMNTSE266M0LQ.org./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "199.19.53.1",
+                        "199.19.54.1",
+                        "199.19.56.1",
+                        "199.19.57.1",
+                        "199.249.112.1",
+                        "199.249.120.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

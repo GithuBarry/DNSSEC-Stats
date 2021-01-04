@@ -1,0 +1,1014 @@
+{
+    "eastus.cloudapp.azure.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "eastus.cloudapp.azure.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "eastus.cloudapp.azure.com./IN/DS",
+                        "soa": [
+                            {
+                                "id": "azure.com./IN/SOA",
+                                "servers": [
+                                    "13.107.24.205",
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.107.24.205",
+                            "13.107.160.205",
+                            "40.90.4.205",
+                            "64.4.48.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "eastus.cloudapp.azure.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "eastus.cloudapp.azure.com./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "eastus.cloudapp.azure.com./IN/SOA",
+                                "servers": [
+                                    "13.107.24.201",
+                                    "13.107.160.201",
+                                    "40.90.4.201",
+                                    "64.4.48.201"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.107.24.201",
+                            "13.107.160.201",
+                            "40.90.4.201",
+                            "64.4.48.201"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "INSECURE"
+        }
+    },
+    "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com./IN/A",
+                        "servers": [
+                            "13.107.24.201",
+                            "13.107.160.201",
+                            "40.90.4.201",
+                            "64.4.48.201"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com./IN/A",
+                        "servers": [
+                            "13.107.160.205",
+                            "40.90.4.205",
+                            "64.4.48.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.160.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "eastus.cloudapp.azure.com./IN/SOA",
+                                "servers": [
+                                    "13.107.24.201",
+                                    "13.107.160.201",
+                                    "40.90.4.201",
+                                    "64.4.48.201"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.107.24.201",
+                            "13.107.160.201",
+                            "13.107.160.205",
+                            "40.90.4.201",
+                            "40.90.4.205",
+                            "64.4.48.201",
+                            "64.4.48.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.201": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.205": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "trafficmanager.net.": {
+        "status": "NOERROR",
+        "queries": {
+            "trafficmanager.net./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "trafficmanager.net./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "CS431SS8CTI7M6JHMN592GRLI9T17OK7.net./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "net./IN/SOA",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.52.178.30"
+                                ]
+                            },
+                            {
+                                "id": "net./IN/SOA",
+                                "servers": [
+                                    "192.12.94.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.48.79.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.6.30",
+                            "192.12.94.30",
+                            "192.26.92.30",
+                            "192.31.80.30",
+                            "192.33.14.30",
+                            "192.35.51.30",
+                            "192.41.162.30",
+                            "192.42.93.30",
+                            "192.43.172.30",
+                            "192.48.79.30",
+                            "192.52.178.30",
+                            "192.54.112.30",
+                            "192.55.83.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.6.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.12.94.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.26.92.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.31.80.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.14.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.35.51.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.41.162.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.93.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.43.172.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.48.79.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.52.178.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.54.112.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.55.83.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trafficmanager.net./IN/DNSKEY": {
+                "nxdomain": [
+                    {
+                        "id": "trafficmanager.net./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "trafficmanager.net./IN/SOA",
+                                "servers": [
+                                    "65.55.117.41",
+                                    "204.79.195.41"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "65.55.117.41",
+                            "204.79.195.41"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "65.55.117.41": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "204.79.195.41": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for trafficmanager.net having record data of type NS, but returned a name error (NXDOMAIN) when queried for trafficmanager.net having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "65.55.117.41",
+                                    "204.79.195.41"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "trafficmanager.net./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "trafficmanager.net./IN/SOA",
+                                "servers": [
+                                    "13.107.247.10",
+                                    "13.107.252.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.107.247.10",
+                            "13.107.252.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.247.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.252.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "CS431SS8CTI7M6JHMN592GRLI9T17OK7.net./IN/NSEC3"
+                        },
+                        {
+                            "id": "A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    },
+    "prdp-1-nginxnode-main.trafficmanager.net.": {
+        "status": "NOERROR",
+        "queries": {
+            "prdp-1-nginxnode-main.trafficmanager.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "prdp-1-nginxnode-main.trafficmanager.net./IN/CNAME",
+                        "servers": [
+                            "13.107.247.10",
+                            "13.107.252.10",
+                            "65.55.117.41",
+                            "204.79.195.41"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.247.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.252.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "65.55.117.41": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "204.79.195.41": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "prdp-1-nginxnode-main.trafficmanager.net./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "prdp-1-nginxnode-main.trafficmanager.net./IN/CNAME",
+                        "servers": [
+                            "13.107.247.10",
+                            "13.107.252.10",
+                            "65.55.117.41",
+                            "204.79.195.41"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.247.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.252.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "65.55.117.41": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "204.79.195.41": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "mcas.ms.": {
+        "status": "NOERROR",
+        "queries": {
+            "mcas.ms./IN/A": {
+                "nodata": [
+                    {
+                        "id": "mcas.ms./IN/A",
+                        "soa": [
+                            {
+                                "id": "mcas.ms./IN/SOA",
+                                "servers": [
+                                    "13.107.24.9",
+                                    "13.107.160.9",
+                                    "40.90.4.9",
+                                    "64.4.48.9"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.107.24.9",
+                            "13.107.160.9",
+                            "40.90.4.9",
+                            "64.4.48.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mcas.ms./IN/NS": {
+                "answer": [
+                    {
+                        "id": "mcas.ms./IN/NS",
+                        "servers": [
+                            "13.107.24.9",
+                            "13.107.160.9",
+                            "40.90.4.9",
+                            "64.4.48.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mcas.ms./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "mcas.ms./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "mcas.ms./IN/SOA",
+                                "servers": [
+                                    "13.107.24.9",
+                                    "13.107.160.9",
+                                    "40.90.4.9",
+                                    "64.4.48.9"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.107.24.9",
+                            "13.107.160.9",
+                            "40.90.4.9",
+                            "64.4.48.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mcas.ms./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "mcas.ms./IN/SOA",
+                        "servers": [
+                            "13.107.24.9",
+                            "13.107.160.9",
+                            "40.90.4.9",
+                            "64.4.48.9"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.9": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.9": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.9": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.9": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mcas.ms./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "mcas.ms./IN/MX",
+                        "soa": [
+                            {
+                                "id": "mcas.ms./IN/SOA",
+                                "servers": [
+                                    "13.107.24.9",
+                                    "13.107.160.9",
+                                    "40.90.4.9",
+                                    "64.4.48.9"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.107.24.9",
+                            "13.107.160.9",
+                            "40.90.4.9",
+                            "64.4.48.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mcas.ms./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "mcas.ms./IN/TXT",
+                        "servers": [
+                            "13.107.24.9",
+                            "13.107.160.9",
+                            "40.90.4.9",
+                            "64.4.48.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mcas.ms./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "mcas.ms./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "mcas.ms./IN/SOA",
+                                "servers": [
+                                    "13.107.24.9",
+                                    "13.107.160.9",
+                                    "40.90.4.9",
+                                    "64.4.48.9"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.107.24.9",
+                            "13.107.160.9",
+                            "40.90.4.9",
+                            "64.4.48.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mcas.ms./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "mcas.ms./IN/DS",
+                        "soa": [
+                            {
+                                "id": "ms./IN/SOA",
+                                "servers": [
+                                    "185.17.236.93",
+                                    "204.61.216.33"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "185.17.236.93",
+                            "204.61.216.33"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.17.236.93": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "204.61.216.33": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "mcas.ms./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "mcas.ms./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "mcas.ms./IN/SOA",
+                                "servers": [
+                                    "13.107.24.9",
+                                    "13.107.160.9",
+                                    "40.90.4.9",
+                                    "64.4.48.9"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.107.24.9",
+                            "13.107.160.9",
+                            "40.90.4.9",
+                            "64.4.48.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "eryo0aj81c.mcas.ms./IN/A": {
+                "answer": [
+                    {
+                        "id": "eryo0aj81c.mcas.ms./IN/CNAME",
+                        "servers": [
+                            "13.107.24.9",
+                            "13.107.160.9",
+                            "40.90.4.9",
+                            "64.4.48.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.107.24.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "13.107.160.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "40.90.4.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "64.4.48.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "INSECURE"
+        }
+    }
+}

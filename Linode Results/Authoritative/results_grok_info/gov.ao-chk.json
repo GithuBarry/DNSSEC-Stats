@@ -1,0 +1,395 @@
+{
+    "gov.ao.": {
+        "status": "NOERROR",
+        "queries": {
+            "gov.ao./IN/A": {
+                "answer": [
+                    {
+                        "id": "gov.ao./IN/A",
+                        "servers": [
+                            "41.222.202.35",
+                            "154.116.255.21",
+                            "154.116.255.22"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "41.222.202.35": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.21": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.22": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "80.88.9.14"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "gov.ao./IN/NS": {
+                "answer": [
+                    {
+                        "id": "gov.ao./IN/NS",
+                        "servers": [
+                            "41.222.202.35",
+                            "154.116.255.21",
+                            "154.116.255.22"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "41.222.202.35": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.22": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "80.88.9.14"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "gov.ao./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "gov.ao./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "gov.ao./IN/SOA",
+                                "servers": [
+                                    "41.222.202.35",
+                                    "154.116.255.21",
+                                    "154.116.255.22"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "41.222.202.35",
+                            "154.116.255.21",
+                            "154.116.255.22"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "41.222.202.35": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.21": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.22": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gov.ao./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "gov.ao./IN/SOA",
+                        "servers": [
+                            "41.222.202.35",
+                            "154.116.255.21",
+                            "154.116.255.22"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "41.222.202.35": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "154.116.255.21": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "154.116.255.22": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gov.ao./IN/MX": {
+                "answer": [
+                    {
+                        "id": "gov.ao./IN/MX",
+                        "servers": [
+                            "41.222.202.35",
+                            "154.116.255.21",
+                            "154.116.255.22"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "41.222.202.35": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.21": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.22": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gov.ao./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "gov.ao./IN/TXT",
+                        "servers": [
+                            "41.222.202.35",
+                            "154.116.255.21",
+                            "154.116.255.22"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "41.222.202.35": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.21": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.22": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gov.ao./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "gov.ao./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "gov.ao./IN/SOA",
+                                "servers": [
+                                    "41.222.202.35",
+                                    "154.116.255.21",
+                                    "154.116.255.22"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "41.222.202.35",
+                            "154.116.255.21",
+                            "154.116.255.22"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "41.222.202.35": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.21": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.22": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gov.ao./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "gov.ao./IN/DS",
+                        "soa": [
+                            {
+                                "id": "ao./IN/SOA",
+                                "servers": [
+                                    "185.39.208.17",
+                                    "194.146.106.138",
+                                    "204.61.216.113"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "185.39.208.17",
+                            "194.146.106.138",
+                            "204.61.216.113"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.39.208.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.146.106.138": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.61.216.113": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gov.ao./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "gov.ao./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "gov.ao./IN/SOA",
+                                "servers": [
+                                    "41.222.202.35",
+                                    "154.116.255.21",
+                                    "154.116.255.22"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "41.222.202.35",
+                            "154.116.255.21",
+                            "154.116.255.22"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "41.222.202.35": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.21": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.22": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "48rs9ftkjh.gov.ao./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "48rs9ftkjh.gov.ao./IN/A",
+                        "soa": [
+                            {
+                                "id": "gov.ao./IN/SOA",
+                                "servers": [
+                                    "41.222.202.35",
+                                    "154.116.255.21",
+                                    "154.116.255.22"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "41.222.202.35",
+                            "154.116.255.21",
+                            "154.116.255.22"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "41.222.202.35": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.21": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.116.255.22": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "80.88.9.14"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the ao zone): ns3.gov.ao",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

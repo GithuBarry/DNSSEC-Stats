@@ -1,0 +1,387 @@
+{
+    "akipress.org.": {
+        "status": "NOERROR",
+        "queries": {
+            "akipress.org./IN/A": {
+                "answer": [
+                    {
+                        "id": "akipress.org./IN/A",
+                        "servers": [
+                            "212.42.96.1",
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "212.42.96.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.42.96.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "akipress.org./IN/NS": {
+                "answer": [
+                    {
+                        "id": "akipress.org./IN/NS",
+                        "servers": [
+                            "212.42.96.1",
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "212.42.96.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.42.96.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "akipress.org./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "akipress.org./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "akipress.org./IN/SOA",
+                                "servers": [
+                                    "212.42.96.1",
+                                    "212.42.96.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "212.42.96.1",
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "212.42.96.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.42.96.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "akipress.org./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "akipress.org./IN/SOA",
+                        "servers": [
+                            "212.42.96.1",
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "212.42.96.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.42.96.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "akipress.org./IN/MX": {
+                "answer": [
+                    {
+                        "id": "akipress.org./IN/MX",
+                        "servers": [
+                            "212.42.96.1",
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "212.42.96.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.42.96.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "akipress.org./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "akipress.org./IN/TXT",
+                        "servers": [
+                            "212.42.96.1",
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "212.42.96.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.42.96.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "akipress.org./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "akipress.org./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "akipress.org./IN/SOA",
+                                "servers": [
+                                    "212.42.96.1",
+                                    "212.42.96.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "212.42.96.1",
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "212.42.96.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.42.96.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "akipress.org./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "akipress.org./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "TT9HBHOGFEEV1KG9FJN9HJJ89VFGJ43T.org./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "D6N22MFFURRKKHUP4JSCMNTSE266M0LQ.org./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.19.53.1",
+                                    "199.19.54.1",
+                                    "199.19.56.1",
+                                    "199.19.57.1",
+                                    "199.249.112.1",
+                                    "199.249.120.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "org./IN/SOA",
+                                "servers": [
+                                    "199.19.53.1",
+                                    "199.19.54.1",
+                                    "199.19.56.1",
+                                    "199.19.57.1",
+                                    "199.249.112.1",
+                                    "199.249.120.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.19.53.1",
+                            "199.19.54.1",
+                            "199.19.56.1",
+                            "199.19.57.1",
+                            "199.249.112.1",
+                            "199.249.120.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.19.53.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.19.54.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.19.56.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.19.57.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.249.112.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.249.120.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "akipress.org./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "akipress.org./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "akipress.org./IN/SOA",
+                                "servers": [
+                                    "212.42.96.1",
+                                    "212.42.96.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "212.42.96.1",
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "212.42.96.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.42.96.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "57ec2daux3.akipress.org./IN/A": {
+                "answer": [
+                    {
+                        "id": "57ec2daux3.akipress.org./IN/A",
+                        "servers": [
+                            "212.42.96.1",
+                            "212.42.96.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "212.42.96.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.42.96.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "212.42.96.2"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "TT9HBHOGFEEV1KG9FJN9HJJ89VFGJ43T.org./IN/NSEC3"
+                        },
+                        {
+                            "id": "D6N22MFFURRKKHUP4JSCMNTSE266M0LQ.org./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "199.19.53.1",
+                        "199.19.54.1",
+                        "199.19.56.1",
+                        "199.19.57.1",
+                        "199.249.112.1",
+                        "199.249.120.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

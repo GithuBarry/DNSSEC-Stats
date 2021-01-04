@@ -1,0 +1,972 @@
+{
+    "id.me.": {
+        "status": "NOERROR",
+        "queries": {
+            "id.me./IN/A": {
+                "answer": [
+                    {
+                        "id": "id.me./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.142.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.141.21",
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.154.140.21",
+                            "156.154.141.21",
+                            "156.154.142.21",
+                            "156.154.143.21"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.154.140.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.141.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.142.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.143.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "id.me./IN/NS": {
+                "answer": [
+                    {
+                        "id": "id.me./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.142.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.141.21",
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.154.140.21",
+                            "156.154.141.21",
+                            "156.154.142.21",
+                            "156.154.143.21"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.154.140.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.141.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.142.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.143.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "id.me./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "id.me./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "id.me./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.141.21",
+                                                    "156.154.143.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.142.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.140.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.141.21",
+                                    "156.154.142.21",
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "id.me./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "id.me./13/44033",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "156.154.141.21",
+                                            "156.154.143.21"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "id.me./13/44033",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "156.154.142.21"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "id.me./13/44033",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "156.154.140.21"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.141.21",
+                                    "156.154.142.21",
+                                    "156.154.143.21"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.154.140.21",
+                            "156.154.141.21",
+                            "156.154.142.21",
+                            "156.154.143.21"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.154.140.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.141.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.142.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.143.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "id.me./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "id.me./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.141.21",
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.142.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.142.21"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.141.21",
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.154.140.21",
+                            "156.154.141.21",
+                            "156.154.142.21",
+                            "156.154.143.21"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "156.154.140.21": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.141.21": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.142.21": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.143.21": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "id.me./IN/MX": {
+                "answer": [
+                    {
+                        "id": "id.me./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.141.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.142.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.154.140.21",
+                            "156.154.141.21",
+                            "156.154.142.21",
+                            "156.154.143.21"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.154.140.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.141.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.142.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.143.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "id.me./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "id.me./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.141.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.142.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "id.me./13/44033",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.154.140.21",
+                            "156.154.141.21",
+                            "156.154.142.21",
+                            "156.154.143.21"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.154.140.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.141.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.142.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.143.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "id.me./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "id.me./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "id.me./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.140.21",
+                                                    "156.154.141.21",
+                                                    "156.154.143.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.142.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.141.21",
+                                    "156.154.142.21",
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "id.me./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "id.me./13/44033",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "156.154.140.21",
+                                            "156.154.141.21",
+                                            "156.154.143.21"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "id.me./13/44033",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "156.154.142.21"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.141.21",
+                                    "156.154.142.21",
+                                    "156.154.143.21"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.154.140.21",
+                            "156.154.141.21",
+                            "156.154.142.21",
+                            "156.154.143.21"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.154.140.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.141.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.142.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.143.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "id.me./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "id.me./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "C0AA63SLU8UCPMM55HRUEAE8TJ5IOPM2.me./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "L2F2S4U2K04PESENIVDAOH6728MFDK5C.me./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.249.119.1",
+                                    "199.249.127.1",
+                                    "199.253.59.1",
+                                    "199.253.60.1",
+                                    "199.253.61.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "me./IN/SOA",
+                                "servers": [
+                                    "199.249.119.1",
+                                    "199.249.127.1",
+                                    "199.253.59.1",
+                                    "199.253.60.1",
+                                    "199.253.61.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.249.119.1",
+                            "199.249.127.1",
+                            "199.253.59.1",
+                            "199.253.60.1",
+                            "199.253.61.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.249.119.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.249.127.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.253.59.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.253.60.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.253.61.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "id.me./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "id.me./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "id.me./13/21606",
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.141.21",
+                                    "156.154.142.21",
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.154.140.21",
+                            "156.154.141.21",
+                            "156.154.142.21",
+                            "156.154.143.21"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.154.140.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.141.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.142.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.143.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "d5t08eoxn1.id.me./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "d5t08eoxn1.id.me./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "~.d5t08eoxn0~.id.me./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.142.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.140.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.141.21",
+                                                    "156.154.143.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "!~.id.me./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.142.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.143.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.141.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "id.me./13/44033",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "156.154.140.21"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.141.21",
+                                    "156.154.142.21",
+                                    "156.154.143.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "id.me./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "id.me./13/44033",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "156.154.140.21"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "id.me./13/44033",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "156.154.142.21"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "id.me./13/44033",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "156.154.141.21",
+                                            "156.154.143.21"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "156.154.140.21",
+                                    "156.154.141.21",
+                                    "156.154.142.21",
+                                    "156.154.143.21"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.154.140.21",
+                            "156.154.141.21",
+                            "156.154.142.21",
+                            "156.154.143.21"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.154.140.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.141.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.142.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.143.21": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "13/44033",
+                "servers": [
+                    "156.154.140.21",
+                    "156.154.141.21",
+                    "156.154.142.21",
+                    "156.154.143.21"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K",
+                    "UDP_-_EDNS0_512_D_K"
+                ]
+            },
+            {
+                "id": "13/21606",
+                "servers": [
+                    "156.154.140.21",
+                    "156.154.141.21",
+                    "156.154.142.21",
+                    "156.154.143.21"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K",
+                    "UDP_-_EDNS0_512_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "C0AA63SLU8UCPMM55HRUEAE8TJ5IOPM2.me./IN/NSEC3"
+                        },
+                        {
+                            "id": "L2F2S4U2K04PESENIVDAOH6728MFDK5C.me./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "199.249.119.1",
+                        "199.249.127.1",
+                        "199.253.59.1",
+                        "199.253.60.1",
+                        "199.253.61.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

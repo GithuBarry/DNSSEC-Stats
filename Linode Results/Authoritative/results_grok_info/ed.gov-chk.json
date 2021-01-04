@@ -1,0 +1,602 @@
+{
+    "ed.gov.": {
+        "status": "NOERROR",
+        "queries": {
+            "ed.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "ed.gov./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "ed.gov./7/51035",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ed.gov./IN/NS": {
+                "answer": [
+                    {
+                        "id": "ed.gov./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "ed.gov./7/51035",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ed.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "ed.gov./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "UUPR83OU37MQ2EKQ612QAMKJC59F2HOO.ed.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "ed.gov./7/51035",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "63.150.72.5",
+                                                    "208.44.130.121"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "ed.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "ed.gov./7/51035",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "63.150.72.5",
+                                            "208.44.130.121"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ed.gov./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "ed.gov./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "ed.gov./7/51035",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "208.44.130.121": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ed.gov./IN/MX": {
+                "answer": [
+                    {
+                        "id": "ed.gov./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "ed.gov./7/51035",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ed.gov./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "ed.gov./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "ed.gov./7/51035",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ed.gov./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "ed.gov./IN/AAAA",
+                        "rrsig": [
+                            {
+                                "id": "ed.gov./7/51035",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ed.gov./IN/DS": {
+                "answer": [
+                    {
+                        "id": "ed.gov./IN/DS",
+                        "servers": [
+                            "69.36.153.30",
+                            "69.36.157.30",
+                            "81.19.194.30",
+                            "209.112.123.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "69.36.153.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "69.36.157.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "81.19.194.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "209.112.123.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ed.gov./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "ed.gov./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "ed.gov./7/19878",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "ed.gov./7/51035",
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "muhtwcfxn1.ed.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "muhtwcfxn1.ed.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "UUPR83OU37MQ2EKQ612QAMKJC59F2HOO.ed.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "ed.gov./7/51035",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "63.150.72.5",
+                                                    "208.44.130.121"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "HQR0CIPVQFQJP4NB04T7IFSK1QSSM00E.ed.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "ed.gov./7/51035",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "63.150.72.5",
+                                                    "208.44.130.121"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "T8EC3V592RG1AF68MECLF25NM2HDAL2N.ed.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "ed.gov./7/51035",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "63.150.72.5",
+                                                    "208.44.130.121"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "ed.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "ed.gov./7/51035",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "63.150.72.5",
+                                            "208.44.130.121"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "63.150.72.5",
+                                    "208.44.130.121"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "63.150.72.5",
+                            "208.44.130.121"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "63.150.72.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "208.44.130.121": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "7/49862",
+                "servers": [
+                    "63.150.72.5",
+                    "208.44.130.121"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "7/51035",
+                "servers": [
+                    "63.150.72.5",
+                    "208.44.130.121"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "7/19878",
+                "servers": [
+                    "63.150.72.5",
+                    "208.44.130.121"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "7/2283",
+                "servers": [
+                    "63.150.72.5",
+                    "208.44.130.121"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "7/2283/1",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "7/2283/2",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "7/19878/1",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "7/19878/2",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

@@ -1,0 +1,629 @@
+{
+    "www.gov.pl.": {
+        "status": "NOERROR",
+        "queries": {
+            "www.gov.pl./IN/A": {
+                "answer": [
+                    {
+                        "id": "www.gov.pl./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "www.gov.pl./8/55125",
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.59.201.24",
+                            "195.187.244.8"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.59.201.24": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.187.244.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "www.gov.pl./IN/NS": {
+                "answer": [
+                    {
+                        "id": "www.gov.pl./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "www.gov.pl./8/55125",
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.59.201.24",
+                            "195.187.244.8"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.59.201.24": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.187.244.8": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "www.gov.pl./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "www.gov.pl./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "339273DHJHVNT292LV1D8OB4STU2VIHT.www.gov.pl./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "www.gov.pl./8/55125",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "193.59.201.24",
+                                                    "195.187.244.8"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "www.gov.pl./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "www.gov.pl./8/55125",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "193.59.201.24",
+                                            "195.187.244.8"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.59.201.24",
+                            "195.187.244.8"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.59.201.24": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.187.244.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "www.gov.pl./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "www.gov.pl./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "www.gov.pl./8/55125",
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.59.201.24",
+                            "195.187.244.8"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "193.59.201.24": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.187.244.8": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "www.gov.pl./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "www.gov.pl./IN/MX",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "339273DHJHVNT292LV1D8OB4STU2VIHT.www.gov.pl./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "www.gov.pl./8/55125",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "193.59.201.24",
+                                                    "195.187.244.8"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "www.gov.pl./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "www.gov.pl./8/55125",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "193.59.201.24",
+                                            "195.187.244.8"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.59.201.24",
+                            "195.187.244.8"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.59.201.24": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.187.244.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "www.gov.pl./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "www.gov.pl./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "www.gov.pl./8/55125",
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.59.201.24",
+                            "195.187.244.8"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.59.201.24": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.187.244.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "www.gov.pl./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "www.gov.pl./IN/AAAA",
+                        "rrsig": [
+                            {
+                                "id": "www.gov.pl./8/55125",
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.59.201.24",
+                            "195.187.244.8"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.59.201.24": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.187.244.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "www.gov.pl./IN/DS": {
+                "answer": [
+                    {
+                        "id": "www.gov.pl./IN/DS",
+                        "servers": [
+                            "46.28.245.82",
+                            "93.190.128.146",
+                            "149.156.1.252",
+                            "156.154.100.15",
+                            "185.159.197.48",
+                            "185.159.198.48",
+                            "192.195.72.53",
+                            "194.0.25.29",
+                            "194.181.87.156"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.28.245.82": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "93.190.128.146": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "149.156.1.252": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.100.15": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "185.159.197.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "185.159.198.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.195.72.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.25.29": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.181.87.156": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "www.gov.pl./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "www.gov.pl./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "www.gov.pl./8/20251",
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "www.gov.pl./8/55125",
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.59.201.24",
+                            "195.187.244.8"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.59.201.24": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.187.244.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ygam1dfjio.www.gov.pl./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "ygam1dfjio.www.gov.pl./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "339273DHJHVNT292LV1D8OB4STU2VIHT.www.gov.pl./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "www.gov.pl./8/55125",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "193.59.201.24",
+                                                    "195.187.244.8"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "UJV99G5AJQ67PMURNRL2RAKMCG7HC607.www.gov.pl./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "www.gov.pl./8/55125",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "193.59.201.24",
+                                                    "195.187.244.8"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "N4SNJ99GNAVQ1NS4FOTLQ3D8H5OP2KSJ.www.gov.pl./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "www.gov.pl./8/55125",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "193.59.201.24",
+                                                    "195.187.244.8"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "www.gov.pl./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "www.gov.pl./8/55125",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "193.59.201.24",
+                                            "195.187.244.8"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "193.59.201.24",
+                                    "195.187.244.8"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.59.201.24",
+                            "195.187.244.8"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.59.201.24": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.187.244.8": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "8/20251",
+                "servers": [
+                    "193.59.201.24",
+                    "195.187.244.8"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "8/55125",
+                "servers": [
+                    "193.59.201.24",
+                    "195.187.244.8"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "8/20251/1",
+                    "status": "VALID",
+                    "servers": [
+                        "46.28.245.82",
+                        "93.190.128.146",
+                        "149.156.1.252",
+                        "156.154.100.15",
+                        "185.159.197.48",
+                        "185.159.198.48",
+                        "192.195.72.53",
+                        "194.0.25.29",
+                        "194.181.87.156"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "8/20251/2",
+                    "status": "VALID",
+                    "servers": [
+                        "46.28.245.82",
+                        "93.190.128.146",
+                        "149.156.1.252",
+                        "156.154.100.15",
+                        "185.159.197.48",
+                        "185.159.198.48",
+                        "192.195.72.53",
+                        "194.0.25.29",
+                        "194.181.87.156"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

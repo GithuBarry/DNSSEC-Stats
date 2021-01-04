@@ -1,0 +1,1721 @@
+{
+    "today.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "today.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "today.com./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.52.111.184",
+                            "18.191.2.199",
+                            "54.200.82.65",
+                            "54.208.199.200"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.52.111.184": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "18.191.2.199": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.200.82.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.208.199.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "today.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "today.com./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199",
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.52.111.184",
+                            "18.191.2.199",
+                            "54.200.82.65",
+                            "54.208.199.200"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.52.111.184": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "18.191.2.199": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.200.82.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.208.199.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "today.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "today.com./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "N3JPOKJT0TL9QH93JN84SBNJGSRL41QL.today.com./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "today.com./7/38072",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "13.52.111.184"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "today.com./7/46355",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "13.52.111.184"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "FPU6E7MJHQ3DDLFPB44G12DO88BSOL5S.today.com./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "today.com./7/38072",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "18.191.2.199"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "today.com./7/46355",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "18.191.2.199"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "V18HLS99KVJ6M45ETNA19QK5KSQ5BS6O.today.com./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "today.com./7/38072",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "54.200.82.65"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "today.com./7/46355",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "54.200.82.65"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "ENASCAJP5SB9N1CP1NP0JL625LT6A48C.today.com./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "today.com./7/38072",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "54.208.199.200"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "today.com./7/46355",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "54.208.199.200"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "today.com./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "today.com./7/46355",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "13.52.111.184",
+                                            "18.191.2.199"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/46355",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "54.200.82.65",
+                                            "54.208.199.200"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/38072",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "18.191.2.199"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/38072",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "54.200.82.65"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/38072",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "13.52.111.184",
+                                            "54.208.199.200"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "13.52.111.184",
+                                    "18.191.2.199",
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.52.111.184",
+                            "18.191.2.199",
+                            "54.200.82.65",
+                            "54.208.199.200"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.52.111.184": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "18.191.2.199": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.200.82.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.208.199.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "today.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "today.com./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K",
+                                    "TCP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K",
+                                    "TCP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.52.111.184",
+                            "18.191.2.199",
+                            "54.200.82.65",
+                            "54.208.199.200"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "TCP_-_EDNS0_4096_D_K",
+                            "TCP_-_EDNS0_4096_D_K_0x20",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "13.52.111.184": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "18.191.2.199": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.200.82.65": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.208.199.200": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "today.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "today.com./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.52.111.184",
+                            "18.191.2.199",
+                            "54.200.82.65",
+                            "54.208.199.200"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.52.111.184": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "18.191.2.199": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.200.82.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.208.199.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "today.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "today.com./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.52.111.184",
+                            "18.191.2.199",
+                            "54.200.82.65",
+                            "54.208.199.200"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.52.111.184": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "18.191.2.199": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.200.82.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.208.199.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "today.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "today.com./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "08GD6E8G01VFPSKM0AIS6995SRPSF9P4.today.com./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "today.com./7/38072",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "13.52.111.184"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "today.com./7/46355",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "13.52.111.184"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "5KB59N4QK382ND2OG87G86SJDQB8HSBG.today.com./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "today.com./7/38072",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "18.191.2.199"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "today.com./7/46355",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "18.191.2.199"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "0M2EJ11QQRO5U3FUSN7PD6TMT940SBON.today.com./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "today.com./7/38072",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "54.200.82.65"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "today.com./7/46355",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "54.200.82.65"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "ENASCAJP5SB9N1CP1NP0JL625LT6A48C.today.com./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "today.com./7/38072",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "54.208.199.200"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "id": "today.com./7/46355",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "54.208.199.200"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "today.com./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "today.com./7/46355",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "13.52.111.184"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/46355",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "18.191.2.199",
+                                            "54.208.199.200"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/46355",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "54.200.82.65"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/38072",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "18.191.2.199"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/38072",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "54.200.82.65"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/38072",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "54.208.199.200"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "today.com./7/38072",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "13.52.111.184"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "13.52.111.184",
+                                    "18.191.2.199",
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.52.111.184",
+                            "18.191.2.199",
+                            "54.200.82.65",
+                            "54.208.199.200"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.52.111.184": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "18.191.2.199": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.200.82.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.208.199.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "today.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "today.com./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "PRDMC3AFJ65Q1V4RVR23EVODT2VVT4E1.com./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.33.14.30",
+                                    "192.42.93.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ]
+                            },
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.31.80.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.6.30",
+                            "192.12.94.30",
+                            "192.26.92.30",
+                            "192.31.80.30",
+                            "192.33.14.30",
+                            "192.35.51.30",
+                            "192.41.162.30",
+                            "192.42.93.30",
+                            "192.43.172.30",
+                            "192.48.79.30",
+                            "192.52.178.30",
+                            "192.54.112.30",
+                            "192.55.83.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.6.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.12.94.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.26.92.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.31.80.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.14.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.35.51.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.41.162.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.93.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.43.172.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.48.79.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.52.178.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.54.112.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.55.83.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "today.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "today.com./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "today.com./7/26595",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184",
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184",
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184",
+                                    "54.200.82.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/26595",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/26595",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.52.111.184",
+                            "18.191.2.199",
+                            "54.200.82.65",
+                            "54.208.199.200"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.52.111.184": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "18.191.2.199": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.200.82.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.208.199.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "hmfowi1b0v.today.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "hmfowi1b0v.today.com./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184",
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 18:10:49+00:00) is within possible clock skew range (6 seconds) of the current time (2020-12-30 18:10:55+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "13.52.111.184",
+                                    "18.191.2.199"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 18:10:49+00:00) is within possible clock skew range (6 seconds) of the current time (2020-12-30 18:10:55+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/38072",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 18:10:55+00:00) is within possible clock skew range (0 seconds) of the current time (2020-12-30 18:10:55+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "today.com./7/46355",
+                                "status": "VALID",
+                                "servers": [
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ],
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 18:10:55+00:00) is within possible clock skew range (0 seconds) of the current time (2020-12-30 18:10:55+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "13.52.111.184",
+                            "18.191.2.199",
+                            "54.200.82.65",
+                            "54.208.199.200"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "13.52.111.184": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "18.191.2.199": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.200.82.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "54.208.199.200": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "54.200.82.65",
+                                    "54.208.199.200"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "7/46355",
+                "servers": [
+                    "13.52.111.184",
+                    "18.191.2.199",
+                    "54.200.82.65",
+                    "54.208.199.200"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "7/26595",
+                "servers": [
+                    "13.52.111.184",
+                    "18.191.2.199",
+                    "54.200.82.65",
+                    "54.208.199.200"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "7/38072",
+                "servers": [
+                    "13.52.111.184",
+                    "18.191.2.199",
+                    "54.200.82.65",
+                    "54.208.199.200"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "PRDMC3AFJ65Q1V4RVR23EVODT2VVT4E1.com./IN/NSEC3"
+                        },
+                        {
+                            "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

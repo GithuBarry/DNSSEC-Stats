@@ -1,0 +1,457 @@
+{
+    "ohio.gov.": {
+        "status": "NOERROR",
+        "queries": {
+            "ohio.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "ohio.gov./IN/A",
+                        "servers": [
+                            "156.63.130.68"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "ohio.gov./IN/A",
+                        "servers": [
+                            "156.63.130.75"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.75": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "ohio.gov./IN/A",
+                        "servers": [
+                            "156.63.130.120"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.120": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ohio.gov./IN/NS": {
+                "answer": [
+                    {
+                        "id": "ohio.gov./IN/NS",
+                        "servers": [
+                            "156.63.130.68",
+                            "156.63.130.75",
+                            "156.63.130.120"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.75": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.120": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ohio.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "ohio.gov./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "ohio.gov./IN/SOA",
+                                "servers": [
+                                    "156.63.130.68",
+                                    "156.63.130.75",
+                                    "156.63.130.120"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.63.130.68",
+                            "156.63.130.75",
+                            "156.63.130.120"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.75": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.120": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ohio.gov./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "ohio.gov./IN/SOA",
+                        "servers": [
+                            "156.63.130.68",
+                            "156.63.130.75",
+                            "156.63.130.120"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.75": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.120": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "156.63.130.68"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "ohio.gov./IN/MX": {
+                "answer": [
+                    {
+                        "id": "ohio.gov./IN/MX",
+                        "servers": [
+                            "156.63.130.68",
+                            "156.63.130.75",
+                            "156.63.130.120"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.75": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.120": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ohio.gov./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "ohio.gov./IN/TXT",
+                        "servers": [
+                            "156.63.130.68",
+                            "156.63.130.75",
+                            "156.63.130.120"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.75": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.120": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ohio.gov./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "ohio.gov./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "ohio.gov./IN/SOA",
+                                "servers": [
+                                    "156.63.130.68",
+                                    "156.63.130.75",
+                                    "156.63.130.120"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.63.130.68",
+                            "156.63.130.75",
+                            "156.63.130.120"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.75": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.120": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ohio.gov./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "ohio.gov./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "CIU0KBJCE64KQAN5PLE1UKHVVML94KV2.gov./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "69.36.153.30",
+                                    "69.36.157.30",
+                                    "81.19.194.30",
+                                    "209.112.123.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "gov./IN/SOA",
+                                "servers": [
+                                    "69.36.153.30",
+                                    "69.36.157.30",
+                                    "81.19.194.30",
+                                    "209.112.123.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "69.36.153.30",
+                            "69.36.157.30",
+                            "81.19.194.30",
+                            "209.112.123.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "69.36.153.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "69.36.157.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "81.19.194.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "209.112.123.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ohio.gov./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "ohio.gov./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "ohio.gov./IN/SOA",
+                                "servers": [
+                                    "156.63.130.68",
+                                    "156.63.130.75",
+                                    "156.63.130.120"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.63.130.68",
+                            "156.63.130.75",
+                            "156.63.130.120"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.75": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.120": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "i0zpr5dtaf.ohio.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "i0zpr5dtaf.ohio.gov./IN/A",
+                        "soa": [
+                            {
+                                "id": "ohio.gov./IN/SOA",
+                                "servers": [
+                                    "156.63.130.68",
+                                    "156.63.130.75",
+                                    "156.63.130.120"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "156.63.130.68",
+                            "156.63.130.75",
+                            "156.63.130.120"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "156.63.130.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.75": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.63.130.120": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "There was an error resolving the following NS name(s) to address(es): ns1.ohio.gov, ns2.ohio.gov, ns3.ohio.gov, ns4.ohio.gov",
+                    "code": "ERROR_RESOLVING_NS_NAME"
+                },
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "156.63.130.68"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "CIU0KBJCE64KQAN5PLE1UKHVVML94KV2.gov./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the gov zone), but not in the authoritative NS RRset: ns2.state.oh.us, ns3.state.oh.us, ns4.state.oh.us",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the gov zone): ns4.ohio.gov, ns1.ohio.gov, ns3.ohio.gov, ns2.ohio.gov",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

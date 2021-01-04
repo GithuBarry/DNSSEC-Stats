@@ -1,0 +1,707 @@
+{
+    "360.cn.": {
+        "status": "NOERROR",
+        "queries": {
+            "360.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "360.cn./IN/A",
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "36.110.213.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "42.236.105.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "104.192.109.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "111.206.53.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.97.61.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.153.228.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "42.236.105.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "360.cn./IN/NS": {
+                "answer": [
+                    {
+                        "id": "360.cn./IN/NS",
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "36.110.213.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "42.236.105.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "104.192.109.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "111.206.53.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.97.61.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.153.228.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "42.236.105.6",
+                                    "180.153.228.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "360.cn./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "360.cn./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "360.cn./IN/SOA",
+                                "servers": [
+                                    "36.110.213.6",
+                                    "42.236.105.6",
+                                    "104.192.109.6",
+                                    "111.206.53.6",
+                                    "180.97.61.6",
+                                    "180.153.228.6"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "36.110.213.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "42.236.105.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "104.192.109.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "111.206.53.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.97.61.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.153.228.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "360.cn./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "360.cn./IN/SOA",
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "36.110.213.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "42.236.105.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "104.192.109.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "111.206.53.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.97.61.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.153.228.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "42.236.105.6",
+                                    "111.206.53.6",
+                                    "180.97.61.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "360.cn./IN/MX": {
+                "answer": [
+                    {
+                        "id": "360.cn./IN/MX",
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "36.110.213.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "42.236.105.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "104.192.109.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "111.206.53.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.97.61.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.153.228.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "42.236.105.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "360.cn./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "360.cn./IN/TXT",
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "36.110.213.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "42.236.105.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "104.192.109.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "111.206.53.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.97.61.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.153.228.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "360.cn./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "360.cn./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "360.cn./IN/SOA",
+                                "servers": [
+                                    "36.110.213.6",
+                                    "42.236.105.6",
+                                    "104.192.109.6",
+                                    "111.206.53.6",
+                                    "180.97.61.6",
+                                    "180.153.228.6"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "36.110.213.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "42.236.105.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "104.192.109.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "111.206.53.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.97.61.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.153.228.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "360.cn./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "360.cn./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "3QDAQA092EE5BELP64A74EBNB8J53D7E.cn./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "UBPEN35N7MGPFHLHK8P3GM8JE9J0Q247.cn./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "66.198.183.65",
+                                    "195.219.8.90",
+                                    "203.119.25.1",
+                                    "203.119.26.1",
+                                    "203.119.27.1",
+                                    "203.119.28.1",
+                                    "203.119.29.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "cn./IN/SOA",
+                                "servers": [
+                                    "66.198.183.65"
+                                ]
+                            },
+                            {
+                                "id": "cn./IN/SOA",
+                                "servers": [
+                                    "195.219.8.90"
+                                ]
+                            },
+                            {
+                                "id": "cn./IN/SOA",
+                                "servers": [
+                                    "203.119.25.1",
+                                    "203.119.26.1",
+                                    "203.119.27.1",
+                                    "203.119.28.1",
+                                    "203.119.29.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "66.198.183.65",
+                            "195.219.8.90",
+                            "203.119.25.1",
+                            "203.119.26.1",
+                            "203.119.27.1",
+                            "203.119.28.1",
+                            "203.119.29.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "66.198.183.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.219.8.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.119.25.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.119.26.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.119.27.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.119.28.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.119.29.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "360.cn./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "360.cn./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "360.cn./IN/SOA",
+                                "servers": [
+                                    "36.110.213.6",
+                                    "42.236.105.6",
+                                    "104.192.109.6",
+                                    "111.206.53.6",
+                                    "180.97.61.6",
+                                    "180.153.228.6"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "36.110.213.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "42.236.105.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "104.192.109.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "111.206.53.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.97.61.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.153.228.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "42.236.105.6",
+                                    "111.206.53.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nfe4c358rk.360.cn./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "nfe4c358rk.360.cn./IN/A",
+                        "soa": [
+                            {
+                                "id": "360.cn./IN/SOA",
+                                "servers": [
+                                    "36.110.213.6",
+                                    "42.236.105.6",
+                                    "104.192.109.6",
+                                    "111.206.53.6",
+                                    "180.97.61.6",
+                                    "180.153.228.6"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "36.110.213.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "42.236.105.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "104.192.109.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "111.206.53.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.97.61.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "180.153.228.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "36.110.213.6",
+                        "42.236.105.6",
+                        "104.192.109.6",
+                        "111.206.53.6",
+                        "180.97.61.6",
+                        "180.153.228.6"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "3QDAQA092EE5BELP64A74EBNB8J53D7E.cn./IN/NSEC3"
+                        },
+                        {
+                            "id": "UBPEN35N7MGPFHLHK8P3GM8JE9J0Q247.cn./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "66.198.183.65",
+                        "195.219.8.90",
+                        "203.119.25.1",
+                        "203.119.26.1",
+                        "203.119.27.1",
+                        "203.119.28.1",
+                        "203.119.29.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

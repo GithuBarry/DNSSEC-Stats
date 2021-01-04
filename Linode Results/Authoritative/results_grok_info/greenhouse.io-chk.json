@@ -1,0 +1,627 @@
+{
+    "prod.use1.greenhouse.io.": {
+        "status": "NOERROR",
+        "queries": {
+            "prod.use1.greenhouse.io./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "prod.use1.greenhouse.io./IN/DS",
+                        "soa": [
+                            {
+                                "id": "greenhouse.io./IN/SOA",
+                                "servers": [
+                                    "205.251.193.235",
+                                    "205.251.195.211",
+                                    "205.251.196.6",
+                                    "205.251.199.123"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "prod.use1.greenhouse.io./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "prod.use1.greenhouse.io./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "prod.use1.greenhouse.io./IN/SOA",
+                                "servers": [
+                                    "205.251.193.80",
+                                    "205.251.195.109",
+                                    "205.251.197.8",
+                                    "205.251.199.156"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "205.251.193.80",
+                            "205.251.195.109",
+                            "205.251.197.8",
+                            "205.251.199.156"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.109": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.197.8": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.156": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "INSECURE"
+        }
+    },
+    "ingress.prod.use1.greenhouse.io.": {
+        "status": "NOERROR",
+        "queries": {
+            "ingress.prod.use1.greenhouse.io./IN/A": {
+                "answer": [
+                    {
+                        "id": "ingress.prod.use1.greenhouse.io./IN/A",
+                        "servers": [
+                            "205.251.193.80",
+                            "205.251.195.109",
+                            "205.251.197.8",
+                            "205.251.199.156"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.109": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.197.8": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.156": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ingress.prod.use1.greenhouse.io./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "ingress.prod.use1.greenhouse.io./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "prod.use1.greenhouse.io./IN/SOA",
+                                "servers": [
+                                    "205.251.193.80",
+                                    "205.251.195.109",
+                                    "205.251.197.8",
+                                    "205.251.199.156"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "205.251.193.80",
+                            "205.251.195.109",
+                            "205.251.197.8",
+                            "205.251.199.156"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.109": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.197.8": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.156": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "greenhouse.io.": {
+        "status": "NOERROR",
+        "queries": {
+            "greenhouse.io./IN/A": {
+                "answer": [
+                    {
+                        "id": "greenhouse.io./IN/A",
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "greenhouse.io./IN/NS": {
+                "answer": [
+                    {
+                        "id": "greenhouse.io./IN/NS",
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "greenhouse.io./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "greenhouse.io./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "greenhouse.io./IN/SOA",
+                                "servers": [
+                                    "205.251.193.235",
+                                    "205.251.195.211",
+                                    "205.251.196.6",
+                                    "205.251.199.123"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "greenhouse.io./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "greenhouse.io./IN/SOA",
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "greenhouse.io./IN/MX": {
+                "answer": [
+                    {
+                        "id": "greenhouse.io./IN/MX",
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "greenhouse.io./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "greenhouse.io./IN/TXT",
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "greenhouse.io./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "greenhouse.io./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "greenhouse.io./IN/SOA",
+                                "servers": [
+                                    "205.251.193.235",
+                                    "205.251.195.211",
+                                    "205.251.196.6",
+                                    "205.251.199.123"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "greenhouse.io./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "greenhouse.io./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "L57HAHUD1LSOP905C31TS0IENLVH7E66.io./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "U92TCE82J4L1T382OPCATH2ULSJSM9QG.io./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "65.22.160.17",
+                                    "65.22.161.17",
+                                    "65.22.162.17",
+                                    "65.22.163.17"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "io./IN/SOA",
+                                "servers": [
+                                    "65.22.160.17",
+                                    "65.22.161.17",
+                                    "65.22.162.17",
+                                    "65.22.163.17"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "65.22.160.17",
+                            "65.22.161.17",
+                            "65.22.162.17",
+                            "65.22.163.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "65.22.160.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "65.22.161.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "65.22.162.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "65.22.163.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "greenhouse.io./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "greenhouse.io./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "greenhouse.io./IN/SOA",
+                                "servers": [
+                                    "205.251.193.235",
+                                    "205.251.195.211",
+                                    "205.251.196.6",
+                                    "205.251.199.123"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "6b1a8sku0q.greenhouse.io./IN/A": {
+                "answer": [
+                    {
+                        "id": "6b1a8sku0q.greenhouse.io./IN/CNAME",
+                        "servers": [
+                            "205.251.193.235",
+                            "205.251.195.211",
+                            "205.251.196.6",
+                            "205.251.199.123"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "205.251.193.235": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.195.211": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.196.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.199.123": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "L57HAHUD1LSOP905C31TS0IENLVH7E66.io./IN/NSEC3"
+                        },
+                        {
+                            "id": "U92TCE82J4L1T382OPCATH2ULSJSM9QG.io./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "65.22.160.17",
+                        "65.22.161.17",
+                        "65.22.162.17",
+                        "65.22.163.17"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

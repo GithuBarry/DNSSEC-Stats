@@ -1,0 +1,664 @@
+{
+    "jal.co.jp.": {
+        "status": "NOERROR",
+        "queries": {
+            "jal.co.jp./IN/A": {
+                "answer": [
+                    {
+                        "id": "jal.co.jp./IN/A",
+                        "servers": [
+                            "163.211.253.2",
+                            "163.211.253.10",
+                            "202.232.2.16",
+                            "210.130.1.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "163.211.253.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.232.2.16": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "210.130.1.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jal.co.jp./IN/NS": {
+                "answer": [
+                    {
+                        "id": "jal.co.jp./IN/NS",
+                        "servers": [
+                            "163.211.253.2",
+                            "163.211.253.10",
+                            "202.232.2.16",
+                            "210.130.1.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "163.211.253.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.232.2.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "210.130.1.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jal.co.jp./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "jal.co.jp./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "jal.co.jp./IN/SOA",
+                                "servers": [
+                                    "163.211.253.2",
+                                    "202.232.2.16",
+                                    "210.130.1.17"
+                                ]
+                            },
+                            {
+                                "id": "jal.co.jp./IN/SOA",
+                                "servers": [
+                                    "163.211.253.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "163.211.253.2",
+                            "163.211.253.10",
+                            "202.232.2.16",
+                            "210.130.1.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "163.211.253.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.232.2.16": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "210.130.1.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jal.co.jp./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "jal.co.jp./IN/SOA",
+                        "servers": [
+                            "163.211.253.2",
+                            "202.232.2.16",
+                            "210.130.1.17"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.2": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "202.232.2.16": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "210.130.1.17": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "jal.co.jp./IN/SOA",
+                        "servers": [
+                            "163.211.253.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.10": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ]
+                    },
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "jal.co.jp./IN/MX": {
+                "answer": [
+                    {
+                        "id": "jal.co.jp./IN/MX",
+                        "servers": [
+                            "163.211.253.2",
+                            "163.211.253.10",
+                            "202.232.2.16",
+                            "210.130.1.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "163.211.253.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.232.2.16": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "210.130.1.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jal.co.jp./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "jal.co.jp./IN/TXT",
+                        "servers": [
+                            "163.211.253.2",
+                            "163.211.253.10",
+                            "202.232.2.16",
+                            "210.130.1.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "163.211.253.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.232.2.16": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "210.130.1.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jal.co.jp./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "jal.co.jp./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "jal.co.jp./IN/SOA",
+                                "servers": [
+                                    "163.211.253.2",
+                                    "202.232.2.16",
+                                    "210.130.1.17"
+                                ]
+                            },
+                            {
+                                "id": "jal.co.jp./IN/SOA",
+                                "servers": [
+                                    "163.211.253.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "163.211.253.2",
+                            "163.211.253.10",
+                            "202.232.2.16",
+                            "210.130.1.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "163.211.253.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.232.2.16": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "210.130.1.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jal.co.jp./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "jal.co.jp./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "DRMUGM5CIU417KB3IL6BIELREGI8VVPU.jp./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "B7C0GGU6H0UO17AIOSPJJ944U2Q7DAO0.jp./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "65.22.40.25",
+                                    "150.100.6.8",
+                                    "156.154.100.5",
+                                    "192.50.43.53",
+                                    "202.12.30.131",
+                                    "203.119.1.1",
+                                    "203.119.40.1",
+                                    "210.138.175.244"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "jp./IN/SOA",
+                                "servers": [
+                                    "65.22.40.25",
+                                    "150.100.6.8",
+                                    "156.154.100.5",
+                                    "192.50.43.53",
+                                    "202.12.30.131",
+                                    "203.119.1.1",
+                                    "203.119.40.1",
+                                    "210.138.175.244"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "65.22.40.25",
+                            "150.100.6.8",
+                            "156.154.100.5",
+                            "192.50.43.53",
+                            "202.12.30.131",
+                            "203.119.1.1",
+                            "203.119.40.1",
+                            "210.138.175.244"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "65.22.40.25": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "150.100.6.8": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.100.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "192.50.43.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.12.30.131": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.119.1.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.119.40.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "210.138.175.244": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "jal.co.jp./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "jal.co.jp./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "jal.co.jp./IN/SOA",
+                                "servers": [
+                                    "163.211.253.2",
+                                    "202.232.2.16",
+                                    "210.130.1.17"
+                                ]
+                            },
+                            {
+                                "id": "jal.co.jp./IN/SOA",
+                                "servers": [
+                                    "163.211.253.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "163.211.253.2",
+                            "163.211.253.10",
+                            "202.232.2.16",
+                            "210.130.1.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "163.211.253.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.232.2.16": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "210.130.1.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "vsb7r4c2am.jal.co.jp./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "vsb7r4c2am.jal.co.jp./IN/A",
+                        "soa": [
+                            {
+                                "id": "jal.co.jp./IN/SOA",
+                                "servers": [
+                                    "163.211.253.2",
+                                    "202.232.2.16",
+                                    "210.130.1.17"
+                                ]
+                            },
+                            {
+                                "id": "jal.co.jp./IN/SOA",
+                                "servers": [
+                                    "163.211.253.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "163.211.253.2",
+                            "163.211.253.10",
+                            "202.232.2.16",
+                            "210.130.1.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "163.211.253.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "163.211.253.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "202.232.2.16": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "210.130.1.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "61.207.9.36"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) responded over UDP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_UDP",
+                    "servers": [
+                        "61.207.9.36"
+                    ]
+                },
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "61.207.9.36"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "DRMUGM5CIU417KB3IL6BIELREGI8VVPU.jp./IN/NSEC3"
+                        },
+                        {
+                            "id": "B7C0GGU6H0UO17AIOSPJJ944U2Q7DAO0.jp./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "65.22.40.25",
+                        "150.100.6.8",
+                        "156.154.100.5",
+                        "192.50.43.53",
+                        "202.12.30.131",
+                        "203.119.1.1",
+                        "203.119.40.1",
+                        "210.138.175.244"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the jp zone): ns6-tk02.ocn.ad.jp",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

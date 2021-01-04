@@ -1,0 +1,705 @@
+{
+    "smartbit.be.": {
+        "status": "NOERROR",
+        "queries": {
+            "smartbit.be./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "smartbit.be./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "GRQAQDHL9I3ULNTV8U1DN85TIRH0AL4V.be./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "BA141SNRNOE1RC9MDDGREST23G657RIR.be./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "120.29.253.8",
+                                    "194.0.6.1",
+                                    "194.0.25.36",
+                                    "194.0.37.1",
+                                    "194.0.43.1",
+                                    "194.0.44.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "be./IN/SOA",
+                                "servers": [
+                                    "120.29.253.8",
+                                    "194.0.6.1",
+                                    "194.0.25.36",
+                                    "194.0.37.1",
+                                    "194.0.43.1",
+                                    "194.0.44.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "120.29.253.8",
+                            "194.0.6.1",
+                            "194.0.25.36",
+                            "194.0.37.1",
+                            "194.0.43.1",
+                            "194.0.44.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "120.29.253.8": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.6.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.25.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.37.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.43.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.44.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "smartbit.be./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "smartbit.be./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "smartbit.be./IN/SOA",
+                                "servers": [
+                                    "3.123.210.115",
+                                    "15.236.229.190",
+                                    "217.194.104.32",
+                                    "217.194.105.32"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "GRQAQDHL9I3ULNTV8U1DN85TIRH0AL4V.be./IN/NSEC3"
+                        },
+                        {
+                            "id": "BA141SNRNOE1RC9MDDGREST23G657RIR.be./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "120.29.253.8",
+                        "194.0.6.1",
+                        "194.0.25.36",
+                        "194.0.37.1",
+                        "194.0.43.1",
+                        "194.0.44.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    },
+    "reddog.smartbit.be.": {
+        "status": "NOERROR",
+        "queries": {
+            "reddog.smartbit.be./IN/A": {
+                "answer": [
+                    {
+                        "id": "reddog.smartbit.be./IN/A",
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "reddog.smartbit.be./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "reddog.smartbit.be./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "smartbit.be./IN/SOA",
+                                "servers": [
+                                    "3.123.210.115",
+                                    "15.236.229.190",
+                                    "217.194.104.32",
+                                    "217.194.105.32"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "smartschool.be.": {
+        "status": "NOERROR",
+        "queries": {
+            "smartschool.be./IN/A": {
+                "answer": [
+                    {
+                        "id": "smartschool.be./IN/A",
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "smartschool.be./IN/NS": {
+                "answer": [
+                    {
+                        "id": "smartschool.be./IN/NS",
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "smartschool.be./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "smartschool.be./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "smartschool.be./IN/SOA",
+                                "servers": [
+                                    "3.123.210.115",
+                                    "15.236.229.190",
+                                    "217.194.104.32",
+                                    "217.194.105.32"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "smartschool.be./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "smartschool.be./IN/SOA",
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "smartschool.be./IN/MX": {
+                "answer": [
+                    {
+                        "id": "smartschool.be./IN/MX",
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "smartschool.be./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "smartschool.be./IN/TXT",
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "smartschool.be./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "smartschool.be./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "smartschool.be./IN/SOA",
+                                "servers": [
+                                    "3.123.210.115",
+                                    "15.236.229.190",
+                                    "217.194.104.32",
+                                    "217.194.105.32"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "smartschool.be./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "smartschool.be./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "B7GERQ0I3TCFD515O8VUK6B40IHDAQ52.be./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "BA141SNRNOE1RC9MDDGREST23G657RIR.be./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "120.29.253.8",
+                                    "194.0.6.1",
+                                    "194.0.25.36",
+                                    "194.0.37.1",
+                                    "194.0.43.1",
+                                    "194.0.44.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "be./IN/SOA",
+                                "servers": [
+                                    "120.29.253.8",
+                                    "194.0.6.1",
+                                    "194.0.25.36",
+                                    "194.0.37.1",
+                                    "194.0.43.1",
+                                    "194.0.44.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "120.29.253.8",
+                            "194.0.6.1",
+                            "194.0.25.36",
+                            "194.0.37.1",
+                            "194.0.43.1",
+                            "194.0.44.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "120.29.253.8": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.6.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.25.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.37.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.43.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.44.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "smartschool.be./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "smartschool.be./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "smartschool.be./IN/SOA",
+                                "servers": [
+                                    "3.123.210.115",
+                                    "15.236.229.190",
+                                    "217.194.104.32",
+                                    "217.194.105.32"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "u2rgq6pswf.smartschool.be./IN/A": {
+                "answer": [
+                    {
+                        "id": "u2rgq6pswf.smartschool.be./IN/CNAME",
+                        "servers": [
+                            "3.123.210.115",
+                            "15.236.229.190",
+                            "217.194.104.32",
+                            "217.194.105.32"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "3.123.210.115": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "15.236.229.190": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.104.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.194.105.32": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "B7GERQ0I3TCFD515O8VUK6B40IHDAQ52.be./IN/NSEC3"
+                        },
+                        {
+                            "id": "BA141SNRNOE1RC9MDDGREST23G657RIR.be./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "120.29.253.8",
+                        "194.0.6.1",
+                        "194.0.25.36",
+                        "194.0.37.1",
+                        "194.0.43.1",
+                        "194.0.44.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

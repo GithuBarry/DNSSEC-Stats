@@ -1,0 +1,473 @@
+{
+    "sqa.org.uk.": {
+        "status": "NOERROR",
+        "queries": {
+            "sqa.org.uk./IN/A": {
+                "answer": [
+                    {
+                        "id": "sqa.org.uk./IN/A",
+                        "servers": [
+                            "193.62.157.66",
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.62.157.66": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.219.242.197": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.247.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "sqa.org.uk./IN/NS": {
+                "answer": [
+                    {
+                        "id": "sqa.org.uk./IN/NS",
+                        "servers": [
+                            "193.62.157.66",
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.62.157.66": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.219.242.197": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.247.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "sqa.org.uk./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "sqa.org.uk./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "sqa.org.uk./IN/SOA",
+                                "servers": [
+                                    "193.62.157.66",
+                                    "212.219.242.197",
+                                    "212.219.247.245"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.62.157.66",
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.62.157.66": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.219.242.197": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.247.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "sqa.org.uk./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "sqa.org.uk./IN/SOA",
+                        "servers": [
+                            "193.62.157.66",
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "193.62.157.66": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.242.197": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.247.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "sqa.org.uk./IN/MX": {
+                "answer": [
+                    {
+                        "id": "sqa.org.uk./IN/MX",
+                        "servers": [
+                            "193.62.157.66",
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.62.157.66": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.219.242.197": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.247.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "sqa.org.uk./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "sqa.org.uk./IN/TXT",
+                        "servers": [
+                            "193.62.157.66"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.62.157.66": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    },
+                    {
+                        "id": "sqa.org.uk./IN/TXT",
+                        "servers": [
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "212.219.242.197": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.247.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "sqa.org.uk./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "sqa.org.uk./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "sqa.org.uk./IN/SOA",
+                                "servers": [
+                                    "193.62.157.66",
+                                    "212.219.242.197",
+                                    "212.219.247.245"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.62.157.66",
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.62.157.66": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.219.242.197": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.247.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "sqa.org.uk./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "sqa.org.uk./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "MCEELL2SAMO7OC8P9104KHO5FRTC88F3.org.uk./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "SJMU1BDV3GG1B4LK045NEL1VD5P7O2P1.org.uk./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "43.230.48.1",
+                                    "103.49.80.1",
+                                    "156.154.100.3",
+                                    "156.154.101.3",
+                                    "156.154.102.3",
+                                    "156.154.103.3",
+                                    "213.248.216.1",
+                                    "213.248.220.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "org.uk./IN/SOA",
+                                "servers": [
+                                    "43.230.48.1",
+                                    "103.49.80.1",
+                                    "156.154.100.3",
+                                    "156.154.101.3",
+                                    "156.154.102.3",
+                                    "156.154.103.3",
+                                    "213.248.216.1",
+                                    "213.248.220.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "43.230.48.1",
+                            "103.49.80.1",
+                            "156.154.100.3",
+                            "156.154.101.3",
+                            "156.154.102.3",
+                            "156.154.103.3",
+                            "213.248.216.1",
+                            "213.248.220.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.230.48.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "103.49.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.100.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.101.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.102.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.103.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.248.216.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.248.220.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "sqa.org.uk./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "sqa.org.uk./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "sqa.org.uk./IN/SOA",
+                                "servers": [
+                                    "193.62.157.66",
+                                    "212.219.242.197",
+                                    "212.219.247.245"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.62.157.66",
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.62.157.66": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.219.242.197": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.247.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "uj5t6wxlh8.sqa.org.uk./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "uj5t6wxlh8.sqa.org.uk./IN/A",
+                        "soa": [
+                            {
+                                "id": "sqa.org.uk./IN/SOA",
+                                "servers": [
+                                    "193.62.157.66",
+                                    "212.219.242.197",
+                                    "212.219.247.245"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.62.157.66",
+                            "212.219.242.197",
+                            "212.219.247.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.62.157.66": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "212.219.242.197": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "212.219.247.245": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "212.219.242.197",
+                        "212.219.247.245"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "MCEELL2SAMO7OC8P9104KHO5FRTC88F3.org.uk./IN/NSEC3"
+                        },
+                        {
+                            "id": "SJMU1BDV3GG1B4LK045NEL1VD5P7O2P1.org.uk./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "43.230.48.1",
+                        "103.49.80.1",
+                        "156.154.100.3",
+                        "156.154.101.3",
+                        "156.154.102.3",
+                        "156.154.103.3",
+                        "213.248.216.1",
+                        "213.248.220.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

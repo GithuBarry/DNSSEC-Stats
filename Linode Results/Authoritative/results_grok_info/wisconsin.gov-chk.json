@@ -1,0 +1,461 @@
+{
+    "wisconsin.gov.": {
+        "status": "NOERROR",
+        "queries": {
+            "wisconsin.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "wisconsin.gov./IN/A",
+                        "servers": [
+                            "165.189.56.3",
+                            "165.189.96.51",
+                            "205.213.108.100",
+                            "205.213.163.100"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "165.189.56.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "165.189.96.51": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.108.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.213.163.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "165.189.56.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "wisconsin.gov./IN/NS": {
+                "answer": [
+                    {
+                        "id": "wisconsin.gov./IN/NS",
+                        "servers": [
+                            "165.189.56.3",
+                            "165.189.96.51",
+                            "205.213.108.100",
+                            "205.213.163.100"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "165.189.56.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "165.189.96.51": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.108.100": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.213.163.100": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "wisconsin.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "wisconsin.gov./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "wisconsin.gov./IN/SOA",
+                                "servers": [
+                                    "165.189.56.3",
+                                    "165.189.96.51",
+                                    "205.213.108.100",
+                                    "205.213.163.100"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "165.189.56.3",
+                            "165.189.96.51",
+                            "205.213.108.100",
+                            "205.213.163.100"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "165.189.56.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "165.189.96.51": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.108.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.213.163.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "wisconsin.gov./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "wisconsin.gov./IN/SOA",
+                        "servers": [
+                            "165.189.56.3",
+                            "165.189.96.51",
+                            "205.213.108.100",
+                            "205.213.163.100"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "165.189.56.3": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "165.189.96.51": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.108.100": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.163.100": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "wisconsin.gov./IN/MX": {
+                "answer": [
+                    {
+                        "id": "wisconsin.gov./IN/MX",
+                        "servers": [
+                            "165.189.56.3",
+                            "165.189.96.51",
+                            "205.213.108.100",
+                            "205.213.163.100"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "165.189.56.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "165.189.96.51": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.108.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.213.163.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "wisconsin.gov./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "wisconsin.gov./IN/TXT",
+                        "servers": [
+                            "165.189.56.3",
+                            "165.189.96.51",
+                            "205.213.108.100",
+                            "205.213.163.100"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "165.189.56.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "165.189.96.51": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.108.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.213.163.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "wisconsin.gov./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "wisconsin.gov./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "wisconsin.gov./IN/SOA",
+                                "servers": [
+                                    "165.189.56.3",
+                                    "165.189.96.51",
+                                    "205.213.108.100",
+                                    "205.213.163.100"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "165.189.56.3",
+                            "165.189.96.51",
+                            "205.213.108.100",
+                            "205.213.163.100"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "165.189.56.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "165.189.96.51": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.108.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.213.163.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "wisconsin.gov./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "wisconsin.gov./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "R5DMQT67JSA00396CM3FL6BAF3ELGCFB.gov./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "69.36.153.30",
+                                    "69.36.157.30",
+                                    "81.19.194.30",
+                                    "209.112.123.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "gov./IN/SOA",
+                                "servers": [
+                                    "69.36.153.30",
+                                    "69.36.157.30",
+                                    "81.19.194.30",
+                                    "209.112.123.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "69.36.153.30",
+                            "69.36.157.30",
+                            "81.19.194.30",
+                            "209.112.123.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "69.36.153.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "69.36.157.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "81.19.194.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "209.112.123.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "wisconsin.gov./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "wisconsin.gov./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "wisconsin.gov./IN/SOA",
+                                "servers": [
+                                    "165.189.56.3",
+                                    "165.189.96.51",
+                                    "205.213.108.100",
+                                    "205.213.163.100"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "165.189.56.3",
+                            "165.189.96.51",
+                            "205.213.108.100",
+                            "205.213.163.100"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "165.189.56.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "165.189.96.51": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.108.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.213.163.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "w172aho54s.wisconsin.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "w172aho54s.wisconsin.gov./IN/A",
+                        "soa": [
+                            {
+                                "id": "wisconsin.gov./IN/SOA",
+                                "servers": [
+                                    "165.189.56.3",
+                                    "165.189.96.51",
+                                    "205.213.108.100",
+                                    "205.213.163.100"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "165.189.56.3",
+                            "165.189.96.51",
+                            "205.213.108.100",
+                            "205.213.163.100"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "165.189.56.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "165.189.96.51": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.213.108.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.213.163.100": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "R5DMQT67JSA00396CM3FL6BAF3ELGCFB.gov./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

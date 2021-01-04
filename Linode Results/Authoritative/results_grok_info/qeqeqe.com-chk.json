@@ -1,0 +1,689 @@
+{
+    "qeqeqe.com.": {
+        "status": "NOERROR",
+        "queries": {
+            "qeqeqe.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "qeqeqe.com./IN/A",
+                        "servers": [
+                            "180.163.194.145",
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.145": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "183.131.156.109": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "qeqeqe.com./IN/NS",
+                        "servers": [
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "183.131.156.109": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "qeqeqe.com./IN/SOA",
+                                "servers": [
+                                    "180.163.194.145",
+                                    "183.131.156.109"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "180.163.194.145",
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.145": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "183.131.156.109": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "qeqeqe.com./IN/SOA",
+                        "servers": [
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_",
+                            "UDP_-_NOEDNS__0x20"
+                        ],
+                        "cookie_status": {
+                            "183.131.156.109": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_",
+                            "UDP_-_NOEDNS__0x20"
+                        ]
+                    },
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/MX",
+                        "soa": [
+                            {
+                                "id": "qeqeqe.com./IN/SOA",
+                                "servers": [
+                                    "180.163.194.145",
+                                    "183.131.156.109"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "180.163.194.145",
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.145": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "183.131.156.109": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145",
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/TXT",
+                        "soa": [
+                            {
+                                "id": "qeqeqe.com./IN/SOA",
+                                "servers": [
+                                    "183.131.156.109"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "183.131.156.109": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "qeqeqe.com./IN/SOA",
+                                "servers": [
+                                    "180.163.194.145",
+                                    "183.131.156.109"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "180.163.194.145",
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.145": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "183.131.156.109": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "7FUL8PO7O10JEVAUNORJ45VSADPF8UNR.com./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.12.94.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.5.6.30",
+                                    "192.26.92.30",
+                                    "192.31.80.30",
+                                    "192.33.14.30",
+                                    "192.35.51.30",
+                                    "192.41.162.30",
+                                    "192.42.93.30",
+                                    "192.43.172.30",
+                                    "192.48.79.30",
+                                    "192.52.178.30",
+                                    "192.54.112.30",
+                                    "192.55.83.30"
+                                ]
+                            },
+                            {
+                                "id": "com./IN/SOA",
+                                "servers": [
+                                    "192.12.94.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.5.6.30",
+                            "192.12.94.30",
+                            "192.26.92.30",
+                            "192.31.80.30",
+                            "192.33.14.30",
+                            "192.35.51.30",
+                            "192.41.162.30",
+                            "192.42.93.30",
+                            "192.43.172.30",
+                            "192.48.79.30",
+                            "192.52.178.30",
+                            "192.54.112.30",
+                            "192.55.83.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.5.6.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.12.94.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.26.92.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.31.80.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.33.14.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.35.51.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.41.162.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.93.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.43.172.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.48.79.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.52.178.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.54.112.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.55.83.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "qeqeqe.com./IN/SOA",
+                                "servers": [
+                                    "180.163.194.145",
+                                    "183.131.156.109"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "180.163.194.145",
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "180.163.194.145": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.131.156.109": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "2bjcfxzsy0.qeqeqe.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "2bjcfxzsy0.qeqeqe.com./IN/A",
+                        "soa": [
+                            {
+                                "id": "qeqeqe.com./IN/SOA",
+                                "servers": [
+                                    "183.131.156.109"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "183.131.156.109": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "180.163.194.145",
+                        "183.131.156.109"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "7FUL8PO7O10JEVAUNORJ45VSADPF8UNR.com./IN/NSEC3"
+                        },
+                        {
+                            "id": "CK0POJMG874LJREF7EFN8430QVIT8BSM.com./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.5.6.30",
+                        "192.12.94.30",
+                        "192.26.92.30",
+                        "192.31.80.30",
+                        "192.33.14.30",
+                        "192.35.51.30",
+                        "192.41.162.30",
+                        "192.42.93.30",
+                        "192.43.172.30",
+                        "192.48.79.30",
+                        "192.52.178.30",
+                        "192.54.112.30",
+                        "192.55.83.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns10.szhot.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

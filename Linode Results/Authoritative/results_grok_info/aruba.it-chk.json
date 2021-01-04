@@ -1,0 +1,496 @@
+{
+    "aruba.it.": {
+        "status": "NOERROR",
+        "queries": {
+            "aruba.it./IN/A": {
+                "answer": [
+                    {
+                        "id": "aruba.it./IN/A",
+                        "servers": [
+                            "62.149.128.7",
+                            "62.149.132.7",
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.149.128.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.149.132.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "81.2.199.97": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "95.110.220.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "aruba.it./IN/NS": {
+                "answer": [
+                    {
+                        "id": "aruba.it./IN/NS",
+                        "servers": [
+                            "62.149.128.7",
+                            "62.149.132.7",
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.149.128.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.149.132.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "81.2.199.97": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "95.110.220.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "aruba.it./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "aruba.it./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "aruba.it./IN/SOA",
+                                "servers": [
+                                    "62.149.128.7",
+                                    "62.149.132.7",
+                                    "81.2.199.97",
+                                    "95.110.220.7"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "62.149.128.7",
+                            "62.149.132.7",
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.149.128.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.149.132.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "81.2.199.97": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "95.110.220.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "aruba.it./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "aruba.it./IN/SOA",
+                        "servers": [
+                            "62.149.128.7",
+                            "62.149.132.7",
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "62.149.128.7": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "62.149.132.7": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "81.2.199.97": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "95.110.220.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "aruba.it./IN/MX": {
+                "answer": [
+                    {
+                        "id": "aruba.it./IN/MX",
+                        "servers": [
+                            "62.149.128.7",
+                            "62.149.132.7",
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.149.128.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.149.132.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "81.2.199.97": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "95.110.220.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "aruba.it./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "aruba.it./IN/TXT",
+                        "servers": [
+                            "62.149.128.7",
+                            "62.149.132.7",
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.149.128.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.149.132.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "81.2.199.97": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "95.110.220.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "aruba.it./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "aruba.it./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "aruba.it./IN/SOA",
+                                "servers": [
+                                    "62.149.128.7",
+                                    "62.149.132.7",
+                                    "81.2.199.97",
+                                    "95.110.220.7"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "62.149.128.7",
+                            "62.149.132.7",
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.149.128.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.149.132.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "81.2.199.97": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "95.110.220.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "aruba.it./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "aruba.it./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "5RDV71D6IK0VHB5H2J1G6CT94JTP89I3.it./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "L5KILF0E0HCS6J4LCUF808GHHUVIPS4L.it./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.12.192.5",
+                                    "193.206.141.46",
+                                    "194.0.16.215",
+                                    "194.119.192.34",
+                                    "194.146.106.30",
+                                    "217.29.76.4"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "it./IN/SOA",
+                                "servers": [
+                                    "192.12.192.5",
+                                    "193.206.141.46",
+                                    "194.0.16.215",
+                                    "194.119.192.34",
+                                    "194.146.106.30",
+                                    "217.29.76.4"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.12.192.5",
+                            "193.206.141.46",
+                            "194.0.16.215",
+                            "194.119.192.34",
+                            "194.146.106.30",
+                            "217.29.76.4"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.12.192.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "193.206.141.46": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.0.16.215": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.119.192.34": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.146.106.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "217.29.76.4": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "aruba.it./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "aruba.it./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "aruba.it./IN/SOA",
+                                "servers": [
+                                    "62.149.128.7",
+                                    "62.149.132.7",
+                                    "81.2.199.97",
+                                    "95.110.220.7"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "62.149.128.7",
+                            "62.149.132.7",
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.149.128.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.149.132.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "81.2.199.97": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "95.110.220.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "wh5j832gbs.aruba.it./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "wh5j832gbs.aruba.it./IN/A",
+                        "soa": [
+                            {
+                                "id": "aruba.it./IN/SOA",
+                                "servers": [
+                                    "62.149.128.7",
+                                    "62.149.132.7",
+                                    "81.2.199.97",
+                                    "95.110.220.7"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "62.149.128.7",
+                            "62.149.132.7",
+                            "81.2.199.97",
+                            "95.110.220.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "62.149.128.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.149.132.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "81.2.199.97": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "95.110.220.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "81.2.199.97",
+                        "95.110.220.7"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "5RDV71D6IK0VHB5H2J1G6CT94JTP89I3.it./IN/NSEC3"
+                        },
+                        {
+                            "id": "L5KILF0E0HCS6J4LCUF808GHHUVIPS4L.it./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.12.192.5",
+                        "193.206.141.46",
+                        "194.0.16.215",
+                        "194.119.192.34",
+                        "194.146.106.30",
+                        "217.29.76.4"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

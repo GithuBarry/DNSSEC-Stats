@@ -1,0 +1,1269 @@
+{
+    "github.io.": {
+        "status": "NOERROR",
+        "queries": {
+            "github.io./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "github.io./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "H2SBCFPLUCGV6BJM207V541GTP2LH91T.io./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "U92TCE82J4L1T382OPCATH2ULSJSM9QG.io./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "65.22.160.17",
+                                    "65.22.161.17",
+                                    "65.22.162.17",
+                                    "65.22.163.17"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "io./IN/SOA",
+                                "servers": [
+                                    "65.22.160.17",
+                                    "65.22.161.17",
+                                    "65.22.162.17",
+                                    "65.22.163.17"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "65.22.160.17",
+                            "65.22.161.17",
+                            "65.22.162.17",
+                            "65.22.163.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "65.22.160.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "65.22.161.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "65.22.162.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "65.22.163.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "github.io./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "github.io./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "github.io./IN/SOA",
+                                "servers": [
+                                    "198.51.44.5",
+                                    "198.51.44.69",
+                                    "198.51.45.5",
+                                    "198.51.45.69"
+                                ]
+                            },
+                            {
+                                "id": "github.io./IN/SOA",
+                                "servers": [
+                                    "205.251.193.137",
+                                    "205.251.194.180",
+                                    "205.251.197.59",
+                                    "205.251.198.86"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "198.51.44.5",
+                            "198.51.44.69",
+                            "198.51.45.5",
+                            "198.51.45.69",
+                            "205.251.193.137",
+                            "205.251.194.180",
+                            "205.251.197.59",
+                            "205.251.198.86"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "198.51.44.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.51.44.69": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.51.45.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.51.45.69": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.193.137": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.194.180": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.197.59": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.198.86": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "H2SBCFPLUCGV6BJM207V541GTP2LH91T.io./IN/NSEC3"
+                        },
+                        {
+                            "id": "U92TCE82J4L1T382OPCATH2ULSJSM9QG.io./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "65.22.160.17",
+                        "65.22.161.17",
+                        "65.22.162.17",
+                        "65.22.163.17"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the io zone): dns4.p05.nsone.net, ns-1339.awsdns-39.org, ns-393.awsdns-49.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    },
+    "imochen.github.io.": {
+        "status": "NOERROR",
+        "queries": {
+            "imochen.github.io./IN/A": {
+                "answer": [
+                    {
+                        "id": "imochen.github.io./IN/A",
+                        "servers": [
+                            "198.51.44.5",
+                            "198.51.44.69",
+                            "198.51.45.5",
+                            "198.51.45.69",
+                            "205.251.193.137",
+                            "205.251.194.180",
+                            "205.251.197.59",
+                            "205.251.198.86"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "198.51.44.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.51.44.69": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.51.45.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.51.45.69": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.193.137": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.194.180": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.197.59": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.198.86": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "imochen.github.io./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "imochen.github.io./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "github.io./IN/SOA",
+                                "servers": [
+                                    "198.51.44.5",
+                                    "198.51.44.69",
+                                    "198.51.45.5",
+                                    "198.51.45.69"
+                                ]
+                            },
+                            {
+                                "id": "github.io./IN/SOA",
+                                "servers": [
+                                    "205.251.193.137",
+                                    "205.251.194.180",
+                                    "205.251.197.59",
+                                    "205.251.198.86"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "198.51.44.5",
+                            "198.51.44.69",
+                            "198.51.45.5",
+                            "198.51.45.69",
+                            "205.251.193.137",
+                            "205.251.194.180",
+                            "205.251.197.59",
+                            "205.251.198.86"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "198.51.44.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.51.44.69": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.51.45.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.51.45.69": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.193.137": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.194.180": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.197.59": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.251.198.86": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "panda.tv.": {
+        "status": "NOERROR",
+        "queries": {
+            "panda.tv./IN/A": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/CNAME",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "61.151.180.52",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.52": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for panda.tv, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "18.194.2.137",
+                            "52.77.238.92",
+                            "52.198.159.146",
+                            "59.36.120.147",
+                            "59.36.120.148",
+                            "61.151.180.51",
+                            "101.226.220.12",
+                            "129.211.176.151",
+                            "129.211.176.212",
+                            "162.14.18.121",
+                            "162.14.18.188",
+                            "162.14.24.248",
+                            "162.14.24.251",
+                            "162.14.25.248",
+                            "162.14.25.251",
+                            "183.192.164.119",
+                            "183.192.201.94",
+                            "223.166.151.16",
+                            "223.166.151.126"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "panda.tv./IN/NS": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/NS",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "61.151.180.52",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.52": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "panda.tv./IN/NS",
+                        "servers": [
+                            "183.192.164.117"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "18.194.2.137",
+                            "52.77.238.92",
+                            "52.198.159.146",
+                            "59.36.120.147",
+                            "59.36.120.148",
+                            "61.151.180.51",
+                            "101.226.220.12",
+                            "129.211.176.151",
+                            "129.211.176.212",
+                            "162.14.18.121",
+                            "162.14.18.188",
+                            "162.14.24.248",
+                            "162.14.24.251",
+                            "162.14.25.248",
+                            "162.14.25.251",
+                            "183.192.164.119",
+                            "183.192.201.94",
+                            "223.166.151.16",
+                            "223.166.151.126"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "panda.tv./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/CNAME",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "61.151.180.52",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.52": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for panda.tv, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "panda.tv./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/SOA",
+                        "servers": [
+                            "58.247.212.36",
+                            "61.151.180.44",
+                            "61.151.180.52",
+                            "101.226.220.16",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.52": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    },
+                    {
+                        "id": "panda.tv./IN/SOA",
+                        "servers": [
+                            "58.247.212.48",
+                            "129.211.176.187"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.48": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "panda.tv./IN/MX": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/MX",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "61.151.180.52",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.52": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "panda.tv./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/TXT",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "61.151.180.52",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.52": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "panda.tv./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/CNAME",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "61.151.180.52",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.52": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for panda.tv, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "panda.tv./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "panda.tv./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "E7Q4EUC85B62PB5AJFJ5J1ACUGC1ET4Q.tv./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "N5NN0U6HCHEDHLO0L03P4PO69EME1LJI.tv./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "192.42.173.30",
+                                    "192.42.174.30",
+                                    "192.42.175.30",
+                                    "192.42.176.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "tv./IN/SOA",
+                                "servers": [
+                                    "192.42.173.30",
+                                    "192.42.174.30",
+                                    "192.42.175.30",
+                                    "192.42.176.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "192.42.173.30",
+                            "192.42.174.30",
+                            "192.42.175.30",
+                            "192.42.176.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "192.42.173.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.174.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.175.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "192.42.176.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "panda.tv./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/CNAME",
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "101.226.220.16",
+                            "129.211.176.187"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for panda.tv, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "panda.tv./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "panda.tv./IN/SOA",
+                                "servers": [
+                                    "61.151.180.44",
+                                    "61.151.180.52",
+                                    "129.211.176.224",
+                                    "162.14.24.230",
+                                    "162.14.25.230",
+                                    "183.192.164.117",
+                                    "183.192.201.90"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "61.151.180.44",
+                            "61.151.180.52",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.52": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "upyqdgz5i7.panda.tv./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "upyqdgz5i7.panda.tv./IN/A",
+                        "soa": [
+                            {
+                                "id": "panda.tv./IN/SOA",
+                                "servers": [
+                                    "58.247.212.36",
+                                    "61.151.180.44",
+                                    "61.151.180.52",
+                                    "101.226.220.16",
+                                    "129.211.176.224",
+                                    "162.14.24.230",
+                                    "162.14.25.230",
+                                    "183.192.164.117",
+                                    "183.192.201.90"
+                                ]
+                            },
+                            {
+                                "id": "panda.tv./IN/SOA",
+                                "servers": [
+                                    "58.247.212.48",
+                                    "129.211.176.187"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "58.247.212.36",
+                            "58.247.212.48",
+                            "61.151.180.44",
+                            "61.151.180.52",
+                            "101.226.220.16",
+                            "129.211.176.187",
+                            "129.211.176.224",
+                            "162.14.24.230",
+                            "162.14.25.230",
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "58.247.212.36": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "58.247.212.48": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "61.151.180.52": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "101.226.220.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "129.211.176.224": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.24.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "162.14.25.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.164.117": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "183.192.201.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "18.194.2.137",
+                        "52.77.238.92",
+                        "52.198.159.146",
+                        "59.36.120.147",
+                        "59.36.120.148",
+                        "61.151.180.51",
+                        "101.226.220.12",
+                        "129.211.176.151",
+                        "129.211.176.212",
+                        "162.14.18.121",
+                        "162.14.18.188",
+                        "162.14.24.248",
+                        "162.14.24.251",
+                        "162.14.25.248",
+                        "162.14.25.251",
+                        "183.192.164.119",
+                        "183.192.201.94",
+                        "223.166.151.16",
+                        "223.166.151.126"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "E7Q4EUC85B62PB5AJFJ5J1ACUGC1ET4Q.tv./IN/NSEC3"
+                        },
+                        {
+                            "id": "N5NN0U6HCHEDHLO0L03P4PO69EME1LJI.tv./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "192.42.173.30",
+                        "192.42.174.30",
+                        "192.42.175.30",
+                        "192.42.176.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the tv zone), but not in the authoritative NS RRset: ns3.dnsv5.com, ns4.dnsv5.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the tv zone): f1g1ns1.dnspod.net, f1g1ns2.dnspod.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

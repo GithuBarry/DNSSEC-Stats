@@ -1,0 +1,580 @@
+{
+    "nj.gov.": {
+        "status": "NOERROR",
+        "queries": {
+            "nj.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "nj.gov./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "nj.gov./5/24352",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nj.gov./IN/NS": {
+                "answer": [
+                    {
+                        "id": "nj.gov./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "nj.gov./5/24352",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nj.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "nj.gov./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "nj.gov./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "nj.gov./5/24352",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.20.70.10",
+                                                    "205.148.26.10"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "nj.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "nj.gov./5/24352",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "199.20.70.10",
+                                            "205.148.26.10"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nj.gov./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "nj.gov./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "nj.gov./5/24352",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "205.148.26.10": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nj.gov./IN/MX": {
+                "answer": [
+                    {
+                        "id": "nj.gov./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "nj.gov./5/24352",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nj.gov./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "nj.gov./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "nj.gov./5/24352",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nj.gov./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "nj.gov./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "nj.gov./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "nj.gov./5/24352",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.20.70.10",
+                                                    "205.148.26.10"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "nj.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "nj.gov./5/24352",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "199.20.70.10",
+                                            "205.148.26.10"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nj.gov./IN/DS": {
+                "answer": [
+                    {
+                        "id": "nj.gov./IN/DS",
+                        "servers": [
+                            "69.36.153.30",
+                            "69.36.157.30",
+                            "81.19.194.30",
+                            "209.112.123.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "69.36.153.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "69.36.157.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "81.19.194.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "209.112.123.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nj.gov./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "nj.gov./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "nj.gov./5/24352",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "nj.gov./5/50704",
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "pmu7q2c06o.nj.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "pmu7q2c06o.nj.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "pinelands.nj.gov./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "nj.gov./5/24352",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.20.70.10",
+                                                    "205.148.26.10"
+                                                ],
+                                                "query_options": [
+                                                    "TCP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "nj.gov./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "nj.gov./5/24352",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "199.20.70.10",
+                                                    "205.148.26.10"
+                                                ],
+                                                "query_options": [
+                                                    "TCP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "nj.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "nj.gov./5/24352",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "199.20.70.10",
+                                            "205.148.26.10"
+                                        ],
+                                        "query_options": [
+                                            "TCP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "199.20.70.10",
+                                    "205.148.26.10"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.20.70.10",
+                            "205.148.26.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.20.70.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "205.148.26.10": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "5/50704",
+                "servers": [
+                    "199.20.70.10",
+                    "205.148.26.10"
+                ],
+                "query_options": [
+                    "TCP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "5/24352",
+                "servers": [
+                    "199.20.70.10",
+                    "205.148.26.10"
+                ],
+                "query_options": [
+                    "TCP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "5/50704/1",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "5/50704/2",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

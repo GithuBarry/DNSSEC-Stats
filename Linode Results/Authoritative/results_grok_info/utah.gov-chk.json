@@ -1,0 +1,606 @@
+{
+    "utah.gov.": {
+        "status": "NOERROR",
+        "queries": {
+            "utah.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "utah.gov./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "utah.gov./8/64233",
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "204.113.4.5",
+                            "204.113.19.5"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "204.113.4.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.113.19.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "utah.gov./IN/NS": {
+                "answer": [
+                    {
+                        "id": "utah.gov./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "utah.gov./8/64233",
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "204.113.4.5",
+                            "204.113.19.5"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "204.113.4.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.113.19.5": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "utah.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "utah.gov./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "OUFT09P5JU6VQ3MBBK7HFO91A1TC1UBO.utah.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "utah.gov./8/64233",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "204.113.4.5",
+                                                    "204.113.19.5"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "utah.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "utah.gov./8/64233",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "204.113.4.5",
+                                            "204.113.19.5"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "204.113.4.5",
+                            "204.113.19.5"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "204.113.4.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.113.19.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "utah.gov./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "utah.gov./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "utah.gov./8/64233",
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "204.113.4.5",
+                            "204.113.19.5"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "204.113.4.5": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "204.113.19.5": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "utah.gov./IN/MX": {
+                "answer": [
+                    {
+                        "id": "utah.gov./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "utah.gov./8/64233",
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "204.113.4.5",
+                            "204.113.19.5"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "204.113.4.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.113.19.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "utah.gov./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "utah.gov./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "utah.gov./8/64233",
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "204.113.4.5",
+                            "204.113.19.5"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "204.113.4.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.113.19.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "utah.gov./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "utah.gov./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "OUFT09P5JU6VQ3MBBK7HFO91A1TC1UBO.utah.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "utah.gov./8/64233",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "204.113.4.5",
+                                                    "204.113.19.5"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "utah.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "utah.gov./8/64233",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "204.113.4.5",
+                                            "204.113.19.5"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "204.113.4.5",
+                            "204.113.19.5"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "204.113.4.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.113.19.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "utah.gov./IN/DS": {
+                "answer": [
+                    {
+                        "id": "utah.gov./IN/DS",
+                        "servers": [
+                            "69.36.153.30",
+                            "69.36.157.30",
+                            "81.19.194.30",
+                            "209.112.123.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "69.36.153.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "69.36.157.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "81.19.194.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "209.112.123.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "utah.gov./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "utah.gov./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "utah.gov./8/24301",
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "utah.gov./8/64233",
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "204.113.4.5",
+                            "204.113.19.5"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "204.113.4.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.113.19.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "3sqpy9ci0m.utah.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "3sqpy9ci0m.utah.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "VPOM4OUOFUCSOSPVHO4QP1SQFAA1IBO4.utah.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "utah.gov./8/64233",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "204.113.4.5",
+                                                    "204.113.19.5"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "JFT6D120E6KVEQIUI2G3700K20SAP34G.utah.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "utah.gov./8/64233",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "204.113.4.5",
+                                                    "204.113.19.5"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "OUFT09P5JU6VQ3MBBK7HFO91A1TC1UBO.utah.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "utah.gov./8/64233",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "204.113.4.5",
+                                                    "204.113.19.5"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "utah.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "utah.gov./8/64233",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "204.113.4.5",
+                                            "204.113.19.5"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "204.113.4.5",
+                                    "204.113.19.5"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "204.113.4.5",
+                            "204.113.19.5"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "204.113.4.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.113.19.5": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "8/24301",
+                "servers": [
+                    "204.113.4.5",
+                    "204.113.19.5"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "8/16323",
+                "servers": [
+                    "204.113.4.5",
+                    "204.113.19.5"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "8/64233",
+                "servers": [
+                    "204.113.4.5",
+                    "204.113.19.5"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "8/24301/1",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "8/24301/2",
+                    "status": "VALID",
+                    "servers": [
+                        "69.36.153.30",
+                        "69.36.157.30",
+                        "81.19.194.30",
+                        "209.112.123.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

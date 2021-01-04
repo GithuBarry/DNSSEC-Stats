@@ -1,0 +1,701 @@
+{
+    "moph.go.th.": {
+        "status": "NOERROR",
+        "queries": {
+            "moph.go.th./IN/A": {
+                "answer": [
+                    {
+                        "id": "moph.go.th./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "moph.go.th./10/43112",
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "122.155.215.30",
+                            "122.155.215.31",
+                            "203.157.19.111",
+                            "203.157.19.112"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "122.155.215.30": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "122.155.215.31": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.111": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.157.19.112": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "moph.go.th./IN/NS": {
+                "answer": [
+                    {
+                        "id": "moph.go.th./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "moph.go.th./10/43112",
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "122.155.215.30",
+                            "122.155.215.31",
+                            "203.157.19.111",
+                            "203.157.19.112"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "122.155.215.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "122.155.215.31": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.111": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.157.19.112": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "203.157.19.111"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "moph.go.th./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "moph.go.th./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "moph.go.th./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "moph.go.th./10/43112",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "122.155.215.30",
+                                                    "122.155.215.31",
+                                                    "203.157.19.111",
+                                                    "203.157.19.112"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "moph.go.th./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "moph.go.th./10/43112",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "122.155.215.30",
+                                            "122.155.215.31",
+                                            "203.157.19.111",
+                                            "203.157.19.112"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "122.155.215.30",
+                            "122.155.215.31",
+                            "203.157.19.111",
+                            "203.157.19.112"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "122.155.215.30": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "122.155.215.31": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.111": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.157.19.112": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "moph.go.th./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "moph.go.th./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "moph.go.th./10/43112",
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "122.155.215.30",
+                            "122.155.215.31",
+                            "203.157.19.111",
+                            "203.157.19.112"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "122.155.215.30": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "122.155.215.31": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.111": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.112": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "203.157.19.111"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "moph.go.th./IN/MX": {
+                "answer": [
+                    {
+                        "id": "moph.go.th./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "moph.go.th./10/43112",
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "122.155.215.30",
+                            "122.155.215.31",
+                            "203.157.19.111",
+                            "203.157.19.112"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "122.155.215.30": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "122.155.215.31": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.111": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.157.19.112": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "moph.go.th./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "moph.go.th./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "moph.go.th./10/43112",
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "122.155.215.30",
+                            "122.155.215.31",
+                            "203.157.19.111",
+                            "203.157.19.112"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "122.155.215.30": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "122.155.215.31": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.111": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.157.19.112": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "moph.go.th./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "moph.go.th./IN/AAAA",
+                        "rrsig": [
+                            {
+                                "id": "moph.go.th./10/43112",
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "122.155.215.30",
+                            "122.155.215.31",
+                            "203.157.19.111",
+                            "203.157.19.112"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "122.155.215.30": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "122.155.215.31": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.111": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.157.19.112": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "moph.go.th./IN/DS": {
+                "answer": [
+                    {
+                        "id": "moph.go.th./IN/DS",
+                        "servers": [
+                            "122.155.23.64",
+                            "194.0.1.28",
+                            "202.28.0.1",
+                            "203.159.64.64",
+                            "204.61.216.126"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "122.155.23.64": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.0.1.28": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "202.28.0.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.159.64.64": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.61.216.126": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "moph.go.th./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "moph.go.th./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "moph.go.th./10/6921",
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "moph.go.th./10/43112",
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "122.155.215.30",
+                            "122.155.215.31",
+                            "203.157.19.111",
+                            "203.157.19.112"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "122.155.215.30": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "122.155.215.31": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.111": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.157.19.112": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "uh83nv9z2c.moph.go.th./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "uh83nv9z2c.moph.go.th./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC",
+                                "nsec": [
+                                    {
+                                        "id": "moph.go.th./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "moph.go.th./10/43112",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "122.155.215.30",
+                                                    "122.155.215.31",
+                                                    "203.157.19.111",
+                                                    "203.157.19.112"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "udo.moph.go.th./IN/NSEC",
+                                        "rrsig": [
+                                            {
+                                                "id": "moph.go.th./10/43112",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "122.155.215.30",
+                                                    "122.155.215.31",
+                                                    "203.157.19.111",
+                                                    "203.157.19.112"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "moph.go.th./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "moph.go.th./10/43112",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "122.155.215.30",
+                                            "122.155.215.31",
+                                            "203.157.19.111",
+                                            "203.157.19.112"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "122.155.215.30",
+                                    "122.155.215.31",
+                                    "203.157.19.111",
+                                    "203.157.19.112"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "122.155.215.30",
+                            "122.155.215.31",
+                            "203.157.19.111",
+                            "203.157.19.112"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "122.155.215.30": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "122.155.215.31": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.157.19.111": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "203.157.19.112": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "10/6921",
+                "servers": [
+                    "122.155.215.30",
+                    "122.155.215.31",
+                    "203.157.19.111",
+                    "203.157.19.112"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            },
+            {
+                "id": "10/43112",
+                "servers": [
+                    "122.155.215.30",
+                    "122.155.215.31",
+                    "203.157.19.111",
+                    "203.157.19.112"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "10/6921/1",
+                    "status": "VALID",
+                    "servers": [
+                        "122.155.23.64",
+                        "194.0.1.28",
+                        "202.28.0.1",
+                        "203.159.64.64",
+                        "204.61.216.126"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

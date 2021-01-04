@@ -1,0 +1,710 @@
+{
+    "univ-poitiers.fr.": {
+        "status": "NOERROR",
+        "queries": {
+            "univ-poitiers.fr./IN/A": {
+                "answer": [
+                    {
+                        "id": "univ-poitiers.fr./IN/A",
+                        "servers": [
+                            "194.167.50.187",
+                            "195.220.223.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "194.167.50.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.220.223.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "univ-poitiers.fr./IN/A",
+                        "servers": [
+                            "193.51.70.11"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "193.51.70.11": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "univ-poitiers.fr./IN/NS": {
+                "answer": [
+                    {
+                        "id": "univ-poitiers.fr./IN/NS",
+                        "servers": [
+                            "194.167.50.187",
+                            "195.220.223.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "194.167.50.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.220.223.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "univ-poitiers.fr./IN/NS",
+                        "servers": [
+                            "193.51.70.11"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "193.51.70.11": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "univ-poitiers.fr./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "univ-poitiers.fr./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "univ-poitiers.fr./IN/SOA",
+                                "servers": [
+                                    "194.167.50.187",
+                                    "195.220.223.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.51.70.11",
+                            "194.167.50.187",
+                            "195.220.223.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "193.51.70.11": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "194.167.50.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.220.223.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "univ-poitiers.fr./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "univ-poitiers.fr./IN/SOA",
+                        "servers": [
+                            "194.167.50.187",
+                            "195.220.223.1"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "194.167.50.187": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.220.223.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "univ-poitiers.fr./IN/SOA",
+                        "servers": [
+                            "193.51.70.11"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_NOEDNS_",
+                            "UDP_-_NOEDNS__0x20"
+                        ],
+                        "cookie_status": {
+                            "193.51.70.11": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_NOEDNS_",
+                                    "UDP_-_NOEDNS__0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "univ-poitiers.fr./IN/MX": {
+                "answer": [
+                    {
+                        "id": "univ-poitiers.fr./IN/MX",
+                        "servers": [
+                            "194.167.50.187",
+                            "195.220.223.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "194.167.50.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.220.223.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "univ-poitiers.fr./IN/MX",
+                        "servers": [
+                            "193.51.70.11"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "193.51.70.11": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "193.51.70.11"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "univ-poitiers.fr./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "univ-poitiers.fr./IN/TXT",
+                        "servers": [
+                            "194.167.50.187",
+                            "195.220.223.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "194.167.50.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.220.223.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "univ-poitiers.fr./IN/TXT",
+                        "servers": [
+                            "193.51.70.11"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "193.51.70.11": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "univ-poitiers.fr./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "univ-poitiers.fr./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "univ-poitiers.fr./IN/SOA",
+                                "servers": [
+                                    "194.167.50.187",
+                                    "195.220.223.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.51.70.11",
+                            "194.167.50.187",
+                            "195.220.223.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "193.51.70.11": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "194.167.50.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.220.223.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "univ-poitiers.fr./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "univ-poitiers.fr./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "DNVU533QBLRA7GUKSF0QCAQ8KVG9SPC8.fr./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "HSE6LVEAKJI7RI5C4E8A03BFG5HA71AO.fr./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "193.176.144.22",
+                                    "194.0.9.1",
+                                    "194.0.36.1",
+                                    "194.146.106.46"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "fr./IN/SOA",
+                                "servers": [
+                                    "193.176.144.22",
+                                    "194.0.9.1",
+                                    "194.0.36.1",
+                                    "194.146.106.46"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.176.144.22",
+                            "194.0.9.1",
+                            "194.0.36.1",
+                            "194.146.106.46"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.176.144.22": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.0.9.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.0.36.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.146.106.46": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "univ-poitiers.fr./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "univ-poitiers.fr./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "univ-poitiers.fr./IN/SOA",
+                                "servers": [
+                                    "194.167.50.187",
+                                    "195.220.223.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.51.70.11",
+                            "194.167.50.187",
+                            "195.220.223.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "193.51.70.11": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "194.167.50.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.220.223.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "193.51.70.11"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "193.51.70.11"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ki14rqfau0.univ-poitiers.fr./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "ki14rqfau0.univ-poitiers.fr./IN/A",
+                        "soa": [
+                            {
+                                "id": "univ-poitiers.fr./IN/SOA",
+                                "servers": [
+                                    "194.167.50.187",
+                                    "195.220.223.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "194.167.50.187",
+                            "195.220.223.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "194.167.50.187": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.220.223.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The following NS name(s) did not resolve to address(es): pevele.eudil.fr",
+                    "code": "NO_ADDRESS_FOR_NS_NAME"
+                },
+                {
+                    "description": "The server(s) did not respond authoritatively for the namespace.",
+                    "code": "SERVER_NOT_AUTHORITATIVE",
+                    "servers": [
+                        "193.51.70.11"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "DNVU533QBLRA7GUKSF0QCAQ8KVG9SPC8.fr./IN/NSEC3"
+                        },
+                        {
+                            "id": "HSE6LVEAKJI7RI5C4E8A03BFG5HA71AO.fr./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "193.176.144.22",
+                        "194.0.9.1",
+                        "194.0.36.1",
+                        "194.146.106.46"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the fr zone), but not in the authoritative NS RRset: pevele.eudil.fr, nestor.iae.univ-poitiers.fr",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the fr zone): sp2mi-adm.sp2mi.univ-poitiers.fr",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for nestor.iae.univ-poitiers.fr, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

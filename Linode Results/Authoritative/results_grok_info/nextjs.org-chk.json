@@ -1,0 +1,745 @@
+{
+    "zeit.co.": {
+        "status": "NOERROR",
+        "queries": {
+            "zeit.co./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "zeit.co./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "131VNUV1MALJE6DNUD9FSAQDRQCS5I91.co./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "T7LAN0V84UO3O47VDGDOCC8F696JUMLT.co./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "37.209.192.14",
+                                    "37.209.194.14",
+                                    "37.209.196.14",
+                                    "156.154.103.25",
+                                    "156.154.104.25",
+                                    "156.154.105.25"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "co./IN/SOA",
+                                "servers": [
+                                    "37.209.192.14",
+                                    "37.209.194.14",
+                                    "37.209.196.14",
+                                    "156.154.103.25",
+                                    "156.154.104.25",
+                                    "156.154.105.25"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "37.209.192.14",
+                            "37.209.194.14",
+                            "37.209.196.14",
+                            "156.154.103.25",
+                            "156.154.104.25",
+                            "156.154.105.25"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "37.209.192.14": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.194.14": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.196.14": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "156.154.103.25": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.104.25": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "156.154.105.25": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "zeit.co./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "zeit.co./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "zeit.co./IN/SOA",
+                                "servers": [
+                                    "43.247.170.1",
+                                    "43.247.171.1",
+                                    "46.31.236.1",
+                                    "46.31.237.1",
+                                    "96.45.80.1",
+                                    "96.45.81.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "43.247.170.1",
+                            "43.247.171.1",
+                            "46.31.236.1",
+                            "46.31.237.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "43.247.171.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.237.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "131VNUV1MALJE6DNUD9FSAQDRQCS5I91.co./IN/NSEC3"
+                        },
+                        {
+                            "id": "T7LAN0V84UO3O47VDGDOCC8F696JUMLT.co./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "37.209.192.14",
+                        "37.209.194.14",
+                        "37.209.196.14",
+                        "156.154.103.25",
+                        "156.154.104.25",
+                        "156.154.105.25"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE",
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the co zone): e.zeitworld.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    },
+    "alias.zeit.co.": {
+        "status": "NOERROR",
+        "queries": {
+            "alias.zeit.co./IN/A": {
+                "answer": [
+                    {
+                        "id": "alias.zeit.co./IN/A",
+                        "servers": [
+                            "43.247.170.1",
+                            "43.247.171.1",
+                            "46.31.236.1",
+                            "46.31.237.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "43.247.171.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.237.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "alias.zeit.co./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "alias.zeit.co./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "zeit.co./IN/SOA",
+                                "servers": [
+                                    "43.247.170.1",
+                                    "43.247.171.1",
+                                    "46.31.236.1",
+                                    "46.31.237.1",
+                                    "96.45.80.1",
+                                    "96.45.81.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "43.247.170.1",
+                            "43.247.171.1",
+                            "46.31.236.1",
+                            "46.31.237.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "43.247.171.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.237.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "nextjs.org.": {
+        "status": "NOERROR",
+        "queries": {
+            "nextjs.org./IN/A": {
+                "answer": [
+                    {
+                        "id": "nextjs.org./IN/A",
+                        "servers": [
+                            "43.247.170.1",
+                            "46.31.236.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nextjs.org./IN/NS": {
+                "answer": [
+                    {
+                        "id": "nextjs.org./IN/NS",
+                        "servers": [
+                            "43.247.170.1",
+                            "46.31.236.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nextjs.org./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "nextjs.org./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "nextjs.org./IN/SOA",
+                                "servers": [
+                                    "43.247.170.1",
+                                    "46.31.236.1",
+                                    "96.45.80.1",
+                                    "96.45.81.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "43.247.170.1",
+                            "46.31.236.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nextjs.org./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "nextjs.org./IN/SOA",
+                        "servers": [
+                            "43.247.170.1",
+                            "46.31.236.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nextjs.org./IN/MX": {
+                "answer": [
+                    {
+                        "id": "nextjs.org./IN/MX",
+                        "servers": [
+                            "43.247.170.1",
+                            "46.31.236.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nextjs.org./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "nextjs.org./IN/TXT",
+                        "servers": [
+                            "43.247.170.1",
+                            "46.31.236.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nextjs.org./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "nextjs.org./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "nextjs.org./IN/SOA",
+                                "servers": [
+                                    "43.247.170.1",
+                                    "46.31.236.1",
+                                    "96.45.80.1",
+                                    "96.45.81.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "43.247.170.1",
+                            "46.31.236.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nextjs.org./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "nextjs.org./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "4GICQ7PV4Q9OJKCRSMSB07HAMLS56DP3.org./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "D6N22MFFURRKKHUP4JSCMNTSE266M0LQ.org./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "199.19.53.1",
+                                    "199.19.54.1",
+                                    "199.19.56.1",
+                                    "199.19.57.1",
+                                    "199.249.112.1",
+                                    "199.249.120.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "org./IN/SOA",
+                                "servers": [
+                                    "199.19.53.1",
+                                    "199.19.54.1",
+                                    "199.19.56.1",
+                                    "199.19.57.1",
+                                    "199.249.112.1",
+                                    "199.249.120.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "199.19.53.1",
+                            "199.19.54.1",
+                            "199.19.56.1",
+                            "199.19.57.1",
+                            "199.249.112.1",
+                            "199.249.120.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "199.19.53.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.19.54.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.19.56.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.19.57.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.249.112.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.249.120.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "nextjs.org./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "nextjs.org./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "nextjs.org./IN/SOA",
+                                "servers": [
+                                    "43.247.170.1",
+                                    "46.31.236.1",
+                                    "96.45.80.1",
+                                    "96.45.81.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "43.247.170.1",
+                            "46.31.236.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "r5cot82yl6.nextjs.org./IN/A": {
+                "answer": [
+                    {
+                        "id": "r5cot82yl6.nextjs.org./IN/CNAME",
+                        "servers": [
+                            "43.247.170.1",
+                            "46.31.236.1",
+                            "96.45.80.1",
+                            "96.45.81.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "43.247.170.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "46.31.236.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.80.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.45.81.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "4GICQ7PV4Q9OJKCRSMSB07HAMLS56DP3.org./IN/NSEC3"
+                        },
+                        {
+                            "id": "D6N22MFFURRKKHUP4JSCMNTSE266M0LQ.org./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "199.19.53.1",
+                        "199.19.54.1",
+                        "199.19.56.1",
+                        "199.19.57.1",
+                        "199.249.112.1",
+                        "199.249.120.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

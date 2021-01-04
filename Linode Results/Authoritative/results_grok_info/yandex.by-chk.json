@@ -1,0 +1,600 @@
+{
+    "yandex.ru.": {
+        "status": "NOERROR",
+        "queries": {
+            "yandex.ru./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "yandex.ru./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "QAAFRMI4D84SETNROV58NQU9685JL0HC.ru./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "TDUI9D4JKUDS8B9T86GJ39PGFLCNLGM5.ru./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "193.232.128.6",
+                                    "193.232.142.17",
+                                    "193.232.156.17",
+                                    "194.85.252.62",
+                                    "194.190.124.17"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "ru./IN/SOA",
+                                "servers": [
+                                    "193.232.128.6",
+                                    "193.232.142.17",
+                                    "193.232.156.17",
+                                    "194.85.252.62",
+                                    "194.190.124.17"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.232.128.6",
+                            "193.232.142.17",
+                            "193.232.156.17",
+                            "194.85.252.62",
+                            "194.190.124.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.232.128.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.232.142.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.232.156.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.85.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.190.124.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "yandex.ru./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "yandex.ru./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "yandex.ru./IN/SOA",
+                                "servers": [
+                                    "80.239.201.9",
+                                    "93.158.134.1",
+                                    "154.47.36.189",
+                                    "213.180.193.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "80.239.201.9",
+                            "93.158.134.1",
+                            "154.47.36.189",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "80.239.201.9": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.47.36.189": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "QAAFRMI4D84SETNROV58NQU9685JL0HC.ru./IN/NSEC3"
+                        },
+                        {
+                            "id": "TDUI9D4JKUDS8B9T86GJ39PGFLCNLGM5.ru./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "193.232.128.6",
+                        "193.232.142.17",
+                        "193.232.156.17",
+                        "194.85.252.62",
+                        "194.190.124.17"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    },
+    "any.yandex.ru.": {
+        "status": "NOERROR",
+        "queries": {
+            "any.yandex.ru./IN/A": {
+                "answer": [
+                    {
+                        "id": "any.yandex.ru./IN/A",
+                        "servers": [
+                            "80.239.201.9",
+                            "93.158.134.1",
+                            "154.47.36.189",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "80.239.201.9": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.47.36.189": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "any.yandex.ru./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "any.yandex.ru./IN/AAAA",
+                        "servers": [
+                            "80.239.201.9",
+                            "93.158.134.1",
+                            "154.47.36.189",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "80.239.201.9": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "154.47.36.189": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "yandex.by.": {
+        "status": "NOERROR",
+        "queries": {
+            "yandex.by./IN/A": {
+                "answer": [
+                    {
+                        "id": "yandex.by./IN/A",
+                        "servers": [
+                            "93.158.134.1",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "yandex.by./IN/NS": {
+                "answer": [
+                    {
+                        "id": "yandex.by./IN/NS",
+                        "servers": [
+                            "93.158.134.1",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.158.134.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "yandex.by./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "yandex.by./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "yandex.by./IN/SOA",
+                                "servers": [
+                                    "93.158.134.1",
+                                    "213.180.193.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "93.158.134.1",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "yandex.by./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "yandex.by./IN/SOA",
+                        "servers": [
+                            "93.158.134.1",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "93.158.134.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.180.193.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "yandex.by./IN/MX": {
+                "answer": [
+                    {
+                        "id": "yandex.by./IN/MX",
+                        "servers": [
+                            "93.158.134.1",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "yandex.by./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "yandex.by./IN/TXT",
+                        "servers": [
+                            "93.158.134.1",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "yandex.by./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "yandex.by./IN/AAAA",
+                        "servers": [
+                            "93.158.134.1",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "yandex.by./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "yandex.by./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "DNN94CNE5VRAQTNMT0TJL8DFVBT9LOGD.by./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "46.165.217.94",
+                                    "62.212.73.101"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "BL0E433N659IL0HSG6C9DU8AO3S2BM54.by./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "93.125.30.44",
+                                    "178.172.160.20",
+                                    "195.209.35.70"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "by./IN/SOA",
+                                "servers": [
+                                    "46.165.217.94",
+                                    "62.212.73.101"
+                                ]
+                            },
+                            {
+                                "id": "by./IN/SOA",
+                                "servers": [
+                                    "93.125.30.44",
+                                    "178.172.160.20",
+                                    "195.209.35.70"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "46.165.217.94",
+                            "62.212.73.101",
+                            "93.125.30.44",
+                            "178.172.160.20",
+                            "195.209.35.70"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "46.165.217.94": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "62.212.73.101": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "93.125.30.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "178.172.160.20": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.209.35.70": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "yandex.by./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "yandex.by./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "yandex.by./IN/SOA",
+                                "servers": [
+                                    "93.158.134.1",
+                                    "213.180.193.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "93.158.134.1",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "xo2nr8i0m4.yandex.by./IN/A": {
+                "answer": [
+                    {
+                        "id": "xo2nr8i0m4.yandex.by./IN/CNAME",
+                        "servers": [
+                            "93.158.134.1",
+                            "213.180.193.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.158.134.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "213.180.193.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "DNN94CNE5VRAQTNMT0TJL8DFVBT9LOGD.by./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "46.165.217.94",
+                        "62.212.73.101"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                },
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "BL0E433N659IL0HSG6C9DU8AO3S2BM54.by./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "93.125.30.44",
+                        "178.172.160.20",
+                        "195.209.35.70"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

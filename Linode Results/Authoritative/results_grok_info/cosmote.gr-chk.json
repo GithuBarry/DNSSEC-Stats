@@ -1,0 +1,445 @@
+{
+    "cosmote.gr.": {
+        "status": "NOERROR",
+        "queries": {
+            "cosmote.gr./IN/A": {
+                "answer": [
+                    {
+                        "id": "cosmote.gr./IN/A",
+                        "servers": [
+                            "195.167.52.2",
+                            "195.170.0.2",
+                            "195.170.2.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "195.167.52.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.0.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.2.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "cosmote.gr./IN/NS": {
+                "answer": [
+                    {
+                        "id": "cosmote.gr./IN/NS",
+                        "servers": [
+                            "195.167.52.2",
+                            "195.170.0.2",
+                            "195.170.2.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "195.167.52.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.0.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.2.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "cosmote.gr./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "cosmote.gr./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "cosmote.gr./IN/SOA",
+                                "servers": [
+                                    "195.167.52.2",
+                                    "195.170.0.2",
+                                    "195.170.2.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "195.167.52.2",
+                            "195.170.0.2",
+                            "195.170.2.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "195.167.52.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.0.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.2.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "cosmote.gr./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "cosmote.gr./IN/SOA",
+                        "servers": [
+                            "195.167.52.2",
+                            "195.170.0.2",
+                            "195.170.2.1"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "195.167.52.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.0.2": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "195.170.2.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "195.167.52.2"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "cosmote.gr./IN/MX": {
+                "answer": [
+                    {
+                        "id": "cosmote.gr./IN/MX",
+                        "servers": [
+                            "195.167.52.2",
+                            "195.170.0.2",
+                            "195.170.2.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "195.167.52.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.0.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.2.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "cosmote.gr./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "cosmote.gr./IN/TXT",
+                        "servers": [
+                            "195.167.52.2",
+                            "195.170.0.2",
+                            "195.170.2.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "195.167.52.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.0.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.2.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "cosmote.gr./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "cosmote.gr./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "cosmote.gr./IN/SOA",
+                                "servers": [
+                                    "195.167.52.2",
+                                    "195.170.0.2",
+                                    "195.170.2.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "195.167.52.2",
+                            "195.170.0.2",
+                            "195.170.2.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "195.167.52.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.0.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.2.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "cosmote.gr./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "cosmote.gr./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "E5HOUSD976JC4SBDH69JCEJIB7H0FH77.gr./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "VDEHMLJP3NEH6F2K4TN9FPIKICJ81SEL.gr./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "78.104.145.227",
+                                    "139.91.1.1",
+                                    "139.91.191.3",
+                                    "194.0.1.25",
+                                    "194.0.4.10",
+                                    "194.0.11.102"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "gr./IN/SOA",
+                                "servers": [
+                                    "78.104.145.227",
+                                    "139.91.1.1",
+                                    "139.91.191.3",
+                                    "194.0.1.25",
+                                    "194.0.4.10",
+                                    "194.0.11.102"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "78.104.145.227",
+                            "139.91.1.1",
+                            "139.91.191.3",
+                            "194.0.1.25",
+                            "194.0.4.10",
+                            "194.0.11.102"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "78.104.145.227": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "139.91.1.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "139.91.191.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.0.1.25": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.4.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.0.11.102": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "cosmote.gr./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "cosmote.gr./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "cosmote.gr./IN/SOA",
+                                "servers": [
+                                    "195.167.52.2",
+                                    "195.170.0.2",
+                                    "195.170.2.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "195.167.52.2",
+                            "195.170.0.2",
+                            "195.170.2.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "195.167.52.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.0.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.2.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gvkp5taorj.cosmote.gr./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "gvkp5taorj.cosmote.gr./IN/A",
+                        "soa": [
+                            {
+                                "id": "cosmote.gr./IN/SOA",
+                                "servers": [
+                                    "195.167.52.2",
+                                    "195.170.0.2",
+                                    "195.170.2.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "195.167.52.2",
+                            "195.170.0.2",
+                            "195.170.2.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "195.167.52.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.0.2": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "195.170.2.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "195.167.52.2"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "E5HOUSD976JC4SBDH69JCEJIB7H0FH77.gr./IN/NSEC3"
+                        },
+                        {
+                            "id": "VDEHMLJP3NEH6F2K4TN9FPIKICJ81SEL.gr./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "78.104.145.227",
+                        "139.91.1.1",
+                        "139.91.191.3",
+                        "194.0.1.25",
+                        "194.0.4.10",
+                        "194.0.11.102"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

@@ -1,0 +1,434 @@
+{
+    "ubc.ca.": {
+        "status": "NOERROR",
+        "queries": {
+            "ubc.ca./IN/A": {
+                "answer": [
+                    {
+                        "id": "ubc.ca./IN/A",
+                        "servers": [
+                            "128.100.72.90",
+                            "137.82.1.1",
+                            "142.103.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "128.100.72.90": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "137.82.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "142.103.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ubc.ca./IN/NS": {
+                "answer": [
+                    {
+                        "id": "ubc.ca./IN/NS",
+                        "servers": [
+                            "128.100.72.90",
+                            "137.82.1.1",
+                            "142.103.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "128.100.72.90": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "137.82.1.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "142.103.1.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ubc.ca./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "ubc.ca./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "ubc.ca./IN/SOA",
+                                "servers": [
+                                    "128.100.72.90",
+                                    "137.82.1.1",
+                                    "142.103.1.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "128.100.72.90",
+                            "137.82.1.1",
+                            "142.103.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "128.100.72.90": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "137.82.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "142.103.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ubc.ca./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "ubc.ca./IN/SOA",
+                        "servers": [
+                            "128.100.72.90",
+                            "137.82.1.1",
+                            "142.103.1.1"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "128.100.72.90": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "137.82.1.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "142.103.1.1": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "128.100.72.90"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "ubc.ca./IN/MX": {
+                "answer": [
+                    {
+                        "id": "ubc.ca./IN/MX",
+                        "servers": [
+                            "128.100.72.90",
+                            "137.82.1.1",
+                            "142.103.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "128.100.72.90": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "137.82.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "142.103.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ubc.ca./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "ubc.ca./IN/TXT",
+                        "servers": [
+                            "128.100.72.90",
+                            "137.82.1.1",
+                            "142.103.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "128.100.72.90": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "137.82.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "142.103.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ubc.ca./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "ubc.ca./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "ubc.ca./IN/SOA",
+                                "servers": [
+                                    "128.100.72.90",
+                                    "137.82.1.1",
+                                    "142.103.1.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "128.100.72.90",
+                            "137.82.1.1",
+                            "142.103.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "128.100.72.90": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "137.82.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "142.103.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ubc.ca./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "ubc.ca./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "EQB8H0N7GSCUU6DPD8FSJ8CQDR4SDCUI.ca./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "T8K75I4TJ36JF102O518IR5Q4L99KMQM.ca./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "185.159.196.2",
+                                    "198.182.167.1",
+                                    "199.4.144.2",
+                                    "199.253.250.68"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "ca./IN/SOA",
+                                "servers": [
+                                    "185.159.196.2",
+                                    "199.4.144.2",
+                                    "199.253.250.68"
+                                ]
+                            },
+                            {
+                                "id": "ca./IN/SOA",
+                                "servers": [
+                                    "198.182.167.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "185.159.196.2",
+                            "198.182.167.1",
+                            "199.4.144.2",
+                            "199.253.250.68"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.159.196.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "198.182.167.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.4.144.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "199.253.250.68": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ubc.ca./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "ubc.ca./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "ubc.ca./IN/SOA",
+                                "servers": [
+                                    "128.100.72.90",
+                                    "137.82.1.1",
+                                    "142.103.1.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "128.100.72.90",
+                            "137.82.1.1",
+                            "142.103.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "128.100.72.90": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "137.82.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "142.103.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "kuvmxzbgw0.ubc.ca./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "kuvmxzbgw0.ubc.ca./IN/A",
+                        "soa": [
+                            {
+                                "id": "ubc.ca./IN/SOA",
+                                "servers": [
+                                    "128.100.72.90",
+                                    "137.82.1.1",
+                                    "142.103.1.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "128.100.72.90",
+                            "137.82.1.1",
+                            "142.103.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "128.100.72.90": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "137.82.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "142.103.1.1": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "128.100.72.90"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "EQB8H0N7GSCUU6DPD8FSJ8CQDR4SDCUI.ca./IN/NSEC3"
+                        },
+                        {
+                            "id": "T8K75I4TJ36JF102O518IR5Q4L99KMQM.ca./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "185.159.196.2",
+                        "198.182.167.1",
+                        "199.4.144.2",
+                        "199.253.250.68"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

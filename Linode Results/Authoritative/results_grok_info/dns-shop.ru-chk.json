@@ -1,0 +1,452 @@
+{
+    "dns-shop.ru.": {
+        "status": "NOERROR",
+        "queries": {
+            "dns-shop.ru./IN/A": {
+                "answer": [
+                    {
+                        "id": "dns-shop.ru./IN/A",
+                        "servers": [
+                            "88.212.246.180",
+                            "89.111.180.31",
+                            "178.248.235.131"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "88.212.246.180": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "89.111.180.31": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "178.248.235.131": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dns-shop.ru./IN/NS": {
+                "answer": [
+                    {
+                        "id": "dns-shop.ru./IN/NS",
+                        "servers": [
+                            "88.212.246.180",
+                            "89.111.180.31",
+                            "178.248.235.131"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "88.212.246.180": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "89.111.180.31": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "178.248.235.131": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response (131 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "178.248.235.131"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dns-shop.ru./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "dns-shop.ru./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "dns-shop.ru./IN/SOA",
+                                "servers": [
+                                    "88.212.246.180",
+                                    "89.111.180.31",
+                                    "178.248.235.131"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "88.212.246.180",
+                            "89.111.180.31",
+                            "178.248.235.131"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "88.212.246.180": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "89.111.180.31": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "178.248.235.131": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dns-shop.ru./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "dns-shop.ru./IN/SOA",
+                        "servers": [
+                            "88.212.246.180",
+                            "89.111.180.31",
+                            "178.248.235.131"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "TCP_-_NOEDNS_",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20",
+                            "UDP_-_NOEDNS_",
+                            "UDP_-_NOEDNS__0x20"
+                        ],
+                        "cookie_status": {
+                            "88.212.246.180": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "89.111.180.31": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "178.248.235.131": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response (183 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "178.248.235.131"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The response (172 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "178.248.235.131"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response (172 bytes) was malformed until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "178.248.235.131"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dns-shop.ru./IN/MX": {
+                "answer": [
+                    {
+                        "id": "dns-shop.ru./IN/MX",
+                        "servers": [
+                            "88.212.246.180",
+                            "89.111.180.31",
+                            "178.248.235.131"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "88.212.246.180": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "89.111.180.31": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "178.248.235.131": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dns-shop.ru./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "dns-shop.ru./IN/TXT",
+                        "servers": [
+                            "88.212.246.180",
+                            "89.111.180.31",
+                            "178.248.235.131"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "88.212.246.180": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "89.111.180.31": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "178.248.235.131": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dns-shop.ru./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "dns-shop.ru./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "dns-shop.ru./IN/SOA",
+                                "servers": [
+                                    "88.212.246.180",
+                                    "89.111.180.31",
+                                    "178.248.235.131"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "88.212.246.180",
+                            "89.111.180.31",
+                            "178.248.235.131"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "88.212.246.180": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "89.111.180.31": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "178.248.235.131": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dns-shop.ru./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "dns-shop.ru./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "TDUI9D4JKUDS8B9T86GJ39PGFLCNLGM5.ru./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "DQATV8F2581JFI6G94617BBSGTLUGAE6.ru./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "193.232.128.6",
+                                    "193.232.142.17",
+                                    "193.232.156.17",
+                                    "194.85.252.62",
+                                    "194.190.124.17"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "ru./IN/SOA",
+                                "servers": [
+                                    "193.232.128.6",
+                                    "193.232.142.17",
+                                    "193.232.156.17",
+                                    "194.85.252.62",
+                                    "194.190.124.17"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.232.128.6",
+                            "193.232.142.17",
+                            "193.232.156.17",
+                            "194.85.252.62",
+                            "194.190.124.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.232.128.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.232.142.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.232.156.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.85.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.190.124.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dns-shop.ru./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "dns-shop.ru./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "dns-shop.ru./IN/SOA",
+                                "servers": [
+                                    "88.212.246.180",
+                                    "89.111.180.31",
+                                    "178.248.235.131"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "88.212.246.180",
+                            "89.111.180.31",
+                            "178.248.235.131"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "88.212.246.180": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "89.111.180.31": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "178.248.235.131": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "fk9srb25el.dns-shop.ru./IN/A": {
+                "answer": [
+                    {
+                        "id": "fk9srb25el.dns-shop.ru./IN/CNAME",
+                        "servers": [
+                            "88.212.246.180",
+                            "89.111.180.31",
+                            "178.248.235.131"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "88.212.246.180": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "89.111.180.31": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "178.248.235.131": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "TDUI9D4JKUDS8B9T86GJ39PGFLCNLGM5.ru./IN/NSEC3"
+                        },
+                        {
+                            "id": "DQATV8F2581JFI6G94617BBSGTLUGAE6.ru./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "193.232.128.6",
+                        "193.232.142.17",
+                        "193.232.156.17",
+                        "194.85.252.62",
+                        "194.190.124.17"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

@@ -1,0 +1,666 @@
+{
+    "lne.es.": {
+        "status": "NOERROR",
+        "queries": {
+            "lne.es./IN/A": {
+                "answer": [
+                    {
+                        "id": "lne.es./IN/A",
+                        "servers": [
+                            "213.0.95.2",
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "213.0.95.2",
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lne.es./IN/NS": {
+                "answer": [
+                    {
+                        "id": "lne.es./IN/NS",
+                        "servers": [
+                            "213.0.95.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "213.0.95.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "lne.es./IN/NS",
+                        "servers": [
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lne.es./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "lne.es./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "lne.es./IN/SOA",
+                                "servers": [
+                                    "213.0.95.2",
+                                    "213.4.119.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "213.0.95.2",
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "213.0.95.2",
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lne.es./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "lne.es./IN/SOA",
+                        "servers": [
+                            "213.0.95.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "213.0.95.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "lne.es./IN/SOA",
+                        "servers": [
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "lne.es./IN/SOA",
+                        "servers": [
+                            "213.0.95.2",
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "INVALID_SERVER_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "213.0.95.2",
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "213.0.95.2",
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "lne.es./IN/MX": {
+                "answer": [
+                    {
+                        "id": "lne.es./IN/MX",
+                        "servers": [
+                            "213.0.95.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "213.0.95.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "lne.es./IN/MX",
+                        "servers": [
+                            "213.0.95.2",
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "213.0.95.2",
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lne.es./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "lne.es./IN/TXT",
+                        "servers": [
+                            "213.0.95.2",
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "213.0.95.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lne.es./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "lne.es./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "lne.es./IN/SOA",
+                                "servers": [
+                                    "213.0.95.2",
+                                    "213.4.119.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "213.0.95.2",
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            },
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "213.0.95.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lne.es./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "lne.es./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "DLNSMTCEAU1R2BMSQE7VG2VHE5AKCGH1.es./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "4JI57VL8GVPOTMUJ8MPESPM4ST9CDEUE.es./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "84.88.0.3",
+                                    "130.206.1.7",
+                                    "194.0.9.1",
+                                    "194.0.33.53",
+                                    "194.69.254.1",
+                                    "200.7.5.14",
+                                    "204.61.217.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "es./IN/SOA",
+                                "servers": [
+                                    "84.88.0.3",
+                                    "130.206.1.7",
+                                    "194.0.9.1",
+                                    "194.0.33.53",
+                                    "194.69.254.1",
+                                    "200.7.5.14",
+                                    "204.61.217.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "84.88.0.3",
+                            "130.206.1.7",
+                            "194.0.9.1",
+                            "194.0.33.53",
+                            "194.69.254.1",
+                            "200.7.5.14",
+                            "204.61.217.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "84.88.0.3": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "130.206.1.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.9.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.0.33.53": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "194.69.254.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "200.7.5.14": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "204.61.217.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "lne.es./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "lne.es./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "lne.es./IN/SOA",
+                                "servers": [
+                                    "213.0.95.2"
+                                ]
+                            },
+                            {
+                                "id": "lne.es./IN/SOA",
+                                "servers": [
+                                    "213.4.119.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "213.0.95.2",
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "213.0.95.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "l2zxncf5d9.lne.es./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "l2zxncf5d9.lne.es./IN/A",
+                        "soa": [
+                            {
+                                "id": "lne.es./IN/SOA",
+                                "servers": [
+                                    "213.0.95.2",
+                                    "213.4.119.2"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "213.0.95.2",
+                            "213.4.119.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "213.0.95.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "213.4.119.2": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "213.0.95.2",
+                                    "213.4.119.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "213.0.95.2",
+                        "213.4.119.2"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "DLNSMTCEAU1R2BMSQE7VG2VHE5AKCGH1.es./IN/NSEC3"
+                        },
+                        {
+                            "id": "4JI57VL8GVPOTMUJ8MPESPM4ST9CDEUE.es./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "84.88.0.3",
+                        "130.206.1.7",
+                        "194.0.9.1",
+                        "194.0.33.53",
+                        "194.69.254.1",
+                        "200.7.5.14",
+                        "204.61.217.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

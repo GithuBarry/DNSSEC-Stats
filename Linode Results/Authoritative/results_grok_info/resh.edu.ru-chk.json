@@ -1,0 +1,256 @@
+{
+    "edu.ru.": {
+        "status": "NOERROR",
+        "queries": {
+            "edu.ru./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "edu.ru./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "TDUI9D4JKUDS8B9T86GJ39PGFLCNLGM5.ru./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "7N45CJMQQRBG6SFQ24SFGAJ8EH0DPOHU.ru./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "193.232.128.6",
+                                    "193.232.142.17",
+                                    "193.232.156.17",
+                                    "194.85.252.62",
+                                    "194.190.124.17"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "ru./IN/SOA",
+                                "servers": [
+                                    "193.232.128.6",
+                                    "193.232.142.17",
+                                    "193.232.156.17",
+                                    "194.85.252.62",
+                                    "194.190.124.17"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "193.232.128.6",
+                            "193.232.142.17",
+                            "193.232.156.17",
+                            "194.85.252.62",
+                            "194.190.124.17"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.232.128.6": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.232.142.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.232.156.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.85.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.190.124.17": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "edu.ru./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "edu.ru./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "edu.ru./IN/SOA",
+                                "servers": [
+                                    "93.180.0.1",
+                                    "193.233.1.67",
+                                    "194.85.32.18",
+                                    "194.190.241.65",
+                                    "194.226.215.65"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "93.180.0.1",
+                            "193.233.1.67",
+                            "194.85.32.18",
+                            "194.190.241.65",
+                            "194.226.215.65"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.180.0.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.233.1.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.85.32.18": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.190.241.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.226.215.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "TDUI9D4JKUDS8B9T86GJ39PGFLCNLGM5.ru./IN/NSEC3"
+                        },
+                        {
+                            "id": "7N45CJMQQRBG6SFQ24SFGAJ8EH0DPOHU.ru./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "193.232.128.6",
+                        "193.232.142.17",
+                        "193.232.156.17",
+                        "194.85.252.62",
+                        "194.190.124.17"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    },
+    "resh.edu.ru.": {
+        "status": "NOERROR",
+        "queries": {
+            "resh.edu.ru./IN/A": {
+                "answer": [
+                    {
+                        "id": "resh.edu.ru./IN/A",
+                        "servers": [
+                            "93.180.0.1",
+                            "193.233.1.67",
+                            "194.85.32.18",
+                            "194.190.241.65",
+                            "194.226.215.65"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.180.0.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.233.1.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.85.32.18": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.190.241.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.226.215.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "resh.edu.ru./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "resh.edu.ru./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "edu.ru./IN/SOA",
+                                "servers": [
+                                    "93.180.0.1",
+                                    "193.233.1.67",
+                                    "194.85.32.18",
+                                    "194.190.241.65",
+                                    "194.226.215.65"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "93.180.0.1",
+                            "193.233.1.67",
+                            "194.85.32.18",
+                            "194.190.241.65",
+                            "194.226.215.65"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "93.180.0.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.233.1.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.85.32.18": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.190.241.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.226.215.65": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

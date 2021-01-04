@@ -1,0 +1,604 @@
+{
+    "chilexpress.cl.": {
+        "status": "NOERROR",
+        "queries": {
+            "chilexpress.cl./IN/A": {
+                "answer": [
+                    {
+                        "id": "chilexpress.cl./IN/A",
+                        "servers": [
+                            "190.54.35.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "chilexpress.cl./IN/A",
+                        "servers": [
+                            "200.7.5.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.7.5.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "chilexpress.cl./IN/NS": {
+                "answer": [
+                    {
+                        "id": "chilexpress.cl./IN/NS",
+                        "servers": [
+                            "190.54.35.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "chilexpress.cl./IN/NS",
+                        "servers": [
+                            "200.7.5.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.7.5.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "chilexpress.cl./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "chilexpress.cl./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "chilexpress.cl./IN/SOA",
+                                "servers": [
+                                    "190.54.35.245"
+                                ]
+                            },
+                            {
+                                "id": "chilexpress.cl./IN/SOA",
+                                "servers": [
+                                    "200.7.5.7"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "190.54.35.245",
+                            "200.7.5.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "200.7.5.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "chilexpress.cl./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "chilexpress.cl./IN/SOA",
+                        "servers": [
+                            "190.54.35.245"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_NOEDNS_",
+                            "UDP_-_NOEDNS__0x20"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "chilexpress.cl./IN/SOA",
+                        "servers": [
+                            "190.54.35.245",
+                            "200.7.5.7"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "200.7.5.7": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "chilexpress.cl./IN/MX": {
+                "answer": [
+                    {
+                        "id": "chilexpress.cl./IN/MX",
+                        "servers": [
+                            "190.54.35.245",
+                            "200.7.5.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "200.7.5.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "190.54.35.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "chilexpress.cl./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "chilexpress.cl./IN/TXT",
+                        "servers": [
+                            "190.54.35.245"
+                        ],
+                        "query_options": [
+                            "TCP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "chilexpress.cl./IN/TXT",
+                        "servers": [
+                            "200.7.5.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "200.7.5.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "chilexpress.cl./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "chilexpress.cl./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "chilexpress.cl./IN/SOA",
+                                "servers": [
+                                    "190.54.35.245"
+                                ]
+                            },
+                            {
+                                "id": "chilexpress.cl./IN/SOA",
+                                "servers": [
+                                    "200.7.5.7"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "190.54.35.245",
+                            "200.7.5.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "200.7.5.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "chilexpress.cl./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "chilexpress.cl./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "9MH9EL31OKVK3S9NULDH2OETLTDPFJJL.cl./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "U0PDVUVDC1LE2EU5F6P9HJLFACCR4NVM.cl./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "185.159.197.56",
+                                    "185.159.198.56",
+                                    "190.124.27.10",
+                                    "194.146.106.34",
+                                    "200.7.4.7",
+                                    "200.16.112.16",
+                                    "204.61.216.30"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "cl./IN/SOA",
+                                "servers": [
+                                    "185.159.197.56",
+                                    "185.159.198.56",
+                                    "190.124.27.10",
+                                    "194.146.106.34",
+                                    "200.7.4.7",
+                                    "200.16.112.16"
+                                ]
+                            },
+                            {
+                                "id": "cl./IN/SOA",
+                                "servers": [
+                                    "204.61.216.30"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "185.159.197.56",
+                            "185.159.198.56",
+                            "190.124.27.10",
+                            "194.146.106.34",
+                            "200.7.4.7",
+                            "200.16.112.16",
+                            "204.61.216.30"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "185.159.197.56": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "185.159.198.56": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "190.124.27.10": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.146.106.34": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.7.4.7": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            },
+                            "200.16.112.16": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "204.61.216.30": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        }
+                    }
+                ]
+            },
+            "chilexpress.cl./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "chilexpress.cl./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "chilexpress.cl./IN/SOA",
+                                "servers": [
+                                    "190.54.35.245"
+                                ]
+                            },
+                            {
+                                "id": "chilexpress.cl./IN/SOA",
+                                "servers": [
+                                    "200.7.5.7"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "190.54.35.245",
+                            "200.7.5.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "200.7.5.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "190.54.35.245"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ds6npy9t1o.chilexpress.cl./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "ds6npy9t1o.chilexpress.cl./IN/A",
+                        "soa": [
+                            {
+                                "id": "chilexpress.cl./IN/SOA",
+                                "servers": [
+                                    "190.54.35.245"
+                                ]
+                            },
+                            {
+                                "id": "chilexpress.cl./IN/SOA",
+                                "servers": [
+                                    "200.7.5.7"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "190.54.35.245",
+                            "200.7.5.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_NOEDNS_"
+                        ],
+                        "cookie_status": {
+                            "190.54.35.245": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_EDNS"
+                            },
+                            "200.7.5.7": {
+                                "request": "VALID_SERVER_COOKIE",
+                                "response": "CLIENT_AND_SERVER_COOKIE"
+                            }
+                        },
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "190.54.35.245"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "9MH9EL31OKVK3S9NULDH2OETLTDPFJJL.cl./IN/NSEC3"
+                        },
+                        {
+                            "id": "U0PDVUVDC1LE2EU5F6P9HJLFACCR4NVM.cl./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "185.159.197.56",
+                        "185.159.198.56",
+                        "190.124.27.10",
+                        "194.146.106.34",
+                        "200.7.4.7",
+                        "200.16.112.16",
+                        "204.61.216.30"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}

@@ -1,0 +1,226 @@
+{
+    "gov.tm.": {
+        "status": "NOERROR",
+        "queries": {
+            "gov.tm./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "gov.tm./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "KTS9NO7MUGPNE5MDH9FRJGUONDJJDD62.tm./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "C568LJ4CL1U4JK8DLA6BL86DTAH8B2Q9.tm./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "64.251.31.180",
+                                    "74.116.178.22",
+                                    "74.116.179.22",
+                                    "80.249.100.44",
+                                    "91.208.95.22",
+                                    "194.0.1.22",
+                                    "194.0.2.22"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "tm./IN/SOA",
+                                "servers": [
+                                    "64.251.31.180",
+                                    "74.116.178.22",
+                                    "80.249.100.44",
+                                    "91.208.95.22",
+                                    "194.0.1.22"
+                                ]
+                            },
+                            {
+                                "id": "tm./IN/SOA",
+                                "servers": [
+                                    "74.116.179.22",
+                                    "194.0.2.22"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "64.251.31.180",
+                            "74.116.178.22",
+                            "74.116.179.22",
+                            "80.249.100.44",
+                            "91.208.95.22",
+                            "194.0.1.22",
+                            "194.0.2.22"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "64.251.31.180": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "74.116.178.22": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "74.116.179.22": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "80.249.100.44": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "91.208.95.22": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.1.22": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.2.22": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "gov.tm./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "gov.tm./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "gov.tm./IN/SOA",
+                                "servers": [
+                                    "217.174.238.141",
+                                    "217.174.239.141"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "217.174.238.141",
+                            "217.174.239.141"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "217.174.238.141": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.174.239.141": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "KTS9NO7MUGPNE5MDH9FRJGUONDJJDD62.tm./IN/NSEC3"
+                        },
+                        {
+                            "id": "C568LJ4CL1U4JK8DLA6BL86DTAH8B2Q9.tm./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "64.251.31.180",
+                        "74.116.178.22",
+                        "74.116.179.22",
+                        "80.249.100.44",
+                        "91.208.95.22",
+                        "194.0.1.22",
+                        "194.0.2.22"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    },
+    "tdh.gov.tm.": {
+        "status": "NOERROR",
+        "queries": {
+            "tdh.gov.tm./IN/A": {
+                "answer": [
+                    {
+                        "id": "tdh.gov.tm./IN/A",
+                        "servers": [
+                            "217.174.238.141",
+                            "217.174.239.141"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "217.174.238.141": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.174.239.141": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "tdh.gov.tm./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "tdh.gov.tm./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "gov.tm./IN/SOA",
+                                "servers": [
+                                    "217.174.238.141",
+                                    "217.174.239.141"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "217.174.238.141",
+                            "217.174.239.141"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "217.174.238.141": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "217.174.239.141": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

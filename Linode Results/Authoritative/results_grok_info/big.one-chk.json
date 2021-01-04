@@ -1,0 +1,904 @@
+{
+    "big.one.": {
+        "status": "NOERROR",
+        "queries": {
+            "big.one./IN/A": {
+                "answer": [
+                    {
+                        "id": "big.one./IN/A",
+                        "rrsig": [
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "2.16.40.67"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "96.7.50.67"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "95.100.168.67"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "193.108.91.144"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "2.22.230.67"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "23.211.61.67"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "2.16.40.67",
+                            "2.22.230.67",
+                            "23.211.61.67",
+                            "95.100.168.67",
+                            "96.7.50.67",
+                            "193.108.91.144"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "2.16.40.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "2.22.230.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "23.211.61.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "95.100.168.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.7.50.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.108.91.144": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "big.one./IN/NS": {
+                "answer": [
+                    {
+                        "id": "big.one./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "2.16.40.67",
+                            "2.22.230.67",
+                            "23.211.61.67",
+                            "95.100.168.67",
+                            "96.7.50.67",
+                            "193.108.91.144"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "2.16.40.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "2.22.230.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "23.211.61.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "95.100.168.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.7.50.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.108.91.144": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "big.one./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "big.one./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "8SQD1UVKPPP8K94RV0TH8JMJDVCPQB4H.big.one./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "big.one./13/20132",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "2.16.40.67",
+                                                    "2.22.230.67",
+                                                    "23.211.61.67",
+                                                    "95.100.168.67",
+                                                    "96.7.50.67",
+                                                    "193.108.91.144"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "big.one./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "big.one./13/20132",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "2.16.40.67",
+                                            "2.22.230.67",
+                                            "23.211.61.67",
+                                            "95.100.168.67",
+                                            "96.7.50.67",
+                                            "193.108.91.144"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "2.16.40.67",
+                            "2.22.230.67",
+                            "23.211.61.67",
+                            "95.100.168.67",
+                            "96.7.50.67",
+                            "193.108.91.144"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "2.16.40.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "2.22.230.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "23.211.61.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "95.100.168.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.7.50.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.108.91.144": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "big.one./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "big.one./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "2.16.40.67",
+                            "2.22.230.67",
+                            "23.211.61.67",
+                            "95.100.168.67",
+                            "96.7.50.67",
+                            "193.108.91.144"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "2.16.40.67": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "2.22.230.67": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "23.211.61.67": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "95.100.168.67": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.7.50.67": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.108.91.144": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "big.one./IN/MX": {
+                "answer": [
+                    {
+                        "id": "big.one./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "2.16.40.67",
+                            "2.22.230.67",
+                            "23.211.61.67",
+                            "95.100.168.67",
+                            "96.7.50.67",
+                            "193.108.91.144"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "2.16.40.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "2.22.230.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "23.211.61.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "95.100.168.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.7.50.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.108.91.144": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "big.one./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "big.one./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "big.one./13/20132",
+                                "status": "VALID",
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "2.16.40.67",
+                            "2.22.230.67",
+                            "23.211.61.67",
+                            "95.100.168.67",
+                            "96.7.50.67",
+                            "193.108.91.144"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "2.16.40.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "2.22.230.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "23.211.61.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "95.100.168.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.7.50.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.108.91.144": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "big.one./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "big.one./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "8SQD1UVKPPP8K94RV0TH8JMJDVCPQB4H.big.one./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "big.one./13/20132",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "2.16.40.67",
+                                                    "2.22.230.67",
+                                                    "23.211.61.67",
+                                                    "95.100.168.67",
+                                                    "96.7.50.67",
+                                                    "193.108.91.144"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "big.one./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "big.one./13/20132",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "2.16.40.67",
+                                            "2.22.230.67",
+                                            "23.211.61.67",
+                                            "95.100.168.67",
+                                            "96.7.50.67",
+                                            "193.108.91.144"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "2.16.40.67",
+                            "2.22.230.67",
+                            "23.211.61.67",
+                            "95.100.168.67",
+                            "96.7.50.67",
+                            "193.108.91.144"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "2.16.40.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "2.22.230.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "23.211.61.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "95.100.168.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.7.50.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.108.91.144": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "big.one./IN/DS": {
+                "answer": [
+                    {
+                        "id": "big.one./IN/DS",
+                        "servers": [
+                            "37.209.192.9",
+                            "37.209.194.9",
+                            "37.209.196.9",
+                            "37.209.198.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "37.209.192.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.194.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.196.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "37.209.198.9": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "big.one./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "big.one./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "big.one./13/7281",
+                                "status": "VALID",
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "2.16.40.67",
+                            "2.22.230.67",
+                            "23.211.61.67",
+                            "95.100.168.67",
+                            "96.7.50.67",
+                            "193.108.91.144"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "2.16.40.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "2.22.230.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "23.211.61.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "95.100.168.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.7.50.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.108.91.144": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "bdu01qxptj.big.one./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "bdu01qxptj.big.one./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "5SCLOL1U5EUQUKV8UO67L8NGL6AA1USN.big.one./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "big.one./13/20132",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "2.16.40.67",
+                                                    "2.22.230.67",
+                                                    "23.211.61.67",
+                                                    "95.100.168.67",
+                                                    "96.7.50.67",
+                                                    "193.108.91.144"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "8SQD1UVKPPP8K94RV0TH8JMJDVCPQB4H.big.one./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "big.one./13/20132",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "2.16.40.67",
+                                                    "2.22.230.67",
+                                                    "23.211.61.67",
+                                                    "95.100.168.67",
+                                                    "96.7.50.67",
+                                                    "193.108.91.144"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "L4UPPMB6V3VJU8ELEVAULEN7TJ82TJDF.big.one./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "big.one./13/20132",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "2.16.40.67",
+                                                    "2.22.230.67",
+                                                    "23.211.61.67",
+                                                    "95.100.168.67",
+                                                    "96.7.50.67",
+                                                    "193.108.91.144"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "big.one./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "big.one./13/20132",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "2.16.40.67",
+                                            "2.22.230.67",
+                                            "23.211.61.67",
+                                            "95.100.168.67",
+                                            "96.7.50.67",
+                                            "193.108.91.144"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "2.16.40.67",
+                                    "2.22.230.67",
+                                    "23.211.61.67",
+                                    "95.100.168.67",
+                                    "96.7.50.67",
+                                    "193.108.91.144"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "2.16.40.67",
+                            "2.22.230.67",
+                            "23.211.61.67",
+                            "95.100.168.67",
+                            "96.7.50.67",
+                            "193.108.91.144"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "2.16.40.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "2.22.230.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "23.211.61.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "95.100.168.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "96.7.50.67": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "193.108.91.144": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "13/7281",
+                "servers": [
+                    "2.16.40.67",
+                    "2.22.230.67",
+                    "23.211.61.67",
+                    "95.100.168.67",
+                    "96.7.50.67",
+                    "193.108.91.144"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K",
+                    "UDP_-_EDNS0_512_D_K"
+                ]
+            },
+            {
+                "id": "13/20132",
+                "servers": [
+                    "2.16.40.67",
+                    "2.22.230.67",
+                    "23.211.61.67",
+                    "95.100.168.67",
+                    "96.7.50.67",
+                    "193.108.91.144"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K",
+                    "UDP_-_EDNS0_512_D_K"
+                ]
+            },
+            {
+                "id": "13/41116",
+                "servers": [
+                    "2.16.40.67",
+                    "2.22.230.67",
+                    "23.211.61.67",
+                    "95.100.168.67",
+                    "96.7.50.67",
+                    "193.108.91.144"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K",
+                    "UDP_-_EDNS0_512_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "13/7281/2",
+                    "status": "VALID",
+                    "servers": [
+                        "37.209.192.9",
+                        "37.209.194.9",
+                        "37.209.196.9",
+                        "37.209.198.9"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

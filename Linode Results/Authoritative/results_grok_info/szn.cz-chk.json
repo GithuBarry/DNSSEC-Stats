@@ -1,0 +1,747 @@
+{
+    "szn.cz.": {
+        "status": "NOERROR",
+        "queries": {
+            "szn.cz./IN/A": {
+                "nodata": [
+                    {
+                        "id": "szn.cz./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "VOOO1J747DG0RFRI7R4DOKCAUGONGLA5.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.74.80"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "17K6J4FLEL1CC6DKDC287PEPVMDOOH0L.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.75.230"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "szn.cz./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "szn.cz./13/3119",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "77.75.74.80"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "szn.cz./13/3119",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "77.75.75.230"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "77.75.74.80",
+                            "77.75.75.230"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "77.75.74.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "77.75.75.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "szn.cz./IN/NS": {
+                "answer": [
+                    {
+                        "id": "szn.cz./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "szn.cz./13/3119",
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "77.75.74.80",
+                            "77.75.75.230"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "77.75.74.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "77.75.75.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "szn.cz./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "szn.cz./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "VOOO1J747DG0RFRI7R4DOKCAUGONGLA5.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.74.80",
+                                                    "77.75.75.230"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "szn.cz./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "szn.cz./13/3119",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "77.75.74.80",
+                                            "77.75.75.230"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "77.75.74.80",
+                            "77.75.75.230"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "77.75.74.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "77.75.75.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "szn.cz./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "szn.cz./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "szn.cz./13/3119",
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "id": "szn.cz./13/3119",
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "77.75.74.80",
+                            "77.75.75.230"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "77.75.74.80": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "77.75.75.230": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "szn.cz./IN/MX": {
+                "answer": [
+                    {
+                        "id": "szn.cz./IN/MX",
+                        "rrsig": [
+                            {
+                                "id": "szn.cz./13/3119",
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "id": "szn.cz./13/3119",
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "77.75.74.80",
+                            "77.75.75.230"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "77.75.74.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "77.75.75.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "szn.cz./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "szn.cz./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "szn.cz./13/3119",
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "77.75.74.80",
+                            "77.75.75.230"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "77.75.74.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "77.75.75.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "szn.cz./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "szn.cz./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "17K6J4FLEL1CC6DKDC287PEPVMDOOH0L.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.74.80",
+                                                    "77.75.75.230"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "szn.cz./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "szn.cz./13/3119",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "77.75.74.80",
+                                            "77.75.75.230"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "77.75.74.80",
+                            "77.75.75.230"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "77.75.74.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "77.75.75.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "szn.cz./IN/DS": {
+                "answer": [
+                    {
+                        "id": "szn.cz./IN/DS",
+                        "servers": [
+                            "193.29.206.1",
+                            "194.0.12.1",
+                            "194.0.13.1",
+                            "194.0.14.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "193.29.206.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.12.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.13.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "194.0.14.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "szn.cz./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "szn.cz./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "szn.cz./13/51575",
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "id": "szn.cz./13/51575",
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "77.75.74.80",
+                            "77.75.75.230"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "77.75.74.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "77.75.75.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "a3vezimgsw.szn.cz./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "a3vezimgsw.szn.cz./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "17K6J4FLEL1CC6DKDC287PEPVMDOOH0L.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.74.80"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "LJHPT96PPILNQMBPM5FRIQMN8SRMRF7L.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.74.80"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "RNMF4H50D24BMEH6NHDUREO1JMQOGF96.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.74.80"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.74.80"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "P8HRHLGUV0RH1MGIH2N2IJLC1ECCHQL4.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.75.230"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "VOOO1J747DG0RFRI7R4DOKCAUGONGLA5.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.75.230"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "V1OJ36PTDSF6MPTUKK76ABVPT6QHR6F7.szn.cz./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "szn.cz./13/3119",
+                                                "status": "VALID",
+                                                "servers": [
+                                                    "77.75.75.230"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_-_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "77.75.75.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "szn.cz./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "szn.cz./13/3119",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "77.75.75.230"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "id": "szn.cz./13/3119",
+                                        "status": "VALID",
+                                        "servers": [
+                                            "77.75.74.80"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ],
+                                "servers": [
+                                    "77.75.74.80",
+                                    "77.75.75.230"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "77.75.74.80",
+                            "77.75.75.230"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "77.75.74.80": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "77.75.75.230": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "13/3119",
+                "servers": [
+                    "77.75.74.80",
+                    "77.75.75.230"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K",
+                    "UDP_-_EDNS0_512_D_K"
+                ]
+            },
+            {
+                "id": "13/51575",
+                "servers": [
+                    "77.75.74.80",
+                    "77.75.75.230"
+                ],
+                "query_options": [
+                    "UDP_-_EDNS0_4096_D_K",
+                    "UDP_-_EDNS0_512_D_K"
+                ]
+            }
+        ],
+        "delegation": {
+            "ds": [
+                {
+                    "id": "13/51575/2",
+                    "status": "VALID",
+                    "servers": [
+                        "193.29.206.1",
+                        "194.0.12.1",
+                        "194.0.13.1",
+                        "194.0.14.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "SECURE"
+        }
+    }
+}

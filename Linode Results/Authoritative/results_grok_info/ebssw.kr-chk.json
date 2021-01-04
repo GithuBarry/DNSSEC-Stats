@@ -1,0 +1,461 @@
+{
+    "ebssw.kr.": {
+        "status": "NOERROR",
+        "queries": {
+            "ebssw.kr./IN/A": {
+                "answer": [
+                    {
+                        "id": "ebssw.kr./IN/A",
+                        "servers": [
+                            "211.58.252.62",
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "211.58.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "211.58.252.94": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ebssw.kr./IN/NS": {
+                "answer": [
+                    {
+                        "id": "ebssw.kr./IN/NS",
+                        "servers": [
+                            "211.58.252.62"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "211.58.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ebssw.kr./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "ebssw.kr./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "ebssw.kr./IN/SOA",
+                                "servers": [
+                                    "211.58.252.62"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "211.58.252.62"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "211.58.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ebssw.kr./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "ebssw.kr./IN/SOA",
+                        "servers": [
+                            "211.58.252.62",
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D",
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ],
+                        "cookie_status": {
+                            "211.58.252.62": {
+                                "request": "NO_COOKIE",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "211.58.252.94": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "ebssw.kr./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "ebssw.kr./IN/MX",
+                        "soa": [
+                            {
+                                "id": "ebssw.kr./IN/SOA",
+                                "servers": [
+                                    "211.58.252.62",
+                                    "211.58.252.94"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "211.58.252.62",
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "211.58.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "211.58.252.94": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ebssw.kr./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "ebssw.kr./IN/TXT",
+                        "soa": [
+                            {
+                                "id": "ebssw.kr./IN/SOA",
+                                "servers": [
+                                    "211.58.252.62",
+                                    "211.58.252.94"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "211.58.252.62",
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "211.58.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "211.58.252.94": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ebssw.kr./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "ebssw.kr./IN/AAAA",
+                        "soa": [
+                            {
+                                "id": "ebssw.kr./IN/SOA",
+                                "servers": [
+                                    "211.58.252.62",
+                                    "211.58.252.94"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "211.58.252.62",
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "211.58.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "211.58.252.94": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ebssw.kr./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "ebssw.kr./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "PSUK0EEKKGPOFH0K7H82HVC8G7K6E7R0.kr./IN/NSEC3"
+                                    },
+                                    {
+                                        "id": "ISKF2Q0OAGPD89V639975BERJBTMCAO3.kr./IN/NSEC3"
+                                    }
+                                ],
+                                "status": "VALID",
+                                "servers": [
+                                    "202.30.124.100",
+                                    "202.31.190.1",
+                                    "203.83.159.1",
+                                    "210.101.60.1",
+                                    "210.101.61.1",
+                                    "210.101.62.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "kr./IN/SOA",
+                                "servers": [
+                                    "202.30.124.100",
+                                    "202.31.190.1",
+                                    "203.83.159.1",
+                                    "210.101.60.1",
+                                    "210.101.61.1",
+                                    "210.101.62.1"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "202.30.124.100",
+                            "202.31.190.1",
+                            "203.83.159.1",
+                            "210.101.60.1",
+                            "210.101.61.1",
+                            "210.101.62.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "202.30.124.100": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "202.31.190.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "203.83.159.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "210.101.60.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "210.101.61.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "210.101.62.1": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            },
+            "ebssw.kr./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "ebssw.kr./IN/DNSKEY",
+                        "soa": [
+                            {
+                                "id": "ebssw.kr./IN/SOA",
+                                "servers": [
+                                    "211.58.252.62",
+                                    "211.58.252.94"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "211.58.252.62",
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ],
+                        "cookie_status": {
+                            "211.58.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "211.58.252.94": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "k28zoirlca.ebssw.kr./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "k28zoirlca.ebssw.kr./IN/A",
+                        "soa": [
+                            {
+                                "id": "ebssw.kr./IN/SOA",
+                                "servers": [
+                                    "211.58.252.62",
+                                    "211.58.252.94"
+                                ]
+                            }
+                        ],
+                        "servers": [
+                            "211.58.252.62",
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ],
+                        "cookie_status": {
+                            "211.58.252.62": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            },
+                            "211.58.252.94": {
+                                "request": "CLIENT_COOKIE_ONLY",
+                                "response": "NO_COOKIE_OPT"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "211.58.252.94"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "PSUK0EEKKGPOFH0K7H82HVC8G7K6E7R0.kr./IN/NSEC3"
+                        },
+                        {
+                            "id": "ISKF2Q0OAGPD89V639975BERJBTMCAO3.kr./IN/NSEC3"
+                        }
+                    ],
+                    "status": "VALID",
+                    "servers": [
+                        "202.30.124.100",
+                        "202.31.190.1",
+                        "203.83.159.1",
+                        "210.101.60.1",
+                        "210.101.61.1",
+                        "210.101.62.1"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ],
+            "status": "INSECURE"
+        }
+    }
+}
