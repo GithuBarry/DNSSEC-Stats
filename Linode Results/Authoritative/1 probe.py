@@ -22,7 +22,7 @@ with open("failed3.txt", "a") as f:
                                    stderr=open(os.devnull, 'wb'),
                                    stdout=open(os.devnull, 'wb'))
         child_processes.append(process)
-        if count % 1 ==0:
+        if count % 1 == 0:
             for cp in child_processes:
                 try:
                     cp.wait(35)
@@ -37,13 +37,3 @@ with open("failed3.txt", "a") as f:
             print("-----", count / len(data) * 100, "%", count, 'finished but failed', err_count)
 
 print(err_count, "failed among all", count, 'trials')
-# if count % 100 == 0:
-#     process.communicate()
-# _, _ = process.communicate()
-
-# this_str = "dnsviz grok -l warning " + " -r " + item[0] + ".json" + " -o " + item[0] + "-chk.json"
-# print(this_str)
-# process = subprocess.Popen(this_str.split())
-# _, _ = process.communicate()
-#
-# os.remove(item[0] + ".json")
