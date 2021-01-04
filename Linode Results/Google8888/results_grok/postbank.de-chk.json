@@ -1,0 +1,43 @@
+{
+    "postbank.de.": {
+        "queries": {
+            "23ow86zipk.postbank.de./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "23ow86zipk.postbank.de./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "8UBJHGKOFG8L4LS1VLMRIO6HNLMUVU0R.postbank.de./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "postbank.de./7/40220",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 18:54:58+00:00) is within possible clock skew range (1 second) of the current time (2021-01-01 18:54:59+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "postbank.de./7/49814",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 18:54:58+00:00) is within possible clock skew range (1 second) of the current time (2021-01-01 18:54:59+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

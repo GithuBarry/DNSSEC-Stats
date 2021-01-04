@@ -1,0 +1,44 @@
+{
+    "pianyuan.net.": {
+        "queries": {
+            "pianyuan.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "pianyuan.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "pianyuan.net./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "pianyuan.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

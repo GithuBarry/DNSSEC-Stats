@@ -1,0 +1,402 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "om.": {
+        "queries": {
+            "om./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "om./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "om./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "om./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "gov.om.": {
+        "queries": {
+            "gov.om./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "gov.om./IN/DS",
+                        "soa": [
+                            {
+                                "id": "om./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "114.114.114.114"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gov.om./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "gov.om./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    },
+    "moe.gov.om.": {
+        "queries": {
+            "moe.gov.om./IN/NS": {
+                "answer": [
+                    {
+                        "id": "moe.gov.om./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "moe.gov.om./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "moe.gov.om./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "moe.gov.om./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "moe.gov.om./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.114.114.114"
+                        ],
+                        "query_options": [
+                            "TCP_+_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "moe.gov.om./IN/MX": {
+                "answer": [
+                    {
+                        "id": "moe.gov.om./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "moe.gov.om./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "moe.gov.om./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "moe.gov.om./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "moe.gov.om./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "moe.gov.om./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "moe.gov.om./IN/DS",
+                        "soa": [
+                            {
+                                "id": "gov.om./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "114.114.114.114"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "moe.gov.om./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "moe.gov.om./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "suwiy18bkj.moe.gov.om./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "suwiy18bkj.moe.gov.om./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "114.114.114.114"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    }
+}

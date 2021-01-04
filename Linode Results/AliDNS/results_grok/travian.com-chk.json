@@ -1,0 +1,635 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "info.": {
+        "queries": {
+            "info./IN/DS": {
+                "answer": [
+                    {
+                        "id": "info./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "info./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "info./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS",
+            "errors": [
+                {
+                    "description": "No valid RRSIGs made by a key corresponding to a DS RR were found covering the DNSKEY RRset, resulting in no secure entry point (SEP) into the zone.",
+                    "code": "NO_SEP",
+                    "servers": [
+                        "223.5.5.5"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K",
+                        "UDP_+_EDNS0_512_D_K"
+                    ]
+                },
+                {
+                    "description": "The DS RRset for the zone included algorithm 8 (RSASHA256), but no DS RR matched a DNSKEY with algorithm 8 that signs the zone's DNSKEY RRset.",
+                    "code": "MISSING_SEP_FOR_ALG",
+                    "servers": [
+                        "223.5.5.5"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K",
+                        "UDP_+_EDNS0_512_D_K"
+                    ]
+                }
+            ]
+        }
+    },
+    "travian.info.": {
+        "queries": {
+            "travian.info./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "travian.info./IN/DS",
+                        "soa": [
+                            {
+                                "id": "info./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "223.5.5.5"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "travian.info./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "travian.info./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    },
+    "cgn.travian.info.": {
+        "queries": {
+            "cgn.travian.info./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "cgn.travian.info./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "en.t4.cgn.travian.info.": {
+        "queries": {
+            "en.t4.cgn.travian.info./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "223.5.5.5"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "en.t4.cgn.travian.info./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "en.t4.cgn.travian.info./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "A query for en.t4.cgn.travian.info results in a NOERROR response, while a query for its ancestor, cgn.travian.info, returns a name error (NXDOMAIN), which indicates that subdomains of cgn.travian.info, including en.t4.cgn.travian.info, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DS": {
+                "answer": [
+                    {
+                        "id": "com./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS",
+            "errors": [
+                {
+                    "description": "No valid RRSIGs made by a key corresponding to a DS RR were found covering the DNSKEY RRset, resulting in no secure entry point (SEP) into the zone.",
+                    "code": "NO_SEP",
+                    "servers": [
+                        "223.5.5.5"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K",
+                        "UDP_+_EDNS0_512_D_K"
+                    ]
+                },
+                {
+                    "description": "The DS RRset for the zone included algorithm 8 (RSASHA256), but no DS RR matched a DNSKEY with algorithm 8 that signs the zone's DNSKEY RRset.",
+                    "code": "MISSING_SEP_FOR_ALG",
+                    "servers": [
+                        "223.5.5.5"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K",
+                        "UDP_+_EDNS0_512_D_K"
+                    ]
+                }
+            ]
+        }
+    },
+    "travian.com.": {
+        "queries": {
+            "travian.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "travian.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "travian.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "travian.com./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "travian.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "travian.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "travian.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "travian.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "travian.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "travian.com./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "travian.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "travian.com./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "travian.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "travian.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "travian.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "travian.com./IN/DS",
+                        "soa": [
+                            {
+                                "id": "com./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "223.5.5.5"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "travian.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "travian.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "82r6hjn5xb.travian.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "82r6hjn5xb.travian.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "lb.startpage.en.t4.cgn.travian.info./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "A query for 82r6hjn5xb.travian.com results in a NOERROR response, while a query for its ancestor, cgn.travian.info, returns a name error (NXDOMAIN), which indicates that subdomains of cgn.travian.info, including 82r6hjn5xb.travian.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    }
+}

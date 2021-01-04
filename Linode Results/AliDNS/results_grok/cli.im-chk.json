@@ -1,0 +1,324 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "im.": {
+        "queries": {
+            "im./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "im./IN/DS",
+                        "soa": [
+                            {
+                                "id": "./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "223.5.5.5"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "im./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "im./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    },
+    "cli.im.": {
+        "queries": {
+            "cli.im./IN/A": {
+                "answer": [
+                    {
+                        "id": "cli.im./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cli.im./IN/NS": {
+                "answer": [
+                    {
+                        "id": "cli.im./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cli.im./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "cli.im./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cli.im./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "cli.im./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cli.im./IN/MX": {
+                "answer": [
+                    {
+                        "id": "cli.im./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cli.im./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "cli.im./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cli.im./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "cli.im./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cli.im./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "cli.im./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (cli.im) not matching the zone name (im) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cli.im./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "cli.im./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sp0vmr1wul.cli.im./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "sp0vmr1wul.cli.im./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

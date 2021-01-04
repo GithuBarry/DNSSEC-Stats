@@ -1,0 +1,312 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "to.": {
+        "queries": {
+            "to./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "to./IN/DS",
+                        "soa": [
+                            {
+                                "id": "./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "223.5.5.5"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "to./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "to./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    },
+    "f95zone.to.": {
+        "queries": {
+            "f95zone.to./IN/A": {
+                "answer": [
+                    {
+                        "id": "f95zone.to./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "f95zone.to./IN/NS": {
+                "answer": [
+                    {
+                        "id": "f95zone.to./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "f95zone.to./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "f95zone.to./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "f95zone.to./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "f95zone.to./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "f95zone.to./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "f95zone.to./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "f95zone.to./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "f95zone.to./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "f95zone.to./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "f95zone.to./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "f95zone.to./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "f95zone.to./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "f95zone.to./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "f95zone.to./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "khxygtm407.f95zone.to./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "khxygtm407.f95zone.to./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

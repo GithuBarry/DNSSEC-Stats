@@ -1,0 +1,43 @@
+{
+    "w.kunlungr.com.": {
+        "queries": {
+            "w.kunlungr.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "tedu.cn.": {
+        "queries": {
+            "rx79z5yuif.tedu.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "all.tedu.cn.w.kunlungr.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for rx79z5yuif.tedu.cn results in a NOERROR response, while a query for its ancestor, cn.w.kunlungr.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.w.kunlungr.com, including rx79z5yuif.tedu.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

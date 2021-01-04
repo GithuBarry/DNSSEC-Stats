@@ -1,0 +1,545 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DS": {
+                "answer": [
+                    {
+                        "id": "com./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS",
+            "errors": [
+                {
+                    "description": "No valid RRSIGs made by a key corresponding to a DS RR were found covering the DNSKEY RRset, resulting in no secure entry point (SEP) into the zone.",
+                    "code": "NO_SEP",
+                    "servers": [
+                        "223.5.5.5"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K",
+                        "UDP_+_EDNS0_512_D_K"
+                    ]
+                },
+                {
+                    "description": "The DS RRset for the zone included algorithm 8 (RSASHA256), but no DS RR matched a DNSKEY with algorithm 8 that signs the zone's DNSKEY RRset.",
+                    "code": "MISSING_SEP_FOR_ALG",
+                    "servers": [
+                        "223.5.5.5"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K",
+                        "UDP_+_EDNS0_512_D_K"
+                    ]
+                }
+            ]
+        }
+    },
+    "download.ettdnsv.com.": {
+        "queries": {
+            "download.ettdnsv.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "download.ettdnsv.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (ettdnsv.com) not matching the zone name (com) was returned with the NXDOMAIN response.",
+                                "code": "SOA_NOT_OWNER_FOR_NXDOMAIN",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NXDOMAIN response.",
+                                "code": "MISSING_NSEC_FOR_NXDOMAIN",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cdn.ettdnsv.com.": {
+        "queries": {
+            "cdn.ettdnsv.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "cdn.ettdnsv.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (ettdnsv.com) not matching the zone name (com) was returned with the NXDOMAIN response.",
+                                "code": "SOA_NOT_OWNER_FOR_NXDOMAIN",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NXDOMAIN response.",
+                                "code": "MISSING_NSEC_FOR_NXDOMAIN",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "vip.": {
+        "queries": {
+            "vip./IN/DS": {
+                "answer": [
+                    {
+                        "id": "vip./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "vip./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "vip./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS",
+            "errors": [
+                {
+                    "description": "No valid RRSIGs made by a key corresponding to a DS RR were found covering the DNSKEY RRset, resulting in no secure entry point (SEP) into the zone.",
+                    "code": "NO_SEP",
+                    "servers": [
+                        "223.5.5.5"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K",
+                        "UDP_+_EDNS0_512_D_K"
+                    ]
+                },
+                {
+                    "description": "The DS RRset for the zone included algorithm 8 (RSASHA256), but no DS RR matched a DNSKEY with algorithm 8 that signs the zone's DNSKEY RRset.",
+                    "code": "MISSING_SEP_FOR_ALG",
+                    "servers": [
+                        "223.5.5.5"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K",
+                        "UDP_+_EDNS0_512_D_K"
+                    ]
+                }
+            ]
+        }
+    },
+    "wetv.vip.": {
+        "queries": {
+            "wetv.vip./IN/A": {
+                "answer": [
+                    {
+                        "id": "wetv.vip./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "wetv.vip.cdn.ettdnsv.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "A query for wetv.vip results in a NOERROR response, while a query for its ancestor, cdn.ettdnsv.com, returns a name error (NXDOMAIN), which indicates that subdomains of cdn.ettdnsv.com, including wetv.vip, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "404293.f1.download.ettdnsv.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "A query for wetv.vip results in a NOERROR response, while a query for its ancestor, download.ettdnsv.com, returns a name error (NXDOMAIN), which indicates that subdomains of download.ettdnsv.com, including wetv.vip, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "wetv.vip./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "wetv.vip./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "wetv.vip.cdn.ettdnsv.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "A query for wetv.vip results in a NOERROR response, while a query for its ancestor, cdn.ettdnsv.com, returns a name error (NXDOMAIN), which indicates that subdomains of cdn.ettdnsv.com, including wetv.vip, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "404293.f1.download.ettdnsv.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "A query for wetv.vip results in a NOERROR response, while a query for its ancestor, download.ettdnsv.com, returns a name error (NXDOMAIN), which indicates that subdomains of download.ettdnsv.com, including wetv.vip, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "An SOA RR with owner name (ettdnsv.com) not matching the zone name (com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "223.5.5.5"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

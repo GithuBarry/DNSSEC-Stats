@@ -1,0 +1,127 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "in.": {
+        "queries": {
+            "in./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "gov.in.": {
+        "queries": {
+            "gov.in./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "fssai.gov.in.": {
+        "queries": {
+            "fssai.gov.in./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "fssai.gov.in./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "fssai.gov.in./7/48030",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 21:03:02+00:00) is within possible clock skew range (1 second) of the current time (2021-01-01 21:03:03+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "fssai.gov.in./7/51428",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 21:03:02+00:00) is within possible clock skew range (1 second) of the current time (2021-01-01 21:03:03+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "frvmujbh6n.fssai.gov.in./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "frvmujbh6n.fssai.gov.in./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "PISHLTCEVBM86JB2A1COF2QJ061SJ5UR.fssai.gov.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "fssai.gov.in./7/51428",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 21:03:02+00:00) is within possible clock skew range (1 second) of the current time (2021-01-01 21:03:03+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

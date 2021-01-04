@@ -1,0 +1,25 @@
+{
+    "r.akamai.net.": {
+        "queries": {
+            "r.akamai.net./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "r.akamai.net./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (akamai.net) not matching the zone name (r.akamai.net) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

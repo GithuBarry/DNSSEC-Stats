@@ -1,0 +1,142 @@
+{
+    "people.com.cn.": {
+        "queries": {
+            "people.com.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "people.com.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for people.com.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "people.com.cn./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "people.com.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for people.com.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "people.com.cn.wscdns.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "people.com.cn./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "people.com.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for people.com.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "people.com.cn./IN/MX": {
+                "answer": [
+                    {
+                        "id": "people.com.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for people.com.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "people.com.cn./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "people.com.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for people.com.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "people.com.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "people.com.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for people.com.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "people.com.cn./IN/DS": {
+                "answer": [
+                    {
+                        "id": "people.com.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for people.com.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "people.com.cn./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "people.com.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for people.com.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    }
+}

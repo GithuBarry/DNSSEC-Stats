@@ -1,0 +1,142 @@
+{
+    "va.gov.": {
+        "queries": {
+            "va.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "va.gov./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "va.gov./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "8.8.8.8"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+C_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+C_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "va.gov./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "va.gov./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "va.gov./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "va.gov./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "va.gov./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                        "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "wqcj8rth69.va.gov./IN/A": {
+                "nodata": [
+                    {
+                        "id": "wqcj8rth69.va.gov./IN/A",
+                        "soa": [
+                            {
+                                "id": "va.gov./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "8.8.8.8"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+C_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+C_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

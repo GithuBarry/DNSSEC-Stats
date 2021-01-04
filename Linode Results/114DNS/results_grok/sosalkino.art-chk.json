@@ -1,0 +1,308 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "art.": {
+        "queries": {
+            "art./IN/DS": {
+                "answer": [
+                    {
+                        "id": "art./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "art./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 13 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.114.114.114"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_4096_D_K"
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "114.114.114.114"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "114.114.114.114"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "status": "BOGUS",
+            "errors": [
+                {
+                    "description": "No valid RRSIGs made by a key corresponding to a DS RR were found covering the DNSKEY RRset, resulting in no secure entry point (SEP) into the zone.",
+                    "code": "NO_SEP"
+                }
+            ]
+        }
+    },
+    "sosalkino.art.": {
+        "queries": {
+            "sosalkino.art./IN/NS": {
+                "answer": [
+                    {
+                        "id": "sosalkino.art./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sosalkino.art./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "sosalkino.art./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sosalkino.art./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "sosalkino.art./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.114.114.114"
+                        ],
+                        "query_options": [
+                            "TCP_+_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "sosalkino.art./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "sosalkino.art./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sosalkino.art./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "sosalkino.art./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sosalkino.art./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "sosalkino.art./IN/DS",
+                        "soa": [
+                            {
+                                "id": "art./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "No RRSIG covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG",
+                                        "servers": [
+                                            "114.114.114.114"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sosalkino.art./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "sosalkino.art./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fkevn9dw1p.sosalkino.art./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "fkevn9dw1p.sosalkino.art./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "114.114.114.114"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    }
+}

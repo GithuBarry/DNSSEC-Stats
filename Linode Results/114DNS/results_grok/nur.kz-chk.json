@@ -1,0 +1,221 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "nur.kz.": {
+        "queries": {
+            "nur.kz./IN/NS": {
+                "answer": [
+                    {
+                        "id": "nur.kz./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nur.kz./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "nur.kz./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nur.kz./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "nur.kz./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.114.114.114"
+                        ],
+                        "query_options": [
+                            "TCP_+_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "nur.kz./IN/MX": {
+                "answer": [
+                    {
+                        "id": "nur.kz./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nur.kz./IN/TXT": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 5 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.114.114.114"
+                        ],
+                        "query_options": [
+                            "TCP_+_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "nur.kz./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "nur.kz./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nur.kz./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "nur.kz./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nur.kz./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "nur.kz./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "03m5kwztdr.nur.kz./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "03m5kwztdr.nur.kz./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "114.114.114.114"
+                    ]
+                }
+            ]
+        }
+    }
+}

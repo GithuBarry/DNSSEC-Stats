@@ -1,0 +1,35 @@
+{
+    "stats.gov.cn.": {
+        "queries": {
+            "stats.gov.cn./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "stats.gov.cn./IN/A",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NXDOMAIN response.",
+                                "code": "MISSING_SOA_FOR_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NXDOMAIN response.",
+                                "code": "MISSING_NSEC_FOR_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

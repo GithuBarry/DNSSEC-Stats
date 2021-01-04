@@ -1,0 +1,94 @@
+{
+    "w.kunlunar.com.": {
+        "queries": {
+            "w.kunlunar.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cr173.com.": {
+        "queries": {
+            "cr173.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "cr173.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "cr173.com.w.kunlunar.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for cr173.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunar.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunar.com, including cr173.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cr173.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "cr173.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cr173.com.w.kunlunar.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for cr173.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunar.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunar.com, including cr173.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

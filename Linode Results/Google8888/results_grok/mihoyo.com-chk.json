@@ -1,0 +1,94 @@
+{
+    "w.alikunlun.com.": {
+        "queries": {
+            "w.alikunlun.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "mihoyo.com.": {
+        "queries": {
+            "mihoyo.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "mihoyo.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "mihoyo.com.w.alikunlun.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for mihoyo.com results in a NOERROR response, while a query for its ancestor, com.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.alikunlun.com, including mihoyo.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mihoyo.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "mihoyo.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "mihoyo.com.w.alikunlun.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for mihoyo.com results in a NOERROR response, while a query for its ancestor, com.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.alikunlun.com, including mihoyo.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

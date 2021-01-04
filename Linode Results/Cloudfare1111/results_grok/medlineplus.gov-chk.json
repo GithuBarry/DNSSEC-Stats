@@ -1,0 +1,133 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "gov.": {
+        "queries": {
+            "gov./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "nih.gov.": {
+        "queries": {
+            "nih.gov./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "nlm.nih.gov.": {
+        "queries": {
+            "nlm.nih.gov./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "medlineplus.gov.": {
+        "queries": {
+            "medlineplus.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "medlineplus.gov./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for medlineplus.gov, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "medlineplus.gov./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "y7ncw6qira.medlineplus.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "y7ncw6qira.medlineplus.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "PKK5DGDISMO0DMO922CVOCJ5VH1NGNQV.medlineplus.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "medlineplus.gov./7/45128",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 19:00:58+00:00) is within possible clock skew range (0 seconds) of the current time (2021-01-01 19:00:58+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cc.": {
+        "queries": {
+            "cc./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "zhibo8.cc.": {
+        "queries": {
+            "zhibo8.cc./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "zhibo8.cc./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for zhibo8.cc, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "www.zhibo8.cc./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "zhibo8.cc./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "zhibo8.cc./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for zhibo8.cc, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

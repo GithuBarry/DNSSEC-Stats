@@ -1,0 +1,86 @@
+{
+    "thestartmagazine.com.": {
+        "queries": {
+            "thestartmagazine.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "thestartmagazine.com./IN/CNAME",
+                        "rrsig": [
+                            {
+                                "id": "thestartmagazine.com./13/44688",
+                                "errors": [
+                                    {
+                                        "description": "The Signer's Name field of the RRSIG RR (thestartmagazine.com) does not match the name of the zone containing the RRset (com).",
+                                        "code": "SIGNER_NOT_ZONE"
+                                    }
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The DNSKEY RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DS RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "thestartmagazine.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "thestartmagazine.com./IN/CNAME",
+                        "rrsig": [
+                            {
+                                "id": "thestartmagazine.com./13/44688",
+                                "errors": [
+                                    {
+                                        "description": "The Signer's Name field of the RRSIG RR (thestartmagazine.com) does not match the name of the zone containing the RRset (com).",
+                                        "code": "SIGNER_NOT_ZONE"
+                                    }
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The DNSKEY RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DS RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

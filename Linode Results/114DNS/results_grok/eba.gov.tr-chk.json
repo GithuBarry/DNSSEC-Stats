@@ -1,0 +1,307 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "tr.": {
+        "queries": {
+            "tr./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "tr./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "tr./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "tr./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "gov.tr.": {
+        "queries": {
+            "gov.tr./IN/DS": {
+                "nxdomain": [
+                    {
+                        "id": "gov.tr./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gov.tr./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "gov.tr./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "INCOMPLETE",
+            "errors": [
+                {
+                    "description": "No delegation NS records were detected in the parent zone (tr).  This results in an NXDOMAIN response to a DS query (for DNSSEC), even if the parent servers are authoritative for the child.",
+                    "code": "NO_NS_IN_PARENT",
+                    "servers": [
+                        "114.114.114.114"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K"
+                    ]
+                }
+            ]
+        }
+    },
+    "eba.gov.tr.": {
+        "queries": {
+            "eba.gov.tr./IN/NS": {
+                "answer": [
+                    {
+                        "id": "eba.gov.tr./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "eba.gov.tr./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "eba.gov.tr./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "eba.gov.tr./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "eba.gov.tr./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.114.114.114"
+                        ],
+                        "query_options": [
+                            "TCP_+_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "eba.gov.tr./IN/MX": {
+                "answer": [
+                    {
+                        "id": "eba.gov.tr./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "eba.gov.tr./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "eba.gov.tr./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "eba.gov.tr./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "eba.gov.tr./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "eba.gov.tr./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "eba.gov.tr./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "59h8u2frzs.eba.gov.tr./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "59h8u2frzs.eba.gov.tr./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.114.114.114"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "114.114.114.114"
+                    ]
+                }
+            ]
+        }
+    }
+}

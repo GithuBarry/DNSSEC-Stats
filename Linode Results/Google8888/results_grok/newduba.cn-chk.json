@@ -1,0 +1,76 @@
+{
+    "newduba.cn.": {
+        "queries": {
+            "newduba.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "newduba.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "dnspod-vip3.beian.mydnspod.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for newduba.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including newduba.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "newduba.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "newduba.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-vip3.beian.mydnspod.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for newduba.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including newduba.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

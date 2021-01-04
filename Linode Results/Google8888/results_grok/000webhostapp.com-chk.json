@@ -1,0 +1,25 @@
+{
+    "us-east-1.route-1.000webhost.awex.io.": {
+        "queries": {
+            "us-east-1.route-1.000webhost.awex.io./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "us-east-1.route-1.000webhost.awex.io./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (us-east-1.route-1.000webhost.awex.io) not matching the zone name (awex.io) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

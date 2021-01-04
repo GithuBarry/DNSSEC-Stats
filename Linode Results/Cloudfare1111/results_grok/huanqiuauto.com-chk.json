@@ -1,0 +1,84 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "w.kunluncan.com.": {
+        "queries": {
+            "w.kunluncan.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "w.kunluncan.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "huanqiuauto.com.": {
+        "queries": {
+            "5hnglfw36k.huanqiuauto.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "all.huanqiuauto.com.w.kunluncan.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for 5hnglfw36k.huanqiuauto.com results in a NOERROR response, while a query for its ancestor, com.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunluncan.com, including 5hnglfw36k.huanqiuauto.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

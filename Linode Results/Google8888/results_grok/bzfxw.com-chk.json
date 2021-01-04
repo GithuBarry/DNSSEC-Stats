@@ -1,0 +1,44 @@
+{
+    "bzfxw.com.": {
+        "queries": {
+            "bzfxw.com./IN/SOA": {
+                "nodata": [
+                    {
+                        "id": "bzfxw.com./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bzfxw.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "bzfxw.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

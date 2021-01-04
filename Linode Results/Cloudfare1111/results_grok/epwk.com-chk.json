@@ -1,0 +1,164 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "net.": {
+        "queries": {
+            "net./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "epwk.com.": {
+        "queries": {
+            "epwk.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "epwk.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for epwk.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for epwk.com results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including epwk.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "epwk.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "epwk.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for epwk.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for epwk.com results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including epwk.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "vuxeizbnhf.epwk.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "04f74590.epwk.com.c.cdnhwc1.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for vuxeizbnhf.epwk.com results in a NOERROR response, while a query for its ancestor, c.cdnhwc1.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc1.com, including vuxeizbnhf.epwk.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "hcdnw101.gslb.c.cdnhwc2.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for vuxeizbnhf.epwk.com results in a NOERROR response, while a query for its ancestor, c.cdnhwc2.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc2.com, including vuxeizbnhf.epwk.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

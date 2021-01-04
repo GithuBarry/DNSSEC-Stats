@@ -1,0 +1,61 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cn.": {
+        "queries": {
+            "cn./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "qpic.cn.": {
+        "queries": {
+            "kf5r73hqbe.qpic.cn./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "kf5r73hqbe.qpic.cn./IN/A",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NXDOMAIN response.",
+                                "code": "MISSING_SOA_FOR_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

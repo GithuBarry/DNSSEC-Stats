@@ -1,0 +1,181 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "w.kunluncan.com.": {
+        "queries": {
+            "w.kunluncan.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "w.kunluncan.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cn.": {
+        "queries": {
+            "cn./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "reactnative.cn.": {
+        "queries": {
+            "reactnative.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "reactnative.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for reactnative.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "reactnative.cn.w.kunluncan.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for reactnative.cn results in a NOERROR response, while a query for its ancestor, cn.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.w.kunluncan.com, including reactnative.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "reactnative.cn./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "reactnative.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for reactnative.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "reactnative.cn.w.kunluncan.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for reactnative.cn results in a NOERROR response, while a query for its ancestor, cn.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.w.kunluncan.com, including reactnative.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "reactnative.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "reactnative.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for reactnative.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "reactnative.cn.w.kunluncan.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for reactnative.cn results in a NOERROR response, while a query for its ancestor, cn.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.w.kunluncan.com, including reactnative.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

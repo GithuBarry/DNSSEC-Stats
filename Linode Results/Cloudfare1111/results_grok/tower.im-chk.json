@@ -1,0 +1,103 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "w.kunlunsl.com.": {
+        "queries": {
+            "w.kunlunsl.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "w.kunlunsl.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "tower.im.": {
+        "queries": {
+            "tower.im./IN/A": {
+                "answer": [
+                    {
+                        "id": "tower.im.w.kunlunsl.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for tower.im results in a NOERROR response, while a query for its ancestor, im.w.kunlunsl.com, returns a name error (NXDOMAIN), which indicates that subdomains of im.w.kunlunsl.com, including tower.im, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "tower.im./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "tower.im.w.kunlunsl.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for tower.im results in a NOERROR response, while a query for its ancestor, im.w.kunlunsl.com, returns a name error (NXDOMAIN), which indicates that subdomains of im.w.kunlunsl.com, including tower.im, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,461 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "whatabouthotbabies.com.": {
+        "queries": {
+            "whatabouthotbabies.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "whatabouthotbabies.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type A, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type A, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type A, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "whatabouthotbabies.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "whatabouthotbabies.com./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type NS, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type NS, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type NS, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "whatabouthotbabies.com./IN/CNAME": {
+                "nxdomain": [
+                    {
+                        "id": "whatabouthotbabies.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type NS, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type A, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type SOA, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type MX, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type TXT, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NXDOMAIN response.",
+                                "code": "MISSING_SOA_FOR_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "whatabouthotbabies.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "whatabouthotbabies.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type SOA, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type SOA, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type SOA, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "whatabouthotbabies.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "whatabouthotbabies.com./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type MX, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type MX, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type MX, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "whatabouthotbabies.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "whatabouthotbabies.com./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type TXT, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type CNAME.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type TXT, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type TXT, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "whatabouthotbabies.com./IN/AAAA": {
+                "nxdomain": [
+                    {
+                        "id": "whatabouthotbabies.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type NS, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type A, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type SOA, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type MX, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type TXT, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type AAAA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NXDOMAIN response.",
+                                "code": "MISSING_SOA_FOR_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "whatabouthotbabies.com./IN/DNSKEY": {
+                "nxdomain": [
+                    {
+                        "id": "whatabouthotbabies.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type NS, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type A, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type SOA, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type MX, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for whatabouthotbabies.com having record data of type TXT, but returned a name error (NXDOMAIN) when queried for whatabouthotbabies.com having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NXDOMAIN response.",
+                                "code": "MISSING_SOA_FOR_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

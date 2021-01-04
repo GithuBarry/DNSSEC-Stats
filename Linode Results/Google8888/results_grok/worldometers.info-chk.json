@@ -1,0 +1,25 @@
+{
+    "worldometers.info.": {
+        "queries": {
+            "worldometers.info./IN/MX": {
+                "answer": [
+                    {
+                        "id": "worldometers.info./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

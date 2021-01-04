@@ -1,0 +1,267 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "net.": {
+        "queries": {
+            "net./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "mseav.com.": {
+        "queries": {
+            "mseav.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "mseav.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for mseav.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "mseav.com.cname.yunjiasu-cdn.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for mseav.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including mseav.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mseav.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "mseav.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for mseav.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "mseav.com.cname.yunjiasu-cdn.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for mseav.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including mseav.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mseav.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "mseav.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for mseav.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "mseav.com.cname.yunjiasu-cdn.net./IN/MX",
+                        "errors": [
+                            {
+                                "description": "A query for mseav.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including mseav.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mseav.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "mseav.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for mseav.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "mseav.com.cname.yunjiasu-cdn.net./IN/TXT",
+                        "errors": [
+                            {
+                                "description": "A query for mseav.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including mseav.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mseav.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "mseav.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for mseav.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "mseav.com.cname.yunjiasu-cdn.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for mseav.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including mseav.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mseav.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "mseav.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for mseav.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "mseav.com.cname.yunjiasu-cdn.net./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "A query for mseav.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including mseav.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "6vwrhecltf.mseav.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "yjs-any.mseav.com.cname.yunjiasu-cdn.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for 6vwrhecltf.mseav.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including 6vwrhecltf.mseav.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

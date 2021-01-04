@@ -1,0 +1,163 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "w.alikunlun.com.": {
+        "queries": {
+            "w.alikunlun.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "w.alikunlun.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "mihoyo.com.": {
+        "queries": {
+            "mihoyo.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "mihoyo.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for mihoyo.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "mihoyo.com.w.alikunlun.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for mihoyo.com results in a NOERROR response, while a query for its ancestor, com.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.alikunlun.com, including mihoyo.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mihoyo.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "mihoyo.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for mihoyo.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "mihoyo.com.w.alikunlun.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for mihoyo.com results in a NOERROR response, while a query for its ancestor, com.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.alikunlun.com, including mihoyo.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mihoyo.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "mihoyo.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for mihoyo.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "mihoyo.com.w.alikunlun.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for mihoyo.com results in a NOERROR response, while a query for its ancestor, com.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.alikunlun.com, including mihoyo.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

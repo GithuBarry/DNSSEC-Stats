@@ -1,0 +1,160 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "c-c.com.": {
+        "queries": {
+            "c-c.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "c-c.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for c-c.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2.p.shrenq.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for c-c.com results in a NOERROR response, while a query for its ancestor, p.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of p.shrenq.com, including c-c.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4.n.shrenq.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for c-c.com results in a NOERROR response, while a query for its ancestor, n.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of n.shrenq.com, including c-c.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "c-c.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "c-c.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for c-c.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "hazcrdvg.shrenq.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "c-c.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "c-c.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for c-c.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2.p.shrenq.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for c-c.com results in a NOERROR response, while a query for its ancestor, p.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of p.shrenq.com, including c-c.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "4.n.shrenq.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for c-c.com results in a NOERROR response, while a query for its ancestor, n.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of n.shrenq.com, including c-c.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

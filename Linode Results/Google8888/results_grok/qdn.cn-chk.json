@@ -1,0 +1,76 @@
+{
+    "qdn.cn.": {
+        "queries": {
+            "qdn.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "qdn.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "www.qdn.cn.cname.yunjiasu-cdn.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for qdn.cn results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including qdn.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qdn.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "qdn.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "www.qdn.cn.cname.yunjiasu-cdn.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for qdn.cn results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including qdn.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

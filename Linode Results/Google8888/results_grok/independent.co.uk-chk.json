@@ -1,0 +1,49 @@
+{
+    "eu-west-1.compute.amazonaws.com.": {
+        "queries": {
+            "eu-west-1.compute.amazonaws.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "eu-west-1.compute.amazonaws.com./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "A query for eu-west-1.compute.amazonaws.com results in a NOERROR response, while a query for its ancestor, compute.amazonaws.com, returns a name error (NXDOMAIN), which indicates that subdomains of compute.amazonaws.com, including eu-west-1.compute.amazonaws.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "independent.co.uk.": {
+        "queries": {
+            "y1sl2mrig7.independent.co.uk./IN/A": {
+                "answer": [
+                    {
+                        "id": "ec2-52-214-144-222.eu-west-1.compute.amazonaws.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for y1sl2mrig7.independent.co.uk results in a NOERROR response, while a query for its ancestor, compute.amazonaws.com, returns a name error (NXDOMAIN), which indicates that subdomains of compute.amazonaws.com, including y1sl2mrig7.independent.co.uk, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "k12.tr.": {
+        "delegation": {
+            "status": "INCOMPLETE",
+            "errors": [
+                {
+                    "description": "No delegation NS records were detected in the parent zone (tr).  This results in an NXDOMAIN response to a DS query (for DNSSEC), even if the parent servers are authoritative for the child.",
+                    "code": "NO_NS_IN_PARENT",
+                    "servers": [
+                        "8.8.8.8"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K"
+                    ]
+                }
+            ]
+        }
+    },
+    "meb.k12.tr.": {
+        "queries": {
+            "meb.k12.tr./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "meb.k12.tr./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "meb.k12.tr./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "meb.k12.tr./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set.",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "meb.k12.tr./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "meb.k12.tr./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

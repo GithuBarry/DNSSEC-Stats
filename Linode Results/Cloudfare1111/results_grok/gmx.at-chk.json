@@ -1,0 +1,74 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "at.": {
+        "queries": {
+            "at./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "gmx.at.": {
+        "queries": {
+            "gmx.at./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "gmx.at./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "gmx.at./8/64710",
+                                "errors": [
+                                    {
+                                        "description": "The TTL of the RRset (300) exceeds the value of the Original TTL field of the RRSIG RR covering it (300).",
+                                        "code": "ORIGINAL_TTL_EXCEEDED"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gmx.at./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

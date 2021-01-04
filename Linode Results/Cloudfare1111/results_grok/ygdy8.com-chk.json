@@ -1,0 +1,232 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "ygdy8.com.": {
+        "queries": {
+            "ygdy8.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "ygdy8.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for ygdy8.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ygdy8.com.cn.xatyds.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for ygdy8.com results in a NOERROR response, while a query for its ancestor, cn.xatyds.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.xatyds.com, including ygdy8.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ygdy8.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "ygdy8.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for ygdy8.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "ygdy8.com.cn.xatyds.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for ygdy8.com results in a NOERROR response, while a query for its ancestor, cn.xatyds.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.xatyds.com, including ygdy8.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ygdy8.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "ygdy8.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for ygdy8.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "ygdy8.com.cn.xatyds.com./IN/MX",
+                        "errors": [
+                            {
+                                "description": "A query for ygdy8.com results in a NOERROR response, while a query for its ancestor, cn.xatyds.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.xatyds.com, including ygdy8.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ygdy8.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "ygdy8.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for ygdy8.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "ygdy8.com.cn.xatyds.com./IN/TXT",
+                        "errors": [
+                            {
+                                "description": "A query for ygdy8.com results in a NOERROR response, while a query for its ancestor, cn.xatyds.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.xatyds.com, including ygdy8.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ygdy8.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "ygdy8.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for ygdy8.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "ygdy8.com.cn.xatyds.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for ygdy8.com results in a NOERROR response, while a query for its ancestor, cn.xatyds.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.xatyds.com, including ygdy8.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ygdy8.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "ygdy8.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for ygdy8.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "ygdy8.com.cn.xatyds.com./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "A query for ygdy8.com results in a NOERROR response, while a query for its ancestor, cn.xatyds.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.xatyds.com, including ygdy8.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

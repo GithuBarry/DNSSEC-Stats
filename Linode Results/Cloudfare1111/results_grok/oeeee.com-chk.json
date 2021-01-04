@@ -1,0 +1,161 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "galileo.jcloud-cdn.com.": {
+        "queries": {
+            "galileo.jcloud-cdn.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "galileo.jcloud-cdn.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "oeeee.com.": {
+        "queries": {
+            "oeeee.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "oeeee.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for oeeee.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "oeeee.com.dy.galileo.jcloud-cdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for oeeee.com results in a NOERROR response, while a query for its ancestor, dy.galileo.jcloud-cdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of dy.galileo.jcloud-cdn.com, including oeeee.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oeeee.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "oeeee.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for oeeee.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "oeeee.com.dy.galileo.jcloud-cdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for oeeee.com results in a NOERROR response, while a query for its ancestor, dy.galileo.jcloud-cdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of dy.galileo.jcloud-cdn.com, including oeeee.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oeeee.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "oeeee.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for oeeee.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "oeeee.com.dy.galileo.jcloud-cdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for oeeee.com results in a NOERROR response, while a query for its ancestor, dy.galileo.jcloud-cdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of dy.galileo.jcloud-cdn.com, including oeeee.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

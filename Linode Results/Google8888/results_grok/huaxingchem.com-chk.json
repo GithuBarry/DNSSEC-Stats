@@ -1,0 +1,41 @@
+{
+    "huaxingchem.com.": {
+        "queries": {
+            "huaxingchem.com./IN/SOA": {
+                "nodata": [
+                    {
+                        "id": "huaxingchem.com./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "huaxingchem.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

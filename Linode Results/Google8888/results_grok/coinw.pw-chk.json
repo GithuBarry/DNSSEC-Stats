@@ -1,0 +1,62 @@
+{
+    "coinw.pw.": {
+        "queries": {
+            "coinw.pw./IN/A": {
+                "answer": [
+                    {
+                        "id": "coinw.pw./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for coinw.pw, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "coinw.pw./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "coinw.pw./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for coinw.pw, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "jiqmgtdm0b1kjnfmunqjgxl6j6uet042.aliyunwaf2.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "coinw.pw./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "coinw.pw./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for coinw.pw, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

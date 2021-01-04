@@ -1,0 +1,25 @@
+{
+    "rocketmortgage.com.": {
+        "queries": {
+            "ts7yqko9ci.rocketmortgage.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for ts7yqko9ci.rocketmortgage.com results in a NOERROR response, while a query for its ancestor, eba-n7phr84t.us-west-2.elasticbeanstalk.com, returns a name error (NXDOMAIN), which indicates that subdomains of eba-n7phr84t.us-west-2.elasticbeanstalk.com, including ts7yqko9ci.rocketmortgage.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

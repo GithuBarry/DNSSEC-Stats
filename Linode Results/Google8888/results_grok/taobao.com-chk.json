@@ -1,0 +1,48 @@
+{
+    "gds.alibabadns.com.": {
+        "queries": {
+            "gds.alibabadns.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "gds.alibabadns.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (gds.alibabadns.com) not matching the zone name (alibabadns.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "taobao.com.": {
+        "queries": {
+            "p9yqs7mhwb.taobao.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "na61-na62.wagbridge.alibaba.taobao.com.gds.alibabadns.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for p9yqs7mhwb.taobao.com results in a NOERROR response, while a query for its ancestor, com.gds.alibabadns.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.gds.alibabadns.com, including p9yqs7mhwb.taobao.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

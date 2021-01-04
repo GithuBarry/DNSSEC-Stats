@@ -1,0 +1,203 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "net.": {
+        "queries": {
+            "net./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "dy2018.com.": {
+        "queries": {
+            "dy2018.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "dy2018.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dy2018.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "gslb.cname.v2.netinfi.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for dy2018.com results in a NOERROR response, while a query for its ancestor, v2.netinfi.com, returns a name error (NXDOMAIN), which indicates that subdomains of v2.netinfi.com, including dy2018.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dy2018.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "dy2018.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dy2018.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "a657eef49cc67bffa95d223f6084ea39.momentcdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dy2018.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "dy2018.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dy2018.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "gslb.cname.v2.netinfi.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for dy2018.com results in a NOERROR response, while a query for its ancestor, v2.netinfi.com, returns a name error (NXDOMAIN), which indicates that subdomains of v2.netinfi.com, including dy2018.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dy2018.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "dy2018.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dy2018.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "gslb.cname.v2.netinfi.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for dy2018.com results in a NOERROR response, while a query for its ancestor, v2.netinfi.com, returns a name error (NXDOMAIN), which indicates that subdomains of v2.netinfi.com, including dy2018.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dy2018.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "dy2018.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dy2018.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "gslb.cname.v2.netinfi.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for dy2018.com results in a NOERROR response, while a query for its ancestor, v2.netinfi.com, returns a name error (NXDOMAIN), which indicates that subdomains of v2.netinfi.com, including dy2018.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

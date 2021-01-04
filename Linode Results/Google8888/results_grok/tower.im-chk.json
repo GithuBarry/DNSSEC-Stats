@@ -1,0 +1,62 @@
+{
+    "w.kunlunsl.com.": {
+        "queries": {
+            "w.kunlunsl.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "tower.im.": {
+        "queries": {
+            "tower.im./IN/A": {
+                "answer": [
+                    {
+                        "id": "tower.im.w.kunlunsl.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for tower.im results in a NOERROR response, while a query for its ancestor, im.w.kunlunsl.com, returns a name error (NXDOMAIN), which indicates that subdomains of im.w.kunlunsl.com, including tower.im, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "tower.im./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "tower.im.w.kunlunsl.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for tower.im results in a NOERROR response, while a query for its ancestor, im.w.kunlunsl.com, returns a name error (NXDOMAIN), which indicates that subdomains of im.w.kunlunsl.com, including tower.im, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

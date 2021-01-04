@@ -1,0 +1,76 @@
+{
+    "luckyforbet.com.": {
+        "queries": {
+            "luckyforbet.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for luckyforbet.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including luckyforbet.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for luckyforbet.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including luckyforbet.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

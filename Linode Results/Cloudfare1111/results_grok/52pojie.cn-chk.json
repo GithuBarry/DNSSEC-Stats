@@ -1,0 +1,130 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "net.": {
+        "queries": {
+            "net./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cn.": {
+        "queries": {
+            "cn./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "52pojie.cn.": {
+        "queries": {
+            "52pojie.cn./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "52pojie.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 52pojie.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-vip2.beian.mydnspod.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for 52pojie.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including 52pojie.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "52pojie.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "52pojie.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 52pojie.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-vip2.beian.mydnspod.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for 52pojie.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including 52pojie.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

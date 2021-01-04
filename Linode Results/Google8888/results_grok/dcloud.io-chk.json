@@ -1,0 +1,184 @@
+{
+    "w.kunluncan.com.": {
+        "queries": {
+            "w.kunluncan.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "dcloud.io.": {
+        "queries": {
+            "dcloud.io./IN/A": {
+                "answer": [
+                    {
+                        "id": "dcloud.io./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dcloud.io, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "dcloud.io.w.kunluncan.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for dcloud.io results in a NOERROR response, while a query for its ancestor, io.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of io.w.kunluncan.com, including dcloud.io, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dcloud.io./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "dcloud.io./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dcloud.io, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dcloud.io.w.kunluncan.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for dcloud.io results in a NOERROR response, while a query for its ancestor, io.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of io.w.kunluncan.com, including dcloud.io, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dcloud.io./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "dcloud.io./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dcloud.io, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dcloud.io.w.kunluncan.com./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "A query for dcloud.io results in a NOERROR response, while a query for its ancestor, io.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of io.w.kunluncan.com, including dcloud.io, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dcloud.io./IN/MX": {
+                "answer": [
+                    {
+                        "id": "dcloud.io./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dcloud.io, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dcloud.io.w.kunluncan.com./IN/MX",
+                        "errors": [
+                            {
+                                "description": "A query for dcloud.io results in a NOERROR response, while a query for its ancestor, io.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of io.w.kunluncan.com, including dcloud.io, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dcloud.io./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "dcloud.io./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dcloud.io, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dcloud.io.w.kunluncan.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for dcloud.io results in a NOERROR response, while a query for its ancestor, io.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of io.w.kunluncan.com, including dcloud.io, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

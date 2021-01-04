@@ -1,0 +1,25 @@
+{
+    "huamu.cn.": {
+        "queries": {
+            "huamu.cn./IN/SOA": {
+                "nodata": [
+                    {
+                        "id": "huamu.cn./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

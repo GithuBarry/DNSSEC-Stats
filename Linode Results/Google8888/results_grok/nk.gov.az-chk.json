@@ -1,0 +1,19 @@
+{
+    "nk.gov.az.": {
+        "delegation": {
+            "status": "INCOMPLETE",
+            "errors": [
+                {
+                    "description": "No delegation NS records were detected in the parent zone (gov.az).  This results in an NXDOMAIN response to a DS query (for DNSSEC), even if the parent servers are authoritative for the child.",
+                    "code": "NO_NS_IN_PARENT",
+                    "servers": [
+                        "8.8.8.8"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K"
+                    ]
+                }
+            ]
+        }
+    }
+}

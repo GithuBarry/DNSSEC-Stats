@@ -1,0 +1,117 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "info.": {
+        "queries": {
+            "info./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "en.t4.cgn.travian.info.": {
+        "queries": {
+            "en.t4.cgn.travian.info./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "en.t4.cgn.travian.info./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "en.t4.cgn.travian.info./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "A query for en.t4.cgn.travian.info results in a NOERROR response, while a query for its ancestor, cgn.travian.info, returns a name error (NXDOMAIN), which indicates that subdomains of cgn.travian.info, including en.t4.cgn.travian.info, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "travian.com.": {
+        "queries": {
+            "v7aoutk9y1.travian.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "lb.startpage.en.t4.cgn.travian.info./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for v7aoutk9y1.travian.com results in a NOERROR response, while a query for its ancestor, cgn.travian.info, returns a name error (NXDOMAIN), which indicates that subdomains of cgn.travian.info, including v7aoutk9y1.travian.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

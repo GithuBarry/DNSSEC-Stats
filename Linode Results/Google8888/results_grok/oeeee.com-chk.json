@@ -1,0 +1,97 @@
+{
+    "galileo.jcloud-cdn.com.": {
+        "queries": {
+            "galileo.jcloud-cdn.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "galileo.jcloud-cdn.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (galileo.jcloud-cdn.com) not matching the zone name (jcloud-cdn.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "oeeee.com.": {
+        "queries": {
+            "oeeee.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "oeeee.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "oeeee.com.dy.galileo.jcloud-cdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for oeeee.com results in a NOERROR response, while a query for its ancestor, dy.galileo.jcloud-cdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of dy.galileo.jcloud-cdn.com, including oeeee.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oeeee.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "oeeee.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "oeeee.com.dy.galileo.jcloud-cdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for oeeee.com results in a NOERROR response, while a query for its ancestor, dy.galileo.jcloud-cdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of dy.galileo.jcloud-cdn.com, including oeeee.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

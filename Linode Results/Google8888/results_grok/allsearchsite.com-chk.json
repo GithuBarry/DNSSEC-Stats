@@ -1,0 +1,129 @@
+{
+    "allsearchsite.com.": {
+        "queries": {
+            "allsearchsite.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "allsearchsite.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for allsearchsite.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "allsearchsite.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "allsearchsite.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for allsearchsite.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "askmedia.map.fastly.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "allsearchsite.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "allsearchsite.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for allsearchsite.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "allsearchsite.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "allsearchsite.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for allsearchsite.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "allsearchsite.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "allsearchsite.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for allsearchsite.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "allsearchsite.com./IN/DS": {
+                "answer": [
+                    {
+                        "id": "allsearchsite.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for allsearchsite.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "allsearchsite.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "allsearchsite.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for allsearchsite.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    }
+}

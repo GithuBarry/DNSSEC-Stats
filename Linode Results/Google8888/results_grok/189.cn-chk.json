@@ -1,0 +1,58 @@
+{
+    "w.alikunlun.com.": {
+        "queries": {
+            "w.alikunlun.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "189.cn.": {
+        "queries": {
+            "0vymtqa9rl.189.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "all.189.mixcdn.58cloud.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for 0vymtqa9rl.189.cn results in a NOERROR response, while a query for its ancestor, mixcdn.58cloud.com, returns a name error (NXDOMAIN), which indicates that subdomains of mixcdn.58cloud.com, including 0vymtqa9rl.189.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "all.189.cn.w.alikunlun.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for 0vymtqa9rl.189.cn results in a NOERROR response, while a query for its ancestor, cn.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.w.alikunlun.com, including 0vymtqa9rl.189.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

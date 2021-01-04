@@ -1,0 +1,180 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "gov.": {
+        "queries": {
+            "gov./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "weather.gov.": {
+        "queries": {
+            "weather.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "weather.gov./IN/CNAME",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "6MPSPNAS71BG1NDFN6LGRCDKTE08LMFG.weather.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "weather.gov./8/21163",
+                                                "errors": [
+                                                    {
+                                                        "description": "With a TTL of 604800 the RRSIG RR can be in the cache of a non-validating resolver until 4 days after it expires at 2021-01-04 04:31:09+00:00.",
+                                                        "code": "TTL_BEYOND_EXPIRATION"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "weather.gov./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "weather.gov./IN/MX",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "6MPSPNAS71BG1NDFN6LGRCDKTE08LMFG.weather.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "weather.gov./8/21163",
+                                                "errors": [
+                                                    {
+                                                        "description": "With a TTL of 604800 the RRSIG RR can be in the cache of a non-validating resolver until 4 days after it expires at 2021-01-04 04:31:09+00:00.",
+                                                        "code": "TTL_BEYOND_EXPIRATION"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "weather.gov./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "gm97fras3n.weather.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "gm97fras3n.weather.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "6MPSPNAS71BG1NDFN6LGRCDKTE08LMFG.weather.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "weather.gov./8/21163",
+                                                "errors": [
+                                                    {
+                                                        "description": "With a TTL of 604800 the RRSIG RR can be in the cache of a non-validating resolver until 4 days after it expires at 2021-01-04 04:31:09+00:00.",
+                                                        "code": "TTL_BEYOND_EXPIRATION"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "ALR1EDP6OQ7BVDUIAQCIPEQ83740LTJ1.weather.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "weather.gov./8/21163",
+                                                "errors": [
+                                                    {
+                                                        "description": "With a TTL of 604800 the RRSIG RR can be in the cache of a non-validating resolver until 4 days after it expires at 2021-01-04 04:31:09+00:00.",
+                                                        "code": "TTL_BEYOND_EXPIRATION"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "3R53BI5QJOM90STH6JO84O8UGVQCJI76.weather.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "weather.gov./8/21163",
+                                                "errors": [
+                                                    {
+                                                        "description": "With a TTL of 604800 the RRSIG RR can be in the cache of a non-validating resolver until 4 days after it expires at 2021-01-04 04:31:09+00:00.",
+                                                        "code": "TTL_BEYOND_EXPIRATION"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

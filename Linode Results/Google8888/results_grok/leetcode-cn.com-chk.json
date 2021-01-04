@@ -1,0 +1,94 @@
+{
+    "w.kunlunsl.com.": {
+        "queries": {
+            "w.kunlunsl.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "leetcode-cn.com.": {
+        "queries": {
+            "leetcode-cn.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "leetcode-cn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "leetcode-cn.com.w.kunlunsl.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for leetcode-cn.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunsl.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunsl.com, including leetcode-cn.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "leetcode-cn.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "leetcode-cn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "leetcode-cn.com.w.kunlunsl.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for leetcode-cn.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunsl.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunsl.com, including leetcode-cn.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

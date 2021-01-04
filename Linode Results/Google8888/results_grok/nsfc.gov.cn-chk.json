@@ -1,0 +1,313 @@
+{
+    "nsfc.gov.cn.": {
+        "queries": {
+            "nsfc.gov.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "nsfc.gov.cn./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type A, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type SOA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type A, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nsfc.gov.cn./IN/NS": {
+                "answer": [
+                    {
+                        "id": "nsfc.gov.cn./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type NS, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type SOA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type NS, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nsfc.gov.cn./IN/CNAME": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "nsfc.gov.cn./IN/SOA": {
+                "nxdomain": [
+                    {
+                        "id": "nsfc.gov.cn./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type NS, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type SOA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type A, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type SOA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type MX, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type SOA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type TXT, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type SOA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NXDOMAIN response.",
+                                "code": "MISSING_SOA_FOR_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nsfc.gov.cn./IN/MX": {
+                "answer": [
+                    {
+                        "id": "nsfc.gov.cn./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type MX, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type SOA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type MX, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nsfc.gov.cn./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "nsfc.gov.cn./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type TXT, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type SOA.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type TXT, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nsfc.gov.cn./IN/AAAA": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "nsfc.gov.cn./IN/DNSKEY": {
+                "nxdomain": [
+                    {
+                        "id": "nsfc.gov.cn./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type NS, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type A, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type MX, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for nsfc.gov.cn having record data of type TXT, but returned a name error (NXDOMAIN) when queried for nsfc.gov.cn having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NXDOMAIN response.",
+                                "code": "MISSING_SOA_FOR_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gl7k2cdtnj.nsfc.gov.cn./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

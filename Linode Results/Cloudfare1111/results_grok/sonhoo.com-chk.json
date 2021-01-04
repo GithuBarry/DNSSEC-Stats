@@ -1,0 +1,167 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "net.": {
+        "queries": {
+            "net./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "sonhoo.com.": {
+        "queries": {
+            "sonhoo.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "sonhoo.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for sonhoo.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "www.sonhoo.com.cname.yunjiasu-cdn.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for sonhoo.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including sonhoo.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sonhoo.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "sonhoo.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for sonhoo.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "www.sonhoo.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sonhoo.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "sonhoo.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for sonhoo.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "www.sonhoo.com.cname.yunjiasu-cdn.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for sonhoo.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including sonhoo.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "o54cin93h7.sonhoo.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "yjs-any.sonhoo.com.cname.yunjiasu-cdn.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for o54cin93h7.sonhoo.com results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including o54cin93h7.sonhoo.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

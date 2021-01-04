@@ -1,0 +1,67 @@
+{
+    "a.bdydns.com.": {
+        "queries": {
+            "a.bdydns.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "a.bdydns.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (a.bdydns.com) not matching the zone name (bdydns.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "nga.cn.": {
+        "queries": {
+            "nga.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "nga.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nga.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "nga.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

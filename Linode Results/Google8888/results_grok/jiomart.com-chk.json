@@ -1,0 +1,109 @@
+{
+    "jiomart.com.": {
+        "queries": {
+            "jiomart.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "jiomart.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for jiomart.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "www.jiomart.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NODATA response.",
+                                "code": "MISSING_NSEC_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "jiomart.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "jiomart.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for jiomart.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "jiomart.com./IN/DS": {
+                "answer": [
+                    {
+                        "id": "jiomart.com./IN/CNAME",
+                        "rrsig": [
+                            {
+                                "id": "jiomart.com./5/38517",
+                                "status": "INVALID",
+                                "errors": [
+                                    {
+                                        "description": "The Signer's Name field of the RRSIG RR (jiomart.com) does not match the name of the zone containing the RRset (com).",
+                                        "code": "SIGNER_NOT_ZONE"
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for jiomart.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The DNSKEY RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DS RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    }
+}

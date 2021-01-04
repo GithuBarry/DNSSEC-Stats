@@ -1,0 +1,94 @@
+{
+    "w.kunluncan.com.": {
+        "queries": {
+            "w.kunluncan.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "reactnative.cn.": {
+        "queries": {
+            "reactnative.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "reactnative.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "reactnative.cn.w.kunluncan.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for reactnative.cn results in a NOERROR response, while a query for its ancestor, cn.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.w.kunluncan.com, including reactnative.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "reactnative.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "reactnative.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "reactnative.cn.w.kunluncan.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for reactnative.cn results in a NOERROR response, while a query for its ancestor, cn.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.w.kunluncan.com, including reactnative.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

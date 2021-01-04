@@ -1,0 +1,43 @@
+{
+    "danuoyi.tbcache.com.": {
+        "queries": {
+            "danuoyi.tbcache.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "taobao.org.": {
+        "queries": {
+            "yark0268et.taobao.org./IN/A": {
+                "answer": [
+                    {
+                        "id": "www.gslb.taobao.com.danuoyi.tbcache.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for yark0268et.taobao.org results in a NOERROR response, while a query for its ancestor, com.danuoyi.tbcache.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.danuoyi.tbcache.com, including yark0268et.taobao.org, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

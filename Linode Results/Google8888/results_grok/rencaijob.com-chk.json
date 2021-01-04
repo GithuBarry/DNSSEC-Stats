@@ -1,0 +1,43 @@
+{
+    "w.kunlunsl.com.": {
+        "queries": {
+            "w.kunlunsl.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rencaijob.com.": {
+        "queries": {
+            "7ok2msivw9.rencaijob.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "all.rencaijob.com.w.kunlunsl.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for 7ok2msivw9.rencaijob.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunsl.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunsl.com, including 7ok2msivw9.rencaijob.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

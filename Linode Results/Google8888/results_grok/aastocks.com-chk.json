@@ -1,0 +1,44 @@
+{
+    "aastocks.com.": {
+        "queries": {
+            "aastocks.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "aastocks.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "y4clpu8rqx.aastocks.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "y4clpu8rqx.aastocks.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NXDOMAIN response.",
+                                "code": "MISSING_SOA_FOR_NXDOMAIN",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

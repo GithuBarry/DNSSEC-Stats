@@ -1,0 +1,67 @@
+{
+    "shangxueba.com.": {
+        "queries": {
+            "shangxueba.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "shangxueba.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "shangxueba.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "shangxueba.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for shangxueba.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-vip3.beian.mydnspod.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for shangxueba.com results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including shangxueba.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

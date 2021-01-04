@@ -1,0 +1,245 @@
+{
+    "w.cdngslb.com.": {
+        "queries": {
+            "w.cdngslb.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "xiumi.us.": {
+        "queries": {
+            "xiumi.us./IN/A": {
+                "answer": [
+                    {
+                        "id": "xiumi.us./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for xiumi.us, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "xiumi.us.w.cdngslb.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for xiumi.us results in a NOERROR response, while a query for its ancestor, us.w.cdngslb.com, returns a name error (NXDOMAIN), which indicates that subdomains of us.w.cdngslb.com, including xiumi.us, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xiumi.us./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "xiumi.us./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for xiumi.us, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "xiumi.us.w.cdngslb.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for xiumi.us results in a NOERROR response, while a query for its ancestor, us.w.cdngslb.com, returns a name error (NXDOMAIN), which indicates that subdomains of us.w.cdngslb.com, including xiumi.us, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xiumi.us./IN/MX": {
+                "answer": [
+                    {
+                        "id": "xiumi.us./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for xiumi.us, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "xiumi.us.w.cdngslb.com./IN/MX",
+                        "errors": [
+                            {
+                                "description": "A query for xiumi.us results in a NOERROR response, while a query for its ancestor, us.w.cdngslb.com, returns a name error (NXDOMAIN), which indicates that subdomains of us.w.cdngslb.com, including xiumi.us, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xiumi.us./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "xiumi.us./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for xiumi.us, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "xiumi.us.w.cdngslb.com./IN/TXT",
+                        "errors": [
+                            {
+                                "description": "A query for xiumi.us results in a NOERROR response, while a query for its ancestor, us.w.cdngslb.com, returns a name error (NXDOMAIN), which indicates that subdomains of us.w.cdngslb.com, including xiumi.us, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xiumi.us./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "xiumi.us./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for xiumi.us, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "xiumi.us.w.cdngslb.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for xiumi.us results in a NOERROR response, while a query for its ancestor, us.w.cdngslb.com, returns a name error (NXDOMAIN), which indicates that subdomains of us.w.cdngslb.com, including xiumi.us, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xiumi.us./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "xiumi.us./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for xiumi.us, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "xiumi.us.w.cdngslb.com./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "A query for xiumi.us results in a NOERROR response, while a query for its ancestor, us.w.cdngslb.com, returns a name error (NXDOMAIN), which indicates that subdomains of us.w.cdngslb.com, including xiumi.us, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "13/54931",
+                "warnings": [
+                    {
+                        "description": "The DNSKEY RR was not found in the DNSKEY RRset returned by one or more servers.",
+                        "code": "DNSKEY_MISSING_FROM_SERVERS",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "13/56113",
+                "errors": [
+                    {
+                        "description": "The DNSKEY RR was not found in the DNSKEY RRset returned by one or more servers.",
+                        "code": "DNSKEY_MISSING_FROM_SERVERS",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

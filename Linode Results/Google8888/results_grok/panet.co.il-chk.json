@@ -1,0 +1,279 @@
+{
+    "il.": {
+        "queries": {
+            "il./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "il./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "The DNSKEY RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "errors": [
+                {
+                    "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no DS RR matched a DNSKEY with algorithm 13 that signs the zone's DNSKEY RRset.",
+                    "code": "MISSING_SEP_FOR_ALG",
+                    "servers": [
+                        "8.8.8.8"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K"
+                    ]
+                }
+            ]
+        }
+    },
+    "co.il.": {
+        "queries": {
+            "co.il./IN/DS": {
+                "answer": [
+                    {
+                        "id": "co.il./IN/DS",
+                        "errors": [
+                            {
+                                "description": "The DNSKEY RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "co.il./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "co.il./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "The DNSKEY RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "errors": [
+                {
+                    "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no DS RR matched a DNSKEY with algorithm 13 that signs the zone's DNSKEY RRset.",
+                    "code": "MISSING_SEP_FOR_ALG",
+                    "servers": [
+                        "8.8.8.8"
+                    ],
+                    "query_options": [
+                        "UDP_+_EDNS0_4096_D_K"
+                    ]
+                }
+            ]
+        }
+    },
+    "panet.co.il.": {
+        "queries": {
+            "panet.co.il./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "panet.co.il./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "6LDB7RTPNQ5289PAJGIE0184HT4I7500.co.il./IN/NSEC3",
+                                        "errors": [
+                                            {
+                                                "description": "The DNSKEY RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                                "servers": [
+                                                    "8.8.8.8"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_+_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                                "servers": [
+                                                    "8.8.8.8"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_+_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "7IRROK8IOD9901AT4BDOOPQFIBDKFUUM.co.il./IN/NSEC3",
+                                        "errors": [
+                                            {
+                                                "description": "The DNSKEY RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                                "servers": [
+                                                    "8.8.8.8"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_+_EDNS0_4096_D_K"
+                                                ]
+                                            },
+                                            {
+                                                "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                                "servers": [
+                                                    "8.8.8.8"
+                                                ],
+                                                "query_options": [
+                                                    "UDP_+_EDNS0_4096_D_K"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "soa": [
+                            {
+                                "id": "co.il./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "The DNSKEY RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                        "servers": [
+                                            "8.8.8.8"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+_EDNS0_4096_D_K"
+                                        ]
+                                    },
+                                    {
+                                        "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                        "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                        "servers": [
+                                            "8.8.8.8"
+                                        ],
+                                        "query_options": [
+                                            "UDP_+_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "6LDB7RTPNQ5289PAJGIE0184HT4I7500.co.il./IN/NSEC3",
+                            "errors": [
+                                {
+                                    "description": "The DNSKEY RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                    "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                    "servers": [
+                                        "8.8.8.8"
+                                    ],
+                                    "query_options": [
+                                        "UDP_+_EDNS0_4096_D_K"
+                                    ]
+                                },
+                                {
+                                    "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                    "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                    "servers": [
+                                        "8.8.8.8"
+                                    ],
+                                    "query_options": [
+                                        "UDP_+_EDNS0_4096_D_K"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7IRROK8IOD9901AT4BDOOPQFIBDKFUUM.co.il./IN/NSEC3",
+                            "errors": [
+                                {
+                                    "description": "The DNSKEY RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                    "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                    "servers": [
+                                        "8.8.8.8"
+                                    ],
+                                    "query_options": [
+                                        "UDP_+_EDNS0_4096_D_K"
+                                    ]
+                                },
+                                {
+                                    "description": "The DS RRset for the zone included algorithm 13 (ECDSAP256SHA256), but no RRSIG with algorithm 13 covering the RRset was returned in the response.",
+                                    "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                    "servers": [
+                                        "8.8.8.8"
+                                    ],
+                                    "query_options": [
+                                        "UDP_+_EDNS0_4096_D_K"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

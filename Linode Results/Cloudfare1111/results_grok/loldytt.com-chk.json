@@ -1,0 +1,248 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "net.": {
+        "queries": {
+            "net./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "loldytt.com.": {
+        "queries": {
+            "loldytt.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "loldytt.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for loldytt.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "gslb.cname.v2.netinfi.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for loldytt.com results in a NOERROR response, while a query for its ancestor, v2.netinfi.com, returns a name error (NXDOMAIN), which indicates that subdomains of v2.netinfi.com, including loldytt.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "loldytt.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "loldytt.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for loldytt.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "2f153b5b09ebde22d74e83664fdd5501.momentcdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "loldytt.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "loldytt.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for loldytt.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "gslb.cname.v2.netinfi.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for loldytt.com results in a NOERROR response, while a query for its ancestor, v2.netinfi.com, returns a name error (NXDOMAIN), which indicates that subdomains of v2.netinfi.com, including loldytt.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "loldytt.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "loldytt.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for loldytt.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "gslb.cname.v2.netinfi.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for loldytt.com results in a NOERROR response, while a query for its ancestor, v2.netinfi.com, returns a name error (NXDOMAIN), which indicates that subdomains of v2.netinfi.com, including loldytt.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "loldytt.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "loldytt.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for loldytt.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "gslb.cname.v2.netinfi.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for loldytt.com results in a NOERROR response, while a query for its ancestor, v2.netinfi.com, returns a name error (NXDOMAIN), which indicates that subdomains of v2.netinfi.com, including loldytt.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "loldytt.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "loldytt.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for loldytt.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "gslb.cname.v2.netinfi.com./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "A query for loldytt.com results in a NOERROR response, while a query for its ancestor, v2.netinfi.com, returns a name error (NXDOMAIN), which indicates that subdomains of v2.netinfi.com, including loldytt.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rew7zki4bc.loldytt.com./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

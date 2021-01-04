@@ -1,0 +1,43 @@
+{
+    "w.kunlunar.com.": {
+        "queries": {
+            "w.kunlunar.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "biligame.com.": {
+        "queries": {
+            "if23qe8pnw.biligame.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "all.biligame.com.w.kunlunar.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for if23qe8pnw.biligame.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunar.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunar.com, including if23qe8pnw.biligame.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

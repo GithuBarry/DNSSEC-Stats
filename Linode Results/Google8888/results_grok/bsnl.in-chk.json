@@ -1,0 +1,70 @@
+{
+    "bsnl.in.": {
+        "queries": {
+            "bsnl.in./IN/NS": {
+                "answer": [
+                    {
+                        "id": "bsnl.in./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.in./7/51428",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 20:35:05+00:00) is within possible clock skew range (22 seconds) of the current time (2021-01-01 20:35:27+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bsnl.in./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "bsnl.in./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.in./7/51428",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 20:35:27+00:00) is within possible clock skew range (0 seconds) of the current time (2021-01-01 20:35:27+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "l0iopanzb6.bsnl.in./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "l0iopanzb6.bsnl.in./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "F3IER5URGRIN5AKSJ8NO4PEM1184TEAM.bsnl.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.in./7/51428",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 20:35:27+00:00) is within possible clock skew range (0 seconds) of the current time (2021-01-01 20:35:27+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

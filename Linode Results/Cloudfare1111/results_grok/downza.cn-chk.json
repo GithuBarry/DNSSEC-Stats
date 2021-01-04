@@ -1,0 +1,327 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cn.": {
+        "queries": {
+            "cn./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "downza.cn.": {
+        "queries": {
+            "downza.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "downza.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downza.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downza.cn.c.cdnhwc1.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc1.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc1.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "hcdnw101.gslb.c.cdnhwc2.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc2.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc2.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "downza.cn./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "downza.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downza.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "downza.cn.c.cdnhwc1.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc1.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc1.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "downza.cn./IN/MX": {
+                "answer": [
+                    {
+                        "id": "downza.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downza.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downza.cn.c.cdnhwc1.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc1.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc1.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "hcdnw101.gslb.c.cdnhwc2.com./IN/MX",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc2.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc2.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "downza.cn./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "downza.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downza.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downza.cn.c.cdnhwc1.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc1.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc1.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "hcdnw101.gslb.c.cdnhwc2.com./IN/TXT",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc2.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc2.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "downza.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "downza.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downza.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downza.cn.c.cdnhwc1.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc1.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc1.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "hcdnw101.gslb.c.cdnhwc2.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc2.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc2.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "downza.cn./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "downza.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for downza.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "downza.cn.c.cdnhwc1.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc1.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc1.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "hcdnw101.gslb.c.cdnhwc2.com./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "A query for downza.cn results in a NOERROR response, while a query for its ancestor, c.cdnhwc2.com, returns a name error (NXDOMAIN), which indicates that subdomains of c.cdnhwc2.com, including downza.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

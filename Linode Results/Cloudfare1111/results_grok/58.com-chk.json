@@ -1,0 +1,162 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "sched.ovscdns.com.": {
+        "queries": {
+            "sched.ovscdns.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "sched.ovscdns.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (ovscdns.com) not matching the zone name (com) was returned with the NXDOMAIN response.",
+                                "code": "SOA_NOT_OWNER_FOR_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NXDOMAIN response.",
+                                "code": "MISSING_NSEC_FOR_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "dsa.dnsv1.com.": {
+        "queries": {
+            "dsa.dnsv1.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "dsa.dnsv1.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (dnsv1.com) not matching the zone name (com) was returned with the NXDOMAIN response.",
+                                "code": "SOA_NOT_OWNER_FOR_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the NXDOMAIN response.",
+                                "code": "MISSING_NSEC_FOR_NXDOMAIN",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "58.com.": {
+        "queries": {
+            "xkg7mc4i5u.58.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "dc52fd41.58.com.dsa.dnsv1.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "A query for xkg7mc4i5u.58.com results in a NOERROR response, while a query for its ancestor, dsa.dnsv1.com, returns a name error (NXDOMAIN), which indicates that subdomains of dsa.dnsv1.com, including xkg7mc4i5u.58.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "qzh4zgmw.e0.sched.ovscdns.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "A query for xkg7mc4i5u.58.com results in a NOERROR response, while a query for its ancestor, sched.ovscdns.com, returns a name error (NXDOMAIN), which indicates that subdomains of sched.ovscdns.com, including xkg7mc4i5u.58.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

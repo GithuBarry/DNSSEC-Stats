@@ -1,0 +1,106 @@
+{
+    "meiju11.com.": {
+        "queries": {
+            "meiju11.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "meiju11.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9.p.qixingcdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for meiju11.com results in a NOERROR response, while a query for its ancestor, p.qixingcdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of p.qixingcdn.com, including meiju11.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10.n.qixingcdn.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for meiju11.com results in a NOERROR response, while a query for its ancestor, n.qixingcdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of n.qixingcdn.com, including meiju11.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "meiju11.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "meiju11.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9.p.qixingcdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for meiju11.com results in a NOERROR response, while a query for its ancestor, p.qixingcdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of p.qixingcdn.com, including meiju11.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "10.n.qixingcdn.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for meiju11.com results in a NOERROR response, while a query for its ancestor, n.qixingcdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of n.qixingcdn.com, including meiju11.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

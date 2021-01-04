@@ -1,0 +1,75 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "shafa.ua.": {
+        "queries": {
+            "shafa.ua./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "shafa.ua./IN/DS",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "OOKFV0OMSGJO99HLPQV80J0P4C7A4UKF.ua./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "ua./13/7421",
+                                                "errors": [
+                                                    {
+                                                        "description": "The TTL of the RRset (7200) exceeds the value of the Original TTL field of the RRSIG RR covering it (6666).",
+                                                        "code": "ORIGINAL_TTL_EXCEEDED"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "insecurity_proof": [
+                {
+                    "id": "NSEC3",
+                    "nsec3": [
+                        {
+                            "id": "OOKFV0OMSGJO99HLPQV80J0P4C7A4UKF.ua./IN/NSEC3",
+                            "rrsig": [
+                                {
+                                    "id": "ua./13/7421",
+                                    "errors": [
+                                        {
+                                            "description": "The TTL of the RRset (7200) exceeds the value of the Original TTL field of the RRSIG RR covering it (6666).",
+                                            "code": "ORIGINAL_TTL_EXCEEDED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "dsca.akamaiedge.net.": {
+        "queries": {
+            "dsca.akamaiedge.net./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "dsca.akamaiedge.net./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (akamaiedge.net) not matching the zone name (dsca.akamaiedge.net) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

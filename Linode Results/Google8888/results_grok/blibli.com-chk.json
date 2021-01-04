@@ -1,0 +1,25 @@
+{
+    "blibli.com.": {
+        "queries": {
+            "qkw5mp9eon.blibli.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "*.blibli.com.cdn.cloudflare.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "No NSEC RR(s) were returned to validate the wildcard response.",
+                                "code": "MISSING_NSEC_FOR_WILDCARD",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

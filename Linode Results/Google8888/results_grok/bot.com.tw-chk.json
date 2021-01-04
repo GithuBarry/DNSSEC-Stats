@@ -1,0 +1,34 @@
+{
+    "bot.com.tw.": {
+        "queries": {
+            "zkrbcpofvn.bot.com.tw./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "zkrbcpofvn.bot.com.tw./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "DB8P1K13GK52FIHHUDC0C53AS408B7GN.bot.com.tw./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bot.com.tw./8/28860",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 21:36:25+00:00) is within possible clock skew range (0 seconds) of the current time (2021-01-01 21:36:25+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

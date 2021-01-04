@@ -1,0 +1,94 @@
+{
+    "w.alikunlun.com.": {
+        "queries": {
+            "w.alikunlun.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "962.net.": {
+        "queries": {
+            "962.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "962.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "962.net.w.alikunlun.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for 962.net results in a NOERROR response, while a query for its ancestor, net.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of net.w.alikunlun.com, including 962.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "962.net./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "962.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "962.net.w.alikunlun.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for 962.net results in a NOERROR response, while a query for its ancestor, net.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of net.w.alikunlun.com, including 962.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "w.kunluncan.com.": {
+        "queries": {
+            "w.kunluncan.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "huanqiuauto.com.": {
+        "queries": {
+            "sof3pwv8i4.huanqiuauto.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "all.huanqiuauto.com.w.kunluncan.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for sof3pwv8i4.huanqiuauto.com results in a NOERROR response, while a query for its ancestor, com.w.kunluncan.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunluncan.com, including sof3pwv8i4.huanqiuauto.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

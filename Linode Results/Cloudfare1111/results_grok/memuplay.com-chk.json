@@ -1,0 +1,224 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "net.": {
+        "queries": {
+            "net./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cn.": {
+        "queries": {
+            "cn./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.cn.": {
+        "queries": {
+            "com.cn./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "memuplay.com.": {
+        "queries": {
+            "memuplay.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "memuplay.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for memuplay.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "79dc32bf.cdn.ucloud.com.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for memuplay.com results in a NOERROR response, while a query for its ancestor, cdn.ucloud.com.cn, returns a name error (NXDOMAIN), which indicates that subdomains of cdn.ucloud.com.cn, including memuplay.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "cds.p2w9g5q8.hwcdn.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for memuplay.com results in a NOERROR response, while a query for its ancestor, p2w9g5q8.hwcdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of p2w9g5q8.hwcdn.net, including memuplay.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "memuplay.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "memuplay.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for memuplay.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "79dc32bf.cdn.ucloud.com.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for memuplay.com results in a NOERROR response, while a query for its ancestor, cdn.ucloud.com.cn, returns a name error (NXDOMAIN), which indicates that subdomains of cdn.ucloud.com.cn, including memuplay.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "memuplay.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "memuplay.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for memuplay.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "79dc32bf.cdn.ucloud.com.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for memuplay.com results in a NOERROR response, while a query for its ancestor, cdn.ucloud.com.cn, returns a name error (NXDOMAIN), which indicates that subdomains of cdn.ucloud.com.cn, including memuplay.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cds.p2w9g5q8.hwcdn.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for memuplay.com results in a NOERROR response, while a query for its ancestor, p2w9g5q8.hwcdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of p2w9g5q8.hwcdn.net, including memuplay.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "rebatesme.com.": {
+        "queries": {
+            "rebatesme.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "rebatesme.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for rebatesme.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rebatesme.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "rebatesme.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for rebatesme.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "lbs-www-224684089.ap-northeast-1.elb.amazonaws.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rebatesme.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "rebatesme.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for rebatesme.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rebatesme.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "rebatesme.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for rebatesme.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "rebatesme.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "rebatesme.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for rebatesme.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "w.kunlunea.com.": {
+        "queries": {
+            "w.kunlunea.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "bzw315.com.": {
+        "queries": {
+            "ltbn67rak9.bzw315.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "all.bzw315.com.w.kunlunea.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for ltbn67rak9.bzw315.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunea.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunea.com, including ltbn67rak9.bzw315.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

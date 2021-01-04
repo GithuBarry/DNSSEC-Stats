@@ -1,0 +1,233 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "luckyforbet.com.": {
+        "queries": {
+            "luckyforbet.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for luckyforbet.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including luckyforbet.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for luckyforbet.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including luckyforbet.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "A query for luckyforbet.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including luckyforbet.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/TXT",
+                        "errors": [
+                            {
+                                "description": "A query for luckyforbet.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including luckyforbet.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for luckyforbet.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including luckyforbet.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "A query for luckyforbet.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including luckyforbet.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

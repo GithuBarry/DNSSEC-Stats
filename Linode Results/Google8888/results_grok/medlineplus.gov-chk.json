@@ -1,0 +1,92 @@
+{
+    "medlineplus.gov.": {
+        "queries": {
+            "medlineplus.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "medlineplus.gov./IN/CNAME",
+                        "rrsig": [
+                            {
+                                "id": "medlineplus.gov./7/45128",
+                                "errors": [
+                                    {
+                                        "description": "The Signer's Name field of the RRSIG RR (medlineplus.gov) does not match the name of the zone containing the RRset (gov).",
+                                        "code": "SIGNER_NOT_ZONE"
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for medlineplus.gov, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The DNSKEY RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DS RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "medlineplus.gov./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "medlineplus.gov./IN/AAAA",
+                        "rrsig": [
+                            {
+                                "id": "medlineplus.gov./7/45128",
+                                "errors": [
+                                    {
+                                        "description": "The Signer's Name field of the RRSIG RR (medlineplus.gov) does not match the name of the zone containing the RRset (gov).",
+                                        "code": "SIGNER_NOT_ZONE"
+                                    }
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The DNSKEY RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DNSKEY",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DS RRset for the zone included algorithm 8 (RSASHA256), but no RRSIG with algorithm 8 covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG_FOR_ALG_DS",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

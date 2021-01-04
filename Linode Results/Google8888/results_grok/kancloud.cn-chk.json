@@ -1,0 +1,271 @@
+{
+    "kancloud.cn.": {
+        "queries": {
+            "kancloud.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "kancloud.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for kancloud.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for kancloud.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including kancloud.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "kancloud.cn./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "kancloud.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for kancloud.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for kancloud.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including kancloud.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "kancloud.cn./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "kancloud.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for kancloud.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "A query for kancloud.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including kancloud.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "kancloud.cn./IN/MX": {
+                "answer": [
+                    {
+                        "id": "kancloud.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for kancloud.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/MX",
+                        "errors": [
+                            {
+                                "description": "A query for kancloud.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including kancloud.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "kancloud.cn./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "kancloud.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for kancloud.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/TXT",
+                        "errors": [
+                            {
+                                "description": "A query for kancloud.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including kancloud.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "kancloud.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "kancloud.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for kancloud.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for kancloud.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including kancloud.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "kancloud.cn./IN/DS": {
+                "answer": [
+                    {
+                        "id": "kancloud.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for kancloud.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/DS",
+                        "errors": [
+                            {
+                                "description": "A query for kancloud.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including kancloud.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "kancloud.cn./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "kancloud.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for kancloud.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dnspod-free.beian.mydnspod.net./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "A query for kancloud.cn results in a NOERROR response, while a query for its ancestor, beian.mydnspod.net, returns a name error (NXDOMAIN), which indicates that subdomains of beian.mydnspod.net, including kancloud.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    }
+}

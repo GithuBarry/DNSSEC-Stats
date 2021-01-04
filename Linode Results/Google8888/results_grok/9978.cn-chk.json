@@ -1,0 +1,94 @@
+{
+    "w.kunlungr.com.": {
+        "queries": {
+            "w.kunlungr.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "9978.cn.": {
+        "queries": {
+            "9978.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "9978.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9978.cn.w.kunlungr.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for 9978.cn results in a NOERROR response, while a query for its ancestor, cn.w.kunlungr.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.w.kunlungr.com, including 9978.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "9978.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "9978.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "9978.cn.w.kunlungr.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for 9978.cn results in a NOERROR response, while a query for its ancestor, cn.w.kunlungr.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.w.kunlungr.com, including 9978.cn, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

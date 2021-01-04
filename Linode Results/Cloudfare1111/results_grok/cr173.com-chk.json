@@ -1,0 +1,243 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "w.kunlunar.com.": {
+        "queries": {
+            "w.kunlunar.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "w.kunlunar.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cr173.com.": {
+        "queries": {
+            "cr173.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "cr173.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cr173.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "cr173.com.w.kunlunar.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for cr173.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunar.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunar.com, including cr173.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cr173.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "cr173.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cr173.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cr173.com.w.kunlunar.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for cr173.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunar.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunar.com, including cr173.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cr173.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "cr173.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cr173.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cr173.com.w.kunlunar.com./IN/MX",
+                        "errors": [
+                            {
+                                "description": "A query for cr173.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunar.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunar.com, including cr173.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cr173.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "cr173.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cr173.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cr173.com.w.kunlunar.com./IN/TXT",
+                        "errors": [
+                            {
+                                "description": "A query for cr173.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunar.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunar.com, including cr173.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cr173.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "cr173.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cr173.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "cr173.com.w.kunlunar.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for cr173.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunar.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunar.com, including cr173.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "f5rmsh7p3b.cr173.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "all.cr173.com.w.kunlunar.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for f5rmsh7p3b.cr173.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunar.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunar.com, including f5rmsh7p3b.cr173.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

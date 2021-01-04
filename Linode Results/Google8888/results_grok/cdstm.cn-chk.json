@@ -1,0 +1,90 @@
+{
+    "cdn.jiashule.com.": {
+        "queries": {
+            "cdn.jiashule.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "cdn.jiashule.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (cdn.jiashule.com) not matching the zone name (jiashule.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "4e4d9bf33e0205c2.cdn.jiashule.com.": {
+        "queries": {
+            "4e4d9bf33e0205c2.cdn.jiashule.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "4e4d9bf33e0205c2.cdn.jiashule.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (4e4d9bf33e0205c2.cdn.jiashule.com) not matching the zone name (cdn.jiashule.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cdstm.cn.": {
+        "queries": {
+            "cdstm.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "cdstm.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cdstm.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "cdstm.cn./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

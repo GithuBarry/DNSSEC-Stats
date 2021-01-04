@@ -1,0 +1,49 @@
+{
+    "huanqiu.com.": {
+        "queries": {
+            "huanqiu.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "huanqiu.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for huanqiu.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "www.huanqiu.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "huanqiu.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "huanqiu.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for huanqiu.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

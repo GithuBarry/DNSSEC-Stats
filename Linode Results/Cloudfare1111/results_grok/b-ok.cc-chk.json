@@ -1,0 +1,63 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cc.": {
+        "queries": {
+            "cc./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "b-ok.cc.": {
+        "queries": {
+            "6s08zjf23w.b-ok.cc./IN/A": {
+                "answer": [
+                    {
+                        "id": "6s08zjf23w.b-ok.cc./IN/CNAME",
+                        "wildcard_proof": {
+                            "*.b-ok.cc.": [
+                                {
+                                    "id": "NSEC",
+                                    "status": "INVALID",
+                                    "errors": [
+                                        {
+                                            "description": "The NSEC RR covers the wildcard itself (*.b-ok.cc), indicating that it doesn't exist.",
+                                            "code": "WILDCARD_COVERED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

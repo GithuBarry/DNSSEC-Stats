@@ -1,0 +1,106 @@
+{
+    "lamabang.com.": {
+        "queries": {
+            "lamabang.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "lamabang.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "a.s.lmbang.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for lamabang.com results in a NOERROR response, while a query for its ancestor, s.lmbang.com, returns a name error (NXDOMAIN), which indicates that subdomains of s.lmbang.com, including lamabang.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fsc.s.lmbang.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for lamabang.com results in a NOERROR response, while a query for its ancestor, s.lmbang.com, returns a name error (NXDOMAIN), which indicates that subdomains of s.lmbang.com, including lamabang.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lamabang.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "lamabang.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "a.s.lmbang.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for lamabang.com results in a NOERROR response, while a query for its ancestor, s.lmbang.com, returns a name error (NXDOMAIN), which indicates that subdomains of s.lmbang.com, including lamabang.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "fsc.s.lmbang.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for lamabang.com results in a NOERROR response, while a query for its ancestor, s.lmbang.com, returns a name error (NXDOMAIN), which indicates that subdomains of s.lmbang.com, including lamabang.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

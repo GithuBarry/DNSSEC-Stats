@@ -1,0 +1,76 @@
+{
+    "dytt8.net.": {
+        "queries": {
+            "dytt8.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "dytt8.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "dytt8.net.cn.xatyds.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for dytt8.net results in a NOERROR response, while a query for its ancestor, cn.xatyds.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.xatyds.com, including dytt8.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dytt8.net./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "dytt8.net./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dytt8.net.cn.xatyds.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for dytt8.net results in a NOERROR response, while a query for its ancestor, cn.xatyds.com, returns a name error (NXDOMAIN), which indicates that subdomains of cn.xatyds.com, including dytt8.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

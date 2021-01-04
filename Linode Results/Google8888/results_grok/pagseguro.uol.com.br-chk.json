@@ -1,0 +1,25 @@
+{
+    "pagseguro.uol.com.br.": {
+        "queries": {
+            "pagseguro.uol.com.br./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "fp27ad.wpc.gammacdn.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (wpc.gammacdn.net) not matching the zone name (gammacdn.net) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

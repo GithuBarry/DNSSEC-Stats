@@ -1,0 +1,134 @@
+{
+    "bupt.edu.cn.": {
+        "queries": {
+            "bupt.edu.cn./IN/A": {
+                "nodata": [
+                    {
+                        "id": "bupt.edu.cn./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bupt.edu.cn./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "bupt.edu.cn./IN/AAAA",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "H7BMQM19SOVTIOHHHB9QMM0PA50F71B1.bupt.edu.cn./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bupt.edu.cn./7/54689",
+                                                "status": "EXPIRED",
+                                                "errors": [
+                                                    {
+                                                        "description": "The Signature Expiration field of the RRSIG RR (2020-12-30 11:34:56+00:00) is 2 days in the past.",
+                                                        "code": "EXPIRATION_IN_PAST"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bupt.edu.cn./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "bupt.edu.cn./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "bupt.edu.cn./7/26028",
+                                "status": "EXPIRED",
+                                "errors": [
+                                    {
+                                        "description": "The Signature Expiration field of the RRSIG RR (2020-12-30 12:49:46+00:00) is 2 days in the past.",
+                                        "code": "EXPIRATION_IN_PAST"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "bupt.edu.cn./7/54689",
+                                "status": "EXPIRED",
+                                "errors": [
+                                    {
+                                        "description": "The Signature Expiration field of the RRSIG RR (2020-12-30 12:49:46+00:00) is 2 days in the past.",
+                                        "code": "EXPIRATION_IN_PAST"
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                        "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS",
+            "errors": [
+                {
+                    "description": "No valid RRSIGs made by a key corresponding to a DS RR were found covering the DNSKEY RRset, resulting in no secure entry point (SEP) into the zone.",
+                    "code": "NO_SEP",
+                    "servers": [
+                        "8.8.8.8"
+                    ],
+                    "query_options": [
+                        "UDP_+C_EDNS0_4096_D_K"
+                    ]
+                }
+            ]
+        }
+    }
+}

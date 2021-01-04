@@ -1,0 +1,111 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "dapenti.com.": {
+        "queries": {
+            "dapenti.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "dapenti.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dapenti.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dapenti.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "dapenti.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dapenti.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "dapenti.gotoftp3.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dapenti.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "dapenti.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dapenti.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dapenti.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "dapenti.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for dapenti.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

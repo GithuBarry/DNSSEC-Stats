@@ -1,0 +1,50 @@
+{
+    "ebrun.com.": {
+        "queries": {
+            "ebrun.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "ebrun.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ebrun.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "ebrun.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for ebrun.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

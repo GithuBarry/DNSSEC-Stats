@@ -1,0 +1,94 @@
+{
+    "w.kunlunno.com.": {
+        "queries": {
+            "w.kunlunno.com./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "8.8.8.8"
+                        ],
+                        "query_options": [
+                            "UDP_+C_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "xuexila.com.": {
+        "queries": {
+            "xuexila.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "xuexila.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "xuexila.com.w.kunlunno.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for xuexila.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunno.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunno.com, including xuexila.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xuexila.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "xuexila.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "xuexila.com.w.kunlunno.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for xuexila.com results in a NOERROR response, while a query for its ancestor, com.w.kunlunno.com, returns a name error (NXDOMAIN), which indicates that subdomains of com.w.kunlunno.com, including xuexila.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

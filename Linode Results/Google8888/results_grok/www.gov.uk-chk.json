@@ -1,0 +1,44 @@
+{
+    "www.gov.uk.": {
+        "queries": {
+            "www.gov.uk./IN/A": {
+                "answer": [
+                    {
+                        "id": "www-cdn.production.govuk.service.gov.uk./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for www.gov.uk results in a NOERROR response, while a query for its ancestor, production.govuk.service.gov.uk, returns a name error (NXDOMAIN), which indicates that subdomains of production.govuk.service.gov.uk, including www.gov.uk, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "www.gov.uk./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "www-cdn.production.govuk.service.gov.uk./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for www.gov.uk results in a NOERROR response, while a query for its ancestor, production.govuk.service.gov.uk, returns a name error (NXDOMAIN), which indicates that subdomains of production.govuk.service.gov.uk, including www.gov.uk, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

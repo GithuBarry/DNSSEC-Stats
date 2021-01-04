@@ -1,0 +1,212 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "w.alikunlun.com.": {
+        "queries": {
+            "w.alikunlun.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "w.alikunlun.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "net.": {
+        "queries": {
+            "net./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "962.net.": {
+        "queries": {
+            "962.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "962.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 962.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "962.net.w.alikunlun.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for 962.net results in a NOERROR response, while a query for its ancestor, net.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of net.w.alikunlun.com, including 962.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "962.net./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "962.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 962.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "962.net.w.alikunlun.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for 962.net results in a NOERROR response, while a query for its ancestor, net.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of net.w.alikunlun.com, including 962.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "962.net./IN/MX": {
+                "answer": [
+                    {
+                        "id": "962.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 962.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "962.net.w.alikunlun.com./IN/MX",
+                        "errors": [
+                            {
+                                "description": "A query for 962.net results in a NOERROR response, while a query for its ancestor, net.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of net.w.alikunlun.com, including 962.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K",
+                                    "UDP_+_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "962.net./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "962.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 962.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "962.net.w.alikunlun.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for 962.net results in a NOERROR response, while a query for its ancestor, net.w.alikunlun.com, returns a name error (NXDOMAIN), which indicates that subdomains of net.w.alikunlun.com, including 962.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

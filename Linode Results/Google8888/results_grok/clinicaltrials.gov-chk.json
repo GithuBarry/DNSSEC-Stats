@@ -1,0 +1,46 @@
+{
+    "clinicaltrials.gov.": {
+        "queries": {
+            "8hlgzireo2.clinicaltrials.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "8hlgzireo2.clinicaltrials.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "2812K909V47DHV8NFM5QPF56UC8OCNM0.clinicaltrials.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "clinicaltrials.gov./7/38507",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2021-01-01 21:16:44+00:00) is within possible clock skew range (0 seconds) of the current time (2021-01-01 21:16:44+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until the CD flag was set (however, this server appeared to respond legitimately to other queries with the CD flag cleared).",
+                                "code": "ERROR_WITHOUT_REQUEST_FLAG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

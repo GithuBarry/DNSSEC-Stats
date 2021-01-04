@@ -1,0 +1,61 @@
+{
+    ".": {
+        "queries": {
+            "./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "com.": {
+        "queries": {
+            "com./IN/DNSKEY": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "1.1.1.1"
+                        ],
+                        "query_options": [
+                            "UDP_+_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rocketmortgage.com.": {
+        "queries": {
+            "20mo9p8f65.rocketmortgage.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for 20mo9p8f65.rocketmortgage.com results in a NOERROR response, while a query for its ancestor, eba-n7phr84t.us-west-2.elasticbeanstalk.com, returns a name error (NXDOMAIN), which indicates that subdomains of eba-n7phr84t.us-west-2.elasticbeanstalk.com, including 20mo9p8f65.rocketmortgage.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "1.1.1.1"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

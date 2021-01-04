@@ -1,0 +1,289 @@
+{
+    "nanrenwo.net.": {
+        "queries": {
+            "nanrenwo.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "nanrenwo.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for nanrenwo.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2.p.shrenq.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, p.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of p.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4.n.shrenq.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, n.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of n.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nanrenwo.net./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "nanrenwo.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for nanrenwo.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "m398sjeu.shrenq.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nanrenwo.net./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "nanrenwo.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for nanrenwo.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2.p.shrenq.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, p.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of p.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "4.n.shrenq.com./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, n.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of n.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "TCP_+_EDNS0_4096_D",
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nanrenwo.net./IN/MX": {
+                "answer": [
+                    {
+                        "id": "nanrenwo.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for nanrenwo.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2.p.shrenq.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, p.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of p.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "4.n.shrenq.com./IN/MX",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, n.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of n.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nanrenwo.net./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "nanrenwo.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for nanrenwo.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2.p.shrenq.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, p.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of p.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "4.n.shrenq.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, n.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of n.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nanrenwo.net./IN/DS": {
+                "answer": [
+                    {
+                        "id": "nanrenwo.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for nanrenwo.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2.p.shrenq.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, p.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of p.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "4.n.shrenq.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "A query for nanrenwo.net results in a NOERROR response, while a query for its ancestor, n.shrenq.com, returns a name error (NXDOMAIN), which indicates that subdomains of n.shrenq.com, including nanrenwo.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "nanrenwo.net./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "nanrenwo.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for nanrenwo.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "cdn.jiashule.com.": {
+        "queries": {
+            "cdn.jiashule.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "cdn.jiashule.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (cdn.jiashule.com) not matching the zone name (jiashule.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "ed1dab4652cd69c0.cdn.jiashule.com.": {
+        "queries": {
+            "ed1dab4652cd69c0.cdn.jiashule.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "ed1dab4652cd69c0.cdn.jiashule.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (ed1dab4652cd69c0.cdn.jiashule.com) not matching the zone name (cdn.jiashule.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "120ask.com.": {
+        "queries": {
+            "120ask.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "120ask.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "ed1dab4652cd69c0.cdn.jiashule.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "120ask.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "120ask.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "120ask.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "120ask.com./IN/DS": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No RRSIG covering the RRset was returned in the response.",
+                                "code": "MISSING_RRSIG",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "ed1dab4652cd69c0.cdn.jiashule.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (ed1dab4652cd69c0.cdn.jiashule.com) not matching the zone name (cdn.jiashule.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "8.8.8.8"
+                                ],
+                                "query_options": [
+                                    "UDP_+_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "120ask.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "status": "BOGUS"
+        }
+    }
+}
