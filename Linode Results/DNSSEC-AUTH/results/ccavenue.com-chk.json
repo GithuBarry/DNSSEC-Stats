@@ -1,0 +1,16 @@
+{
+    "ccavenue.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns1.securityspace.net, ns2.securityspace.net, ns3.securityspace.net, ns4.securityspace.net, ns6.securityspace.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns3.securityspace.com, ns4.securityspace.com, ns5.securityspace.com, ns6.securityspace.com, ns7.securityspace.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "ynet.com.": {
+        "queries": {
+            "ynet.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.30.142.18"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "ynet.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "ynet.com./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ynet.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "ynet.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "111.30.142.18"
+                    ]
+                }
+            ]
+        }
+    }
+}

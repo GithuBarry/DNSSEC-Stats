@@ -1,0 +1,20 @@
+{
+    "rutgers.edu.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the edu zone), but not in the authoritative NS RRset: dns2.rutgers.edu",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the edu zone): runs2.rutgers.edu",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "AAAA glue records exist for dns2.rutgers.edu, but there are no corresponding authoritative AAAA records.",
+                    "code": "EXTRA_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

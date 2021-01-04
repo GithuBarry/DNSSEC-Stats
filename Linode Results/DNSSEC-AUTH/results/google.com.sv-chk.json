@@ -1,0 +1,43 @@
+{
+    "google.com.sv.": {
+        "queries": {
+            "google.com.sv./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "google.com.sv./IN/DS",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "168.243.254.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "168.243.254.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the sv zone): ns4.google.com, ns3.google.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

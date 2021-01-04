@@ -1,0 +1,41 @@
+{
+    "moe.gov.ae.": {
+        "queries": {
+            "moe.gov.ae./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "5.195.26.59",
+                            "5.195.29.59"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "5.195.26.59",
+                        "5.195.29.59"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for ns2.moe.gov.ae (5.195.26.59, 5.195.29.59) differed from its authoritative address(es) (5.195.26.59).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

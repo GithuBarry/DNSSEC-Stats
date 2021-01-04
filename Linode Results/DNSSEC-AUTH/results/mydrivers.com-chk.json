@@ -1,0 +1,110 @@
+{
+    "mydrivers.com.": {
+        "queries": {
+            "mydrivers.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "mydrivers.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mydrivers.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "mydrivers.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mydrivers.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "mydrivers.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "mydrivers.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mydrivers.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "s1waeyigvb.mydrivers.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "s1waeyigvb.mydrivers.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

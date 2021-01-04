@@ -1,0 +1,42 @@
+{
+    "hnext.jp.": {
+        "queries": {
+            "hnext.jp./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 8 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "125.63.43.13"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over TCP (tried 5 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "125.63.43.14"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "125.63.43.13",
+                        "125.63.43.14"
+                    ]
+                }
+            ]
+        }
+    }
+}

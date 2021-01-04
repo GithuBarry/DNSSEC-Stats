@@ -1,0 +1,52 @@
+{
+    "irs.gov.": {
+        "queries": {
+            "irs.gov./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "irs.gov./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "irs.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "irs.gov./8/6468",
+                                        "warnings": [
+                                            {
+                                                "description": "The TTL of the RRSIG RR (7200) does not match the TTL of the RRset it covers (900).",
+                                                "code": "RRSET_TTL_MISMATCH"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dhbo4jnvpf.irs.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "dhbo4jnvpf.irs.gov./IN/A",
+                        "soa": [
+                            {
+                                "id": "irs.gov./IN/SOA",
+                                "rrsig": [
+                                    {
+                                        "id": "irs.gov./8/6468",
+                                        "warnings": [
+                                            {
+                                                "description": "The TTL of the RRSIG RR (7200) does not match the TTL of the RRset it covers (900).",
+                                                "code": "RRSET_TTL_MISMATCH"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

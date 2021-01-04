@@ -1,0 +1,16 @@
+{
+    "protectang.ao.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the ao zone), but not in the authoritative NS RRset: ns1.inmotionhosting.com, ns2.inmotionhosting.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the ao zone): ns2.servconfig.com, ns1.servconfig.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

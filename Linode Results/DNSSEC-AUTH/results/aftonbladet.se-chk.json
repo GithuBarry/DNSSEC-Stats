@@ -1,0 +1,16 @@
+{
+    "aftonbladet.se.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the se zone), but not in the authoritative NS RRset: dns-ext1.aftonbladet.se, dns-ext2.aftonbladet.se",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the se zone): ns2.schibsted.se, ns1.schibsted.se, c.ns.ip-only.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

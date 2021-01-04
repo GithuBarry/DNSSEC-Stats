@@ -1,0 +1,33 @@
+{
+    "dealnews.com.": {
+        "queries": {
+            "dealnews.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "dealnews.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The case of the query name (DEalnews.cOm) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "64.4.48.4"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for ns-18.awsdns-02.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

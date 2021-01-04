@@ -1,0 +1,101 @@
+{
+    "medlineplus.gov.": {
+        "queries": {
+            "medlineplus.gov./IN/A": {
+                "answer": [
+                    {
+                        "id": "medlineplus.gov./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for medlineplus.gov, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mtgqlhuin8.medlineplus.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "mtgqlhuin8.medlineplus.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "U23LMGQ305CSGFB95CJF4SP486VM66IF.medlineplus.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "medlineplus.gov./7/45128",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 08:22:43+00:00) is within possible clock skew range (0 seconds) of the current time (2020-12-30 08:22:43+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "NL8677F056GD2RPOH3VV6TDRUGPVJ1OE.medlineplus.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "medlineplus.gov./7/45128",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 08:22:43+00:00) is within possible clock skew range (0 seconds) of the current time (2020-12-30 08:22:43+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "FFBT1F91CANCUMNHNQEVTNEJKB0BFUE6.medlineplus.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "medlineplus.gov./7/45128",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 08:22:43+00:00) is within possible clock skew range (0 seconds) of the current time (2020-12-30 08:22:43+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for gslb01.nlm.nih.gov, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for gslb02.nlm.nih.gov, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for gslb03.nlm.nih.gov, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

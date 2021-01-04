@@ -1,0 +1,407 @@
+{
+    "ir.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the . zone): dns-ir.univie.ac.at",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    },
+    "gemovies.ir.": {
+        "queries": {
+            "gemovies.ir./IN/A": {
+                "answer": [
+                    {
+                        "id": "gemovies.ir./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/NS": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/SOA": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "46.102.129.161"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gemovies.ir./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "gemovies.ir./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dmv4tf5ae6.gemovies.ir./IN/A": {
+                "answer": [
+                    {
+                        "id": "dmv4tf5ae6.gemovies.ir./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "46.102.129.161"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "46.102.129.161"
+                    ]
+                },
+                {
+                    "description": "The server(s) did not respond authoritatively for the namespace.",
+                    "code": "SERVER_NOT_AUTHORITATIVE",
+                    "servers": [
+                        "46.102.129.161"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "status": "LAME"
+        }
+    }
+}

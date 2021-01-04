@@ -1,0 +1,20 @@
+{
+    "jahannews.com.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "There was an error resolving the following NS name(s) to address(es): ns1.jahan-news.com, ns2.jahan-news.com",
+                    "code": "ERROR_RESOLVING_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns1.jahan-news.com, ns2.jahan-news.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "correoargentino.com.ar.": {
+        "queries": {
+            "correoargentino.com.ar./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "correoargentino.com.ar./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "190.139.111.16",
+                                    "190.220.6.16"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "190.139.111.16",
+                                    "190.220.6.16"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com.ar zone), but not in the authoritative NS RRset: ns3.correoargentino.com.ar",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "faveni.edu.br.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the edu.br zone), but not in the authoritative NS RRset: ns1-b.idc19.com.br, ns2-b.idc19.com.br",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the edu.br zone): ns2.faveni.edu.br, ns1.faveni.edu.br",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

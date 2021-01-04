@@ -1,0 +1,16 @@
+{
+    "adobeconnect.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: udns1.ultradns.net, udns2.ultradns.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns201.adobe.net, ns202.adobe.net, ns203.adobe.net, ns204.adobe.net, ns205.adobe.net, ns206.adobe.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

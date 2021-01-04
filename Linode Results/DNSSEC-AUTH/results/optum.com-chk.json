@@ -1,0 +1,57 @@
+{
+    "optum.com.": {
+        "queries": {
+            "optum.com./IN/A": {
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "168.183.130.192"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "optum.com./IN/NS": {
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "168.183.130.192"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "168.183.130.192"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: edns4.ultradns.biz, edns4.ultradns.com, edns4.ultradns.net, edns4.ultradns.org",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): epla3.corpnamesvcs.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

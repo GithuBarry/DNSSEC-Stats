@@ -1,0 +1,39 @@
+{
+    "ooopic.com.": {
+        "queries": {
+            "ooopic.com./IN/MX": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.118"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ooopic.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "ooopic.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "111.30.142.15"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

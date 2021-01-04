@@ -1,0 +1,41 @@
+{
+    "blog.ir.": {
+        "queries": {
+            "blog.ir./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "91.98.29.219",
+                            "91.99.101.233"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "91.98.29.219",
+                        "91.99.101.233"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the ir zone), but not in the authoritative NS RRset: ns4.bayan.ir",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

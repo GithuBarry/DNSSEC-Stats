@@ -1,0 +1,59 @@
+{
+    "jiameng.com.": {
+        "queries": {
+            "jiameng.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.30.142.18"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "jiameng.com./IN/MX": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.30.142.18"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jiameng.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.30.142.18"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "111.30.142.18"
+                    ]
+                }
+            ]
+        }
+    }
+}

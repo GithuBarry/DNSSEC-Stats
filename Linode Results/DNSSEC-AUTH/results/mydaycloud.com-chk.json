@@ -1,0 +1,51 @@
+{
+    "cloudapp.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): ns2prod.18.azuredns-prd.info, ns1prod.18.azuredns-prd.info, ns2prod.18.azuredns-prd.org, ns1prod.18.azuredns-prd.org",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The glue address(es) for ns2-201.azure-dns.net (2620:1ec:8ec::201) differed from its authoritative address(es) (2620:1ec:8ec::c9).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    },
+    "trafficmanager.net.": {
+        "queries": {
+            "trafficmanager.net./IN/DNSKEY": {
+                "nxdomain": [
+                    {
+                        "id": "trafficmanager.net./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for trafficmanager.net having record data of type NS, but returned a name error (NXDOMAIN) when queried for trafficmanager.net having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "65.55.117.41",
+                                    "204.79.195.41"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "mydaycloud.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for ns-67.awsdns-08.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

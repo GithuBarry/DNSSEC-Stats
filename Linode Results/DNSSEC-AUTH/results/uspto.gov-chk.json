@@ -1,0 +1,80 @@
+{
+    "uspto.gov.": {
+        "queries": {
+            "uspto.gov./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "uspto.gov./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "uspto.gov./7/37214",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 06:08:45+00:00) is within possible clock skew range (3 minutes) of the current time (2020-12-30 06:11:56+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "uspto.gov./7/37214",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 06:09:56+00:00) is within possible clock skew range (2 minutes) of the current time (2020-12-30 06:11:56+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gquvb9zxj8.uspto.gov./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "gquvb9zxj8.uspto.gov./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "QOOFS4HP2PNK1A3H6J7HJFFU80H47ONI.uspto.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "uspto.gov./7/37214",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 06:11:56+00:00) is within possible clock skew range (0 seconds) of the current time (2020-12-30 06:11:56+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "R8MEUPECDAI8NLNHESG4A03PA3QF7CVG.uspto.gov./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "uspto.gov./7/37214",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 06:11:56+00:00) is within possible clock skew range (0 seconds) of the current time (2020-12-30 06:11:56+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

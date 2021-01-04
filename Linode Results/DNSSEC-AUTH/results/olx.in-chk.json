@@ -1,0 +1,29 @@
+{
+    "e36891.dscf.akamaiedge.net.": {
+        "queries": {
+            "e36891.dscf.akamaiedge.net./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "e36891.dscf.akamaiedge.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for e36891.dscf.akamaiedge.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "olx.in.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the in zone): pdns6.ultradns.co.uk",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

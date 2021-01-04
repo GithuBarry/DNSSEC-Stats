@@ -1,0 +1,198 @@
+{
+    "tra.go.tz.": {
+        "queries": {
+            "tra.go.tz./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    },
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "196.46.104.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "tra.go.tz./IN/NS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    },
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "196.46.104.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "tra.go.tz./IN/CNAME": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "tra.go.tz./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ]
+                    },
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "tra.go.tz./IN/MX": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "tra.go.tz./IN/TXT": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "tra.go.tz./IN/AAAA": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "tra.go.tz./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "3f1zwq0ol5.tra.go.tz./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "196.46.100.3"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "196.46.104.2"
+                    ]
+                },
+                {
+                    "description": "The server(s) responded over UDP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_UDP",
+                    "servers": [
+                        "196.46.100.3"
+                    ]
+                },
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "196.46.100.3"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the go.tz zone): nssec.ttcldata.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

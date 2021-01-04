@@ -1,0 +1,63 @@
+{
+    "fpl.com.": {
+        "queries": {
+            "fpl.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "155.109.5.32",
+                            "155.109.171.32"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "fpl.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "fpl.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "155.109.5.32",
+                                    "155.109.5.137",
+                                    "155.109.171.23",
+                                    "155.109.171.32"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "155.109.5.32",
+                        "155.109.171.32"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): lcdn1n.fpl.com, jidn1.fpl.com, gidn1n.fpl.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

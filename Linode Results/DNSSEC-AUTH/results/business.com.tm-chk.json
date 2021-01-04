@@ -1,0 +1,23 @@
+{
+    "com.tm.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "217.174.238.53"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the tm zone): web1.telecom.tm",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

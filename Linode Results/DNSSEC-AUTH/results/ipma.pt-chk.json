@@ -1,0 +1,33 @@
+{
+    "ipma.pt.": {
+        "queries": {
+            "ipma.pt./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "193.137.20.1",
+                            "193.137.20.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "193.137.20.1",
+                        "193.137.20.3"
+                    ]
+                }
+            ]
+        }
+    }
+}

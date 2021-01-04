@@ -1,0 +1,45 @@
+{
+    "upi.edu.": {
+        "queries": {
+            "upi.edu./IN/A": {
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "216.218.133.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "upi.edu./IN/NS": {
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "216.218.133.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "216.218.133.2"
+                    ]
+                }
+            ]
+        }
+    }
+}

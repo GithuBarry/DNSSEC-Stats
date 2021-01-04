@@ -1,0 +1,64 @@
+{
+    "znds.com.": {
+        "queries": {
+            "znds.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "znds.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "znds.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "znds.com./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "znds.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "znds.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

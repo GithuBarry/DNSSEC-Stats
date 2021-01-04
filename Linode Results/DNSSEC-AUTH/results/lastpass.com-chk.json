@@ -1,0 +1,110 @@
+{
+    "b.akamaiedge.net.": {
+        "queries": {
+            "b.akamaiedge.net./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "b.akamaiedge.net./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (akamaiedge.net) not matching the zone name (b.akamaiedge.net) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "23.61.199.194"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "e10856.b.akamaiedge.net.": {
+        "queries": {
+            "e10856.b.akamaiedge.net./IN/A": {
+                "nodata": [
+                    {
+                        "id": "e10856.b.akamaiedge.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "23.61.199.194"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "23.61.199.194"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "e10856.b.akamaiedge.net./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "e10856.b.akamaiedge.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "23.61.199.194"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "23.61.199.194"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "edgekey.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the net zone), but not in the authoritative NS RRset: ns1-66.akam.net, ns4-66.akam.net, ns5-66.akam.net, ns7-65.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): a9-65.akam.net, a11-65.akam.net, ns1-2.akam.net, a3-65.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for a13-65.akam.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for a5-65.akam.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

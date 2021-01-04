@@ -1,0 +1,20 @@
+{
+    "taiwannews.com.tw.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com.tw zone), but not in the authoritative NS RRset: dns2.taiwannews.com.tw",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for dns1.taiwannews.com.tw, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for dns2.taiwannews.com.tw, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

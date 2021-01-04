@@ -1,0 +1,55 @@
+{
+    "cncrk.com.": {
+        "queries": {
+            "cncrk.com./IN/MX": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.30.142.15"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "cncrk.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "cncrk.com./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.118"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The following NS name(s) did not resolve to address(es): ns1.dnsv1.com, ns2.dnsv1.com",
+                    "code": "NO_ADDRESS_FOR_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns1.dnsv1.com, ns2.dnsv1.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

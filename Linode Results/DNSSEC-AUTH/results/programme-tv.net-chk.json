@@ -1,0 +1,38 @@
+{
+    "edgesuite.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the net zone), but not in the authoritative NS RRset: ns4-65.akam.net, ns5-65.akam.net, ns7-65.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): a9-64.akam.net, a11-64.akam.net, a3-64.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for a13-64.akam.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for a5-64.akam.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    },
+    "programme-tv.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "AAAA glue records exist for deimos.vp-dns.net, but there are no corresponding authoritative AAAA records.",
+                    "code": "EXTRA_GLUE_IPV6"
+                },
+                {
+                    "description": "AAAA glue records exist for phobos.vp-dns.net, but there are no corresponding authoritative AAAA records.",
+                    "code": "EXTRA_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

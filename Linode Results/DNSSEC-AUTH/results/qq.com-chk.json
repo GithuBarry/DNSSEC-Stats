@@ -1,0 +1,362 @@
+{
+    "qq.com.": {
+        "queries": {
+            "qq.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "qq.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed.",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "58.144.154.100",
+                                    "59.36.132.142",
+                                    "123.151.66.78",
+                                    "125.39.46.125",
+                                    "183.192.201.116"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No response was received from the server over UDP (tried 11 times) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "112.60.1.69"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "203.205.177.41"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "qq.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "qq.com./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed.",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "58.144.154.100",
+                                    "59.36.132.142",
+                                    "112.60.1.69",
+                                    "123.151.66.78",
+                                    "125.39.46.125",
+                                    "183.192.201.116"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "121.51.160.100"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "203.205.177.41"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "qq.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "qq.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed.",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "58.144.154.100",
+                                    "59.36.132.142",
+                                    "112.60.1.69",
+                                    "123.151.66.78",
+                                    "125.39.46.125"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "121.51.160.100"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No response was received from the server over UDP (tried 11 times) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.192.201.116"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qq.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "qq.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed.",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "58.144.154.100",
+                                    "59.36.132.142",
+                                    "112.60.1.69",
+                                    "123.151.66.78",
+                                    "125.39.46.125",
+                                    "183.192.201.116"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "58.144.154.100",
+                                    "59.36.132.142",
+                                    "112.60.1.69",
+                                    "123.151.66.78",
+                                    "125.39.46.125",
+                                    "183.192.201.116"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D"
+                                ]
+                            },
+                            {
+                                "description": "No response was received from the server over UDP (tried 11 times) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "121.51.160.100",
+                                    "183.192.201.116"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qq.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "qq.com./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed.",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "58.144.154.100",
+                                    "59.36.132.142",
+                                    "112.60.1.69",
+                                    "125.39.46.125"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "112.60.1.69",
+                                    "183.192.201.116"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "58.144.154.100",
+                            "59.36.132.142",
+                            "112.60.1.69",
+                            "123.151.66.78",
+                            "125.39.46.125",
+                            "183.192.201.116"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "qq.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "qq.com./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed.",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "58.144.154.100",
+                                    "112.60.1.69",
+                                    "123.151.66.78",
+                                    "125.39.46.125",
+                                    "183.192.201.116"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qq.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "qq.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed.",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "58.144.154.100",
+                                    "59.36.132.142",
+                                    "112.60.1.69",
+                                    "123.151.66.78",
+                                    "125.39.46.125",
+                                    "183.192.201.116"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "121.51.160.100"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qq.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "qq.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed.",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "58.144.154.100",
+                                    "59.36.132.142",
+                                    "112.60.1.69",
+                                    "123.151.66.78",
+                                    "125.39.46.125"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "58.144.154.100",
+                            "59.36.132.142",
+                            "112.60.1.69",
+                            "121.51.160.100",
+                            "123.151.66.78",
+                            "125.39.46.125",
+                            "183.192.201.116"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "203.205.177.41"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for ns2.qq.com (121.51.160.100, 123.151.66.78) differed from its authoritative address(es) (121.51.160.100, 123.151.66.78, 203.205.177.41).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for ns4.qq.com (58.144.154.100, 59.36.132.142, 125.39.46.125, 203.205.221.79) differed from its authoritative address(es) (58.144.154.100, 125.39.46.125, 203.205.221.79).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

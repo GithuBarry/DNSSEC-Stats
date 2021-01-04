@@ -1,0 +1,37 @@
+{
+    "habr.com.": {
+        "queries": {
+            "habr.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "159.253.22.172",
+                            "185.105.224.58",
+                            "194.177.23.70",
+                            "205.196.80.14"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "159.253.22.172",
+                        "185.105.224.58",
+                        "194.177.23.70",
+                        "205.196.80.14"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "sunat.gob.pe.": {
+        "queries": {
+            "sunat.gob.pe./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "191.98.162.133"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "191.98.162.133"
+                    ]
+                }
+            ]
+        }
+    }
+}

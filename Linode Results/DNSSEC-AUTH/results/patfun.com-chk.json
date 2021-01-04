@@ -1,0 +1,154 @@
+{
+    "patfun.com.": {
+        "queries": {
+            "patfun.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "patfun.com./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The response (188 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server responded with an OPT record, even though none was sent in the request.",
+                                "code": "GRATUITOUS_OPT",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            },
+                            {
+                                "description": "The server sent a COOKIE option when none was sent by the client.",
+                                "code": "GRATUITOUS_COOKIE",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "patfun.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "patfun.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The response (237 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server responded with an OPT record, even though none was sent in the request.",
+                                "code": "GRATUITOUS_OPT",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            },
+                            {
+                                "description": "The server sent a COOKIE option when none was sent by the client.",
+                                "code": "GRATUITOUS_COOKIE",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "61.240.129.140",
+                            "183.131.156.86",
+                            "219.138.102.80"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "patfun.com./IN/MX": {
+                "error": [
+                    {
+                        "description": "The response (248 bytes) was malformed.",
+                        "code": "FORMERR",
+                        "servers": [
+                            "180.163.194.132"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "61.240.129.140",
+                        "180.163.194.132",
+                        "180.163.194.205",
+                        "183.131.156.86",
+                        "219.138.102.80"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns10.cdncenter.com, ns11.cdncenter.com, ns12.cdncenter.com, ns9.cdncenter.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The glue address(es) for ns7.cdncenter.com (61.240.129.140, 180.163.194.132, 180.163.194.205, 183.131.156.86) differed from its authoritative address(es) (61.240.129.140, 180.163.194.205).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for ns8.cdncenter.com (61.240.129.140, 180.163.194.132, 180.163.194.205, 183.131.156.86) differed from its authoritative address(es) (61.240.129.140, 180.163.194.205).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "btkitty.bid.": {
+        "queries": {
+            "btkitty.bid./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "5.79.64.239",
+                            "5.79.65.14",
+                            "5.79.65.15",
+                            "96.47.230.66",
+                            "162.210.195.99",
+                            "185.107.56.51",
+                            "185.107.56.191",
+                            "192.157.56.138",
+                            "207.244.67.194",
+                            "207.244.71.177"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "5.79.64.239",
+                        "5.79.65.14",
+                        "5.79.65.15",
+                        "96.47.230.66",
+                        "162.210.195.99",
+                        "185.107.56.51",
+                        "185.107.56.191",
+                        "192.157.56.138",
+                        "207.244.67.194",
+                        "207.244.71.177"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the bid zone): ns1.wombatdns.com, ns2.wombatdns.com, ns1.quokkadns.com, ns2.quokkadns.com, ns2.koaladns.com, ns1.kirklanddc.com, ns1.koaladns.com, ns2.kirklanddc.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

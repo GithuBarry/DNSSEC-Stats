@@ -1,0 +1,34 @@
+{
+    "edgekey.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the net zone), but not in the authoritative NS RRset: ns1-66.akam.net, ns4-66.akam.net, ns5-66.akam.net, ns7-65.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): a9-65.akam.net, a11-65.akam.net, ns1-2.akam.net, a3-65.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for a13-65.akam.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for a5-65.akam.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    },
+    "uptodown.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): a9-65.akam.net, a6-64.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

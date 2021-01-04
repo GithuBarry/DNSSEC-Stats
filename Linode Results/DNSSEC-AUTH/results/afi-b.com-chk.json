@@ -1,0 +1,28 @@
+{
+    "afi-b.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns11.value-domain.com, ns12.value-domain.com, ns13.value-domain.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns2.value-domain.com, ns1.value-domain.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for ns11.value-domain.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for ns13.value-domain.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "The glue address(es) for ns11.value-domain.com (54.199.222.7) differed from its authoritative address(es) (54.199.71.189, 54.199.222.7).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

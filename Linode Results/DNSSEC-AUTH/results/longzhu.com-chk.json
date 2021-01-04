@@ -1,0 +1,203 @@
+{
+    "longzhu.com.": {
+        "queries": {
+            "longzhu.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "longzhu.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for longzhu.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "114.67.16.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "longzhu.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "longzhu.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for longzhu.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "114.67.16.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "longzhu.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The server was not reachable over TCP (EHOSTUNREACH).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "27.221.63.3",
+                            "42.62.2.24",
+                            "42.62.2.29",
+                            "119.167.244.44"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.67.16.206",
+                            "203.99.22.3",
+                            "203.99.23.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "longzhu.com./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "longzhu.com./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "114.67.16.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.67.16.206"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "longzhu.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "longzhu.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for longzhu.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "114.67.16.205",
+                                    "114.67.16.206"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "longzhu.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "longzhu.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for longzhu.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received from the server over UDP (tried 11 times) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "114.67.16.206"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ganqz34xsc.longzhu.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "ganqz34xsc.longzhu.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 11 times) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "114.67.16.206"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "27.221.63.3",
+                        "42.62.2.24",
+                        "42.62.2.29",
+                        "114.67.16.206",
+                        "119.167.244.44",
+                        "203.99.22.3",
+                        "203.99.23.3"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for ins1.zdnscloud.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

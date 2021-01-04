@@ -1,0 +1,40 @@
+{
+    "flightaware.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns1.flightaware.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for s1ns1.flightaware.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for s2ns2.flightaware.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for s3ns3.flightaware.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for s4ns4.flightaware.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "The glue address(es) for s2ns2.flightaware.com (192.16.16.6) differed from its authoritative address(es) (198.7.29.6).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for s3ns3.flightaware.com (198.7.29.5) differed from its authoritative address(es) (192.16.16.6).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for s4ns4.flightaware.com (198.7.29.6) differed from its authoritative address(es) (198.7.29.5).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

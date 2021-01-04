@@ -1,0 +1,107 @@
+{
+    "xueqiu.com.": {
+        "queries": {
+            "xueqiu.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "xueqiu.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xueqiu.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "xueqiu.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 10 times) until the DO EDNS flag was cleared (however, this server appeared to respond legitimately to other queries with the DO EDNS flag set).",
+                                "code": "ERROR_WITH_EDNS_FLAG",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xueqiu.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.30.142.18"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "xueqiu.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "xueqiu.com./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "95fmsub18g.xueqiu.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "95fmsub18g.xueqiu.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "111.30.142.18"
+                    ]
+                }
+            ]
+        }
+    }
+}

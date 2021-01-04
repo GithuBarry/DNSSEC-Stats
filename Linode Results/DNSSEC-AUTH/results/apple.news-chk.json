@@ -1,0 +1,16 @@
+{
+    "apple.news.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the news zone), but not in the authoritative NS RRset: a1-119.akam.net, a11-66.akam.net, a26-67.akam.net, a6-64.akam.net, a7-65.akam.net, a8-66.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the news zone): ns1-235.akam.net, use1.akam.net, ns1-45.akam.net, usw2.akam.net, asia3.akam.net, usw6.akam.net, asia2.akam.net, eur5.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

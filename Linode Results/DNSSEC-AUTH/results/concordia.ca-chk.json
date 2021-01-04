@@ -1,0 +1,40 @@
+{
+    "concordia.ca.": {
+        "queries": {
+            "concordia.ca./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "concordia.ca./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "132.205.152.111",
+                                    "132.205.156.111"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "ds": [
+                {
+                    "id": "7/15924/1",
+                    "status": "ALGORITHM_IGNORED",
+                    "warnings": [
+                        {
+                            "description": "DS records with digest type 1 (SHA-1) are ignored when DS records with digest type 2 (SHA-256) exist in the same RRset.",
+                            "code": "DS_DIGEST_ALGORITHM_IGNORED"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

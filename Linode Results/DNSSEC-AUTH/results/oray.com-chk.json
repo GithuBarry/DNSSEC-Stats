@@ -1,0 +1,84 @@
+{
+    "oray.com.": {
+        "queries": {
+            "oray.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "81.69.19.249",
+                            "103.46.128.50",
+                            "106.75.14.38",
+                            "120.92.208.33",
+                            "121.40.178.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "s7j4kgtwec.oray.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "s7j4kgtwec.oray.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "81.69.19.249",
+                                    "103.46.128.50",
+                                    "106.75.14.38",
+                                    "120.92.208.33",
+                                    "121.40.178.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NXDOMAIN response.",
+                                "code": "MISSING_SOA_FOR_NXDOMAIN",
+                                "servers": [
+                                    "81.69.19.249",
+                                    "103.46.128.50",
+                                    "106.75.14.38",
+                                    "120.92.208.33",
+                                    "121.40.178.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "81.69.19.249",
+                        "103.46.128.50",
+                        "106.75.14.38",
+                        "120.92.208.33",
+                        "121.40.178.3"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for ns1.oray.com (81.69.19.249, 121.40.178.3) differed from its authoritative address(es) (81.69.19.249, 120.92.208.33, 121.40.178.3).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

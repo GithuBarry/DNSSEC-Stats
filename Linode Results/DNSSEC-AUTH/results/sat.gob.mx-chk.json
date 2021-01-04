@@ -1,0 +1,33 @@
+{
+    "sat.gob.mx.": {
+        "queries": {
+            "sat.gob.mx./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "sat.gob.mx./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The case of the query name (sat.gob.mx) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "40.90.4.5"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the gob.mx zone): ns-1897.awsdns-45.co.uk, ns4-05.azure-dns.info, ns2-05.azure-dns.net, ns-1323.awsdns-37.org, ns-1185.awsdns-20.org, quetzalcoatl.sat.gob.mx, xolotl.sat.gob.mx, ns-1827.awsdns-36.co.uk, ns-694.awsdns-22.net, tochtli.sat.gob.mx, ns-578.awsdns-08.net, ns3-05.azure-dns.org",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

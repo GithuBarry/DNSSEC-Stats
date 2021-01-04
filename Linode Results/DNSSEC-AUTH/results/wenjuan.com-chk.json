@@ -1,0 +1,111 @@
+{
+    "yundunwaf4.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for vip3.alidns.com (14.1.112.21, 106.11.30.115, 106.11.41.153, 140.205.1.5, 140.205.29.115, 170.33.23.13, 170.33.24.73, 170.33.80.10, 203.119.159.121) differed from its authoritative address(es) (14.1.112.21, 140.205.1.5, 170.33.23.13, 170.33.24.73, 170.33.80.10).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for vip4.alidns.com (14.1.112.22, 106.11.30.116, 106.11.41.154, 140.205.1.6, 140.205.29.116, 170.33.23.14, 170.33.24.74, 170.33.80.11, 203.119.159.122) differed from its authoritative address(es) (14.1.112.22, 140.205.1.6, 170.33.23.14, 170.33.24.74, 170.33.80.11).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    },
+    "wenjuan.com.": {
+        "queries": {
+            "wenjuan.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "wenjuan.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for wenjuan.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "wenjuan.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "wenjuan.com./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "183.192.164.116"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "wenjuan.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "wenjuan.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for wenjuan.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "wenjuan.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "wenjuan.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "wenjuan.com./IN/MX": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.30.142.18"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "wenjuan.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "wenjuan.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for wenjuan.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

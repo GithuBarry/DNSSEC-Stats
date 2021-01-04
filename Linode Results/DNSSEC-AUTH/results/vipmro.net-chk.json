@@ -1,0 +1,63 @@
+{
+    "vipmro.net.": {
+        "queries": {
+            "vipmro.net./IN/SOA": {
+                "nodata": [
+                    {
+                        "id": "vipmro.net./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "114.67.160.144",
+                                    "114.67.160.145"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "116.196.126.18",
+                                    "116.196.126.19",
+                                    "116.198.195.0",
+                                    "116.198.195.1"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5sf3xqcwmr.vipmro.net./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "5sf3xqcwmr.vipmro.net./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "114.67.160.144",
+                                    "114.67.160.145",
+                                    "116.196.126.18",
+                                    "116.196.126.19",
+                                    "116.198.195.0",
+                                    "116.198.195.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

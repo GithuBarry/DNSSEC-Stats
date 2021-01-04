@@ -1,0 +1,16 @@
+{
+    "99acres.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: a1-14.akam.net, a12-65.akam.net, a13-66.akam.net, a16-67.akam.net, a24-64.akam.net, a3-65.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns1.infoedgeindia.net, ns2.infoedgeindia.net, ns3.infoedgeindia.net, ns4.infoedgeindia.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

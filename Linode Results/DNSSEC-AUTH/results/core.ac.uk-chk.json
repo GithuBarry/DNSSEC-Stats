@@ -1,0 +1,16 @@
+{
+    "core.ac.uk.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the ac.uk zone), but not in the authoritative NS RRset: dnse-0.open.ac.uk, dnse-1.open.ac.uk, dnse-2.open.ac.uk",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the ac.uk zone): nse-0.open.ac.uk, nse-1.open.ac.uk, nse-2.open.ac.uk",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

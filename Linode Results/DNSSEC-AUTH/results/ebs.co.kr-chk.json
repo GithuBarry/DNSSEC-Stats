@@ -1,0 +1,188 @@
+{
+    "ebs.co.kr.": {
+        "queries": {
+            "ebs.co.kr./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ebs.co.kr./IN/NS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ebs.co.kr./IN/CNAME": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ebs.co.kr./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ]
+                    },
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "211.58.252.94"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "ebs.co.kr./IN/MX": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ebs.co.kr./IN/TXT": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ebs.co.kr./IN/AAAA": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "ebs.co.kr./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "0zxtuqe9w5.ebs.co.kr./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "210.180.98.67"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "211.58.252.94"
+                    ]
+                },
+                {
+                    "description": "The server(s) responded over UDP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_UDP",
+                    "servers": [
+                        "210.180.98.67"
+                    ]
+                },
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "210.180.98.67"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the co.kr zone), but not in the authoritative NS RRset: xns2.hananet.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "cdc.gov.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the gov zone), but not in the authoritative NS RRset: auth00.ns.uu.net, auth100.ns.uu.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the gov zone): icdc-us-ns1.cdc.gov, icdc-us-ns3.cdc.gov, icdc-us-ns2.cdc.gov",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "public.totango.com.": {
+        "queries": {
+            "public.totango.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "public.totango.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "97.74.100.1",
+                                    "173.201.68.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "97.74.100.1",
+                                    "173.201.68.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "service.prod.public.totango.com.": {
+        "queries": {
+            "service.prod.public.totango.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "service.prod.public.totango.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for service.prod.public.totango.com results in a NOERROR response, while a query for its ancestor, prod.public.totango.com, returns a name error (NXDOMAIN), which indicates that subdomains of prod.public.totango.com, including service.prod.public.totango.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.193.177",
+                                    "205.251.195.30",
+                                    "205.251.196.214",
+                                    "205.251.199.124"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "service.prod.public.totango.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "service.prod.public.totango.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for service.prod.public.totango.com results in a NOERROR response, while a query for its ancestor, prod.public.totango.com, returns a name error (NXDOMAIN), which indicates that subdomains of prod.public.totango.com, including service.prod.public.totango.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.193.177",
+                                    "205.251.195.30",
+                                    "205.251.196.214",
+                                    "205.251.199.124"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

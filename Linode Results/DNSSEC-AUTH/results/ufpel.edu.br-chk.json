@@ -1,0 +1,20 @@
+{
+    "ufpel.edu.br.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the edu.br zone): dns.tche.br",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The glue address(es) for ns1.ufpel.edu.br (200.17.161.60) differed from its authoritative address(es) (200.17.160.160).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for ns1.ufpel.edu.br (2804:0:2000:161::60) differed from its authoritative address(es) (2804:0:2010:160::160).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

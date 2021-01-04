@@ -1,0 +1,79 @@
+{
+    "tvu.ac.ir.": {
+        "queries": {
+            "tvu.ac.ir./IN/NS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "193.171.255.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "tvu.ac.ir./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "80.191.47.2"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "tvu.ac.ir./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "193.171.255.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "There was an error resolving the following NS name(s) to address(es): ns1.tvu.ac.ir",
+                    "code": "ERROR_RESOLVING_NS_NAME"
+                },
+                {
+                    "description": "The following NS name(s) did not resolve to address(es): 172.17.2.1, 172.17.2.10, 172.17.2.8",
+                    "code": "NO_ADDRESS_FOR_NS_NAME"
+                },
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "80.191.47.2"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the ac.ir zone), but not in the authoritative NS RRset: ns1.tvu.ac.ir",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the ac.ir zone): 172.17.2.1, 172.17.2.8, 172.17.2.10",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "en.t4.cgn.travian.info.": {
+        "queries": {
+            "en.t4.cgn.travian.info./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "en.t4.cgn.travian.info./IN/DS",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "93.94.83.76",
+                                    "93.94.83.77",
+                                    "146.0.10.126",
+                                    "146.0.10.127"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "93.94.83.76",
+                                    "93.94.83.77",
+                                    "146.0.10.126",
+                                    "146.0.10.127"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "travian.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns02.travian.com, ns03.travian.net, ns01.travian.org, ns04.travian.org",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns02mc.travian.org, ns01he.travian.org, ns02he.travian.com, ns01mc.travian.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

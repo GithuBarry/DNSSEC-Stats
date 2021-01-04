@@ -1,0 +1,211 @@
+{
+    "w.kunlunno.com.": {
+        "queries": {
+            "w.kunlunno.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "w.kunlunno.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "106.11.35.29",
+                                    "106.11.35.30",
+                                    "140.205.122.133",
+                                    "140.205.122.143",
+                                    "140.205.122.153",
+                                    "198.11.138.248"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "w.kunlunno.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "w.kunlunno.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "101.200.28.73",
+                                    "120.25.118.73",
+                                    "121.43.18.42",
+                                    "203.107.0.212",
+                                    "203.107.0.213"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The Authoritative Answer (AA) flag was set in the referral response.",
+                        "code": "AUTHORITATIVE_REFERRAL",
+                        "servers": [
+                            "106.11.35.29",
+                            "106.11.35.30",
+                            "140.205.122.133",
+                            "140.205.122.143",
+                            "140.205.122.153",
+                            "198.11.138.248"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "xuexila.com.w.kunlunno.com.": {
+        "queries": {
+            "xuexila.com.w.kunlunno.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "xuexila.com.w.kunlunno.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "203.107.0.213"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "xuexila.com.w.kunlunno.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "106.11.35.29",
+                                    "106.11.35.30",
+                                    "140.205.122.133",
+                                    "140.205.122.143",
+                                    "140.205.122.153",
+                                    "198.11.138.248"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xuexila.com.w.kunlunno.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "xuexila.com.w.kunlunno.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "101.200.28.73",
+                                    "120.25.118.73",
+                                    "121.43.18.42",
+                                    "203.107.0.213"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "106.11.35.29",
+                                    "106.11.35.30",
+                                    "140.205.122.133",
+                                    "140.205.122.143",
+                                    "140.205.122.153",
+                                    "198.11.138.248"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "xuexila.com.": {
+        "queries": {
+            "xuexila.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "xuexila.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for xuexila.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xuexila.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "xuexila.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for xuexila.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "xuexila.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "xuexila.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for xuexila.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for vip3.alidns.com (14.1.112.21, 106.11.30.115, 106.11.41.153, 140.205.1.5, 140.205.29.115, 170.33.23.13, 170.33.24.73, 170.33.80.10, 203.119.159.121) differed from its authoritative address(es) (14.1.112.21, 140.205.1.5, 170.33.23.13, 170.33.24.73, 170.33.80.10).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for vip4.alidns.com (14.1.112.22, 106.11.30.116, 106.11.41.154, 140.205.1.6, 140.205.29.116, 170.33.23.14, 170.33.24.74, 170.33.80.11, 203.119.159.122) differed from its authoritative address(es) (14.1.112.22, 140.205.1.6, 170.33.23.14, 170.33.24.74, 170.33.80.11).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

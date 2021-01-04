@@ -1,0 +1,16 @@
+{
+    "olx.com.pk.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the pk zone), but not in the authoritative NS RRset: pdns1.ultradns.net, pdns2.ultradns.net, pdns3.ultradns.org, pdns4.ultradns.org",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the pk zone): udns2.ultradns.net, udns1.ultradns.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

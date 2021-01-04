@@ -1,0 +1,39 @@
+{
+    "kotobank.jp.": {
+        "queries": {
+            "kotobank.jp./IN/A": {
+                "answer": [
+                    {
+                        "id": "kotobank.jp./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for kotobank.jp, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "kotobank.jp./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "kotobank.jp./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "66.114.55.22",
+                                    "174.35.55.22"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

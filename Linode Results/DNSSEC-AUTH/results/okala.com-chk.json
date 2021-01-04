@@ -1,0 +1,53 @@
+{
+    "okala.com.": {
+        "queries": {
+            "okala.com./IN/A": {
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "88.99.132.158"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "okala.com./IN/NS": {
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "88.99.132.158"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "88.99.132.158"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for ns2.golrangsystems.com (88.99.132.158) differed from its authoritative address(es) (94.130.122.6).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

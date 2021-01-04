@@ -1,0 +1,103 @@
+{
+    "qiku.com.": {
+        "queries": {
+            "qiku.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "qiku.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "42.236.105.6",
+                                    "61.180.251.6",
+                                    "111.206.53.6",
+                                    "180.97.61.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "61.180.251.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "qiku.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "qiku.com./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "111.206.53.6",
+                                    "180.153.228.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qiku.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "qiku.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "111.206.53.6",
+                                    "180.153.228.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "36.110.213.6",
+                        "42.236.105.6",
+                        "61.180.251.6",
+                        "111.206.53.6",
+                        "180.97.61.6",
+                        "180.153.228.6"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "freekaoyan.com.": {
+        "queries": {
+            "freekaoyan.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "freekaoyan.com./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "129.211.176.224"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "freekaoyan.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "freekaoyan.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "freekaoyan.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "freekaoyan.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.117"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS__0x20"
+                        ]
+                    }
+                ]
+            },
+            "freekaoyan.com./IN/MX": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 10 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "101.226.220.16",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "freekaoyan.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "7uflysm2zi.freekaoyan.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "7uflysm2zi.freekaoyan.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

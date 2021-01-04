@@ -1,0 +1,22 @@
+{
+    "github.io.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the io zone): dns4.p05.nsone.net, ns-1339.awsdns-39.org, ns-393.awsdns-49.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    },
+    "github.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for ns-421.awsdns-52.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

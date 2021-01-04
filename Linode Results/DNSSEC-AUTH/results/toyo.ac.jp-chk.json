@@ -1,0 +1,16 @@
+{
+    "toyo.ac.jp.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the jp zone), but not in the authoritative NS RRset: sinetgw.toyo.ac.jp",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the jp zone): ns1.toyo.ac.jp",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "yunzhijia.com.": {
+        "queries": {
+            "yunzhijia.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "yunzhijia.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "yunzhijia.com./IN/MX": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 2 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.30.142.18"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "yunzhijia.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "yunzhijia.com./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 10 times) until the DO EDNS flag was cleared (however, this server appeared to respond legitimately to other queries with the DO EDNS flag set).",
+                                "code": "ERROR_WITH_EDNS_FLAG",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "lordfilma.net.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "There was an error resolving the following NS name(s) to address(es): ns1.lordfilma.net, ns2.lordfilma.net",
+                    "code": "ERROR_RESOLVING_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the net zone), but not in the authoritative NS RRset: aragorn.ns.cloudflare.com, naomi.ns.cloudflare.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): ns1.lordfilma.net, ns2.lordfilma.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

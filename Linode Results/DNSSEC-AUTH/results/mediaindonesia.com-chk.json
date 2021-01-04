@@ -1,0 +1,16 @@
+{
+    "mediaindonesia.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: dns3.masterweb.com, dns1.masterwebnet.com, dns2.masterwebnet.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): dns2.masterweb.net, dns3.masterwebnet.com, dns1.masterweb.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "iauc.co.jp.": {
+        "queries": {
+            "iauc.co.jp./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "iauc.co.jp./IN/NS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "iauc.co.jp./IN/CNAME": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "iauc.co.jp./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_4096_D_K_0x20"
+                        ]
+                    },
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "iauc.co.jp./IN/MX": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "iauc.co.jp./IN/TXT": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "iauc.co.jp./IN/AAAA": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "iauc.co.jp./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "30puq2ntyw.iauc.co.jp./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "165.76.4.170",
+                            "210.144.113.100",
+                            "210.174.191.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) responded over UDP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_UDP",
+                    "servers": [
+                        "165.76.4.170",
+                        "210.144.113.100",
+                        "210.174.191.1"
+                    ]
+                },
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "165.76.4.170",
+                        "210.144.113.100",
+                        "210.174.191.1"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the jp zone): ns00.vips.ne.jp, ns01.vips.ne.jp",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

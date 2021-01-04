@@ -1,0 +1,105 @@
+{
+    "meinian.cn.": {
+        "queries": {
+            "meinian.cn./IN/NS": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "meinian.cn./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "meinian.cn./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117",
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "meinian.cn./IN/MX": {
+                "answer": [
+                    {
+                        "id": "meinian.cn./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "meinian.cn./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "meinian.cn./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "meinian.cn./IN/DS": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

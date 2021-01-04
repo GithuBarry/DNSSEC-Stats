@@ -1,0 +1,35 @@
+{
+    "rrbcdg.gov.in.": {
+        "queries": {
+            "rrbcdg.gov.in./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "164.100.2.11",
+                            "164.100.10.18",
+                            "164.100.14.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "164.100.2.11",
+                        "164.100.10.18",
+                        "164.100.14.3"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "ohio.gov.": {
+        "queries": {
+            "ohio.gov./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "156.63.130.68"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "There was an error resolving the following NS name(s) to address(es): ns1.ohio.gov, ns2.ohio.gov, ns3.ohio.gov, ns4.ohio.gov",
+                    "code": "ERROR_RESOLVING_NS_NAME"
+                },
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "156.63.130.68"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the gov zone), but not in the authoritative NS RRset: ns2.state.oh.us, ns3.state.oh.us, ns4.state.oh.us",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the gov zone): ns4.ohio.gov, ns1.ohio.gov, ns3.ohio.gov, ns2.ohio.gov",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

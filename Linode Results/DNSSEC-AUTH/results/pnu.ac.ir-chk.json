@@ -1,0 +1,42 @@
+{
+    "pnu.ac.ir.": {
+        "queries": {
+            "pnu.ac.ir./IN/NS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "193.171.255.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "pnu.ac.ir./IN/DS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "193.171.255.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the ac.ir zone), but not in the authoritative NS RRset: ns3.pnu.ac.ir",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

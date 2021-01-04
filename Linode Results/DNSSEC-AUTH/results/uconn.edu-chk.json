@@ -1,0 +1,24 @@
+{
+    "uconn.edu.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "There was an error resolving the following NS name(s) to address(es): dr-dns.net.uconn.edu, dr-infoblox.net.uconn.edu, hbl-cache.net.uconn.edu, hbl-ext.net.uconn.edu, msb-cache.net.uconn.edu, msb-ext.net.uconn.edu",
+                    "code": "ERROR_RESOLVING_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the edu zone), but not in the authoritative NS RRset: dr-dns.net.uconn.edu, hbl-cache.net.uconn.edu, msb-cache.net.uconn.edu",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the edu zone): msb-ext.net.uconn.edu, dr-infoblox.net.uconn.edu, hbl-ext.net.uconn.edu",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

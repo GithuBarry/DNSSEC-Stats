@@ -1,0 +1,97 @@
+{
+    "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com.": {
+        "queries": {
+            "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com./IN/A": {
+                "nodata": [
+                    {
+                        "id": "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "prod-3-puse-nginxnode-lb1.eastus.cloudapp.azure.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "trafficmanager.net.": {
+        "queries": {
+            "trafficmanager.net./IN/DNSKEY": {
+                "nxdomain": [
+                    {
+                        "id": "trafficmanager.net./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for trafficmanager.net having record data of type NS, but returned a name error (NXDOMAIN) when queried for trafficmanager.net having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "65.55.117.41",
+                                    "204.79.195.41"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

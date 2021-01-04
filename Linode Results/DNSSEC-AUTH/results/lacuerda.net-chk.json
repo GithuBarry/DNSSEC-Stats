@@ -1,0 +1,20 @@
+{
+    "lacuerda.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): e.ns.lanechange.info",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "Authoritative A records exist for ns1.lacuerda.net, but there are no corresponding A glue records.",
+                    "code": "MISSING_GLUE_IPV4"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for ns2.lacuerda.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

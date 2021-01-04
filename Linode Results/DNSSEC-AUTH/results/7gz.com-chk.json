@@ -1,0 +1,55 @@
+{
+    "leju.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns3.sina.com.cn",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    },
+    "7gz.com.": {
+        "queries": {
+            "7gz.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "7gz.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 7gz.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "7gz.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "7gz.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 7gz.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "7gz.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "7gz.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 7gz.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

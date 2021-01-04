@@ -1,0 +1,33 @@
+{
+    "cctv.com.": {
+        "queries": {
+            "cctv.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "118.178.171.142",
+                            "182.92.20.91"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "118.178.171.142",
+                        "182.92.20.91"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "51job.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns1.51job.com, ns2.51job.com, ns4.51job.com, ns5.51job.com, ns6.51job.com, ns7.51job.com, ns8.51job.com, ns9.51job.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The glue address(es) for dns.51job.com (61.129.48.132) differed from its authoritative address(es) (58.215.111.130, 61.129.48.132, 112.25.74.129, 119.188.115.65, 218.98.36.65).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for ns3.51job.com (61.129.48.131) differed from its authoritative address(es) (58.215.111.131, 61.129.48.131, 112.25.74.130, 119.188.115.66, 218.98.36.66).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

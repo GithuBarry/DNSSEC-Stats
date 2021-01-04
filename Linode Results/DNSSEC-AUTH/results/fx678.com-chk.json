@@ -1,0 +1,44 @@
+{
+    "fx678.com.": {
+        "queries": {
+            "fx678.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "fx678.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 10 times) until the DO EDNS flag was cleared (however, this server appeared to respond legitimately to other queries with the DO EDNS flag set).",
+                                "code": "ERROR_WITH_EDNS_FLAG",
+                                "servers": [
+                                    "111.30.142.15"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "fx678.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "fx678.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "183.192.164.118"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

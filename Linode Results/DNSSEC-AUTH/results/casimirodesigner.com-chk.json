@@ -1,0 +1,24 @@
+{
+    "casimirodesigner.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns15.above.com, ns16.above.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns1.above.com, ns2.above.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The glue address(es) for ns15.above.com (103.224.182.5, 103.224.212.5) differed from its authoritative address(es) (103.224.212.5).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for ns16.above.com (103.224.182.6, 103.224.212.6) differed from its authoritative address(es) (103.224.212.6).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

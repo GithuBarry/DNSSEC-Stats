@@ -1,0 +1,36 @@
+{
+    "alot.com.": {
+        "queries": {
+            "alot.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "alot.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The case of the query name (alot.com) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "40.90.4.6",
+                                    "64.4.48.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The case of the query name (ALOt.coM) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "64.4.48.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

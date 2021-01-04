@@ -1,0 +1,126 @@
+{
+    "cloudapp.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): ns2prod.18.azuredns-prd.info, ns1prod.18.azuredns-prd.info, ns2prod.18.azuredns-prd.org, ns1prod.18.azuredns-prd.org",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The glue address(es) for ns2-201.azure-dns.net (2620:1ec:8ec::201) differed from its authoritative address(es) (2620:1ec:8ec::c9).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    },
+    "azurewebsites.windows.net.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "65.55.117.43",
+                        "65.55.117.48",
+                        "204.79.195.43",
+                        "204.79.195.48"
+                    ]
+                }
+            ]
+        }
+    },
+    "waws-prod-sg1-031.sip.azurewebsites.windows.net.": {
+        "queries": {
+            "waws-prod-sg1-031.sip.azurewebsites.windows.net./IN/A": {
+                "nodata": [
+                    {
+                        "id": "waws-prod-sg1-031.sip.azurewebsites.windows.net./IN/A",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "13.107.24.205",
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "13.107.24.205",
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "waws-prod-sg1-031.sip.azurewebsites.windows.net./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "waws-prod-sg1-031.sip.azurewebsites.windows.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "13.107.24.205",
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "13.107.24.205",
+                                    "13.107.160.205",
+                                    "40.90.4.205",
+                                    "64.4.48.205"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "azurewebsites.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): ns1-224.azure-dns.com, ns3-224.azure-dns.org, ns4-224.azure-dns.info, ns2-224.azure-dns.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    },
+    "accupass.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for ns-411.awsdns-51.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "hualongxiang.com.": {
+        "queries": {
+            "hualongxiang.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "hualongxiang.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for hualongxiang.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "hualongxiang.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "hualongxiang.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for hualongxiang.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "9ieykbn2jm.hualongxiang.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "9ieykbn2jm.hualongxiang.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.118"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

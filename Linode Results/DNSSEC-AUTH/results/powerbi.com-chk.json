@@ -1,0 +1,34 @@
+{
+    "powerbi.com.": {
+        "queries": {
+            "powerbi.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "powerbi.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The case of the query name (powerbi.com) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "13.107.24.3",
+                                    "40.90.4.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns1-03.azure-dns.com, ns2-03.azure-dns.net, ns4-03.azure-dns.info, ns3-03.azure-dns.org",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

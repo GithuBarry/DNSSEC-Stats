@@ -1,0 +1,77 @@
+{
+    "haote.com.": {
+        "queries": {
+            "haote.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "haote.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for haote.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "haote.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "haote.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for haote.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "haote.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "haote.com./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "haote.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "haote.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for haote.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "haote.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "haote.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for haote.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "b-ok.cc.": {
+        "queries": {
+            "z435u9lm7j.b-ok.cc./IN/A": {
+                "answer": [
+                    {
+                        "id": "z435u9lm7j.b-ok.cc./IN/CNAME",
+                        "wildcard_proof": {
+                            "*.b-ok.cc.": [
+                                {
+                                    "id": "NSEC",
+                                    "status": "INVALID",
+                                    "errors": [
+                                        {
+                                            "description": "The NSEC RR covers the wildcard itself (*.b-ok.cc), indicating that it doesn't exist.",
+                                            "code": "WILDCARD_COVERED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

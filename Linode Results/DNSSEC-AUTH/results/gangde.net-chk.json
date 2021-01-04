@@ -1,0 +1,140 @@
+{
+    "gangde.net.": {
+        "queries": {
+            "gangde.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "gangde.net./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The response (206 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The server responded with an OPT record, even though none was sent in the request.",
+                                "code": "GRATUITOUS_OPT",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            },
+                            {
+                                "description": "The server sent a COOKIE option when none was sent by the client.",
+                                "code": "GRATUITOUS_COOKIE",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gangde.net./IN/NS": {
+                "answer": [
+                    {
+                        "id": "gangde.net./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The response (151 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gangde.net./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "180.163.194.132",
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "gangde.net./IN/MX": {
+                "answer": [
+                    {
+                        "id": "gangde.net./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server responded with an OPT record, even though none was sent in the request.",
+                                "code": "GRATUITOUS_OPT",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            },
+                            {
+                                "description": "The server sent a COOKIE option when none was sent by the client.",
+                                "code": "GRATUITOUS_COOKIE",
+                                "servers": [
+                                    "180.163.194.132"
+                                ],
+                                "query_options": [
+                                    "UDP_-_NOEDNS_"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response (250 bytes) was malformed.",
+                        "code": "FORMERR",
+                        "servers": [
+                            "180.163.194.205"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "180.163.194.132",
+                        "180.163.194.205"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): ns3.ezdnscenter.com, ns5.ezdnscenter.com, ns4.ezdnscenter.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

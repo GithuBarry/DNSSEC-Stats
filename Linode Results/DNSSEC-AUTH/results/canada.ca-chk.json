@@ -1,0 +1,20 @@
+{
+    "canada.ca.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "AAAA glue records exist for dns1.nrc.ca, but there are no corresponding authoritative AAAA records.",
+                    "code": "EXTRA_GLUE_IPV6"
+                },
+                {
+                    "description": "AAAA glue records exist for dns2.nrc.ca, but there are no corresponding authoritative AAAA records.",
+                    "code": "EXTRA_GLUE_IPV6"
+                },
+                {
+                    "description": "The glue address(es) for xns-kedc-1.ssc-spc.gc.ca (198.103.167.10) differed from its authoritative address(es) (198.103.167.10, 198.103.167.11).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

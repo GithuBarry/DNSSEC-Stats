@@ -1,0 +1,20 @@
+{
+    "uscourts.gov.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "The following NS name(s) did not resolve to address(es): ns6-candidate.uscourts.gov",
+                    "code": "NO_ADDRESS_FOR_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the gov zone): ns6-candidate.uscourts.gov",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

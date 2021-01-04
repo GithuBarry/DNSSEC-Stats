@@ -1,0 +1,34 @@
+{
+    "sina.com.cn.": {
+        "queries": {
+            "sina.com.cn./IN/NS": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "sina.com.cn./IN/DS": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

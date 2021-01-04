@@ -1,0 +1,37 @@
+{
+    "haber61.net.": {
+        "queries": {
+            "haber61.net./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "87.98.131.205",
+                            "87.98.149.125",
+                            "87.98.243.254",
+                            "87.98.249.124"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "87.98.131.205",
+                        "87.98.149.125",
+                        "87.98.243.254",
+                        "87.98.249.124"
+                    ]
+                }
+            ]
+        }
+    }
+}

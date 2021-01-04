@@ -1,0 +1,33 @@
+{
+    "leclercdrive.fr.": {
+        "queries": {
+            "leclercdrive.fr./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "leclercdrive.fr./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The case of the query name (leclercdrive.fr) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "40.90.4.8"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the fr zone): ns3-08.azure-dns.org, ns4-08.azure-dns.info, ns-982.awsdns-58.net, ns-1079.awsdns-06.org",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

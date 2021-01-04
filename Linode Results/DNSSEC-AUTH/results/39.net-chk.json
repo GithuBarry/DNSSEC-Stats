@@ -1,0 +1,116 @@
+{
+    "39.net.": {
+        "queries": {
+            "39.net./IN/NS": {
+                "answer": [
+                    {
+                        "id": "39.net./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "39.net./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "39.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 39.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "39.net./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "39.net./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "39.net./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "39.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 39.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "39.net./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "39.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 39.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "183.192.201.90"
+                    ]
+                }
+            ]
+        }
+    }
+}

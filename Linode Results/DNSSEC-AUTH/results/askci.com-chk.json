@@ -1,0 +1,59 @@
+{
+    "askci.com.": {
+        "queries": {
+            "askci.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "askci.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for askci.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "askci.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "askci.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for askci.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "askci.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "askci.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for askci.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "askci.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.116"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "tsite.jp.": {
+        "queries": {
+            "tsite.jp./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "210.170.111.114",
+                            "210.170.111.115"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "210.170.111.114",
+                        "210.170.111.115"
+                    ]
+                }
+            ]
+        }
+    }
+}

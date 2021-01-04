@@ -1,0 +1,87 @@
+{
+    "azureedge.net.": {
+        "queries": {
+            "azureedge.net./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "azureedge.net./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The case of the query name (AZureedGE.NET) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "40.90.4.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The case of the query name (azureedge.net) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "40.90.4.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "13.107.24.6",
+                            "13.107.160.6"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "azureedge.net./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "azureedge.net./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "13.107.160.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "13.107.24.6",
+                        "13.107.160.6"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): ns3-06.azure-dns.org, ns1-06.azure-dns.com, ns2-06.azure-dns.net, ns4-06.azure-dns.info",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

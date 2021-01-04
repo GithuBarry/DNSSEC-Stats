@@ -1,0 +1,16 @@
+{
+    "alaraby.co.uk.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the co.uk zone), but not in the authoritative NS RRset: ns1.edgecastdns.net, ns2.edgecastdns.net, ns3.edgecastdns.net, ns4.edgecastdns.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the co.uk zone): ns2.alaraby.co.uk, ns1.alaraby.co.uk, ns4.alaraby.co.uk, ns3.alaraby.co.uk",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

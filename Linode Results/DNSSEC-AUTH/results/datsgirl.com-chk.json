@@ -1,0 +1,130 @@
+{
+    "trafficmanager.net.": {
+        "queries": {
+            "trafficmanager.net./IN/DNSKEY": {
+                "nxdomain": [
+                    {
+                        "id": "trafficmanager.net./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for trafficmanager.net having record data of type NS, but returned a name error (NXDOMAIN) when queried for trafficmanager.net having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "65.55.117.41",
+                                    "204.79.195.41"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "datsgirl.com.": {
+        "queries": {
+            "datsgirl.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "datsgirl.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for datsgirl.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "datsgirl.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "datsgirl.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for datsgirl.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "datsgirl.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "datsgirl.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for datsgirl.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "datsgirl.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "datsgirl.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for datsgirl.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "datsgirl.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "datsgirl.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for datsgirl.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "datsgirl.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "datsgirl.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for datsgirl.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "datsgirl.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "datsgirl.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for datsgirl.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: dns1.regway.com, dns2.regway.com, dns3.regway.com, dns4.regway.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

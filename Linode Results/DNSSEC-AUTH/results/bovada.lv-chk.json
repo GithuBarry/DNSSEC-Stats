@@ -1,0 +1,39 @@
+{
+    "bovada.lv.": {
+        "queries": {
+            "bovada.lv./IN/A": {
+                "answer": [
+                    {
+                        "id": "bovada.lv./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bovada.lv, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bovada.lv./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "bovada.lv./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "66.114.55.22",
+                                    "174.35.55.22"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "yixiin.com.": {
+        "queries": {
+            "yixiin.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "yixiin.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 10 times) until the DO EDNS flag was cleared (however, this server appeared to respond legitimately to other queries with the DO EDNS flag set).",
+                                "code": "ERROR_WITH_EDNS_FLAG",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "yixiin.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "dns-shop.ru.": {
+        "queries": {
+            "dns-shop.ru./IN/NS": {
+                "answer": [
+                    {
+                        "id": "dns-shop.ru./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The response (131 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "178.248.235.131"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "dns-shop.ru./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "dns-shop.ru./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The response (183 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "178.248.235.131"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "The response (172 bytes) was malformed until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "178.248.235.131"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response (172 bytes) was malformed until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "178.248.235.131"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

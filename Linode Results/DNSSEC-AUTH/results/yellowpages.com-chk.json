@@ -1,0 +1,51 @@
+{
+    "yellowpages.com.": {
+        "queries": {
+            "yellowpages.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "151.138.252.30"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "yellowpages.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "yellowpages.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "151.138.252.30",
+                                    "208.93.105.7"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "151.138.252.30"
+                    ]
+                }
+            ]
+        }
+    }
+}

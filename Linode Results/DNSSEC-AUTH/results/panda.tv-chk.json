@@ -1,0 +1,211 @@
+{
+    "github.io.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the io zone): dns4.p05.nsone.net, ns-1339.awsdns-39.org, ns-393.awsdns-49.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    },
+    "panda.tv.": {
+        "queries": {
+            "panda.tv./IN/A": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for panda.tv, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "18.194.2.137",
+                            "52.77.238.92",
+                            "52.198.159.146",
+                            "59.36.120.147",
+                            "59.36.120.148",
+                            "61.151.180.51",
+                            "101.226.220.12",
+                            "129.211.176.151",
+                            "129.211.176.212",
+                            "162.14.18.121",
+                            "162.14.18.188",
+                            "162.14.24.248",
+                            "162.14.24.251",
+                            "162.14.25.248",
+                            "162.14.25.251",
+                            "183.192.164.119",
+                            "183.192.201.94",
+                            "223.166.151.16",
+                            "223.166.151.126"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "panda.tv./IN/NS": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "18.194.2.137",
+                            "52.77.238.92",
+                            "52.198.159.146",
+                            "59.36.120.147",
+                            "59.36.120.148",
+                            "61.151.180.51",
+                            "101.226.220.12",
+                            "129.211.176.151",
+                            "129.211.176.212",
+                            "162.14.18.121",
+                            "162.14.18.188",
+                            "162.14.24.248",
+                            "162.14.24.251",
+                            "162.14.25.248",
+                            "162.14.25.251",
+                            "183.192.164.119",
+                            "183.192.201.94",
+                            "223.166.151.16",
+                            "223.166.151.126"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "panda.tv./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for panda.tv, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "panda.tv./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for panda.tv, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "panda.tv./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "panda.tv./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for panda.tv, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "panda.tv./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.117",
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "18.194.2.137",
+                        "52.77.238.92",
+                        "52.198.159.146",
+                        "59.36.120.147",
+                        "59.36.120.148",
+                        "61.151.180.51",
+                        "101.226.220.12",
+                        "129.211.176.151",
+                        "129.211.176.212",
+                        "162.14.18.121",
+                        "162.14.18.188",
+                        "162.14.24.248",
+                        "162.14.24.251",
+                        "162.14.25.248",
+                        "162.14.25.251",
+                        "183.192.164.119",
+                        "183.192.201.94",
+                        "223.166.151.16",
+                        "223.166.151.126"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the tv zone), but not in the authoritative NS RRset: ns3.dnsv5.com, ns4.dnsv5.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the tv zone): f1g1ns1.dnspod.net, f1g1ns2.dnspod.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

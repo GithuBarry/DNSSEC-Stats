@@ -1,0 +1,33 @@
+{
+    "tnt.com.": {
+        "queries": {
+            "tnt.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "164.39.122.221",
+                            "164.39.122.225"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "164.39.122.221",
+                        "164.39.122.225"
+                    ]
+                }
+            ]
+        }
+    }
+}

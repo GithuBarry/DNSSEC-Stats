@@ -1,0 +1,123 @@
+{
+    "bancochile.cl.": {
+        "queries": {
+            "bancochile.cl./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "bancochile.cl./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "192.230.121.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bancochile.cl./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "bancochile.cl./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "192.230.121.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bancochile.cl./IN/MX": {
+                "answer": [
+                    {
+                        "id": "bancochile.cl./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "192.230.121.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bancochile.cl./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "bancochile.cl./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "192.230.121.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bancochile.cl./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "bancochile.cl./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server appears to support DNS cookies but did not return a COOKIE option.",
+                                "code": "NO_COOKIE_OPTION",
+                                "servers": [
+                                    "192.230.121.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "There was an error resolving the following NS name(s) to address(es): dns1.bancochile.cl, dns2.bancochile.cl, dns3.bancochile.cl",
+                    "code": "ERROR_RESOLVING_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the cl zone), but not in the authoritative NS RRset: dns3.bancochile.cl, ns155.a2.incapsecuredns.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the cl zone): dns1.bancochile.cl, dns2.bancochile.cl",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

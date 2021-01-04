@@ -1,0 +1,25 @@
+{
+    "pchome.com.tw.": {
+        "queries": {
+            "pchome.com.tw./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "pchome.com.tw./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "203.69.38.86"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

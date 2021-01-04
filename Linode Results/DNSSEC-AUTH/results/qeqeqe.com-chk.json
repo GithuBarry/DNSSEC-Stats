@@ -1,0 +1,332 @@
+{
+    "qeqeqe.com.": {
+        "queries": {
+            "qeqeqe.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "qeqeqe.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "qeqeqe.com./IN/NS",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "qeqeqe.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_",
+                            "UDP_-_NOEDNS__0x20"
+                        ]
+                    },
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145",
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qeqeqe.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "qeqeqe.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "180.163.194.145"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "183.131.156.109"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "2bjcfxzsy0.qeqeqe.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "2bjcfxzsy0.qeqeqe.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled.",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "183.131.156.109"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "180.163.194.145"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "180.163.194.145",
+                        "183.131.156.109"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns10.szhot.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

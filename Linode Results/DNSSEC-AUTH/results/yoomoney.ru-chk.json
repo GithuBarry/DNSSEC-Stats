@@ -1,0 +1,16 @@
+{
+    "yoomoney.ru.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the ru zone), but not in the authoritative NS RRset: ns1.yamoney.ru, ns2.yamoney.ru",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the ru zone): ns1.yoomoney.ru, ns2.yoomoney.ru",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "army.mil.": {
+        "queries": {
+            "army.mil./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "army.mil./IN/CNAME",
+                        "soa": [
+                            {
+                                "id": "army.mil./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "The DNSSEC records necessary to validate the response could not be retrieved from the server.",
+                                        "code": "UNABLE_TO_RETRIEVE_DNSSEC_RECORDS",
+                                        "servers": [
+                                            "140.153.43.44"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "140.153.43.44"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DNSSEC records necessary to validate the response could not be retrieved from the server.",
+                                "code": "UNABLE_TO_RETRIEVE_DNSSEC_RECORDS",
+                                "servers": [
+                                    "140.153.43.44"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "army.mil./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "army.mil./IN/MX",
+                        "soa": [
+                            {
+                                "id": "army.mil./IN/SOA",
+                                "errors": [
+                                    {
+                                        "description": "The DNSSEC records necessary to validate the response could not be retrieved from the server.",
+                                        "code": "UNABLE_TO_RETRIEVE_DNSSEC_RECORDS",
+                                        "servers": [
+                                            "140.153.43.44"
+                                        ],
+                                        "query_options": [
+                                            "UDP_-_EDNS0_4096_D_K"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "The response had an invalid RCODE (SERVFAIL) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "140.153.43.44"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "The DNSSEC records necessary to validate the response could not be retrieved from the server.",
+                                "code": "UNABLE_TO_RETRIEVE_DNSSEC_RECORDS",
+                                "servers": [
+                                    "140.153.43.44"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "army.mil./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "army.mil./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "army.mil./8/5793",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (166768) does not match the TTL of the RRset it covers (59791).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "army.mil./8/30256",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (166768) does not match the TTL of the RRset it covers (59791).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "army.mil./8/62140",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (166768) does not match the TTL of the RRset it covers (59791).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "army.mil./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "army.mil./8/5793",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (80147) does not match the TTL of the RRset it covers (59885).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "army.mil./8/30256",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (80147) does not match the TTL of the RRset it covers (59885).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "army.mil./8/62140",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (80147) does not match the TTL of the RRset it covers (59885).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "81zadp4735.army.mil./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "140.153.43.44",
+                            "192.82.113.7"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

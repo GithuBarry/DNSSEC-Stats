@@ -1,0 +1,16 @@
+{
+    "activision.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: asia2.akam.net, asia3.akam.net, asia4.akam.net, eur2.akam.net, eur6.akam.net, ns1-126.akam.net, ns1-140.akam.net, usc3.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns1-21.akam.net, ns5-65.akam.net, ns7-65.akam.net, ns4-66.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

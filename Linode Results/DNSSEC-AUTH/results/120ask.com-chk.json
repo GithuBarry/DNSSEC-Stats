@@ -1,0 +1,131 @@
+{
+    "ed1dab4652cd69c0.cdn.jiashule.com.": {
+        "queries": {
+            "ed1dab4652cd69c0.cdn.jiashule.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.202.98.78",
+                            "111.202.98.111",
+                            "113.207.76.78",
+                            "116.211.155.160",
+                            "117.21.219.80",
+                            "118.212.233.118"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "ed1dab4652cd69c0.cdn.jiashule.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "ed1dab4652cd69c0.cdn.jiashule.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (ed1dab4652cd69c0.cdn.jiashule.com) not matching the zone name (cdn.jiashule.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "111.202.98.78",
+                                    "111.202.98.111",
+                                    "113.207.76.78",
+                                    "116.211.155.160",
+                                    "117.21.219.80",
+                                    "118.212.233.118"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "111.202.98.78",
+                        "111.202.98.111",
+                        "113.207.76.78",
+                        "116.211.155.160",
+                        "117.21.219.80",
+                        "118.212.233.118"
+                    ]
+                }
+            ]
+        }
+    },
+    "120ask.com.": {
+        "queries": {
+            "120ask.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.119"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "120ask.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "120ask.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "120ask.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "120ask.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 120ask.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

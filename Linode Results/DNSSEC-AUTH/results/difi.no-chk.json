@@ -1,0 +1,49 @@
+{
+    "difi.no.": {
+        "queries": {
+            "difi.no./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "difi.no./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "difi.no./14/16313",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (300) does not match the TTL of the RRset it covers (3600).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            }
+                        ],
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "217.17.211.12"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "ds": [
+                {
+                    "id": "14/3347/3",
+                    "warnings": [
+                        {
+                            "description": "Generating cryptographic hashes using algorithm 3 (GOST 34.11-94) is not supported by this code, so the cryptographic status of the DS RR is unknown.",
+                            "code": "DIGEST_ALGORITHM_NOT_SUPPORTED"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "almubasher.com.sa.": {
+        "queries": {
+            "almubasher.com.sa./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "185.148.150.75",
+                            "193.19.90.75"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "The TCP connection was interrupted (ECONNRESET).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "199.79.61.132"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "185.148.150.75",
+                        "193.19.90.75",
+                        "199.79.61.132"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com.sa zone): ns2.alrajhibank.com.sa, ns2.bluvalt.sa, ns2432.ztomy.com, ns1.alrajhibank.com.sa, ns1432.ztomy.com, ns1.alrajhi.bank.com.sa, ns2.alrajhi.bank.com.sa",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

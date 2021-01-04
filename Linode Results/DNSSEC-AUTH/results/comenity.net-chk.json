@@ -1,0 +1,33 @@
+{
+    "comenity.net.": {
+        "queries": {
+            "comenity.net./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "205.144.52.10",
+                            "205.144.60.10"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "205.144.52.10",
+                        "205.144.60.10"
+                    ]
+                }
+            ]
+        }
+    }
+}

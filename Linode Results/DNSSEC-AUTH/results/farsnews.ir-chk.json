@@ -1,0 +1,24 @@
+{
+    "farsnews.ir.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "The following NS name(s) did not resolve to address(es): ns01.farsnews.com, ns04.farsnews.com",
+                    "code": "NO_ADDRESS_FOR_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the ir zone): ns01.farsnews.com, ns04.farsnews.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The glue address(es) for ns01.farsnews.ir (185.14.160.20) differed from its authoritative address(es) (77.104.70.26).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

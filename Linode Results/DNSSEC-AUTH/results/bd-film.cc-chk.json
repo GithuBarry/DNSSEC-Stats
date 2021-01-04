@@ -1,0 +1,83 @@
+{
+    "bd-film.cc.": {
+        "queries": {
+            "bd-film.cc./IN/A": {
+                "answer": [
+                    {
+                        "id": "bd-film.cc./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bd-film.cc, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bd-film.cc./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "bd-film.cc./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bd-film.cc, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bd-film.cc./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.201.90"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "bd-film.cc./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "bd-film.cc./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bd-film.cc, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bd-film.cc./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "bd-film.cc./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bd-film.cc, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "183.192.201.90"
+                    ]
+                }
+            ]
+        }
+    }
+}

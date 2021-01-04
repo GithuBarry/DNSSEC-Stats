@@ -1,0 +1,207 @@
+{
+    "4e4d9bf33e0205c2.cdn.jiashule.com.": {
+        "queries": {
+            "4e4d9bf33e0205c2.cdn.jiashule.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.202.98.78",
+                            "111.202.98.111",
+                            "113.207.76.78",
+                            "116.211.155.160",
+                            "117.21.219.80",
+                            "118.212.233.118"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "4e4d9bf33e0205c2.cdn.jiashule.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "4e4d9bf33e0205c2.cdn.jiashule.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (4e4d9bf33e0205c2.cdn.jiashule.com) not matching the zone name (cdn.jiashule.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "111.202.98.78",
+                                    "111.202.98.111",
+                                    "113.207.76.78",
+                                    "116.211.155.160",
+                                    "117.21.219.80",
+                                    "118.212.233.118"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "111.202.98.78",
+                        "111.202.98.111",
+                        "113.207.76.78",
+                        "116.211.155.160",
+                        "117.21.219.80",
+                        "118.212.233.118"
+                    ]
+                }
+            ]
+        }
+    },
+    "cdstm.cn.": {
+        "queries": {
+            "cdstm.cn./IN/A": {
+                "answer": [
+                    {
+                        "id": "cdstm.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cdstm.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cdstm.cn./IN/NS": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "cdstm.cn./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "cdstm.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cdstm.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cdstm.cn./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "14.215.177.154",
+                            "112.80.248.202",
+                            "119.75.222.53",
+                            "180.97.36.63",
+                            "183.232.231.249"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "cdstm.cn./IN/MX": {
+                "answer": [
+                    {
+                        "id": "cdstm.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cdstm.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cdstm.cn./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "cdstm.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cdstm.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "cdstm.cn./IN/DS": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "cdstm.cn./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "cdstm.cn./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for cdstm.cn, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "14.215.177.154",
+                        "112.80.248.202",
+                        "119.75.222.53",
+                        "180.97.36.63",
+                        "183.232.231.249"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for ns1.bdydns.cn (180.97.36.63) differed from its authoritative address(es) (180.97.36.63, 183.232.231.249).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for ns2.bdydns.cn (112.80.248.202) differed from its authoritative address(es) (14.215.177.154, 112.80.248.202, 119.75.222.53).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

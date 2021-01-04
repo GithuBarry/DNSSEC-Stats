@@ -1,0 +1,37 @@
+{
+    "pr.gov.br.": {
+        "queries": {
+            "pr.gov.br./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "pr.gov.br./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "200.229.248.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "AAAA glue records exist for ns3.pr.gov.br, but there are no corresponding authoritative AAAA records.",
+                    "code": "EXTRA_GLUE_IPV6"
+                },
+                {
+                    "description": "AAAA glue records exist for nsp.pr.gov.br, but there are no corresponding authoritative AAAA records.",
+                    "code": "EXTRA_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

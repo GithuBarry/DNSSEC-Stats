@@ -1,0 +1,47 @@
+{
+    "cwb.gov.tw.": {
+        "queries": {
+            "cwb.gov.tw./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "61.56.15.230",
+                            "163.29.179.230",
+                            "192.83.178.230"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "61.56.15.230",
+                        "163.29.179.230",
+                        "192.83.178.230"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the gov.tw zone), but not in the authoritative NS RRset: dns1.cwb.gov.tw, dns2.cwb.gov.tw, dns3.cwb.gov.tw",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the gov.tw zone): dnsg.cwb.gov.tw, dns.cwb.gov.tw",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

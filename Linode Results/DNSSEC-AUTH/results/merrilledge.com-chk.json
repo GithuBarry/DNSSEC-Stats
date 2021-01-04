@@ -1,0 +1,28 @@
+{
+    "merrilledge.com.": {
+        "queries": {
+            "merrilledge.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "merrilledge.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "209.67.43.65",
+                                    "209.67.43.66",
+                                    "216.34.47.65",
+                                    "216.34.47.66"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

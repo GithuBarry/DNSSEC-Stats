@@ -1,0 +1,24 @@
+{
+    "airbnb.com.au.": {
+        "queries": {
+            "airbnb.com.au./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "162.88.2.12",
+                            "162.88.18.12",
+                            "162.88.34.12",
+                            "162.88.50.12"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

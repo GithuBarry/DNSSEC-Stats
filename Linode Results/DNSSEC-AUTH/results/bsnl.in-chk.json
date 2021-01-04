@@ -1,0 +1,200 @@
+{
+    "bsnl.in.": {
+        "queries": {
+            "bsnl.in./IN/NS": {
+                "answer": [
+                    {
+                        "id": "bsnl.in./IN/NS",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.in./7/51428",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:22:14+00:00) is within possible clock skew range (32 seconds) of the current time (2020-12-30 10:22:46+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bsnl.in./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "bsnl.in./IN/SOA",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.in./7/51428",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:19:46+00:00) is within possible clock skew range (3 minutes) of the current time (2020-12-30 10:22:46+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "218.248.240.178",
+                            "218.248.240.209"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "bsnl.in./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "bsnl.in./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.in./7/51428",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:18:13+00:00) is within possible clock skew range (4 minutes) of the current time (2020-12-30 10:22:46+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bsnl.in./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "bsnl.in./IN/AAAA",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.in./7/51428",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:22:07+00:00) is within possible clock skew range (39 seconds) of the current time (2020-12-30 10:22:46+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "bsnl.in./7/51428",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:22:44+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:22:46+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bsnl.in./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "bsnl.in./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "bsnl.in./7/48030",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:22:44+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:22:46+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "bsnl.in./7/51428",
+                                "warnings": [
+                                    {
+                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:22:44+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:22:46+00:00).",
+                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "og6pq4xw7b.bsnl.in./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "og6pq4xw7b.bsnl.in./IN/A",
+                        "proof": [
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "82QJS8AQFR5T0JR3LCGPVHRDFOL9NNUD.bsnl.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.in./7/51428",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:22:44+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:22:46+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "NSEC3",
+                                "nsec3": [
+                                    {
+                                        "id": "N67OQJ69QJKGLBUGTEAIHO58PHIEI95S.bsnl.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.in./7/51428",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:22:31+00:00) is within possible clock skew range (15 seconds) of the current time (2020-12-30 10:22:46+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "BOEU4Q282J35I0JJCIP5U3FDKRHE7O2S.bsnl.in./IN/NSEC3",
+                                        "rrsig": [
+                                            {
+                                                "id": "bsnl.in./7/51428",
+                                                "warnings": [
+                                                    {
+                                                        "description": "The value of the Signature Inception field of the RRSIG RR (2020-12-30 10:22:44+00:00) is within possible clock skew range (2 seconds) of the current time (2020-12-30 10:22:46+00:00).",
+                                                        "code": "INCEPTION_WITHIN_CLOCK_SKEW"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "218.248.240.178",
+                        "218.248.240.209"
+                    ]
+                }
+            ]
+        }
+    }
+}

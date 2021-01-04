@@ -1,0 +1,37 @@
+{
+    "nafmii.org.": {
+        "queries": {
+            "nafmii.org./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "112.124.124.53",
+                            "124.16.31.66",
+                            "210.72.13.5",
+                            "210.72.13.66"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "112.124.124.53",
+                        "124.16.31.66",
+                        "210.72.13.5",
+                        "210.72.13.66"
+                    ]
+                }
+            ]
+        }
+    }
+}

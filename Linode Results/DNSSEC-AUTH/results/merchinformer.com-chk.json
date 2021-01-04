@@ -1,0 +1,24 @@
+{
+    "merchinformer.com.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "The following NS name(s) did not resolve to address(es): ns2merchinformer.com",
+                    "code": "NO_ADDRESS_FOR_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns2.merchinformer.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns2merchinformer.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

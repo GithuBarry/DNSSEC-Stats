@@ -1,0 +1,32 @@
+{
+    "inquirer.com.": {
+        "queries": {
+            "inquirer.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "204.13.250.9",
+                            "204.13.251.9",
+                            "208.78.70.9",
+                            "208.78.71.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns3.p09.dynect.net, ns4.p09.dynect.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

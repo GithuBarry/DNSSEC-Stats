@@ -1,0 +1,35 @@
+{
+    "state.fl.us.": {
+        "queries": {
+            "state.fl.us./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "199.250.16.53",
+                            "199.250.16.54",
+                            "199.250.16.55"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "199.250.16.53",
+                        "199.250.16.54",
+                        "199.250.16.55"
+                    ]
+                }
+            ]
+        }
+    }
+}

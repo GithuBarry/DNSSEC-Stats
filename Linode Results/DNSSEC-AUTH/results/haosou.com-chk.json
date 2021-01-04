@@ -1,0 +1,227 @@
+{
+    "seos-lb.com.": {
+        "queries": {
+            "seos-lb.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "seos-lb.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "52.37.17.96",
+                                    "52.220.14.96"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "52.37.17.96",
+                                    "52.220.14.96"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "so.seos-lb.com.": {
+        "queries": {
+            "so.seos-lb.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "so.seos-lb.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "52.37.17.96",
+                                    "52.220.14.96"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "so.seos-lb.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "so.seos-lb.com./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "52.37.17.96",
+                                    "52.220.14.96"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "52.37.17.96",
+                                    "52.220.14.96"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "haosou.com.": {
+        "queries": {
+            "haosou.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "haosou.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for haosou.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "42.236.105.6",
+                                    "180.97.61.6",
+                                    "180.153.228.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "haosou.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "haosou.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for haosou.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "haosou.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "haosou.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "42.236.105.6",
+                                    "111.206.53.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "36.110.213.6",
+                            "42.236.105.6",
+                            "104.192.109.6",
+                            "111.206.53.6",
+                            "180.97.61.6",
+                            "180.153.228.6"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "haosou.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "haosou.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for haosou.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "haosou.com./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "haosou.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "42.236.105.6",
+                                    "111.206.53.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "36.110.213.6",
+                        "42.236.105.6",
+                        "104.192.109.6",
+                        "111.206.53.6",
+                        "180.97.61.6",
+                        "180.153.228.6"
+                    ]
+                }
+            ]
+        }
+    }
+}

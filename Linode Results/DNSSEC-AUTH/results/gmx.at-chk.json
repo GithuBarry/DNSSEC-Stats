@@ -1,0 +1,30 @@
+{
+    "gmx.at.": {
+        "queries": {
+            "gmx.at./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "gmx.at./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "gmx.at./8/64710",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (86400) does not match the TTL of the RRset it covers (300).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ],
+                                "errors": [
+                                    {
+                                        "description": "The TTL of the RRset (300) exceeds the value of the Original TTL field of the RRSIG RR covering it (300).",
+                                        "code": "ORIGINAL_TTL_EXCEEDED"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

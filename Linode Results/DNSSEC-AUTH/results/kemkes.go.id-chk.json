@@ -1,0 +1,35 @@
+{
+    "kemkes.go.id.": {
+        "queries": {
+            "kemkes.go.id./IN/SOA": {
+                "nodata": [
+                    {
+                        "id": "kemkes.go.id./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "202.70.136.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "202.70.136.2"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

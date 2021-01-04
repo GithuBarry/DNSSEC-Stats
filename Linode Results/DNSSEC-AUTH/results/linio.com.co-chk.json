@@ -1,0 +1,24 @@
+{
+    "linio.com.co.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "The following NS name(s) did not resolve to address(es): ns-1957.awsdns-52.co.ukns-359.awsdns-44.com",
+                    "code": "NO_ADDRESS_FOR_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the co zone), but not in the authoritative NS RRset: ns-1957.awsdns-52.co.ukns-359.awsdns-44.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the co zone): ns-1957.awsdns-52.co.uk",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

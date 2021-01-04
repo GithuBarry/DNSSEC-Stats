@@ -1,0 +1,31 @@
+{
+    "yungching.com.tw.": {
+        "queries": {
+            "yungching.com.tw./IN/MX": {
+                "warning": [
+                    {
+                        "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                        "code": "EDNS_IGNORED",
+                        "servers": [
+                            "205.251.193.140",
+                            "205.251.194.27",
+                            "205.251.197.36",
+                            "205.251.198.128"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com.tw zone): ns-1664.awsdns-16.co.uk, ns-539.awsdns-03.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

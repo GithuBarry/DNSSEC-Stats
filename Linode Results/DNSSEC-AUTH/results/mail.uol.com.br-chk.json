@@ -1,0 +1,25 @@
+{
+    "us-east-1.elb.amazonaws.com.": {
+        "queries": {
+            "us-east-1.elb.amazonaws.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "us-east-1.elb.amazonaws.com./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "156.154.64.10"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

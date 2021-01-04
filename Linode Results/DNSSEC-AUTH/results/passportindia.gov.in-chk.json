@@ -1,0 +1,37 @@
+{
+    "passportindia.gov.in.": {
+        "queries": {
+            "passportindia.gov.in./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.93.222.133",
+                            "111.93.223.133",
+                            "115.113.92.133",
+                            "121.242.123.133"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "111.93.222.133",
+                        "111.93.223.133",
+                        "115.113.92.133",
+                        "121.242.123.133"
+                    ]
+                }
+            ]
+        }
+    }
+}

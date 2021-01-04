@@ -1,0 +1,85 @@
+{
+    "interactivebrokers.com.": {
+        "queries": {
+            "interactivebrokers.com./IN/A": {
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "63.86.206.41"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "interactivebrokers.com./IN/NS": {
+                "error": [
+                    {
+                        "description": "The UDP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "63.86.206.41"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            },
+            "interactivebrokers.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The TCP connection was interrupted (ECONNRESET).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "63.86.206.51"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "64.190.196.29"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over UDP.",
+                    "code": "SERVER_UNRESPONSIVE_UDP",
+                    "servers": [
+                        "63.86.206.41"
+                    ]
+                },
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "63.86.206.51",
+                        "64.190.196.29"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for cdns.interactivebrokers.com (63.86.206.51) differed from its authoritative address(es) (63.86.206.41).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

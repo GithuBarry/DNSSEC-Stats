@@ -1,0 +1,28 @@
+{
+    "zt-protect.net.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "There was an error resolving the following NS name(s) to address(es): ns1.zt-protect.net, ns2.zt-protect.net",
+                    "code": "ERROR_RESOLVING_NS_NAME"
+                },
+                {
+                    "description": "The following NS name(s) did not resolve to address(es): ns1.zone-telechargement-gratuit.com, ns2.zone-telechargement-gratuit.com",
+                    "code": "NO_ADDRESS_FOR_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the net zone), but not in the authoritative NS RRset: ns1.zt-protect.net, ns2.zt-protect.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): ns1.zone-telechargement-gratuit.com, ns2.zone-telechargement-gratuit.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

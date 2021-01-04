@@ -1,0 +1,67 @@
+{
+    "ccb.com.": {
+        "queries": {
+            "ccb.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.255.11.238",
+                            "124.127.108.110",
+                            "202.106.80.110",
+                            "219.142.89.110"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "ccb.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.255.11.238",
+                            "124.127.108.110",
+                            "202.106.80.110",
+                            "219.142.89.110"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "114.255.11.238",
+                            "124.127.108.110",
+                            "202.106.80.110",
+                            "219.142.89.110"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "114.255.11.238",
+                        "124.127.108.110",
+                        "202.106.80.110",
+                        "219.142.89.110"
+                    ]
+                }
+            ]
+        }
+    }
+}

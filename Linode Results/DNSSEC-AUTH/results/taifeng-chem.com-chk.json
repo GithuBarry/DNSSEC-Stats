@@ -1,0 +1,63 @@
+{
+    "taifeng-chem.com.": {
+        "queries": {
+            "taifeng-chem.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "42.236.73.194",
+                            "42.236.91.109",
+                            "218.93.206.73",
+                            "218.93.208.236",
+                            "222.186.133.150",
+                            "222.186.133.153",
+                            "222.187.232.169"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "ux1j4waygn.taifeng-chem.com./IN/A": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "42.236.73.194",
+                            "42.236.91.109",
+                            "218.93.206.73",
+                            "218.93.208.236",
+                            "222.186.133.150",
+                            "222.186.133.153",
+                            "222.187.232.169"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "42.236.73.194",
+                        "42.236.91.109",
+                        "218.93.206.73",
+                        "218.93.208.236",
+                        "222.186.133.150",
+                        "222.186.133.153",
+                        "222.187.232.169"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "virginia.edu.": {
+        "queries": {
+            "virginia.edu./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "virginia.edu./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "54.69.158.220",
+                                    "128.143.2.7",
+                                    "128.143.3.7",
+                                    "128.143.22.119"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "There was an error resolving the following NS name(s) to address(es): juno.acc.virginia.edu, ib03-vlc-vip.net.virginia.edu, ib04-cdc-udc-vip.net.virginia.edu, ib07-aws.net.virginia.edu, nom.virginia.edu, uvaarpa.virginia.edu",
+                    "code": "ERROR_RESOLVING_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the edu zone), but not in the authoritative NS RRset: juno.acc.virginia.edu, ib07-aws.net.virginia.edu, nom.virginia.edu, uvaarpa.virginia.edu",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the edu zone): ib03-vlc-vip.net.virginia.edu, ib04-cdc-udc-vip.net.virginia.edu",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

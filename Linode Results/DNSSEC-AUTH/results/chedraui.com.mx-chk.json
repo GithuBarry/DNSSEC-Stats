@@ -1,0 +1,35 @@
+{
+    "chedraui.com.mx.": {
+        "queries": {
+            "chedraui.com.mx./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "chedraui.com.mx./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "200.57.128.34",
+                                    "200.57.128.36",
+                                    "200.57.177.65"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com.mx zone): dns3.triara.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

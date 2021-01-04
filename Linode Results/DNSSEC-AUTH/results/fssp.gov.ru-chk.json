@@ -1,0 +1,175 @@
+{
+    "fssp.gov.ru.": {
+        "queries": {
+            "fssp.gov.ru./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "fssp.gov.ru./IN/NS": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "fssp.gov.ru./IN/CNAME": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "fssp.gov.ru./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_",
+                            "UDP_-_NOEDNS__0x20"
+                        ]
+                    },
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "TCP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "fssp.gov.ru./IN/MX": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "fssp.gov.ru./IN/TXT": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "fssp.gov.ru./IN/AAAA": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "fssp.gov.ru./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "8odt9runfb.fssp.gov.ru./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "95.173.128.77"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "95.173.128.77"
+                    ]
+                },
+                {
+                    "description": "The server(s) did not respond authoritatively for the namespace.",
+                    "code": "SERVER_NOT_AUTHORITATIVE",
+                    "servers": [
+                        "95.173.128.77"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the gov.ru zone), but not in the authoritative NS RRset: ns.gov.ru",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the gov.ru zone): ns4.netangels.ru, ns3.netangels.ru",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

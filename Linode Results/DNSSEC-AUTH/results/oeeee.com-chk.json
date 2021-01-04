@@ -1,0 +1,145 @@
+{
+    "galileo.jcloud-cdn.com.": {
+        "queries": {
+            "galileo.jcloud-cdn.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "galileo.jcloud-cdn.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (galileo.jcloud-cdn.com) not matching the zone name (jcloud-cdn.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "101.124.23.10",
+                                    "101.124.23.11",
+                                    "114.67.160.152",
+                                    "114.67.160.153"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "dy.galileo.jcloud-cdn.com.": {
+        "queries": {
+            "dy.galileo.jcloud-cdn.com./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "dy.galileo.jcloud-cdn.com./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "101.124.23.10",
+                                    "101.124.23.11",
+                                    "114.67.160.152",
+                                    "114.67.160.153"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "oeeee.com.dy.galileo.jcloud-cdn.com.": {
+        "queries": {
+            "oeeee.com.dy.galileo.jcloud-cdn.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "oeeee.com.dy.galileo.jcloud-cdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for oeeee.com.dy.galileo.jcloud-cdn.com results in a NOERROR response, while a query for its ancestor, dy.galileo.jcloud-cdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of dy.galileo.jcloud-cdn.com, including oeeee.com.dy.galileo.jcloud-cdn.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "101.124.23.10",
+                                    "101.124.23.11",
+                                    "114.67.160.152",
+                                    "114.67.160.153"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oeeee.com.dy.galileo.jcloud-cdn.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "oeeee.com.dy.galileo.jcloud-cdn.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "A query for oeeee.com.dy.galileo.jcloud-cdn.com results in a NOERROR response, while a query for its ancestor, dy.galileo.jcloud-cdn.com, returns a name error (NXDOMAIN), which indicates that subdomains of dy.galileo.jcloud-cdn.com, including oeeee.com.dy.galileo.jcloud-cdn.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "101.124.23.10",
+                                    "101.124.23.11",
+                                    "114.67.160.152",
+                                    "114.67.160.153"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "oeeee.com.": {
+        "queries": {
+            "oeeee.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "oeeee.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for oeeee.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oeeee.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "oeeee.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for oeeee.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "oeeee.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "oeeee.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for oeeee.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

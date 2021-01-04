@@ -1,0 +1,20 @@
+{
+    "ed.ac.uk.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for dns1.inf.ed.ac.uk, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for dns2.inf.ed.ac.uk, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "The glue address(es) for dns2.inf.ed.ac.uk (129.215.160.239) differed from its authoritative address(es) (129.215.42.239, 129.215.160.239).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

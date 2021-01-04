@@ -1,0 +1,93 @@
+{
+    "artistcollaborationgroup.com.": {
+        "queries": {
+            "artistcollaborationgroup.com./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "64.98.151.1",
+                            "64.98.151.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "artistcollaborationgroup.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The TCP connection was interrupted (ECONNRESET).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "98.124.243.1",
+                            "98.124.243.2",
+                            "98.124.243.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "artistcollaborationgroup.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "artistcollaborationgroup.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "98.124.243.1",
+                                    "98.124.243.2",
+                                    "98.124.243.3"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "64.98.151.1"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "64.98.151.2"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "98.124.243.1",
+                        "98.124.243.2",
+                        "98.124.243.3"
+                    ]
+                }
+            ]
+        }
+    }
+}

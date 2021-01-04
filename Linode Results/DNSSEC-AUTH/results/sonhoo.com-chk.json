@@ -1,0 +1,327 @@
+{
+    "yunjiasu-cdn.net.": {
+        "queries": {
+            "yunjiasu-cdn.net./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for dns1.yunjiasu-cdn.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for dns2.yunjiasu-cdn.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for dns3.yunjiasu-cdn.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    },
+    "cname.yunjiasu-cdn.net.": {
+        "queries": {
+            "cname.yunjiasu-cdn.net./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "www.sonhoo.com.cname.yunjiasu-cdn.net.": {
+        "queries": {
+            "www.sonhoo.com.cname.yunjiasu-cdn.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "www.sonhoo.com.cname.yunjiasu-cdn.net./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "A query for www.sonhoo.com.cname.yunjiasu-cdn.net results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including www.sonhoo.com.cname.yunjiasu-cdn.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "173.245.58.27",
+                                    "180.163.113.254",
+                                    "198.41.222.27",
+                                    "198.41.223.27"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "www.sonhoo.com.cname.yunjiasu-cdn.net./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "www.sonhoo.com.cname.yunjiasu-cdn.net./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "A query for www.sonhoo.com.cname.yunjiasu-cdn.net results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including www.sonhoo.com.cname.yunjiasu-cdn.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "173.245.58.27",
+                                    "180.163.113.254",
+                                    "198.41.222.27",
+                                    "198.41.223.27"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "yjs-any.sonhoo.com.cname.yunjiasu-cdn.net.": {
+        "queries": {
+            "yjs-any.sonhoo.com.cname.yunjiasu-cdn.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "yjs-any.sonhoo.com.cname.yunjiasu-cdn.net./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "A query for yjs-any.sonhoo.com.cname.yunjiasu-cdn.net results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including yjs-any.sonhoo.com.cname.yunjiasu-cdn.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "173.245.58.27",
+                                    "180.163.113.254",
+                                    "198.41.222.27",
+                                    "198.41.223.27"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "yjs-any.sonhoo.com.cname.yunjiasu-cdn.net./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "yjs-any.sonhoo.com.cname.yunjiasu-cdn.net./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "A query for yjs-any.sonhoo.com.cname.yunjiasu-cdn.net results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including yjs-any.sonhoo.com.cname.yunjiasu-cdn.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "173.245.58.27",
+                                    "180.163.113.254",
+                                    "198.41.222.27",
+                                    "198.41.223.27"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "sonhoo.com.": {
+        "queries": {
+            "sonhoo.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "sonhoo.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for sonhoo.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sonhoo.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "sonhoo.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for sonhoo.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sonhoo.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "sonhoo.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "59.36.120.147",
+                                    "101.226.220.12",
+                                    "183.192.164.119"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.119"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "sonhoo.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "sonhoo.com./IN/MX",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.119"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.119"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "sonhoo.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "sonhoo.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for sonhoo.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) responded over TCP with a malformed response or with an invalid RCODE.",
+                    "code": "SERVER_INVALID_RESPONSE_TCP",
+                    "servers": [
+                        "183.192.164.119"
+                    ]
+                }
+            ]
+        }
+    }
+}

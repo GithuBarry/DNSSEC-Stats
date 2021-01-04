@@ -1,0 +1,25 @@
+{
+    "5dcar.com.": {
+        "queries": {
+            "5dcar.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "5dcar.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.253.57.223"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

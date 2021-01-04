@@ -1,0 +1,81 @@
+{
+    "huaban.com.": {
+        "queries": {
+            "huaban.com./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "huaban.com./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "39.96.90.135",
+                                    "115.159.66.63",
+                                    "118.24.109.1",
+                                    "120.79.61.148"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "huaban.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "39.96.90.135",
+                            "115.159.66.63",
+                            "118.24.109.1",
+                            "120.79.61.148"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "huaban.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "huaban.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "39.96.90.135",
+                                    "115.159.66.63",
+                                    "118.24.109.1",
+                                    "120.79.61.148"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "39.96.90.135",
+                        "115.159.66.63",
+                        "118.24.109.1",
+                        "120.79.61.148"
+                    ]
+                }
+            ]
+        }
+    }
+}

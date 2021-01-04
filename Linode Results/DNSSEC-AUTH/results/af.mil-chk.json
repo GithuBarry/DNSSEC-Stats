@@ -1,0 +1,186 @@
+{
+    "af.mil.": {
+        "queries": {
+            "af.mil./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "af.mil./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "af.mil./8/49449",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (3600) does not match the TTL of the RRset it covers (300).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "af.mil./IN/TXT",
+                        "rrsig": [
+                            {
+                                "id": "af.mil./8/49449",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (3501) does not match the TTL of the RRset it covers (201).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "af.mil./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "af.mil./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "af.mil./8/49449",
+                                "status": "INVALID_SIG",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (159893) does not match the TTL of the RRset it covers (65743).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ],
+                                "errors": [
+                                    {
+                                        "description": "The cryptographic signature of the RRSIG RR does not properly validate.",
+                                        "code": "SIGNATURE_INVALID"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "af.mil./8/56521",
+                                "status": "INVALID_SIG",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (159893) does not match the TTL of the RRset it covers (65743).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ],
+                                "errors": [
+                                    {
+                                        "description": "The cryptographic signature of the RRSIG RR does not properly validate.",
+                                        "code": "SIGNATURE_INVALID"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "af.mil./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "af.mil./8/49449",
+                                "status": "INVALID_SIG",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (172016) does not match the TTL of the RRset it covers (65713).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ],
+                                "errors": [
+                                    {
+                                        "description": "The cryptographic signature of the RRSIG RR does not properly validate.",
+                                        "code": "SIGNATURE_INVALID"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "af.mil./8/56521",
+                                "status": "INVALID_SIG",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (172016) does not match the TTL of the RRset it covers (65713).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ],
+                                "errors": [
+                                    {
+                                        "description": "The cryptographic signature of the RRSIG RR does not properly validate.",
+                                        "code": "SIGNATURE_INVALID"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "af.mil./IN/DNSKEY",
+                        "rrsig": [
+                            {
+                                "id": "af.mil./8/8769",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (133812) does not match the TTL of the RRset it covers (65866).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "af.mil./8/56521",
+                                "warnings": [
+                                    {
+                                        "description": "The TTL of the RRSIG RR (133812) does not match the TTL of the RRset it covers (65866).",
+                                        "code": "RRSET_TTL_MISMATCH"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "132.3.33.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "dnskey": [
+            {
+                "id": "8/59391",
+                "warnings": [
+                    {
+                        "description": "The DNSKEY RR was not found in the DNSKEY RRset returned by one or more servers.",
+                        "code": "DNSKEY_MISSING_FROM_SERVERS",
+                        "servers": [
+                            "132.3.1.10",
+                            "132.3.13.10",
+                            "132.3.41.10",
+                            "132.3.57.10"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "delegation": {
+            "errors": [
+                {
+                    "description": "No valid RRSIGs made by a key corresponding to a DS RR were found covering the DNSKEY RRset, resulting in no secure entry point (SEP) into the zone.",
+                    "code": "NO_SEP",
+                    "servers": [
+                        "132.3.1.10",
+                        "132.3.41.10"
+                    ],
+                    "query_options": [
+                        "UDP_-_EDNS0_4096_D_K"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "governmentjobs.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns-a.pnap.net, ns-b.pnap.net, ns-c.pnap.net, ns-d.pnap.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): dns3.sef.pnap.net, dns3.acs.pnap.net, dns4.sef.pnap.net, dns4.acs.pnap.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "gameforge.com.": {
+        "queries": {
+            "gameforge.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "gameforge.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "79.110.82.150",
+                                    "79.110.87.150",
+                                    "206.253.173.150"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

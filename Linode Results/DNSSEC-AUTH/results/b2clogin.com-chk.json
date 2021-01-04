@@ -1,0 +1,132 @@
+{
+    "trafficmanager.net.": {
+        "queries": {
+            "trafficmanager.net./IN/DNSKEY": {
+                "nxdomain": [
+                    {
+                        "id": "trafficmanager.net./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The server returned a no error (NOERROR) response when queried for trafficmanager.net having record data of type NS, but returned a name error (NXDOMAIN) when queried for trafficmanager.net having record data of type DNSKEY.",
+                                "code": "INCONSISTENT_NXDOMAIN",
+                                "servers": [
+                                    "65.55.117.41",
+                                    "204.79.195.41"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "www.tm.a.prd.aadg.trafficmanager.net.": {
+        "queries": {
+            "www.tm.a.prd.aadg.trafficmanager.net./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "www.tm.a.prd.aadg.trafficmanager.net./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for www.tm.a.prd.aadg.trafficmanager.net, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "akadns.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for a3-129.akadns.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for a7-131.akadns.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    },
+    "prda.aadg.msidentity.com.": {
+        "queries": {
+            "prda.aadg.msidentity.com./IN/A": {
+                "nodata": [
+                    {
+                        "id": "prda.aadg.msidentity.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "13.107.24.1",
+                                    "13.107.160.1",
+                                    "40.90.4.1",
+                                    "64.4.48.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "13.107.24.1",
+                                    "13.107.160.1",
+                                    "40.90.4.1",
+                                    "64.4.48.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prda.aadg.msidentity.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "prda.aadg.msidentity.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "13.107.24.1",
+                                    "13.107.160.1",
+                                    "40.90.4.1",
+                                    "64.4.48.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "13.107.24.1",
+                                    "13.107.160.1",
+                                    "40.90.4.1",
+                                    "64.4.48.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

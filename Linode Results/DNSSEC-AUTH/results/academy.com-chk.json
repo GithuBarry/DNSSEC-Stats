@@ -1,0 +1,43 @@
+{
+    "academy.com.": {
+        "queries": {
+            "academy.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "209.99.127.15"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "209.99.127.15"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for dns1.datafoundry.com (209.99.127.15) differed from its authoritative address(es) (216.166.5.62).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for dns2.datafoundry.com (206.127.0.15) differed from its authoritative address(es) (64.9.160.130).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

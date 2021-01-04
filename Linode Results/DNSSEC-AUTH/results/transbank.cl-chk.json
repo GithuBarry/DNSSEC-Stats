@@ -1,0 +1,16 @@
+{
+    "transbank.cl.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the cl zone), but not in the authoritative NS RRset: ns1-157.akam.net, ns1-191.akam.net, usc3.akam.net, usc4.akam.net, use4.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the cl zone): a1-80.akam.net, a14-64.akam.net, a13-66.akam.net, a7-64.akam.net, a6-66.akam.net, a10-66.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

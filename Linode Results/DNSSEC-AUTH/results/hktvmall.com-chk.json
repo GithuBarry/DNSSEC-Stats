@@ -1,0 +1,37 @@
+{
+    "hktvmall.com.": {
+        "queries": {
+            "hktvmall.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "The server was not reachable over TCP (EHOSTUNREACH).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "14.198.241.162",
+                            "14.198.241.163",
+                            "14.198.249.2",
+                            "14.198.249.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "14.198.241.162",
+                        "14.198.241.163",
+                        "14.198.249.2",
+                        "14.198.249.3"
+                    ]
+                }
+            ]
+        }
+    }
+}

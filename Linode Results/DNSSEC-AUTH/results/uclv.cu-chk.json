@@ -1,0 +1,16 @@
+{
+    "uclv.cu.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the cu zone), but not in the authoritative NS RRset: ns1.uclv.cu, ns2.uclv.cu",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the cu zone): ns1.uclv.edu.cu, ns2.uclv.edu.cu",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

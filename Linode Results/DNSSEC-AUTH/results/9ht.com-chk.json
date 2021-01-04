@@ -1,0 +1,131 @@
+{
+    "9ht.com.": {
+        "queries": {
+            "9ht.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "9ht.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 9ht.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "9ht.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "9ht.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 9ht.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "9ht.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "9ht.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 10 times) until the DO EDNS flag was cleared (however, this server appeared to respond legitimately to other queries with the DO EDNS flag set).",
+                                "code": "ERROR_WITH_EDNS_FLAG",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "9ht.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "9ht.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 9ht.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.117"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "9ht.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "9ht.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 9ht.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "9ht.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "9ht.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for 9ht.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ],
+                "nodata": [
+                    {
+                        "id": "9ht.com./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "No response was received from the server over UDP (tried 10 times) until the DO EDNS flag was cleared (however, this server appeared to respond legitimately to other queries with the DO EDNS flag set).",
+                                "code": "ERROR_WITH_EDNS_FLAG",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.117"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

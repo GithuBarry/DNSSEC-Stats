@@ -1,0 +1,42 @@
+{
+    "cs457146660.adn.gammacdn.net.": {
+        "queries": {
+            "cs457146660.adn.gammacdn.net./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "cs457146660.adn.gammacdn.net./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (adn.gammacdn.net) not matching the zone name (gammacdn.net) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "72.21.80.5",
+                                    "72.21.80.6",
+                                    "192.229.254.5",
+                                    "192.229.254.6"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "cheatsheet.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns1.edgecastdns.net, ns2.edgecastdns.net, ns3.edgecastdns.net, ns4.edgecastdns.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns4.cheatsheet.com, ns1.cheatsheet.com, ns3.cheatsheet.com, ns2.cheatsheet.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

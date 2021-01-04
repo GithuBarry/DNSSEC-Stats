@@ -1,0 +1,213 @@
+{
+    "imss.gob.mx.": {
+        "queries": {
+            "imss.gob.mx./IN/A": {
+                "answer": [
+                    {
+                        "id": "imss.gob.mx./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "imss.gob.mx./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "imss.gob.mx./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "imss.gob.mx./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.122.142",
+                                    "192.230.123.212"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (NOTIMP).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    },
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "192.230.123.212"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "imss.gob.mx./IN/TXT",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "imss.gob.mx./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "imss.gob.mx./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "imss.gob.mx./IN/DNSKEY",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (FORMERR).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "192.230.121.204"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "jyz3rho5qm.imss.gob.mx./IN/A": {
+                "nxdomain": [
+                    {
+                        "id": "jyz3rho5qm.imss.gob.mx./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The response had an invalid RCODE (FORMERR) until EDNS was disabled (however, this server appeared to respond legitimately to other queries with EDNS enabled).",
+                                "code": "ERROR_WITH_EDNS",
+                                "servers": [
+                                    "192.230.121.204",
+                                    "192.230.122.142"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "192.230.123.212"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the gob.mx zone), but not in the authoritative NS RRset: ns212.a2.incapsecuredns.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "prottejaseguros.co.ao.": {
+        "queries": {
+            "prottejaseguros.co.ao./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "prottejaseguros.co.ao./IN/DS",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "41.216.238.150",
+                                    "213.251.152.7"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "41.216.238.150",
+                                    "213.251.152.7"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

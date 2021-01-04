@@ -1,0 +1,133 @@
+{
+    "trackingmore.com.": {
+        "queries": {
+            "trackingmore.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "trackingmore.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for trackingmore.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "trackingmore.com./IN/NS": {
+                "answer": [
+                    {
+                        "id": "trackingmore.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for trackingmore.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "trackingmore.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "trackingmore.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for trackingmore.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "trackingmore.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "trackingmore.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "111.30.142.18"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.116"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "trackingmore.com./IN/MX": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.116"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "trackingmore.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "trackingmore.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for trackingmore.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mr4dha2pgy.trackingmore.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "mr4dha2pgy.trackingmore.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.116"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "183.192.164.116"
+                    ]
+                }
+            ]
+        }
+    }
+}

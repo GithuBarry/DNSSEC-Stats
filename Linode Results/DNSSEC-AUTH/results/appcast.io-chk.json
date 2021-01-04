@@ -1,0 +1,58 @@
+{
+    "r.akamai.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for n1r.akamai.net (184.25.56.71, 184.25.56.191) differed from its authoritative address(es) (184.25.56.191).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for n2r.akamai.net (23.55.135.21, 23.218.80.220) differed from its authoritative address(es) (23.218.80.220).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for n3r.akamai.net (23.218.80.53, 184.50.88.171) differed from its authoritative address(es) (184.50.88.171).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for n4r.akamai.net (23.218.80.228, 184.25.56.105) differed from its authoritative address(es) (23.218.80.228).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for n5r.akamai.net (23.55.135.20, 23.218.80.29) differed from its authoritative address(es) (23.218.80.29).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for n6r.akamai.net (23.55.135.20, 23.218.80.220) differed from its authoritative address(es) (23.55.135.20).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for n7r.akamai.net (184.25.56.182, 184.50.88.156) differed from its authoritative address(es) (184.50.88.156).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    },
+    "edgesuite.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the net zone), but not in the authoritative NS RRset: ns4-65.akam.net, ns5-65.akam.net, ns7-65.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): a9-64.akam.net, a11-64.akam.net, a3-64.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for a13-64.akam.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for a5-64.akam.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

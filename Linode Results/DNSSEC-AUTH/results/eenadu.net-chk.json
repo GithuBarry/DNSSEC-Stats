@@ -1,0 +1,36 @@
+{
+    "eenadu.net.": {
+        "queries": {
+            "eenadu.net./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (SERVFAIL).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "204.13.250.9",
+                            "204.13.251.9",
+                            "208.78.70.9",
+                            "208.78.71.9"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K",
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for ns1.p09.dynect.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for ns3.p09.dynect.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

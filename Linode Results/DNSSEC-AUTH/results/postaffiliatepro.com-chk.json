@@ -1,0 +1,20 @@
+{
+    "postaffiliatepro.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): pdns3.qualityunit.com, pdns4.qualityunit.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The glue address(es) for pdns1.qualityunit.com (85.90.246.166) differed from its authoritative address(es) (85.90.244.137).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for pdns2.qualityunit.com (66.175.219.152) differed from its authoritative address(es) (45.56.87.183).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "convergepay.com.": {
+        "queries": {
+            "convergepay.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "193.155.119.60",
+                            "195.245.90.60",
+                            "216.235.176.21"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "The server was not reachable over TCP (EHOSTUNREACH).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "216.235.177.21"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "convergepay.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "convergepay.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "193.155.119.60",
+                                    "195.245.90.60",
+                                    "216.235.176.21",
+                                    "216.235.177.21"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "193.155.119.60",
+                        "195.245.90.60",
+                        "216.235.176.21",
+                        "216.235.177.21"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): gtm4.elavon.com, gtm1.elavon.com, gtm5.elavon.com, dns7.elavon.net, gtm3.elavon.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "theoutnet.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns1-2.akam.net, ns1-65.akam.net, ns4-65.akam.net, ns4-66.akam.net, ns5-65.akam.net, ns7-64.akam.net, ns7-65.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns7-67.akam.net, ns4-64.akam.net, ns1-183.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

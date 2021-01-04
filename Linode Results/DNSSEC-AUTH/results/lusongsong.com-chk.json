@@ -1,0 +1,126 @@
+{
+    "qaxwzws.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ns3.qaxanyu.com, ns4.qaxanyu.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for ns3.qaxanyu.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for ns4.qaxanyu.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "The glue address(es) for ns4.qaxanyu.com (36.27.212.71, 117.139.143.164, 123.129.232.124) differed from its authoritative address(es) (36.27.212.71, 117.139.143.164, 123.129.232.123).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    },
+    "lusongsong.com.": {
+        "queries": {
+            "lusongsong.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "lusongsong.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for lusongsong.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lusongsong.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "lusongsong.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for lusongsong.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lusongsong.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "lusongsong.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "111.30.142.15"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lusongsong.com./IN/MX": {
+                "answer": [
+                    {
+                        "id": "lusongsong.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for lusongsong.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lusongsong.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "lusongsong.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for lusongsong.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lusongsong.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "lusongsong.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for lusongsong.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "lusongsong.com./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 4 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "183.192.164.118"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "447651.com.": {
+        "queries": {
+            "447651.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "447651.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "204.11.57.37"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "error": [
+                    {
+                        "description": "The TCP connection was interrupted (ECONNRESET).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "204.11.56.37",
+                            "204.11.57.37"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "204.11.56.37",
+                        "204.11.57.37"
+                    ]
+                }
+            ]
+        }
+    }
+}

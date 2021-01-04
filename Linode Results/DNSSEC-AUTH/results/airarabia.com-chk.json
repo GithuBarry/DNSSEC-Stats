@@ -1,0 +1,60 @@
+{
+    "airarabia.yykndmseye.eu-west-1.elasticbeanstalk.com.": {
+        "queries": {
+            "airarabia.yykndmseye.eu-west-1.elasticbeanstalk.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "airarabia.yykndmseye.eu-west-1.elasticbeanstalk.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for airarabia.yykndmseye.eu-west-1.elasticbeanstalk.com results in a NOERROR response, while a query for its ancestor, yykndmseye.eu-west-1.elasticbeanstalk.com, returns a name error (NXDOMAIN), which indicates that subdomains of yykndmseye.eu-west-1.elasticbeanstalk.com, including airarabia.yykndmseye.eu-west-1.elasticbeanstalk.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.193.146",
+                                    "205.251.195.10",
+                                    "205.251.196.76",
+                                    "205.251.198.157"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "airarabia.yykndmseye.eu-west-1.elasticbeanstalk.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "airarabia.yykndmseye.eu-west-1.elasticbeanstalk.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for airarabia.yykndmseye.eu-west-1.elasticbeanstalk.com results in a NOERROR response, while a query for its ancestor, yykndmseye.eu-west-1.elasticbeanstalk.com, returns a name error (NXDOMAIN), which indicates that subdomains of yykndmseye.eu-west-1.elasticbeanstalk.com, including airarabia.yykndmseye.eu-west-1.elasticbeanstalk.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.193.146",
+                                    "205.251.195.10",
+                                    "205.251.196.76",
+                                    "205.251.198.157"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "airarabia.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for ns-337.awsdns-42.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

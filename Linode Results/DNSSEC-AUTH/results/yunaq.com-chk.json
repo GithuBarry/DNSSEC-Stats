@@ -1,0 +1,73 @@
+{
+    "yunaq.com.": {
+        "queries": {
+            "yunaq.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "111.202.98.78",
+                            "111.202.98.111",
+                            "113.207.76.78",
+                            "116.211.155.160",
+                            "117.21.219.80",
+                            "118.212.233.118"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            },
+            "6m8a2dethc.yunaq.com./IN/A": {
+                "nodata": [
+                    {
+                        "id": "6m8a2dethc.yunaq.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (6m8a2dethc.yunaq.com) not matching the zone name (yunaq.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "111.202.98.78",
+                                    "111.202.98.111",
+                                    "113.207.76.78",
+                                    "116.211.155.160",
+                                    "117.21.219.80",
+                                    "118.212.233.118"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "111.202.98.78",
+                        "111.202.98.111",
+                        "113.207.76.78",
+                        "116.211.155.160",
+                        "117.21.219.80",
+                        "118.212.233.118"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns2.kangdns.com, ns2.365cyd.net, ns1.kangdns.com, ns1.365cyd.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

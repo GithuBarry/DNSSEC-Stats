@@ -1,0 +1,35 @@
+{
+    "rapidgator.net.": {
+        "queries": {
+            "rapidgator.net./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "188.130.164.2",
+                            "188.130.164.37",
+                            "188.130.164.103"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "188.130.164.2",
+                        "188.130.164.37",
+                        "188.130.164.103"
+                    ]
+                }
+            ]
+        }
+    }
+}

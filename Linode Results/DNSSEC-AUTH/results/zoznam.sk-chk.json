@@ -1,0 +1,203 @@
+{
+    "zoznam.sk.": {
+        "queries": {
+            "zoznam.sk./IN/A": {
+                "nodata": [
+                    {
+                        "id": "zoznam.sk./IN/A",
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "zoznam.sk./IN/NS": {
+                "nodata": [
+                    {
+                        "id": "zoznam.sk./IN/NS",
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "zoznam.sk./IN/CNAME": {
+                "nodata": [
+                    {
+                        "id": "zoznam.sk./IN/CNAME",
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "zoznam.sk./IN/SOA": {
+                "nodata": [
+                    {
+                        "id": "zoznam.sk./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "zoznam.sk./IN/MX": {
+                "nodata": [
+                    {
+                        "id": "zoznam.sk./IN/MX",
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                        "code": "NOT_AUTHORITATVE",
+                        "servers": [
+                            "91.210.181.82"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            },
+            "zoznam.sk./IN/TXT": {
+                "nodata": [
+                    {
+                        "id": "zoznam.sk./IN/TXT",
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "zoznam.sk./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "zoznam.sk./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "zoznam.sk./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "zoznam.sk./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "The response was an upward referral.",
+                                "code": "UPWARD_REFERRAL",
+                                "servers": [
+                                    "91.210.181.82"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "warning": [
+                    {
+                        "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                        "code": "NOT_AUTHORITATVE",
+                        "servers": [
+                            "91.210.181.82"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) did not respond authoritatively for the namespace.",
+                    "code": "SERVER_NOT_AUTHORITATIVE",
+                    "servers": [
+                        "91.210.181.82"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for ns2.zoznam.sk (91.210.181.82) differed from its authoritative address(es) (213.81.185.6).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

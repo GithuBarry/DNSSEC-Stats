@@ -1,0 +1,46 @@
+{
+    "uidai.gov.in.": {
+        "queries": {
+            "uidai.gov.in./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.57.226.133",
+                            "103.57.226.134"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    },
+                    {
+                        "description": "The TCP connection was refused (ECONNREFUSED).",
+                        "code": "NETWORK_ERROR",
+                        "servers": [
+                            "103.58.114.133",
+                            "103.58.114.134"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "103.57.226.133",
+                        "103.57.226.134",
+                        "103.58.114.133",
+                        "103.58.114.134"
+                    ]
+                }
+            ]
+        }
+    }
+}

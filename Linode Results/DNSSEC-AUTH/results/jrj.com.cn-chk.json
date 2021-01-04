@@ -1,0 +1,46 @@
+{
+    "jrj.com.cn.": {
+        "queries": {
+            "jrj.com.cn./IN/NS": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            },
+            "jrj.com.cn./IN/DS": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over UDP (tried 12 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "103.137.60.44"
+                        ],
+                        "query_options": [
+                            "UDP_-_NOEDNS_"
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com.cn zone): ns4.jrj.com.cn",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The glue address(es) for ns3.jrj.com.cn (117.121.98.90) differed from its authoritative address(es) (118.186.210.138).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "yunjiasu-cdn.net.": {
+        "queries": {
+            "yunjiasu-cdn.net./IN/DNSKEY": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K",
+                            "UDP_-_EDNS0_512_D_K"
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for dns1.yunjiasu-cdn.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for dns2.yunjiasu-cdn.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for dns3.yunjiasu-cdn.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    },
+    "cname.yunjiasu-cdn.net.": {
+        "queries": {
+            "cname.yunjiasu-cdn.net./IN/A": {
+                "error": [
+                    {
+                        "description": "The response had an invalid RCODE (REFUSED).",
+                        "code": "INVALID_RCODE",
+                        "servers": [
+                            "119.188.132.246",
+                            "180.163.113.254"
+                        ],
+                        "query_options": [
+                            "UDP_-_EDNS0_4096_D_K"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "bejson.com.cname.yunjiasu-cdn.net.": {
+        "queries": {
+            "bejson.com.cname.yunjiasu-cdn.net./IN/A": {
+                "answer": [
+                    {
+                        "id": "bejson.com.cname.yunjiasu-cdn.net./IN/A",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "A query for bejson.com.cname.yunjiasu-cdn.net results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including bejson.com.cname.yunjiasu-cdn.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "173.245.58.27",
+                                    "180.163.113.254",
+                                    "198.41.222.27",
+                                    "198.41.223.27"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bejson.com.cname.yunjiasu-cdn.net./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "bejson.com.cname.yunjiasu-cdn.net./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "The server responded with no OPT record, rather than with RCODE FORMERR.",
+                                "code": "EDNS_IGNORED",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "180.163.113.254"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ],
+                        "errors": [
+                            {
+                                "description": "A query for bejson.com.cname.yunjiasu-cdn.net results in a NOERROR response, while a query for its ancestor, cname.yunjiasu-cdn.net, returns a name error (NXDOMAIN), which indicates that subdomains of cname.yunjiasu-cdn.net, including bejson.com.cname.yunjiasu-cdn.net, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "119.188.132.246",
+                                    "173.245.58.27",
+                                    "180.163.113.254",
+                                    "198.41.222.27",
+                                    "198.41.223.27"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "bejson.com.": {
+        "queries": {
+            "bejson.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "bejson.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bejson.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bejson.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "bejson.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bejson.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bejson.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "bejson.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "183.192.164.117",
+                                    "183.192.201.90"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_4096_D_K_0x20"
+                                ]
+                            },
+                            {
+                                "description": "No response was received from the server over UDP (tried 6 times) until the 10 EDNS option was removed (however, this server appeared to respond legitimately to other queries with the 10 EDNS option present).",
+                                "code": "ERROR_WITH_EDNS_OPTION",
+                                "servers": [
+                                    "183.192.164.117"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "bejson.com./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "129.211.176.187"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bejson.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "bejson.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bejson.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            },
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "162.14.24.230"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bejson.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "bejson.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bejson.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bejson.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "bejson.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for bejson.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "sonyentertainmentnetwork.com.": {
+        "zone": {
+            "errors": [
+                {
+                    "description": "The following NS name(s) did not resolve to address(es): ns1.p64.sonynei.net, ns2.p64.sonynei.net, ns3.p64.sonynei.net, ns4.p64.sonynei.net",
+                    "code": "NO_ADDRESS_FOR_NS_NAME"
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns2.p64.sonynei.net, ns4.p64.sonynei.net, ns1.p64.sonynei.net, ns3.p64.sonynei.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

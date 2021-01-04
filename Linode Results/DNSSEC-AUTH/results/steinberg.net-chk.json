@@ -1,0 +1,24 @@
+{
+    "steinberg.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the net zone): dns-auth-2.corpex-dns.net, ns1.steinberg.de",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for ns1.pop-hh.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "Authoritative AAAA records exist for ns2.pop-hh.net, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                },
+                {
+                    "description": "The glue address(es) for ns2.pop-hh.net (212.79.50.24) differed from its authoritative address(es) (89.238.66.103).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

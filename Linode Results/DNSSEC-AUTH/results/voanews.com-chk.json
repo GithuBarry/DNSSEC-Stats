@@ -1,0 +1,16 @@
+{
+    "voanews.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: a1-222.akam.net, a11-64.akam.net, a12-65.akam.net, a2-64.akam.net, a7-66.akam.net, a8-67.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): usc5.akam.net, use5.akam.net, usw7.akam.net, use9.akam.net, usw2.akam.net, ns1-227.akam.net, eur6.akam.net, ns1-63.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "paris.cl.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the cl zone), but not in the authoritative NS RRset: spalcens01.cencosud.cl, spalcens02.cencosud.cl",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the cl zone): a13-67.akam.net, a10-64.akam.net, a28-64.akam.net, ns01.cencosud.cl, ns02.cencosud.com.ar, a11-65.akam.net, ns02.cencosud.com.br, ns03.cencosud.com.ar, ns02.cencosud.cl, a1-25.akam.net, ns02.cencosud.com.co, a12-66.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

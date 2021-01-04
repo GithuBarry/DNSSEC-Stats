@@ -1,0 +1,60 @@
+{
+    "prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com.": {
+        "queries": {
+            "prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com results in a NOERROR response, while a query for its ancestor, eba-n7phr84t.us-west-2.elasticbeanstalk.com, returns a name error (NXDOMAIN), which indicates that subdomains of eba-n7phr84t.us-west-2.elasticbeanstalk.com, including prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.193.60",
+                                    "205.251.194.111",
+                                    "205.251.196.164",
+                                    "205.251.199.135"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com results in a NOERROR response, while a query for its ancestor, eba-n7phr84t.us-west-2.elasticbeanstalk.com, returns a name error (NXDOMAIN), which indicates that subdomains of eba-n7phr84t.us-west-2.elasticbeanstalk.com, including prod-201917-rm-dashboard-web.eba-n7phr84t.us-west-2.elasticbeanstalk.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.193.60",
+                                    "205.251.194.111",
+                                    "205.251.196.164",
+                                    "205.251.199.135"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rocketmortgage.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for ns-359.awsdns-44.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    }
+}

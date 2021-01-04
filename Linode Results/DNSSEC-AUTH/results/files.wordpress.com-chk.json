@@ -1,0 +1,41 @@
+{
+    "files.wordpress.com.": {
+        "queries": {
+            "files.wordpress.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "files.wordpress.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "192.0.74.9",
+                                    "192.0.75.9",
+                                    "198.181.116.9",
+                                    "198.181.117.9"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            },
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "192.0.74.9",
+                                    "192.0.75.9",
+                                    "198.181.116.9",
+                                    "198.181.117.9"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

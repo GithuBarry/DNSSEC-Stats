@@ -1,0 +1,38 @@
+{
+    "dhl-usa.com.": {
+        "queries": {
+            "dhl-usa.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "dhl-usa.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "156.137.1.166",
+                                    "156.137.195.66",
+                                    "165.72.190.166",
+                                    "165.72.192.16",
+                                    "199.40.15.66",
+                                    "199.40.254.166"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ns4b.dhl.com, ns2b.dhl.com, ns6b.dhl.com, ns2.dhl.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "trckrry.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "Authoritative AAAA records exist for ns-127.awsdns-15.com, but there are no corresponding AAAA glue records.",
+                    "code": "MISSING_GLUE_IPV6"
+                }
+            ]
+        }
+    },
+    "9af2a4c7.dd.trckrry.com.": {
+        "queries": {
+            "9af2a4c7.dd.trckrry.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/A",
+                        "errors": [
+                            {
+                                "description": "A query for 9af2a4c7.dd.trckrry.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including 9af2a4c7.dd.trckrry.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.192.127",
+                                    "205.251.195.136",
+                                    "205.251.197.26",
+                                    "205.251.198.214"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "9af2a4c7.dd.trckrry.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "9af2a4c7.dd.trckrry.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "A query for 9af2a4c7.dd.trckrry.com results in a NOERROR response, while a query for its ancestor, dd.trckrry.com, returns a name error (NXDOMAIN), which indicates that subdomains of dd.trckrry.com, including 9af2a4c7.dd.trckrry.com, don't exist.",
+                                "code": "INCONSISTENT_NXDOMAIN_ANCESTOR",
+                                "servers": [
+                                    "205.251.192.127",
+                                    "205.251.195.136",
+                                    "205.251.197.26",
+                                    "205.251.198.214"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "luckyforbet.com.": {
+        "queries": {
+            "luckyforbet.com./IN/A": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/CNAME": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/TXT": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/AAAA": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "luckyforbet.com./IN/DNSKEY": {
+                "answer": [
+                    {
+                        "id": "luckyforbet.com./IN/CNAME",
+                        "warnings": [
+                            {
+                                "description": "The server returned CNAME for luckyforbet.com, but records of other types exist at that name.",
+                                "code": "CNAME_WITH_OTHER_DATA"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

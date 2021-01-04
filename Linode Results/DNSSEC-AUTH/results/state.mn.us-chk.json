@@ -1,0 +1,41 @@
+{
+    "state.mn.us.": {
+        "queries": {
+            "state.mn.us./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "state.mn.us./IN/AAAA",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "192.112.135.1"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The glue address(es) for ns1.state.mn.us (156.98.1.1) differed from its authoritative address(es) (192.112.135.1).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for ns2.state.mn.us (207.171.71.71) differed from its authoritative address(es) (192.112.136.1).",
+                    "code": "GLUE_MISMATCH"
+                },
+                {
+                    "description": "The glue address(es) for ns3.state.mn.us (207.171.88.188) differed from its authoritative address(es) (192.112.137.1).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

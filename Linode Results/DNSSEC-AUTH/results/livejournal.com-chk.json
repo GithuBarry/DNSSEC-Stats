@@ -1,0 +1,70 @@
+{
+    "clb.livejournal.com.": {
+        "queries": {
+            "clb.livejournal.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "clb.livejournal.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "66.114.55.22",
+                                    "174.35.55.22"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "clb.livejournal.com./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "clb.livejournal.com./IN/DS",
+                        "errors": [
+                            {
+                                "description": "An SOA RR with owner name (clb.livejournal.com) not matching the zone name (livejournal.com) was returned with the NODATA response.",
+                                "code": "SOA_NOT_OWNER_FOR_NODATA",
+                                "servers": [
+                                    "66.114.55.22",
+                                    "174.35.55.22"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "livejournal.com.": {
+        "queries": {
+            "livejournal.com./IN/AAAA": {
+                "nodata": [
+                    {
+                        "id": "livejournal.com./IN/AAAA",
+                        "errors": [
+                            {
+                                "description": "No SOA RR was returned with the NODATA response.",
+                                "code": "MISSING_SOA_FOR_NODATA",
+                                "servers": [
+                                    "66.114.55.22",
+                                    "174.35.55.22"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

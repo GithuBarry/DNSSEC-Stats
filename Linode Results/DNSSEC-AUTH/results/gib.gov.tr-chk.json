@@ -1,0 +1,43 @@
+{
+    "gib.gov.tr.": {
+        "queries": {
+            "gib.gov.tr./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "212.133.164.220"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "212.133.164.220"
+                    ]
+                }
+            ]
+        },
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the gov.tr zone): ns02.gib.gov.tr",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                },
+                {
+                    "description": "The following NS name(s) required glue, but no glue was returned in the referral: ns03.gib.gov.tr",
+                    "code": "MISSING_GLUE_FOR_NS_NAME"
+                }
+            ]
+        }
+    }
+}

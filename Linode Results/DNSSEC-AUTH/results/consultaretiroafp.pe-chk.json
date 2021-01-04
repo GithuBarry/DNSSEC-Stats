@@ -1,0 +1,44 @@
+{
+    "consultaretiroafp.pe.": {
+        "queries": {
+            "consultaretiroafp.pe./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "consultaretiroafp.pe./IN/SOA",
+                        "warnings": [
+                            {
+                                "description": "The case of the query name (consultaretiroafp.pe) was not preserved in the Question section of the response.",
+                                "code": "CASE_NOT_PRESERVED",
+                                "servers": [
+                                    "64.4.48.4"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "consultaretiroafp.pe./IN/DS": {
+                "nodata": [
+                    {
+                        "id": "consultaretiroafp.pe./IN/DS",
+                        "warnings": [
+                            {
+                                "description": "No response was received until the UDP payload size was decreased, indicating that the server might be attempting to send a payload that exceeds the path maximum transmission unit (PMTU) size.",
+                                "code": "PMTU_EXCEEDED",
+                                "servers": [
+                                    "200.1.176.4"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

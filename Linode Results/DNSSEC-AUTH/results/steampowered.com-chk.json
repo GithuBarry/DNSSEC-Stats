@@ -1,0 +1,16 @@
+{
+    "steampowered.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: a1-164.akam.net, a11-67.akam.net, a26-65.akam.net, a8-66.akam.net, a9-67.akam.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): a22-67.akam.net, a7-66.akam.net, a2-64.akam.net, a1-194.akam.net, a9-66.akam.net",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

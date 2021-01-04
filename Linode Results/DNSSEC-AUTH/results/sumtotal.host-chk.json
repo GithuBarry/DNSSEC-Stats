@@ -1,0 +1,16 @@
+{
+    "sumtotal.host.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the host zone), but not in the authoritative NS RRset: ns1.edgecastdns.net, ns2.edgecastdns.net, ns3.edgecastdns.net, ns4.edgecastdns.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the host zone): ns1.sumtotal.host, ns2.sumtotal.host, ns3.sumtotal.host, ns4.sumtotal.host",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

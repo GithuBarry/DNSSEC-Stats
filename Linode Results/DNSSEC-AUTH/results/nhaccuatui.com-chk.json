@@ -1,0 +1,33 @@
+{
+    "nhaccuatui.com.": {
+        "queries": {
+            "nhaccuatui.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 5 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "98.124.243.2",
+                            "98.124.243.3"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "98.124.243.2",
+                        "98.124.243.3"
+                    ]
+                }
+            ]
+        }
+    }
+}

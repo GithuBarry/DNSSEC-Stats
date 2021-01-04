@@ -1,0 +1,16 @@
+{
+    "brightmls.com.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the com zone), but not in the authoritative NS RRset: ashsdnse01.prd.mris.com, ashsdnse02.prd.mris.com, seadnse01.prd.mris.com, seadnse02.prd.mris.com",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The following NS name(s) were found in the authoritative NS RRset, but not in the delegation NS RRset (i.e., in the com zone): ashprddnse02.prd.brightmls.com, ashprddnse01.prd.brightmls.com, seaprddnse02.prd.brightmls.com, seaprddnse01.prd.brightmls.com",
+                    "code": "NS_NAME_NOT_IN_PARENT"
+                }
+            ]
+        }
+    }
+}

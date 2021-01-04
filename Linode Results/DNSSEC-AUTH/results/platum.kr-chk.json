@@ -1,0 +1,65 @@
+{
+    "platum.kr.": {
+        "queries": {
+            "platum.kr./IN/SOA": {
+                "answer": [
+                    {
+                        "id": "platum.kr./IN/SOA",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "219.251.156.134"
+                                ],
+                                "query_options": [
+                                    "TCP_-_EDNS0_4096_D",
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "platum.kr./IN/MX": {
+                "answer": [
+                    {
+                        "id": "platum.kr./IN/MX",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "219.251.156.134"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K",
+                                    "UDP_-_EDNS0_512_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "platum.kr./IN/DNSKEY": {
+                "nodata": [
+                    {
+                        "id": "platum.kr./IN/DNSKEY",
+                        "errors": [
+                            {
+                                "description": "The Authoritative Answer (AA) flag was not set in the response.",
+                                "code": "NOT_AUTHORITATVE",
+                                "servers": [
+                                    "219.251.156.134"
+                                ],
+                                "query_options": [
+                                    "UDP_-_EDNS0_4096_D_K"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

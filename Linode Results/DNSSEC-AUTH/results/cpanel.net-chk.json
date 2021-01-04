@@ -1,0 +1,16 @@
+{
+    "cpanel.net.": {
+        "delegation": {
+            "warnings": [
+                {
+                    "description": "The following NS name(s) were found in the delegation NS RRset (i.e., in the net zone), but not in the authoritative NS RRset: ns.cpanel.net",
+                    "code": "NS_NAME_NOT_IN_CHILD"
+                },
+                {
+                    "description": "The glue address(es) for ns.cpanel.net (208.74.121.52) differed from its authoritative address(es) (208.74.121.52, 208.74.121.57, 208.74.123.178).",
+                    "code": "GLUE_MISMATCH"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "zxxk.com.": {
+        "queries": {
+            "zxxk.com./IN/SOA": {
+                "error": [
+                    {
+                        "description": "No response was received from the server over TCP (tried 3 times).",
+                        "code": "TIMEOUT",
+                        "servers": [
+                            "47.91.136.105",
+                            "47.91.138.75",
+                            "103.46.128.20",
+                            "103.46.128.52",
+                            "120.26.12.130",
+                            "123.59.51.110"
+                        ],
+                        "query_options": [
+                            "TCP_-_EDNS0_4096_D"
+                        ]
+                    }
+                ]
+            }
+        },
+        "zone": {
+            "errors": [
+                {
+                    "description": "The server(s) were not responsive to queries over TCP.",
+                    "code": "SERVER_UNRESPONSIVE_TCP",
+                    "servers": [
+                        "47.91.136.105",
+                        "47.91.138.75",
+                        "103.46.128.20",
+                        "103.46.128.52",
+                        "120.26.12.130",
+                        "123.59.51.110"
+                    ]
+                }
+            ]
+        }
+    }
+}
