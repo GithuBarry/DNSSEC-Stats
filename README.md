@@ -9,7 +9,7 @@ We tested on `authoritative DNS servers` and recursive servers including `1.1.1.
 
 To see our final outcomes, go to any folder under `Linode Results` and find files named as `results_*.json`. These files include results of running DNSSEC analysis of `top10000.csv`  (but not including domains listed in `probe_actual_failures.txt` in the same folder). 
 
-(e.g. See [warning stats for Cloudfare DNS](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/results_warning_stats.json) of our [top10000.csv](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/top10000.csv) except [these failures](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/probe_actual_failures.txt)).
+(e.g. See [warning stats for Cloudfare DNS](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/results_warning_stats.json) or [the whole list](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/results_warnings.json) of our [top10000.csv](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/top10000.csv) except [these failures](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/probe_actual_failures.txt)).
 
 Among the 10000 domains we probed, each recursive DNS server fails <20 domains, but in the authoritative case we failed to probe 482 domains.
 
