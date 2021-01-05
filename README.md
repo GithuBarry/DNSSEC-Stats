@@ -21,5 +21,5 @@ In the authorative case, we further run delegation status analyzer and its clean
 
 ## Raw probe data zips
 
-In Linode, I copied the same python working directory multiple times when testing different data and I zip them as a back up of our probe data. These zip files are in `Linode Results Zips` Most of the zip files contains only the probing data (so only 1st step) without later analysis and can be a bit messy. Note that `Linode Results` have renamed running scripts and thus more clear than those in the zips, and clean up script was not included in zips.
+In Linode, I copied the same python working directory multiple times when testing different data and I zip them as a back up of our probe data. These zip files are in `Linode Results Zips`. Most of the zip files contains only the probing data (so only 1st step) without later analysis and can be a bit messy. Note that `Linode Results` have renamed and new running scripts and thus more clear than those in the zips (e.g. clean up script was not included in zips).
 
