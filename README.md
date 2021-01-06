@@ -11,13 +11,15 @@ To see our final outcomes, go to any folder under `Linode Results` and find file
 
 (e.g. See [warning stats for Cloudfare DNS](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/results_warning_stats.json) or [the complete results](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/results_warnings.json) on domains in our [top10000.csv](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/top10000.csv) except [these failed domains](https://github.com/GithuBarry/DNSSEC-Stats/blob/main/Linode%20Results/Cloudfare1111/probe_actual_failures.txt)).
 
-Among the 10000 domains we probed, each recursive DNS server fails <50 domains, but in the authoritative case we failed to probe 482 domains. To understand an error code, try exact search of the phrase at DNSVIZ [error script](https://github.com/dnsviz/dnsviz/blob/master/dnsviz/analysis/errors.py).
+Among the 10000 domains we probed, each recursive DNS server fails <50 domains, but in the authoritative case we failed to probe 482 domains. 
+
+To understand an error code, try exact search of the code at DNSVIZ [error script](https://github.com/dnsviz/dnsviz/blob/master/dnsviz/analysis/errors.py).
 
 ## Workflow used
 
 Our workflow includes 1) gathering probe data 2) generate reports on warnings 3) clean up 4) produce data. This procedure can be seen in any folder in`Linode Results`. 
 
-In the authorative case, we further run delegation status analyzer and its clean up procedures.
+In the [authorative case](https://github.com/GithuBarry/DNSSEC-Stats/tree/main/Linode%20Results/Authoritative), we further run delegation status analyzer and its clean up procedures.
 
 ## Raw probe data zips
 
